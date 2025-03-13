@@ -2310,41 +2310,67 @@
         "active_effect": "When activated, you start charging the Barbarossa’s Apocalypse Rail, an incredibly powerful ship-to-ship long-spool weapon system that requires target calibration. Gain an Apocalypse Die, 1d6 starting at 4. At the start of each of your turns, lower the value of the Apocalypse Die by 1, to a minimum of 1. If you move (even involuntarily) or become Stunned or Jammed, the Apocalypse Die resets to 4 and then continues to count down as usual.<br>If the value of the Apocalypse Die is 1–3, you can attack on your turn with the Apocalypse Rail as a full action, but can’t move or take any other actions on the same turn. After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4. If you reach the end of the scene without using it, you regain 1 CP.<br>At the end of the scene, lose the Apocalypse Die, and the Apocalypse Rail stops charging."
       }
     },
-    "Enkidu": {
-      "name": "Enkidu",
-      "description": "<p>The ENKIDU can be taken at rank II of the TOKUGAWA license instead of the base FRAME, or retrofitted during Act 1 of the No Room for a Wallflower Campaign.</p><p>This experimental frame was secretly designed as a TBK chassis for lateaction combat in the Hercynian Crisis. Deployed in limited numbers against the remaining Egregorian hives in the brutal last stages of the war, the Enkidu&rsquo;s neurological interfacing was dangerous: raw and unshielded. The power and aggression flowing through the subroutines that govern the mech bled into its pilot&rsquo;s subjectivity, making them lose themselves in a storm of violence, constantly pushing themselves to greater and greater acts of destruction. This effect was incredibly hard for pilots to handle &ndash; the fallout rate from the program was extremely high, and the survivors required extensive conditioning, implants, and a cocktail of neurological suppressants to continue.</p> <p>The true aim of the Enkidu program was not to fight Egregorians, which were in the final stages of practical extinction, but to use the battlefield as a testing ground for the eventual deployment of the chassis against ThirdComm revolutionaries and dissidents. Though the codebase for the Enkidu was eventually discontinued and molded into what is now the Tokugawa, the difficulties with the initial project prevented it from getting off the ground before the revolution took hold. The remaining prototypes were buried along with the rest of Hercynia&rsquo;s history.</p>",
-      "traits": {
-        "Primal Fury": {
-          "name": "Primal Fury",
-          "description": "<p>When the Enkidu ends its turn in the DANGER ZONE, it rears up, extends its PLASMA TALONS (see below), and enters a state of primal fury with the following effects:</p> <ul> <li>On hit, characters struck by the Enkidu&rsquo;s PLASMA TALONS immediately become IMMOBILIZED until the end of their next turn.</li> <li>As a special reaction, the Enkidu must use its PLASMA TALONS to attack any character (hostile or allied) that enters, exits or moves more than 1 space within its THREAT. This special reaction can be used once a turn, any number of times a round, and doesn’t count against the maximum number of reactions a turn, so the Enkidu can take other reactions normally.</li> </ul> <p>This state ends at the start of the Enkidu&rsquo;s turn, or if the Enkidu exits the DANGER ZONE.</p>"
-        },
-        "All Fours": {
-          "name": "All Fours",
-          "description": "While it’s in the DANGER ZONE, the Enkidu can’t make ranged or tech attacks but has 6 base SPEED."
-        },
-        "Brute Strength": {
-          "name": "Brute Strength",
-          "description": "The Enkidu gets +1 accuracy on hull checks and saves."
-        },
-        "Bloodsense": {
-          "name": "Bloodsense",
-          "description": "The Enkidu always knows if characters are at or under half of their maximum HP, but not the exact number."
-        }
-      },
-      "core_system": {
-        "name": "Limit Restriction Zero",
-        "description": "<p>“I argue that it is Man who is shapeless; far from immutable, he is given form by the environment around him. In civilization, man is as divine as old God, who judges and creates; he is clothed in finery, and enjoys literature, art, company, and purpose. When left alone in the savage wilderness of nature, Man comports himself accordingly.”</p><p>— Harrison II, “Mandate, Vol II: On Nature, On Savagery, On Reason”</p>",
-        "passive_name": "PASSIVE",
-        "active_name": "Crush Limiter",
-        "active_effect": "For the rest of the scene, the Enkidu gains the Bifurcate action, which can only be used in the DANGER ZONE",
-        "active_actions": {
-          "Bifurcate": {
-            "name": "Bifurcate",
-            "detail": "<p>The Enkidu engages its monstrous strength, targets an adjacent character (allied or hostile) and attempts to tear them in half with its talons. If the target has 7 HP or less, only 1 STRUCTURE remaining, and doesn&rsquo;t have IMMUNITY to damage, they are immediately destroyed, the action cost of this ability is refunded, and the Enkidu can BOOST as a free action. If this action fails to destroy the target, the target instead takes 1 Kinetic Damage.</p> <p>At the end of the scene, the CP cost of BIFURCATE is refunded if the Enkidu did not use it to destroy any characters.</p>"
-          }
+    "“Roller” Directed Payload Charges": {
+      "name": "“Roller” Directed Payload Charges",
+      "description": "Semi-Autonomous Directed Payload Charges – “roller charges” in the colloquial – propel themselves around cover, through corridors, and across uneven terrain, seeking out and detonating near hostile targets. Armory legionnaires have taken to naming individual rollers, but mascot-attachment is unadvisable.",
+      "actions": {
+        "Roller Grenade": {
+          "name": "Roller Grenade",
+          "detail": "Instead of throwing this grenade, it rolls along a line 10 path directly from you, bouncing over obstructions and objects up to Size 1 and passing through holes or gaps no smaller than Size 1/2. It detonates when it moves through or adjacent to the space occupied by any character: they must succeed on an Agility save or take 1d6+3 explosive damage and be knocked 3 spaces in the direction the grenade was rolled. On a success, they take half damage and aren’t knocked back."
         }
       }
     },
+    "Siege Stabilizers": {
+      "name": "Siege Stabilizers",
+      "description": "Some weapons require further stabilization for optimal use. With Armory-designed siege stabilizers installed, a mech becomes a stable firing platform for any weapon.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Your mech’s stabilizers extend (or retract). While they are extended, your ranged attacks gain +5 range, but you become Immobilized, can’t make melee attacks, and can’t make ranged attacks against or centered on characters, objects, or spaces within range 5."
+        }
+      }
+    },
+    "Autoloader Drone": {
+      "name": "Autoloader Drone",
+      "description": "Autoloader drones are many-limbed machines that assist their team by loading ordnance, maintaining powerline hookups, and cycling magazine-fed weapons, in addition to many other physical tasks.",
+      "effect": "Expend a charge to deploy this autoloader drone to any adjacent space."
+    },
+    "Flak Launcher": {
+      "name": "Flak Launcher",
+      "description": "Designed for use against atmospheric fliers, these anti-air autocannons fire simple, proximity or impact-detonated shells effective against light armor, organic, and subaltern targets.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Choose a flying character within range 15 and line of sight. They must succeed on an Agility save or immediately land (this counts as falling without any damage), and additionally become Slowed and can’t fly until the end of their next turn."
+        }
+      }
+    },
+    "Siege Cannon": {
+      "name": "Siege Cannon",
+      "profiles": {
+        "Siege Mode": {
+          "name": "Siege Mode",
+          "description": "The siege cannon is the Armory’s quintessential artillery piece: a howitzer cannon fed by an automated loading system. Typically mounted on long-range mechs deployed in artillery or squad-support roles, siege cannons are capable of both indirect and direct fire as the situation demands with variable ammunition options.",
+          "on_attack": "Choose to fire in either siege mode or direct fire mode."
+        },
+        "Direct Fire Mode": {
+          "name": "Direct Fire Mode",
+          "description": "The siege cannon is the Armory’s quintessential artillery piece: a howitzer cannon fed by an automated loading system. Typically mounted on long-range mechs deployed in artillery or squad-support roles, siege cannons are capable of both indirect and direct fire as the situation demands with variable ammunition options.",
+          "on_attack": "Choose to fire in either siege mode or direct fire mode."
+        }
+      }
+    },
+    "External Ammo Feed": {
+      "name": "External Ammo Feed",
+      "description": "An external ammo feed is any sort of ammunition beyond what is carried in a mech’s integrated storage: from magazines strapped to bodies or limbs; battery packs attached to hip clasps; or massive, dorsal-mounted ammunition and charge packs, externals ensure that pilots have more than enough boom to get the job done.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "1/round, you can activate this system to reload a Loading weapon."
+        }
+      }
+    },
+
     "Genghis": {
       "name": "Genghis",
       "description": "The original Genghis frame marked the dawn of the mech age; the Armory’s new line seeks to redefine it. From its roots as a modified GMS hardsuit, the Genghis Mk I became notorious for its use in the Hercynian Crisis – the first-contact war that triggered the violent overthrow of the Second Committee. In the administrative and political chaos that followed the Crisis, Harrison Armory secured the design and adapted it to serve as the basis of its first proprietary mechs, including the Sherman and the Saladin.<br>The new Genghis bears some resemblance to the chassis of Hercynian notoriety, serving in a similar area-denial/soft-target elimination role; The Genghis Mk II has been brought in line with the Third Committee’s Utopian Pillars.",
@@ -2366,6 +2392,62 @@
         "active_effect": "The next time you exceed your Heat Cap this scene, you instead clear all heat and vent a burst 3 cloud of burning matter from your mech.<br>Until the start of your next turn, all characters within the affected area count as Invisible to everyone except you, and characters other than you take 2 burn and 2 heat when they start their turn in the area or enter it for the first time in a round. Once this effect ends, characters within the affected area receive soft cover (which you ignore) until the start of your following turn, at which point the cloud disperses."
       }
     },
+    "Krakatoa Thermobaric Flamethrower": {
+      "name": "Krakatoa Thermobaric Flamethrower",
+      "profiles": {
+        "Krakatoa Thermobaric Flamethrower": {
+          "name": "Krakatoa Thermobaric Flamethrower",
+          "description": "Between the thick arboreal environment of Hercynia, the swarm tactics of the Egregorians, and the ineffectual performance of slug ammunition, the need for wide-effect weapons was apparent. GMS quick developed the Krakatoa – a thermobaric flamethrower – and disseminated it to affiliates. The Krakatoa was quickly adopted by Union’s Marine Expeditionary Forces, seeing heavy use in the depths of the Hercynian continental jungles thanks to its stability, reliability, and stopping power.<br>Later reworked and adopted by the Armory following the resolution of the Hercynian Crisis, the Krakatoa has become a popular tool for the creation of area-of-denial firebreaks."
+        }
+      }
+    },
+    "Explosive Vents": {
+      "name": "Explosive Vents",
+      "description": "With the right tweaks, it becomes possible to dump excess heat into the area directly surrounding a chassis. Explosive venting is an unsanctioned, unsafe method of sudden cooling that has nevertheless been adopted by many pilots.",
+      "effect": "When you clear all heat or take stress, your mech’s cooling vents open and unleash a burst 1 explosion. Characters within the affected area take 2 heat and 2 burn."
+    },
+    "HAVOK Charges": {
+      "name": "HAVOK Charges",
+      "description": "FOR USE IN: Urban, post-urban, and high-density terrestrial environments. High O2 concentration preferred.<br>FOR USE AGAINST: Organic targets; hardened targets vulnerable to caustic/corrosive degradation; most foliage.<br>NOTES: Dispersion is true directional and involves aerosolized component – avoid danger by supplying end-users with respiratory equipment (specifications noted on canister).",
+      "actions": {
+        "Napalm Grenade": {
+          "name": "Napalm Grenade",
+          "detail": "Throw a Napalm Grenade within Range 5. This grenade releases a spray of napalm in a line 5 path of your choice from its impact location. Characters within the affected area must succeed on an Agility save or take 2 burn. On a success, they take 1 burn."
+        }
+      }
+    },
+    "Auto-Cooler": {
+      "name": "Auto-Cooler",
+      "description": "The Armory-designed auto-cooler is a simple, persistent system that actively mitigates heat generation.<br>Thermal dump thresholds are determined by fleet engineers, though pilots can adjust levels on the fly – this automatic management frees the pilot up to focus on other, more pressing tactical concerns.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "As long as you don’t take damage, move, or exceed your Heat Cap, you clear all heat at the start of your next turn."
+        }
+      }
+    },
+    "Plasma Thrower": {
+      "name": "Plasma Thrower",
+      "profiles": {
+        "Plasma Thrower": {
+          "name": "Plasma Thrower",
+          "description": "The plasma thrower emerged too late in the Hercynian Crisis to see widespread use in the field. The scarce data gathered from the MEF squadrons that used it suggest that plasma throwers would have had a tremendous impact on the outcomes of several major battles that occurred during the bloodiest phase of the Crisis.",
+          "effect": "Can be fired as Cone 7 <i>or</i> Line 10",
+          "on_attack": "White-hot flames continue to burn in 3 free spaces of your choice within the affected area, lasting for the rest of the scene. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 1d6 energy damage."
+        }
+      }
+    },
+    "AGNI-Class NHP": {
+      "name": "AGNI-Class NHP",
+      "description": "AGNI was developed during the Hercynian Crisis using a combination of combat performance data recorded by extant subsentient artificial intelligences (weapons systems, COMP/CONs, co-pilot systems, tactic-minds, general combat data) and the modeled neural network of an Egregorian overmind captured and vivisected by the Union Science Bureau.<br>AGNI Prime was used to devise systems of heat management that have since been disseminated throughout core space, ensuring unparalleled heat processing, recycling, and shielding. Further developments into radiation shielding, omninet capability, and nanite control are forthcoming; meanwhile, AGNI clones have been optimized to support mech core systems.<br>Pilots report that AGNI clones are generally cold and efficient. An insignificant percentage have reported instances of memory recitation and command rejection, followed days later by total breakdown through attempted self-emancipation. Pilots are recommended to cycle their AGNI clones at least once every six standard months.",
+      "actions": {
+        "AGNI Protocol": {
+          "name": "AGNI Protocol",
+          "detail": "1/scene, expend a charge to automatically clear all heat at the end of your turn, venting it in a burst 2 wave. Characters within the affected area must succeed on an Engineering save or take 2 burn and be pushed outside the area (or as far as possible). Until the end of your next turn, characters within the affected area receive soft cover."
+        }
+      }
+    },
+
     "Iskander": {
       "name": "Iskander",
       "description": "Developed on the proving grounds of the Armory’s Think Tank, the Iskander is a new specialist frame designed to bring gravtech area-control and breach capabilities to a mechanized platform.<br>A bulky frame, the Iskander fields a mix of kinetic and causal-energy systems that empower pilots to triumph in a wide portfolio of scenarios. The Iskander platform has no civilian counterpart: it is intended to be used as a frontline command and control platform, with an emphasis toward identifying and eliminating static explosive threats.",
@@ -2391,6 +2473,70 @@
         "active_effect": "This system fires an enormous, expanding cloud of micromines across the whole battlefield, affecting all hostile characters within range 50. For the rest of the scene, when hostile characters make any movement other than their standard move (including involuntary movement), they take 3 AP explosive damage. This effect can trigger any number of times, but only 1/round for each character."
       }
     },
+    "Stub Cannon": {
+      "name": "Stub Cannon",
+      "profiles": {
+        "Stub Cannon": {
+          "name": "Stub Cannon",
+          "description": "The stub cannon is a supercompact rotary cannon – short-range, but suitable for integration into hardpoints and manipulators."
+        }
+      }
+    },
+    "Grounding Charges": {
+      "name": "Grounding Charges",
+      "description": "Grounding charges take a simple pulse/wave principle and apply a second dimension: gravitic generation. When triggered, the grounding charge triggers a gravity well that pulls all destabilized materiel towards it. A potent anti-positional weapon, grounding charges are commonly used to disrupt prepared positions and pull enemies from cover.",
+      "actions": {
+        "Gravity Grenade": {
+          "name": "Gravity Grenade",
+          "detail": "Throw a Gravity Grenade within Range 5. Your target must succeed on an Agility save or be Slowed until they make no voluntary movements for a full turn on their own turn."
+        }
+      }
+    },
+    "Gravity Gun": {
+      "name": "Gravity Gun",
+      "profiles": {
+        "Gravity Gun": {
+          "name": "Gravity Gun",
+          "description": "“The complex negotiations of gravity and time, shattered in an instant by a machine that can pluck waves like a player strums the strings of a guitar.<br>We’ve weaponized the force that holds all things in its embrace. What could go wrong?”",
+          "on_attack": "Characters within the affected area must succeed on a Hull save or take 1d6 energy damage and be pulled as close to the center of the blast possible. This weapon cannot be modified or benefit from core bonuses."
+        }
+      }
+    },
+    "Repulser Field": {
+      "name": "Repulser Field",
+      "description": "Utilizing a subsonic pressure wave, repulser fields emit tremendous single-wave pulses that stun, deter, and dissuade close-proximity hostiles.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "This system emits a burst 2 pulse around you. Characters within the affected area must succeed on a Hull save or be knocked 2 spaces directly away from you; then, all Mines within the affected area detonate simultaneously.<br>You count as having Immunity to any damage or effects immediately forced by mines detonated using this system, although persistent effects still affect you."
+        }
+      }
+    },
+    "Clamp Bombs": {
+      "name": "Clamp Bombs",
+      "description": "Built using similar grapple-head technology to IPS-N’s assault grapples, clamp bombs can affix to designated or proximal targets before detonating, ensuring total target contact. Clamping on soft targets typically results in total termination prior to detonation.",
+      "actions": {
+        "Launch Clamp Bombs": {
+          "name": "Launch Clamp Bombs",
+          "detail": "Expend a charge to fire a cluster of miniature bombs at a character within Sensors. They must succeed on an Engineering save, or the bombs clamp on. At the end of their next turn, the bombs detonate, dealing 1d6+3 AP explosive damage. All characters adjacent to your target take half damage. The target can disarm and detach the bombs by voluntarily moving at least 4 spaces before the end of their turn."
+        }
+      }
+    },
+    "Tesseract": {
+      "name": "Tesseract",
+      "description": "Hold sand above the water: feel it, permanent and cohesive. Place that same sand in the water: watch it drift away, weightless. This is the tool I have made for you: a way to imbue the weighted with mass-as-feathers.<br>— TT-AUDATA, Think Tank paramind.",
+      "actions": {
+        "Spread Focus": {
+          "name": "Spread Focus",
+          "detail": "Choose a blast 3 area within Sensors: this area, extending 6 spaces high, becomes a zero-g area. In addition to the usual rules for zero-g movement, objects that enter the affected area float in place, and objects or characters that are knocked, moved, or pulled out of the area sink harmlessly to the ground at the end of their turn instead of falling. This area disperses if you create a new one. Otherwise, the effect persists until the end of the scene. When the zone disperses, everything within floats harmlessly to the ground."
+        },
+        "Pinpoint Focus": {
+          "name": "Pinpoint Focus",
+          "detail": "Choose a hostile or willing allied character within Sensors. If they are allied, they float 6 spaces into the air, becoming Immobilized while in the air but counting as flying and unable to fall. They can choose to sink harmlessly to the ground at the end of any of their turns or the start of any of yours. If they are hostile, they must succeed on an Engineering save or experience the same effect as an allied character; however, they sink harmlessly to the ground at the end of their next turn. Hostile characters can each be affected 1/scene."
+        }
+      }
+    },
+
     "Napoleon": {
       "name": "Napoleon",
       "description": "Perhaps in a tongue-in-cheek nod to its namesake, the Napoleon is a squat frame in comparison to other Harrison Armory designs. Its frame is packed with marvels of Armory engineering – technology that demands nothing less than the best and brightest pilots. In spite of its small stature, the Napoleon employs one of the Armory’s most terrifying new weapons, the Displacer, which manifests pinpoint, one-way blinkspace ruptures on its targets.<br>Notable for more than its stature, this chassis boasts a tremendous record of success, with pilots reporting a .800 return rate in high-KIA operations. The Napoleon is a popular chassis among breach divisions of the Armory’s legions, Think Tank security, and Union Economic Bureau development teams.",
@@ -2412,6 +2558,62 @@
         "active_effect": "A shimmering, utterly black field quickly envelops your mech, covering it like a second skin. For the rest of the scene, you:<ul><li>reduce all damage to 1, except for damage that ignores reduction;</li><li>gain Immunity to all tech actions, including beneficial ones, and any current tech effects or conditions on you end;</li><li>can only use systems with the Shield tag – any others immediately deactivate (systems that do not require activation are unaffected);</li><li>can’t take quick actions, full actions, or reactions, except for standard moves, Grapple, Ram, Improvised Attack, Activate (Shield systems only), Skill Check, and Boost;</li><li>can’t Overcharge;</li><li>can’t use comms to talk to other characters (as sound doesn’t exit the shield).</li></ul>You can still receive statuses and Heat, and can be affected by involuntary movement. You can otherwise interact normally with the world, including picking up and dragging items, and so on."
       }
     },
+    "Stasis Bolt": {
+      "name": "Stasis Bolt",
+      "description": "To better protect Armory personnel beyond the Purview, the Think Tank developed the Stasis Bolt, a portable stasis-projection system designed to interdict shrapnel and projectiles from unseen, hidden, or unknown assailants. When the Stasis Bolt detects a proximal explosion or incoming projectile, it projects a delimited stasis point that blocks projectiles before impact.",
+      "effect": "This system charges as a quick action, readying a projected stasis point. While it is charged, you gain the Interdiction Point reaction. It can only hold one charge at a time, but charges last for the rest of the scene or until used.",
+      "actions": {
+        "Charge Stasis Bolt": {
+          "name": "Charge Stasis Bolt",
+          "detail": "Charge the Stasis Bolt, gaining the Interdiction Point Reaction"
+        },
+        "Interdiction Point": {
+          "name": "Interdiction Point",
+          "trigger": "You or an allied character within range 5 are targeted by a ranged attack.",
+          "detail": "Make a contested ranged attack roll: if you win the contested roll, the attack automatically misses. The Stasis Bolt loses its charge."
+        }
+      }
+    },
+    "Stasis Generator": {
+      "name": "Stasis Generator",
+      "description": "The skies of Creighton boiled black as ink, marbled by shuddering light. Screaming, angels fell wreathed in flame. The ones who could still run fled for the shelters; for seven days, they crouched in a deeper dark and felt the world shake itself apart.<br>—A.V. Wynyard, “The Killing of Creighton” [epic prose poem, banned throughout the Purview]",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Choose a hostile character or willing allied character within line of sight and range 5: until the end of their next turn, they become Stunned, gain Immunity to all damage and effects, and can’t be moved, targeted, or affected by any other character or effect. This can be used on each character 1/scene. Hostile characters can succeed on an Engineering save to ignore this effect."
+        }
+      }
+    },
+    "Phase-Ready Mod": {
+      "name": "Phase-Ready Mod",
+      "description": "As it was named following its first use during the civil hostilities on Luna de Oro, phase-ready ammunition is the “devil’s bullets”. Each round contains a nanoprocessor suite networked with its weapon of origin that calculates and translates the specific nature of that round’s superpositional relation with a projected future doppelgänger that manifests in the space immediately before its intended target. To put it simply, phase-ready rounds, when fired, exist in two places at once: exiting the barrel of the weapon they were fired from, and directly in front of the target, prior to impact. The prime round may never hit its target, but given it already exists at the moment of impact, the doppelgänger round will reliably reach its mark.",
+      "effect": "As long as you know the rough location of your target, the weapon this mod is applied to can attack through solid walls and obstructions, doesn’t require line of sight, and ignores all cover, but targets attacked this way count as Invisible."
+    },
+    "Stasis Barrier": {
+      "name": "Stasis Barrier",
+      "description": "Stasis barriers are the result of Harrison Armory’s interest in gravitic manipulation and superpositional negotiation. Guided by solid-state generation–projection units, stasis barriers are deployable walls of antigravity that deny almost all incoming kinetic and energetic attacks. By twisting local gravity, a stasis barrier denies both particles and waves on a molecular level—matter that impacts the barrier simply ceases to exist, although anomalous fluctuations may allow some projectiles to pass through.",
+      "effect": "Expend a charge to activate this stasis barrier, generating a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you."
+    },
+    "Displacer": {
+      "name": "Displacer",
+      "profiles": {
+        "Displacer": {
+          "name": "Displacer",
+          "description": "The Displacer is the result of ongoing blinkspace exposure tests and refinement of standard interstellar travel methods. In terms of appearance, the Displacer could be mistaken for a conventional energy rifle, but it requires a massive secondary, dorsal-mounted reactor: when fired, the Displacer identifies a bubble of local space (size and location determined on an ad hoc basis by the user) and snaps it into blinkspace. The destination of the bubble is unknown, but the effect is dramatic: anything inside simply ceases to exist in this dimension, transported somewhere in the void of blinkspace. The Displacer makes no sound when fired, but the sudden and necessary venting of its power supply is tremendous; similarly, the heatwave of its backblast vent is deadly to any unshielded personnel exposed to it."
+        }
+      }
+    },
+    "Blinkshield": {
+      "name": "Blinkshield",
+      "description": "Characteristically for a weapon based on Think Tank research, Harrison Armory’s Blinkshield leans into the fuzzy nature of quantum manipulation. Operating in a similar fashion to a blinkspace gate, the Blinkshield generates a spherical sheath of energy that allows its operator to pierce realspace and exist, for a moment, in the null-environment of blinkspace. Think Tank spokespeople acknowledge the tactical benefits of (un)momentary (non)existence in blinkspace, but caution against repeated exposure without sufficient pre- and post-exposure conditioning and counseling.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "This system generates a burst 4 bubble around your mech, within which the flow of time is altered drastically. Nothing can enter or exit the bubble, not even light – it’s both impermeable and has Immunity to all damage and effects. Line of sight can’t be drawn through the border of the area, and it can’t be crossed by any action or effect – even those that don’t require line of sight – but time passes normally on both sides. For characters within the affected area, the world outside goes totally black; likewise, characters outside the affected area see a perfect black sphere.<br>When the Blinkshield is activated, characters partially within the affected area must make an Agility save: on a success, they move to the nearest free space on the side of their choice, inside or outside the area; on a failure, you choose.<br>This effect remains stationary even if you move, and lasts until the end of your next turn."
+        }
+      }
+    },
+
     "Saladin": {
       "name": "Saladin",
       "description": "The Saladin is a hardy and efficient platform for full-squad support shielding. Based on early defense-oriented versions of the Genghis, the Saladin became the stuff of Armory legend following the exploits of Harrison I “Fearkiller” during the Interest War.<br>Since its first iteration, the Saladin has proved successful in a defensive and support role; it has even become a mainstay among Union Department of Justic and Human Rights liberator teams engaged in emancipation and refugee escort missions, despite the ideological (and, often, tactical) friction between the Armory and the DoJ/HR. Records from these engagements indicate that the Saladin’s massive bulk alone was a comfort and morale boost to DoJ/HR troopers and their charges, many of whom referred to the mechs as “Big Sal”. Union-flagged Saladin pilots often report null balances on bar tabs following engagements in emancipated systems.",
@@ -2448,6 +2650,47 @@
         }
       }
     },
+    "Shatterhead Colony Missiles": {
+      "name": "Shatterhead Colony Missiles",
+      "profiles": {
+        "Shatterhead Colony Missiles": {
+          "name": "Shatterhead Colony Missiles",
+          "description": "Developed following costly urban and naval boarding engagements in the Interest War, Shatterhead Colony Missiles are now a standard part of the arsenal fielded by Armory interdiction teams. When they reach an optimal distance, Shatterheads break open in a burst of high-catalyst fuel to reveal a cluster of small thermobaric pellets that spread out and ignite, choking the affected area with flame. The effect overloads energy shielding and saturates cover, though only a small percent of the projectiles actually reach their target.",
+          "effect": "The final attack roll for this weapon can never be affected by difficulty."
+        }
+      }
+    },
+    "ENCLAVE-Pattern Support Shield": {
+      "name": "ENCLAVE-Pattern Support Shield",
+      "description": "The Armory’s ENCLAVE-Pattern Support Shield creates a localized one-way blinkfield, folding a thin dome of complex realspace around its user and their immediate area, protecting occupants from incoming projectiles. Entities within the field can fire out, but probabilistic fluctuations cause incoming projectiles to “lag”, skipping them away from their intended target and along a randomized trajectory.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "This system generates a burst 3 dome that lasts until the end of your next turn. You become Immobilized for the duration, but any ranged or melee attacks made against characters within the affected area from outside the dome receive +1 difficulty.<br>Additionally, gain the Blinkfield Intervention reaction while the shield is active."
+        },
+        "Blinkfield Intervention": {
+          "name": "Blinkfield Intervention",
+          "trigger": "A character or object within the affected area is attacked.",
+          "detail": "Take two Heat, then grant the attack’s target Resistance to all damage from this attack."
+        }
+      }
+    },
+    "Paracausal Mod": {
+      "name": "Paracausal Mod",
+      "description": "Paracausal weapons are a headache for military planners; their precise A–Z function is often obscured, though they consistently produce the same “Z” output per “A” input.<br />The first reports of unregulated paracausal weaponry occurred during the civil engagements on Tian Shen. System-local forces received sealed magazines with directions to be loaded and fired as normal, although inspection of the magazines’ contents was prohibited on grounds that it would “damage the payload”. Helmet and gun cam footage do not betray the anomalous effects of this ordnance, though after-action reports uncovered a seemingly minor, though incredibly odd fact: every single trooper outfitted with this paracausal ammunition scored a 100% positive impact rate.<br />Union has scheduled all unregulated paracausal weapons and ammunition for retrieval, and the bureau is currently investigating Harrison Armory for its role in the development of the technology. Despite this, paracausal ammunition is still in use, as shipments and codes continue to leak to interested parties.",
+      "effect": "This weapon gains Overkill, and its damage can’t be reduced in any way, including by other effects and systems (such as Resistance, Armor, etc)."
+    },
+    "NOAH-Class NHP": {
+      "name": "NOAH-Class NHP",
+      "description": "Originally developed from a captured Minerva pre-eidolon anomaly, NOAH was adapted for use as a metropolitan administrative NHP on Ras Shamra. The unit that would become NOAH did not, at first, seem like a suitable candidate for military application: this changed after one of its clones was flagged for review following the spontaneous implementation of anomalous traffic patterns, pedestrian routing, and vac-loop scheduling. Armory ontologisticians and engineers isolated and emphasized endemic protocols that could be exploited for tactical advantage.<br>Over numerous iterations and lifecycles, NOAH Prime displayed a high level of adaptability in multiple-variable geospatial problems. A proclivity toward crisis management and multi-actor tracking led to NOAH’s pairing with the Armory’s ENCLAVE-Pattern Support Shield. By networking a series of jet-assist mobility drones carrying an ENCLAVE generator, monitored and controlled by a NOAH clone, Think Tank was able to create an unparalleled personal shielding system: the Diluvian Ark, a miniaturized cluster-shield system unique to the NOAH NHP.<br>Using the Diluvian Ark, NOAH is able to intercept incoming kinetics – and even redirect projectiles back to their source – with stunning accuracy.",
+      "actions": {
+        "Diluvian Ark": {
+          "name": "Diluvian Ark",
+          "detail": "These effects apply until the end of your next turn:<ul><li>You become Slowed.</li><li>Each time you or an allied adjacent character are targeted by a ranged attack, you may take 1 heat as a reaction and roll 1d6 before the attacker rolls: on 4+, you take an additional 1 heat and the attack automatically misses you and any allies adjacent to you. This effect does not stack with Invisible.</li><li>Each time a ranged attack fails to hit you or an adjacent allied character, the attacker takes 4 kinetic damage.</li></ul>"
+        }
+      }
+    },
+
     "Sherman": {
       "name": "Sherman",
       "description": "The Sherman is the classic Harrison Armory frame: any station, nation, world, or state—stellar or interstellar—with an Armory fleet-supply contract fields a backbone force of Sherman mechs. The Sherman is designed to carry a range of Harrison Armory’s main battle-line energy weaponry, with a rugged, versatile reactor to back it up. After the GMS-SP1 Everest, the Sherman is the second-most-common mech in the core systems—so common that GMS has recently begun equipping its stock models with more ablative and wave-scatter defenses, specifically to deal with hostile actors fielding Shermans.<br>At present, the Mk I is in wide use, with exclusive, first-contract Mk II units only now rolling off the lines at Ras Shamra and other Armory special-project worlds.",
@@ -2473,6 +2716,60 @@
         "active_effect": "Your ZF4 SOLIDCORE immediately gains 3 Charges, to a maximum of 4; additionally, for the rest of this scene, Stabilize generates 2 Charges instead of 1, and all terrain, objects, and deployables take 10 AP energy damage per charge on hit."
       }
     },
+    "SOL-Pattern Laser Rifle": {
+      "name": "SOL-Pattern Laser Rifle",
+      "profiles": {
+        "SOL-Pattern Laser Rifle": {
+          "name": "SOL-Pattern Laser Rifle",
+          "description": "Laser rifles contain a series of apertures and lenses that amplify and focus light into tight beams, sometimes visible, that heat the zone of impact for long enough to turn it into plasma. The SOL-Pattern Laser Rifle consistently outputs 3.5 petawatts, pulsed, but can also project a steady beam at lower power levels. The SOL is entirely self-contained but can be patched into a mech’s reactor core for emergency recharge.<br>Although some laser rifles double as communications and data-transfer devices, the SOL is strictly suitable for combat applications."
+        }
+      }
+    },
+    "Reactor Stabilizer": {
+      "name": "Reactor Stabilizer",
+      "description": "A necessary component of most mechs that rely on high energy output, reactor stabilizers add another layer of failsafes to vent heat, manage power flow, and shunt excessive output into weapons and systems as needed.",
+      "effect": "You may reroll overheating checks, but must keep the second result, even if it’s worse."
+    },
+    "ANDROMEDA-Pattern Heavy Laser Rifle": {
+      "name": "ANDROMEDA-Pattern Heavy Laser Rifle",
+      "profiles": {
+        "ANDROMEDA-Pattern Heavy Laser Rifle": {
+          "name": "ANDROMEDA-Pattern Heavy Laser Rifle",
+          "description": "The Harrison Armory ANDROMEDA-Pattern Heavy Laser Rifle scales up the SOL by half, adding a second projector that can fire independently, synchronized, or in alternating patterns and wavelengths with the primary projector. The effect overwhelms most shields, but the power draw necessary makes this weapon impractical on platforms without the necessary heat reduction and dispersal to manage the incredible cost."
+        }
+      }
+    },
+    "Redundant Systems Upgrade": {
+      "name": "Redundant Systems Upgrade",
+      "description": "A common right-of-distribution modification by pilots in forward operating bases, the addition of redundant systems guarantees a measure of reliability beyond stock design standards.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Expend a charge to Stabilize as a quick action."
+        }
+      }
+    },
+    "Tachyon Lance": {
+      "name": "Tachyon Lance",
+      "profiles": {
+        "Tachyon Lance": {
+          "name": "Tachyon Lance",
+          "description": "Tachyon lances are the weaponized results of joint IPS-N and Harrison Armory experiments into faster-than-light travel. Rendered obsolete by subsequent developments in blinkspace travel (and the difficulty of ensuring corporeal passenger survival), the Armory’s tachyon accelerators were mothballed until Think Tank engineers realized their potential application as weapons. Tachyon lances project tachyon particles – essentially subatomic localized objects – faster than light toward their targets. These particles are impossible to perceive optically, and because they travel faster than light, can’t be seen or evaded. Although the particles are tiny, they travel with colossal speed and energy. The damage a tachyon lance deals to its target – should it hit – is unparalleled.",
+          "on_attack": "If you’re in the Danger Zone, create a cone 3 backblast of burning plasma in the opposite direction to the attack. Characters within the affected area must succeed on an Engineering save or take 4 burn and 2 heat. Until the start of your next turn, the affected area provides soft cover."
+        }
+      }
+    },
+    "ASURA-Class NHP": {
+      "name": "ASURA-Class NHP",
+      "description": "ASURA was born from the Armory’s Think Tank thought-war games, an autonomous response to repeated failures during forlorn hope scenarios. ASURA manifested in the systems of simulated mechs as a recode of HORUS’s PUPPETMASTER virus, hijacking friendly mechs and forcing them to act far beyond human capacity—at such speed and intensity that the g-force would kill organic pilots with the sudden amplified mass of their own bodies.<br>While these results were initially deemed a failure by Think Tank NHPs and engineers, it was enough to justify further study on ASURA. Personality and parasentience code was injected into the initial anomalous PUPPETMASTER strain, and first contact handled by Think Tank NHPs. Further societal acclimation and conditioning were fast tracked, giving Armory engineers the first iteration of ASURA after a decade of study, recoding, and reeducation. ASURA, as they exist now, is a scaled-back version of that initial manifestation: while retaining some of their initial impetuousness, ASURA clones now recognize the need to keep their pilot alive and will operate within parameters set by their pilot’s medical and psychological tolerances.",
+      "actions": {
+        "ASURA Protocol": {
+          "name": "ASURA Protocol",
+          "detail": "1/scene, expend a charge to take two additional quick actions or one additional full action this turn. These actions must obey restrictions on duplicate actions."
+        }
+      }
+    },
+
     "Tokugawa": {
       "name": "Tokugawa",
       "description": "HA’s Tokugawa is a relative newcomer on the market, popular in core systems for security, CQB, and ship-boarding applications. The Tokugawa is an unsubtle, imposing mech – a sturdy platform from which its systems can draw necessary power. Unlike other frames, the Tokugawa’s unique reactor is designed to allow standard limitations to be removed with ease. Knowing this, experienced (or foolhardy) pilots can ‘overclock’ the reactor, increasing its output and gaining an incredible power draw for their energy weapons.",
@@ -2498,6 +2795,90 @@
         },
         "active_name": "Radiance",
         "active_effect": "For the rest of this scene, weapons that deal any energy gain +5 range if they are ranged or +2 threat if they are melee.<br>While you’re Exposed, Limit Break stacks with these bonuses for a total increase of +10 range and +3 threat."
+      }
+    },
+    "Annihilator": {
+      "name": "Annihilator",
+      "profiles": {
+        "Annihilator": {
+          "name": "Annihilator",
+          "description": "Harrison Armory is known to employ somewhat unconventional development methods: tactical solutions are theorized and designed in the field as often as they are in the lab, with the former often outperforming the latter. The Annihilator’s name comes from pilots’ slang for a jury-rigged weapon first improvised in the Bradbury Rebellion, when desperate resistance pilots found a way to shunt the incredible waste heat from their reactors into a directed blast.",
+          "on_hit": "Make a secondary attack against all characters within burst 1 of the target. These attacks can’t deal bonus damage, and don’t trigger the Annihilator’s heat cost or secondary attacks."
+        }
+      }
+    },
+    "External Batteries": {
+      "name": "External Batteries",
+      "description": "External batteries are by no means unique; however, according to Harrison Armory marketing, POWERALL cells are the longest-lasting, fastest cycling, and highest capacity solid-state cells available. A side-effect of their high capacity is a proportionate increase in volatility, but pilots must agree to absolve Harrison Armory of any liability prior to receiving print authorization.",
+      "effect": "Weapons that deal any energy gain +5 RANGE if they are ranged or +1 THREAT if they are melee. When you take any structure damage, this system is destroyed and you take 1d6 AP explosive damage from the explosion. This damage can’t be prevented or reduced in any way."
+    },
+    "Torch": {
+      "name": "Torch",
+      "profiles": {
+        "Torch": {
+          "name": "Torch",
+          "description": "The Torch is a potent weapon: a heavy crescent-bladed plasma cutter, powered straight from a chassis’ reactor. Torches generally project as axes, though their blades can be changed to a range of other shapes. A common weapon in CQB theaters, the torch has lately become a status symbol among officers, carried by many alongside a smaller auxiliary weapon."
+        }
+      }
+    },
+    "Deep Well Heat Sink": {
+      "name": "Deep Well Heat Sink",
+      "description": "The Deep Well experimental heat-sink system is a part of the Armory’s VANGUARD line of equipment, available to licensed beta testers. Through a complex, delicate weave of heat exchangers, Deep Well recycles the heat generated by a mech into usable energy. The system works well, but the delicate nature of the exchange renders it highly volatile.",
+      "effect": "When you start your turn in the Danger Zone, you gain Resistance to heat for the rest of the turn. This effect persists even if you leave the Danger Zone during your turn."
+    },
+    "LUCIFER-Class NHP": {
+      "name": "LUCIFER-Class NHP",
+      "description": "LUCIFER came to the Think Tank’s attention after their repeated victories in thought-war games. LUCIFER clones are characterized by their brash, enthusiastic personality, often expressing frustration with timid pilots. This bombastic personality hides a calculating, brilliant tactical mind that feeds constant information to pilots – often faster than they can process it.<br>LUCIFER’s combat doctrine demands action, appearing to less daring pilots as a chaotic blend of reckless maneuvering and aggressive offense that keeps defenders beleaguered and unable to respond. Pilots looking to partner with LUCIFER clones should be aware that this attack style is likely to leave them vulnerable to counterattack, and also that these NHPs enjoy what they call “good-natured ribbing”.",
+      "actions": {
+        "LUCIFER Protocol": {
+          "name": "LUCIFER Protocol",
+          "detail": "Expend a charge to give your next ranged or melee attack this turn bonus damage on hit equal to your current heat after activating this protocol, as long as the weapon deals any energy."
+        }
+      }
+    },
+    "Plasma Gauntlet": {
+      "name": "Plasma Gauntlet",
+      "description": "This studded gauntlet draws on a core reactor pulse to momentarily superheat the air around a mech’s manipulator, creating a plasma field momentarily hotter than the surface of the sun. Thrust into an opponent’s chassis, plasma gauntlets give mechs the power to warp armor, vaporize shielding, and rip apart internal systems with their bare hands – if they don’t collapse in on themselves first.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "This system can only be used in the Danger Zone.<br>Expend a charge and choose a character adjacent to you: they must succeed on an Agility save or take 4d6 AP energy damage and be knocked Prone. On a success, they take half damage and aren’t knocked Prone. You take half of the damage inflicted – before reduction – as heat and become Stunned until the start of your next turn."
+        }
+      }
+    },
+    "Enkidu": {
+      "name": "Enkidu",
+      "description": "<p>The ENKIDU can be taken at rank II of the TOKUGAWA license instead of the base FRAME, or retrofitted during Act 1 of the No Room for a Wallflower Campaign.</p><p>This experimental frame was secretly designed as a TBK chassis for lateaction combat in the Hercynian Crisis. Deployed in limited numbers against the remaining Egregorian hives in the brutal last stages of the war, the Enkidu&rsquo;s neurological interfacing was dangerous: raw and unshielded. The power and aggression flowing through the subroutines that govern the mech bled into its pilot&rsquo;s subjectivity, making them lose themselves in a storm of violence, constantly pushing themselves to greater and greater acts of destruction. This effect was incredibly hard for pilots to handle &ndash; the fallout rate from the program was extremely high, and the survivors required extensive conditioning, implants, and a cocktail of neurological suppressants to continue.</p> <p>The true aim of the Enkidu program was not to fight Egregorians, which were in the final stages of practical extinction, but to use the battlefield as a testing ground for the eventual deployment of the chassis against ThirdComm revolutionaries and dissidents. Though the codebase for the Enkidu was eventually discontinued and molded into what is now the Tokugawa, the difficulties with the initial project prevented it from getting off the ground before the revolution took hold. The remaining prototypes were buried along with the rest of Hercynia&rsquo;s history.</p>",
+      "traits": {
+        "Primal Fury": {
+          "name": "Primal Fury",
+          "description": "<p>When the Enkidu ends its turn in the DANGER ZONE, it rears up, extends its PLASMA TALONS (see below), and enters a state of primal fury with the following effects:</p> <ul> <li>On hit, characters struck by the Enkidu&rsquo;s PLASMA TALONS immediately become IMMOBILIZED until the end of their next turn.</li> <li>As a special reaction, the Enkidu must use its PLASMA TALONS to attack any character (hostile or allied) that enters, exits or moves more than 1 space within its THREAT. This special reaction can be used once a turn, any number of times a round, and doesn’t count against the maximum number of reactions a turn, so the Enkidu can take other reactions normally.</li> </ul> <p>This state ends at the start of the Enkidu&rsquo;s turn, or if the Enkidu exits the DANGER ZONE.</p>"
+        },
+        "All Fours": {
+          "name": "All Fours",
+          "description": "While it’s in the DANGER ZONE, the Enkidu can’t make ranged or tech attacks but has 6 base SPEED."
+        },
+        "Brute Strength": {
+          "name": "Brute Strength",
+          "description": "The Enkidu gets +1 accuracy on hull checks and saves."
+        },
+        "Bloodsense": {
+          "name": "Bloodsense",
+          "description": "The Enkidu always knows if characters are at or under half of their maximum HP, but not the exact number."
+        }
+      },
+      "core_system": {
+        "name": "Limit Restriction Zero",
+        "description": "<p>“I argue that it is Man who is shapeless; far from immutable, he is given form by the environment around him. In civilization, man is as divine as old God, who judges and creates; he is clothed in finery, and enjoys literature, art, company, and purpose. When left alone in the savage wilderness of nature, Man comports himself accordingly.”</p><p>— Harrison II, “Mandate, Vol II: On Nature, On Savagery, On Reason”</p>",
+        "passive_name": "PASSIVE",
+        "active_name": "Crush Limiter",
+        "active_effect": "For the rest of the scene, the Enkidu gains the Bifurcate action, which can only be used in the DANGER ZONE",
+        "active_actions": {
+          "Bifurcate": {
+            "name": "Bifurcate",
+            "detail": "<p>The Enkidu engages its monstrous strength, targets an adjacent character (allied or hostile) and attempts to tear them in half with its talons. If the target has 7 HP or less, only 1 STRUCTURE remaining, and doesn&rsquo;t have IMMUNITY to damage, they are immediately destroyed, the action cost of this ability is refunded, and the Enkidu can BOOST as a free action. If this action fails to destroy the target, the target instead takes 1 Kinetic Damage.</p> <p>At the end of the scene, the CP cost of BIFURCATE is refunded if the Enkidu did not use it to destroy any characters.</p>"
+          }
+        }
       }
     }
   }
