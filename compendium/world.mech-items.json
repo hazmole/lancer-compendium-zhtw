@@ -1585,70 +1585,70 @@
 
     "Balor": {
       "name": "Balor",
-      "description": "As is the case with most HORUS pattern groups, the Balor has a thousand faces. The Balor pattern group, like all HORUS PGs, doesn’t describe a single recognizable silhouette so much as it gestures toward a combination of schemata that share a role in combat. These schemata can be printed according to pilot specifications and applied to a fully custom physical scaffolding. Notably, the Balor pattern group is only stable on large platforms (Schedule 2 and up) that are able to provide the raw energy output it demands – preferably ones with multiple redundancies, in case of catastrophic systems failure.<br>The Balor PG was first encountered during the joint Albatross–DoJ/HR pursuit of the Maw – a Free Company turned decentralized hive-being — across Khayradin’s Blanca Desert after the end of the Sanjak Rebellion. It was there that the joint force encountered, engaged with, and ultimately defeated the Maw and its Balors – and there that Union’s CentComm hoped the nanowash outbreak could be contained. Of course, subsequent Balor outbreaks on Khayradin have proven this hope to be in vain, and the pattern group continues to terrorize Karrakin commanders throughout Baronic space.<br>In the field, the Balor’s neurosynced hellswarm and greywash nanites form an undulating shroud that can pour out of its chassis at a moment’s notice, swirling in maddening patterns to form both eschatologic defensive and offensive systems. A Balor in its most active state is held together more by undulating, flame-like masses of nanite swarms than any physical structure. This has the effect of distributing kinetic and coherent-particle energy out across and through the chassis – making attacks against a Balor “like shooting angry water”, as one after-action report put it.",
+      "description": "如同大部分的荷魯斯樣式組，炎魔有著千萬張不同的面孔。炎魔樣式組，就跟所有的荷魯斯樣式組一樣，並非用來描述一種單一、可辨識的機種，而是泛指一系列共享類似戰場定位的基模。這些基模範型能夠依照駕駛員的規則需求進行列印，並應用於完全客製化的物理框架上。值得注意的是，炎魔樣式組僅能穩定運作於大型平台（二級或以上），因為只有這類平台能夠提供其所需的龐大能量輸出——最好再搭配多重備援系統，以防止發生災難性的系統故障。<br>炎魔樣式組最早的遭遇紀錄，是信天翁和 DoJ/HR 在桑賈克叛亂後，於海拉丁的布蘭卡沙漠中聯合追捕無底洞────一個自由傭兵團轉化的去中心化集團──的過程中被發現。在那場戰役中，聯合部隊與其遭遇，交戰，並最終擊敗了無底洞以及他們使用的炎魔機體──聯盟中央委員會希望這場戰役能夠遏制奈米蠱的爆發。然而，隨後在海拉丁陸續爆發的炎魔事件證明了這個希望終究落空，而這一樣式組仍持續在男爵領的領空肆虐，在卡拉金指揮官之間引發恐慌。<br>在戰場上，炎魔依靠神經同步的地獄蟲群和奈米灰蠱形成了一層不斷流動的防護帷幕，能在瞬間從機體中洶湧而出，以瘋狂變換的型態構築出末世論般的防衛和攻擊系統。一台以最大功率運作的炎魔，比起其物理結構，更像是依賴其翻湧烈焰般的奈米機器來維持其形態。這個特性使其能夠將動能與相干粒子能量分散至整個機體內外，讓攻擊炎魔的過程更像是「朝著憤怒的沸水射擊一樣」──就如某份戰後報告所形容的那樣。",
       "traits": {
         "Scouring Swarm": {
-          "name": "Scouring Swarm",
-          "description": "The Balor deals 2 kinetic to characters of its choice that start their turn grappled by or adjacent to it."
+          "name": "灼滅蟲群",
+          "description": "炎魔可以對任何在其回合開始時被炎魔擒拿，或與炎魔鄰接的角色造成 2 動能傷害。"
         },
         "Regeneration": {
-          "name": "Regeneration",
-          "description": "At the end of its turn, the Balor regains 1/4 of its total HP. When it takes stress or structure damage, this effect ceases until the end of its next turn."
+          "name": "再生",
+          "description": "在炎魔的回合結束時，炎魔會回復其最大 HP 的 1/4。當其受到壓力或結構傷害時，這個效果會中止直到其下一回合結束為止。"
         },
         "Self-Perpetuating": {
-          "name": "Self-Perpetuating",
-          "description": "When you rest, the Balor regains full HP automatically and without REPAIRS."
+          "name": "自我延續",
+          "description": "當你休息時，炎魔不需要消耗維修就能自動回復所有 HP。"
         }
       },
       "core_system": {
-        "name": "Hellswarm",
-        "description": "In a moment, with aught but desire, the pilot of a Balor may quick-print a cloak comprised of countless minuscule drones: a hellswarm cloak – living shield and fluid-dynamic knife, cutting and guarding, in one shimmering wave. They become Hivemaster, and their will is obeyed by millions.",
-        "passive_name": "PASSIVE",
-        "active_name": "Hive Frenzy",
-        "active_effect": "Your nanites switch into a hyperactive mode, causing the following effects until the end of the scene:<ul><li>You and adjacent allies gain soft cover.</li><li>Scouring Swarm deals 4 kinetic, instead of 2.</li><li>Regeneration restores 1/2 of your total HP, instead of 1/4.</li><li>If you would take structure damage, roll 1d6: on 6, your mech hellishly pulls itself together, taking no structure damage, returning to 1 HP, and gaining Immunity to all damage until the end of the current turn.</li><li>You become Shredded and cannot clear this condition for the duration.</li></ul>"
+        "name": "地獄蟲群",
+        "description": "轉瞬之間，僅憑一念，炎魔的駕駛員就能快速列印出一襲由無數微型無人機組成的斗篷：地獄蟲群斗篷──它既是活體盾牌，也是流體刀刃，如同閃耀不定的波浪將護衛與斬擊合而為一。他將化身為蟲巢之主，讓千萬存在服從其意。",
+        "passive_name": "被動",
+        "active_name": "狂暴蟲群",
+        "active_effect": "你的奈米機器進入極端活躍模式，造成以下效果，持續直到該場景結束為止：<ul><li>你和與你鄰接的隊友得到<b>軟性掩護</b>。</li><li><b>灼滅蟲群</b>改為造成 4 動能傷害，而非原本的 2 傷害。</li><li><b>再生</b>改為回復其最大 HP 的 1/2，而非 1/4。</li><li>如果你將要受到結構傷害，擲 1d6：結果為 6 的話，你的機甲將自行於獄火中重組，你改為不受到結構傷害，把 HP 重設為 1，且直到該回合結束之前免疫於所有傷害。</li><li>你陷入<b>離散</b>狀況，且在這段期間都無法將其解除。</li></ul>"
       }
     },
     "Hive Drone": {
-      "name": "Hive Drone",
-      "description": "It looks, at first, like a roiling cloud of gray fog, churning and fizzing – smoking soda water spilled across concrete. It advances with curious motion, stretching and snapping back. A confusion of snakes, writhing forward with speed that betrays intent.<br>Color flashes across the gray cloud, a swarm-luminescence – the light created by millions of nanites glowing with heat as they consume whatever they cross.<br>This is greywash, and it is never sated.",
-      "effect": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+      "name": "蟲巢無人機",
+      "description": "乍看之下，它就像是一團翻騰嘶鳴的灰色雲霧，彷彿灑在混凝土上泛著白煙的蘇打水。它以一種詭異的動作前進，時而伸展，時而猛然收縮，如同一群混亂的蛇群，以違背直覺的速度蠕動前行。<br>灰霧間閃爍著色彩，宛如蟲群螢光──這團由數百萬奈米機器組成的機群散發著光與熱，吞噬它們接觸到的一切阻礙。<br>這就是灰蠱，轆轆飢腸，永不知足。",
+      "effect": "蟲巢無人機可以在感應和視線範圍內的一個未佔據空間展開，並釋放出<b> 爆發 2 </b>範圍的灰蠱蟲群，產生以下的效果：<ul><li>至少部分處於影響範圍內的隊友角色，以及蟲巢無人機本身，都會得到<b>軟性掩護</b>。</li><li>在影響範圍內開始其回合，或是在每輪第一次進入該範圍的敵方角色會受到 1 穿甲(AP)動能傷害。多架蟲巢無人機之間的重疊範圍不會重覆觸發這個效果。</li></ul>無人機能以<b>快速動作</b>回收，或在另一個空間展開。"
     },
     "Scanner Swarm": {
-      "name": "Scanner Swarm",
-      "description": "HORUS-coded scanner swarms establish oculus-form nanite protocols around defined objects or areas, ensuring constant circulation and data capture. The nanites ingest and process full-spectrum information, relaying it back to their pilot/parent in return for an endorphic code-impulse that prompts continued scanning.",
-      "effect": "You gain +1 accuracy on tech attacks against adjacent characters."
+      "name": "掃描蟲群",
+      "description": "荷魯斯編碼的掃描蟲群能在指定物件和區域內建立眼狀的奈米機器協定，確保能持續循環和並收集數據。這些奈米機器會收集並處理全光譜資訊，然後回傳給駕駛員或母機以換取內啡肽式的編碼脈衝，驅動它們繼續進行掃描。",
+      "effect": "你對鄰接角色進行的科技攻擊得到 +1 準度。"
     },
     "Nanocomposite Adaptation": {
-      "name": "Nanocomposite Adaptation",
-      "description": "Nanocomposite weapons take aggressive drone swarms and condense them into individual rounds, a coherent beam, or the edge of a blade.<br>Adapted projectile weapons fire shaped CONSUME/HIVE rounds that shatter on impact, releasing their payload of autonomous nanite maniples. Once freed, the maniples begin eating away at surrounding tissue or superstructure. They proceed until burnout or total target consumption, whichever occurs first. In flight, the maniples are able to hive-link and make slight adjustments to the trajectory of their round, ensuring positive impact.<br>Coherent beam weapons transport maniples directly, while conventional melee weapons are replaced by analogs composed entirely of nanobots.",
-      "effect": "the weapon this mod is applied to gains Smart and Seeking."
+      "name": "奈米混成改造",
+      "description": "奈米混成武器會將侵略性的無人機群壓縮成獨立的彈藥、同調射束、或刀刃尖峰。<br>經過改造的投射武器能夠發射經過塑形的吞噬/巢穴彈頭，在撞上目標時破碎分解，釋放出內載的自律型奈米軍團。一旦被釋放，這些奈米軍團便會開始侵蝕周圍的組織和結構，持續直到其能量耗盡或目標被完全吞噬為止。在射擊過程中，這些奈米軍團能夠建立巢穴網路以進行細微的彈道調整，確保其能準確的命中目標。<br>射束武器會直接輸送這些奈米軍團，而傳統肉搏武器則會完全被這些奈米機器構成的類結構體給取代。",
+      "effect": "選擇一件武器來應用這個改造：該武器得到<b>智慧</b>和<b>導引<b>標籤。"
     },
     "Swarm Body": {
-      "name": "Swarm Body",
-      "description": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world.",
+      "name": "蟲群肉體",
+      "description": "設身處地，那會是什麼樣的感覺？身為那個自稱無底洞的男人？身為他的追隨者？他們想必也曾擁有過家庭。記憶、愛情、恐懼、思想，全都消逝不見。他們的身體四分五裂，他們的意識分散到數以億計的微小存在之間──從充滿缺憾，微不足道的個體，轉化成了空氣，成了漂泊其中的雲霧，成了塑造世界的風。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "After activating this system, a burst 1 swarm is released at the end of your turn. Characters of your choice that start their turn in the area or enter it on their turn must succeed on a Systems save or take 3 kinetic. This amount increases by +3 damage for each of your turns that you have remained stationary, up to a maximum of 9 kinetic.<br>This effect lasts until you move, including involuntary movement."
+          "name": "啟動蟲群肉體",
+          "detail": "在啟動此系統後，<b>爆發 1 </b>範圍的蟲群將在你的回合結束時被釋放而出。任何你選擇的角色如果在該範圍內開始自己的回合，或在其回合中進入該範圍，將必須成功通過<b>系統豁免</b>，否則受到 3 動能傷害。你每次在自己回合中在原地保持不動，就能讓這個效果造成 +3 傷害，最高累積到 9 動能傷害。<br><br>這個效果會持續到你移動為止（包括強制移動）。"
         }
       }
     },
     "Nanobot Whip": {
-      "name": "Nanobot Whip",
+      "name": "奈米機鞭",
       "profiles": {
         "Nanobot Whip": {
-          "name": "Nanobot Whip",
-          "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned.",
-          "on_crit": "Pull your target to a free space adjacent to you, or as close as possible."
+          "name": "奈米機鞭",
+          "description": "利用蟲群編碼和軍團指令，荷魯斯集體主義者創造出了一種能將奈米蟲群組織成鞭狀武器的架構。奈米機鞭能收縮回其基座囊體內以便收納，在肉搏戰中分離出來以束縛附近的敵人，並在被召喚時回歸其基座囊單元中。",
+          "on_crit": "將你的目標拉到與你鄰接的未佔據空間，或盡可能近的位置。"
         }
       }
     },
     "Swarm/Hive Nanites": {
-      "name": "Swarm/Hive Nanites",
+      "name": "蟲群/蟲巢奈米機",
       "profiles": {
         "Swarm/Hive Nanites": {
-          "name": "Swarm/Hive Nanites",
-          "description": "SWARM/HIVE nanites are among the more insidious weapons produced by HORUS: dispatched in maniples – single “swarm” units carrying enough nanites to fill a square meter – SWARM/HIVE nanites combine the systemic invasion properties of BOOST/HIVE code with the aggressive consumption of a CONSUME/HIVE maniple. Launched from mounted blisters, SWARM/HIVE nanite maniples fall upon their targets as great clouds of teeth, infiltrating sensitive compartments and modules before consuming any organic and inorganic material they touch."
+          "name": "蟲群/蟲巢奈米機",
+          "description": "蟲群/蟲巢奈米機是荷魯斯最陰險的武器之一。這些奈米機以獨立的編隊派送，每個單獨的「蟲群」單位都攜帶著足以填滿一平方米的奈米機器。蟲群/蟲巢奈米機結合了增幅/蟲巢編碼的系統性入侵能力，以及吞噬/蟲巢編隊的侵略性吞食能力。一旦從機載囊被射出，蟲群/蟲巢奈米編隊就會像長滿尖牙利齒的巨型雲團一樣撲向敵人，滲透進敏感的結構和模組，然後吞噬掉它們接觸的一切有機體和無機物。"
         }
       }
     },
