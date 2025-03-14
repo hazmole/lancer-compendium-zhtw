@@ -1621,7 +1621,7 @@
     "Nanocomposite Adaptation": {
       "name": "奈米混成改造",
       "description": "奈米混成武器會將侵略性的無人機群壓縮成獨立的彈藥、同調射束、或刀刃尖峰。<br>經過改造的投射武器能夠發射經過塑形的吞噬/巢穴彈頭，在撞上目標時破碎分解，釋放出內載的自律型奈米軍團。一旦被釋放，這些奈米軍團便會開始侵蝕周圍的組織和結構，持續直到其能量耗盡或目標被完全吞噬為止。在射擊過程中，這些奈米軍團能夠建立巢穴網路以進行細微的彈道調整，確保其能準確的命中目標。<br>射束武器會直接輸送這些奈米軍團，而傳統肉搏武器則會完全被這些奈米機器構成的類結構體給取代。",
-      "effect": "選擇一件武器來應用這個改造：該武器得到<b>智慧</b>和<b>導引<b>標籤。"
+      "effect": "選擇一件武器來應用這個改造：該武器得到<b>智慧</b>和<b>導引</b>標籤。"
     },
     "Swarm Body": {
       "name": "蟲群肉體",
@@ -1654,72 +1654,72 @@
     },
     
     "Goblin": {
-      "name": "Goblin",
-      "description": "The Goblin was the first identified HORUS frame, and is likely the oldest legacy chassis prior to HORUS’s transition to pattern groups. Transmission records traced back to the Goblin’s zero model indicate the first chassis was leaked onto the omninet in 4900u. This year serves as HORUS’s assumed “foundation day” for most scholars and intelligence officers who study the group, though contradictory signatures indicate that 4900u is far too late to mark its birth.<br>The Goblin is a small mech, not much larger than a hardsuit, that relies on its small size and excellent maneuverability to protect its pilot. It packs an interesting recursive processing weave that facilitates electronic warfare capabilities well beyond theoretical parameters.<br>GMS technicians are still, more than a century later, working to reverse engineer the Goblin and its processing weave. The most recent investigations suggest that it employs technology consistent with hieroglyphic inscriptions noted on LRA.7726235-B and corroborated by tablets transmitted by UIB-GORGON from Metavault XOLOTL prior to the vault’s disappearance.",
+      "name": "哥布林",
+      "description": "哥布林是第一架被識別為荷魯斯的機甲，有可能是在荷魯斯轉營為樣式組前就存在最古老的舊式骨架。來自哥布林零號模型的通訊紀錄顯示，此骨架最早於聯盟 4900 年就已經出現在萬物網上。這一年也因此被大部份研究該組織的學者和情報官認定為荷魯斯的「創立日」，然而，大量矛盾的證據表明，聯盟 4900 年可能遠遠晚於其實際創立的時間。<br><br>哥布林是一款不比衛士服大上多少的小型機甲，並利用其小巧體型和卓越的機動性來保護駕駛員。它搭載了獨特的遞迴處理織構，讓其能以遠超理論數值的表現發揮電子戰能力。<br><br>即使已經過一個世紀，GMS 的技術人員仍在努力對哥布林和其處理織構進行逆向工程。最近的研究表明，哥布林採用的技術與在 LRA.7726235-B 發現的聖書銘文具有一致性，且與聯盟情報局戈爾貢分隊在索洛托空間摺曲儲藏庫消失前所傳輸的石碑內容相互印證。",
       "traits": {
         "Liturgicode": {
-          "name": "Liturgicode",
-          "description": "The Goblin gains +1 accuracy on tech attacks."
+          "name": "禮拜編碼",
+          "description": "哥布林的科技攻擊得到 +1 準度。"
         },
         "Reactive Code": {
-          "name": "Reactive Code",
-          "description": "Gain the Reactive Code reaction.",
+          "name": "反應編碼",
+          "description": "哥布林得到<b>反應編碼</b>反應。",
           "actions": {
             "Reactive Code": {
-              "name": "Reactive Code",
-              "trigger": "You are hit by a Tech Attack.",
-              "detail": "You may take any Quick Tech option against the attacker as a reaction."
+              "name": "反應編碼",
+              "trigger": "當你被科技攻擊命中時。",
+              "detail": "你能以<b>反應</b>對攻擊者進行任何快速科技選項。"
             }
           }
         },
         "Fragile": {
-          "name": "Fragile",
-          "description": "The Goblin receives +1 difficulty on Hull checks and saves."
+          "name": "脆弱",
+          "description": "哥布林在進行<b>機體判定和豁免</b>時會得到 +1 難度。"
         }
       },
       "core_system": {
-        "name": "INSTINCT Rig",
-        "description": "One of the first Goblin-pattern systems cracked by GMS technicians was its e-warfare invasion rig, although the rig’s advanced capabilities and architecture remain impenetrable. When installed, the rig manifests a subsentient intelligence – designated INSTINCT – that assists invasion attempts against target systems using a mix of physical and systemic parasymbiotic systems. Invasions attempted while INSTINCT is active are not perceived by the user as code and script, but as an attack on organic matter. INSTINCT has displayed the capacity to act independently, often preempting its user, but generally in their best interest. Readme documentation included in some Goblin manifestations recommend that pilots cycle their mech cores at least once a month to prevent spontaneous enlightenment, though most do not make note of this warning.",
-        "passive_name": "PASSIVE",
-        "active_name": "Symbiosis",
-        "active_effect": "Your mech retracts its major systems and attaches itself to another mech, becoming more like a vestigial blister than a separate entity. The host must be an allied and willing mech not already hosting another Goblin, larger than and adjacent to you. While attached, you occupy their space, move with them, and benefit from hard cover, but can still be attacked and targeted separately. You also take any conditions and heat taken by your host.<br>Your host may use your Systems, E-Defense, and Tech Attack instead of their own. Additionally, from the beginning of the next round, you no longer take your own turns; instead, you can take two quick actions or one full action at any point during your host’s turn. You can’t Overcharge or move, but may still take reactions and free actions normally. Your host’s turn counts as your turn for the purpose of effects that refer to the start or end of a character’s turn.<br>This effect lasts either for the rest of the scene, until you detach as a quick action, or until you or your host becomes Stunned. When the effect ends, you don’t take a turn until the next round."
+        "name": "直覺裝置",
+        "description": "哥布林的電子戰入侵裝置是 GMS 技術人員第一批成功破解的樣式系統，但這套裝置的先進性能和架構仍然充滿重重謎團。這個裝置在被安裝後，會展現出一種被稱為「直覺」的亞靈性智慧，並透過結合物理和系統的類共生機制來協助對目標系統的入侵。在「直覺」被啟動期間，使用者感受到的入侵行動並不再是以編碼和程序的形式，而更像是針對有機物的直接攻擊。直覺裝置具備獨立運作的能力，經常能夠先於使用者做出決策，並通常符合其使用者的最大利益。某些哥布林機體中內附的說明文件會建議駕駛員至少每個月重灌一次機甲核心，防止其發生自發性的「啟蒙」事件，但大部份駕駛員都沒有把這個警告放在心上。",
+        "passive_name": "被動",
+        "active_name": "共生",
+        "active_effect": "你的機甲收縮其主要系統，並將自己附著在另一架機甲身上，從獨立個體變為寄生性囊體。其宿主必須要是一名自願，尚未被其他哥布林附著，且大小比你更大的隊友機甲。在附著期間，你佔據宿主所在的空間，與它一起移動，得到<b>硬性掩護</b>的好處，但仍然能被單獨攻擊和瞄準。你也同時會受到你宿主所受到的任何狀況和熱度。<br><br>你的宿主可以改為使用你的系統、電子防禦、和科技攻擊。此外，從下一輪開始，你不再擁有自己的回合，而是可以在你宿主回合中的任何時間點，進行兩個<b>快速動作</b>或一個<b>完整動作</b>。你不能<b>超限</b>或移動，但仍然可以正常進行<b>反應</b>和<b>免費動作</b>。對於要計算回合開始或結束的效果而言，你宿主的回合被視為你的回合。<br><br>這個效果會持續到該場景結束為止，或直到你以<b>快速動作</b>脫離宿主、你或你的宿主陷入<b>暈眩</b>狀況。當這個效果結束時，你直到下一輪之前都無法進行你的回合。"
       }
     },
     "Autopod": {
-      "name": "Autopod",
+      "name": "自動莢艙",
       "actions": {
         "Autonomous Assault": {
-          "name": "Autonomous Assault",
-          "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
-          "detail": "You may automatically hit their target with the Autopod."
+          "name": "自動突擊炮火",
+          "trigger": "當其他角色攻擊一個在你 ⌿15 範圍內的目標，並消耗了<b>鎖定</b>時。",
+          "detail": "你可以使用自動莢艙自動命中該目標。"
         }
       },
       "profiles": {
         "Autopod": {
-          "name": "Autopod",
+          "name": "自動莢艙",
           "description": "The autopod is a small antipersonnel weapon apparently devised by HORUS communocyphers to continue offensive action in the event of its operator’s death. Each unit is, in theory, governed by a spur of INSTINCT’s protomind. No new models have been encountered since DHIYED, and all extant versions of the Autopod are to be considered extremely dangerous as the INSTINCT code powering their onboard protominds is likely to have corrupted further since their creation.",
           "effect": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod",
           "actions": {
             "Autonomous Assault": {
-              "name": "Autonomous Assault",
-              "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
-              "detail": "You may automatically hit their target with the Autopod."
+              "name": "自動突擊炮火",
+              "trigger": "當其他角色攻擊一個在你 ⌿15 範圍內的目標，並消耗了<b>鎖定</b>時。",
+              "detail": "你可以使用自動莢艙自動命中該目標。"
             }
           }
         }
       }
     },
     "H0R_OS System Upgrade I": {
-      "name": "H0R_OS System Upgrade I",
-      "description": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig.",
+      "name": "H0R_OS 系統升級 I",
+      "description": "這項系統升級似乎新增了可獨立運作於基礎直覺系統之外的輔助直覺系統，進一步提升系統性入侵的效能。駕駛員回報指出，在未安裝主系統的情況下運行此系統時，他們會聽見一股令人不安的低頻嗡鳴聲。",
       "actions": {
         "Puppet System": {
-          "name": "Puppet System",
-          "detail": "Your target moves its maximum Speed in a direction of your choice. They can be moved into hazardous areas and other obstacles, but are still affected by difficult terrain, obstructions, and so on. This movement is involuntary, but provokes reactions and Engagement as normal and doesn’t count as Knockback, pushing, or pulling."
+          "name": "傀儡系統",
+          "detail": "你的目標往你選擇的任意方向移動等同其速度最大值的距離。他可以移動進入危險地區或其他阻礙區域，但仍然會受到困難地形、障礙物等因素影響。這個移動屬於強制移動，但仍然會如常觸發反應和交賺，且不被視為擊退、推動、或拉動。"
         },
         "Eject Power Cores": {
-          "name": "Eject Power Cores",
-          "detail": "Your target becomes Jammed until the end of their next turn as you temporarily disrupt their systems, ejecting ammo magazines and cooling rods. Characters adjacent to your target take 2 energy damage. This can only be used 1/scene on each character."
+          "name": "彈出能源核心",
+          "detail": "你暫時干擾目標的系統，彈出其彈匣和冷卻棒，使你的目標陷入<b>受擾</b>狀況，持續直到其下一回合結束。與你目標鄰接的角色會受到 2 能量傷害。這個選項每個場景只能對每個角色各使用一次。"
         }
       }
     },
