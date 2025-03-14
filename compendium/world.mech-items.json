@@ -1621,7 +1621,7 @@
     "Nanocomposite Adaptation": {
       "name": "奈米混成改造",
       "description": "奈米混成武器會將侵略性的無人機群壓縮成獨立的彈藥、同調射束、或刀刃尖峰。<br>經過改造的投射武器能夠發射經過塑形的吞噬/巢穴彈頭，在撞上目標時破碎分解，釋放出內載的自律型奈米軍團。一旦被釋放，這些奈米軍團便會開始侵蝕周圍的組織和結構，持續直到其能量耗盡或目標被完全吞噬為止。在射擊過程中，這些奈米軍團能夠建立巢穴網路以進行細微的彈道調整，確保其能準確的命中目標。<br>射束武器會直接輸送這些奈米軍團，而傳統肉搏武器則會完全被這些奈米機器構成的類結構體給取代。",
-      "effect": "選擇一件武器來應用這個改造：該武器得到<b>智慧</b>和<b>導引<b>標籤。"
+      "effect": "選擇一件武器來應用這個改造：該武器得到<b>智慧</b>和<b>導引</b>標籤。"
     },
     "Swarm Body": {
       "name": "蟲群肉體",
@@ -1654,7 +1654,7 @@
     },
     
     "Goblin": {
-      "name": "Goblin",
+      "name": "哥布林",
       "description": "The Goblin was the first identified HORUS frame, and is likely the oldest legacy chassis prior to HORUS’s transition to pattern groups. Transmission records traced back to the Goblin’s zero model indicate the first chassis was leaked onto the omninet in 4900u. This year serves as HORUS’s assumed “foundation day” for most scholars and intelligence officers who study the group, though contradictory signatures indicate that 4900u is far too late to mark its birth.<br>The Goblin is a small mech, not much larger than a hardsuit, that relies on its small size and excellent maneuverability to protect its pilot. It packs an interesting recursive processing weave that facilitates electronic warfare capabilities well beyond theoretical parameters.<br>GMS technicians are still, more than a century later, working to reverse engineer the Goblin and its processing weave. The most recent investigations suggest that it employs technology consistent with hieroglyphic inscriptions noted on LRA.7726235-B and corroborated by tablets transmitted by UIB-GORGON from Metavault XOLOTL prior to the vault’s disappearance.",
       "traits": {
         "Liturgicode": {
@@ -1686,40 +1686,40 @@
       }
     },
     "Autopod": {
-      "name": "Autopod",
+      "name": "自動莢艙",
       "actions": {
         "Autonomous Assault": {
-          "name": "Autonomous Assault",
-          "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
-          "detail": "You may automatically hit their target with the Autopod."
+          "name": "自動突擊炮火",
+          "trigger": "當其他角色攻擊一個在你 ⌿15 範圍內的目標，並消耗了<b>鎖定</b>時。",
+          "detail": "你可以使用自動莢艙自動命中該目標。"
         }
       },
       "profiles": {
         "Autopod": {
-          "name": "Autopod",
+          "name": "自動莢艙",
           "description": "The autopod is a small antipersonnel weapon apparently devised by HORUS communocyphers to continue offensive action in the event of its operator’s death. Each unit is, in theory, governed by a spur of INSTINCT’s protomind. No new models have been encountered since DHIYED, and all extant versions of the Autopod are to be considered extremely dangerous as the INSTINCT code powering their onboard protominds is likely to have corrupted further since their creation.",
           "effect": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod",
           "actions": {
             "Autonomous Assault": {
-              "name": "Autonomous Assault",
-              "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
-              "detail": "You may automatically hit their target with the Autopod."
+              "name": "自動突擊炮火",
+              "trigger": "當其他角色攻擊一個在你 ⌿15 範圍內的目標，並消耗了<b>鎖定</b>時。",
+              "detail": "你可以使用自動莢艙自動命中該目標。"
             }
           }
         }
       }
     },
     "H0R_OS System Upgrade I": {
-      "name": "H0R_OS System Upgrade I",
-      "description": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig.",
+      "name": "H0R_OS 系統升級 I",
+      "description": "這項系統升級似乎新增了可獨立運作於基礎直覺系統之外的輔助直覺系統，進一步提升系統性入侵的效能。駕駛員回報指出，在未安裝主系統的情況下運行此系統時，他們會聽見一股令人不安的低頻嗡鳴聲。",
       "actions": {
         "Puppet System": {
-          "name": "Puppet System",
-          "detail": "Your target moves its maximum Speed in a direction of your choice. They can be moved into hazardous areas and other obstacles, but are still affected by difficult terrain, obstructions, and so on. This movement is involuntary, but provokes reactions and Engagement as normal and doesn’t count as Knockback, pushing, or pulling."
+          "name": "傀儡系統",
+          "detail": "你的目標往你選擇的任意方向移動等同其速度最大值的距離。他可以移動進入危險地區或其他阻礙區域，但仍然會受到困難地形、障礙物等因素影響。這個移動屬於強制移動，但仍然會如常觸發反應和交賺，且不被視為擊退、推動、或拉動。"
         },
         "Eject Power Cores": {
-          "name": "Eject Power Cores",
-          "detail": "Your target becomes Jammed until the end of their next turn as you temporarily disrupt their systems, ejecting ammo magazines and cooling rods. Characters adjacent to your target take 2 energy damage. This can only be used 1/scene on each character."
+          "name": "彈出能源核心",
+          "detail": "你暫時干擾目標的系統，彈出其彈匣和冷卻棒，使你的目標陷入<b>受擾</b>狀況，持續直到其下一回合結束。與你目標鄰接的角色會受到 2 能量傷害。這個選項每個場景只能對每個角色各使用一次。"
         }
       }
     },
