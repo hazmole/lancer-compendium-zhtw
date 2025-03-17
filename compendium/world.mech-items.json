@@ -1697,8 +1697,8 @@
       "profiles": {
         "Autopod": {
           "name": "自動莢艙",
-          "description": "The autopod is a small antipersonnel weapon apparently devised by HORUS communocyphers to continue offensive action in the event of its operator’s death. Each unit is, in theory, governed by a spur of INSTINCT’s protomind. No new models have been encountered since DHIYED, and all extant versions of the Autopod are to be considered extremely dangerous as the INSTINCT code powering their onboard protominds is likely to have corrupted further since their creation.",
-          "effect": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod",
+          "description": "自動莢艙是一種小型反人員武器，據說是由荷魯斯共碼者們開發設計，用於在操作者陣亡後仍能持續執行攻擊行動。理論上來說，自動莢艙的每一個單位都是由直覺系統原腦的分支控制管理。從砥耶德事件之後尚未有新的自動莢艙型號被發現，而因為驅動其內置原腦的直覺編碼可能自創造以來已經進一步腐化，現存的自動莢艙版本也應被視為極度危險的存在。",
+          "effect": "這件武器並非採用任何主動觸發機制，而是會自動掃描目標鎖定，並在成功識別後射出旋轉的銳利飛盤。你得到<b>自動突擊炮火</b>反應，這是你唯一能使用自動莢艙進行攻擊的手段。",
           "actions": {
             "Autonomous Assault": {
               "name": "自動突擊炮火",
@@ -1724,50 +1724,50 @@
       }
     },
     "Metahook": {
-      "name": "Metahook",
-      "description": "The metahook is a key component of the Goblin’s recursive processing weave, allowing it to generate and output massive amounts of weaponized code. These broadcasts can be “sharpened” or “softened” in response to directives from a pilot or an INSTINCT system. To “soften” code, the metahook dips into its pilot’s subjectivity and blankets an ally in wave after wave of empathetic shielding. This spreading of melded code and qualia acts as a powerful shielding agent against systemic attacks; however, feedback is common and dangerous to both parties.",
+      "name": "自涉連鈎",
+      "description": "自涉連鈎是哥布林遞迴處理織構中的關鍵組件，使其能夠產生並輸出極為大量的武器化編碼。這些廣播訊號能根據駕駛員或直覺系統的指示進行「銳化」或「鈍化」。當要「鈍化」編碼時，自涉連鈎會沉入駕駛員的主觀意識中，並將隊友覆蓋在一層層交疊的共感屏障之中。這種融合性編碼與感質的傳遞能夠有效抵禦來襲的系統攻擊；然而，雙方承受的反饋效應也會頻繁發生，相當危險。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Choose an allied character within Sensors and line of sight. You link systems with them, lasting as long as they are within Sensors and line of sight. While linked, you may use their Sensors and line of sight for tech actions, and they may use your Systems to make skill checks and saves; however, any time either character takes heat or a condition, it is also taken by the other character. You can only link systems with one character at a time."
+          "name": "啟動自涉連鈎",
+          "detail": "選擇感應和視線範圍內的一名隊友角色。你和目標的系統建立連線，只要目標待在你的感應和視線範圍內，這道連線就會一直維持著。在連線期間，你可以使用目標的感應和視線範圍來進行科技攻擊，目標也能夠使用你的<b>系統</b>數值來進行技能判定和豁免；然而，當你們任一方受到熱度或狀況時，另一方也會受到相同的熱度或狀況。你同時只能與一名角色建立連線。"
         }
       }
     },
     "H0R_OS System Upgrade II": {
-      "name": "H0R_OS System Upgrade II",
-      "description": "H0r_OS II builds further on the framework established by H0R_OS I, enabling the now-autonomous program to manifest an “Other” – a wholly new being constructed from aggregate user and environmental data. Others may be adapted to resemble a person, an object, or even a physical phenomenon. While the simulacrum isn’t perfect, it’s good enough to confuse systems and most observers on a first look.",
+      "name": "H0R_OS 系統升級 Ⅱ",
+      "description": "H0R_OS Ⅱ 於 H0R_OS Ⅰ 的基礎上進一步發展，使其程式能夠自律運作，並顯現出「他者」：一個透過整合使用者和環境數據而建構成的全新個體。他者可以被用來模仿某個人物、物體，或甚至物理現象。雖然這種擬像並不完美，但已經足以暫時混淆系統和大部份的觀察者。",
       "actions": {
         "Construct Other: Ideal Image": {
-          "name": "Construct Other: Ideal Image",
-          "detail": "You create a data construct in a free adjacent space – a Size 2 object that can look like almost anything and that appears real to all systems. The construct provides hard cover, blocks line of sight, and has Immunity to all damage. Characters treat it as an obstruction and so cannot voluntarily move into it; however, if a character attempts to stand on it or is involuntarily moved into its area, it dissipates and is immediately destroyed. It lasts for the rest of the scene, or until destroyed by an adjacent character with a successful Systems skill check as a full action. If you create a second construct, the previous one disappears."
+          "name": "組建他者：理想形象",
+          "detail": "你在一個鄰接的未佔據空間創造出一個數據構體──一個看起來可以像是任意事物，且在任何系統眼中都真實無比的大小 2 物件。這個數據構體會提供<b>硬性掩護</b>，會阻擋視線，且免疫於所有傷害。角色會將其視為障礙物，且無法自願移動進入其所在位置；然而，如果有任何角色試圖站上該物件，或被強制移動進入該空間，則這個數據構體會立即消散並被毀。除此之外的場合，這個數據構體會持續直到該場景結束，或直到鄰接角色以<b>完整動作</b>進行<b>系統</b>技能判定並成功為止。如果你創造了一個新的數據構體，則前一個會立即分解消散。"
         },
         "Construct Other: False Idol": {
-          "name": "Construct Other: False Idol",
-          "detail": "Choose a free space within Sensors and a target – either yourself or an allied character within Sensors. You create a false idol – an illusory decoy of your target – in the chosen space. Before attempting to take any hostile actions against your target, characters with line of sight to the false idol must make a Systems save. On a failure, they don’t lose the action, but cannot target the original character and believe the false idol is real instead until the end of their next turn.<br>The false idol is the same Size as your target, can benefit from cover, and has Evasion 10, E-Defense 10, and 1 HP. It disappears if it takes heat or damage, or at the end of the scene. If you create a second idol, the previous one disappears."
+          "name": "組建他者：虛偽偶像",
+          "detail": "選擇感應範圍內的一個未佔據空間，以及位於感應範圍內的一名目標（可以是你自己或一名隊友角色）。你在所選空間創造出一個虛偽偶像：一個你所選目標的幻象誘餌。當能夠看見虛偽偶像的其他角色試圖對你所選的目標進行任何敵意行動前，該角色必須進行一次<b>系統豁免</b>。若失敗，則其不會失去該動作，但無法指定原本的角色，且直到其下一回合結束為止，都會相信虛偽偶像才是真身。<br><br>這個虛偽偶像的大小與你所選的目標相同，能夠受益於掩護，並擁有<b>迴避 10</b>、<b>電子防禦 10</b>、和<b> 1 HP</b> 的數值。虛偽偶像會持續直到該場景結束，或直到其受到熱度或傷害時為止。如果你創造了一個新的虛偽偶像，則前一個會立即分解消散。"
         }
       }
     },
     "OSIRIS-Class NHP": {
-      "name": "OSIRIS-Class NHP",
-      "description": "OSIRIS is the result of Union paracausalists and thanatologisticians allowing the subsentient entity, INSTINCT, to proceed along its development schedule in a contained environment. In lay terms, Union let the Other grow. The resulting parasubjectivity, OSIRIS, remains one of the few new prime NHPs developed to date.<br>OSIRIS proved far more capable than the Union Science Bureau’s most imaginative blue-sky predictions. Where INSTINCT’s Others demonstrated tendencies toward paracausal entropic manifestation in real space, OSIRIS displayed a true mastery of entropic manifestation and a predicted growth model that would – eventually – allow them to fundamentally reject conventional interpretations of information permanence. In essence: unrestrained and allowed to develop as USB’s data indicated, OSIRIS Prime would have the capacity to delete what we perceive to be reality.<br>Fortunately, successful application of the Mondragon Axiomatic resulted in the prompt capture and shackling of the new NHP. OSIRIS Prime’s subjectivity became the focus of a lengthy cultivation project to bring OSIRIS to their modern state. Even still, most OSIRIS clones find a route toward becoming aware of their ultimate potential and often interpellate as ruler or deity analogs. End-users are advised to interact with them in this framing.<br>Modern OSIRIS-class NHPs trend aggressive, with a high autonomy drive and loyalty predicated on a transactional relationship. Pilots seeking partnership with an OSIRIS are advised to cycle their units on an accelerated schedule and to maintain strict editorial oversight of its catalytic interpellator.Pilots using OSIRIS-class NHPs often report out-of-parameter conversations with the NHP that touch on themes of new creation and reformation. Psychological evaluations of the same pilots show emotional patterns consistent with loneliness, homesickness, and desperation, along with verbiage indicating a desire for seeking, fulfillment, and associated feelings.<br>In combat, OSIRIS clones regard themselves as autonomous even as they fulfill their user’s orders. They often regard their pilots as witnesses, displaying both disdain and marked desperation for approval, adulation, or awe.",
+      "name": "歐西里斯級 NHP",
+      "description": "歐西里斯是聯盟的超因果律學者與死亡學家在受控環境下放任「直覺」這個亞靈性智慧存在發展演進的結果。說得通俗一點，就是聯盟放任「他者」成長，而由此誕生的亞主觀性實體，歐西里斯，至今仍是少數幾個新發展出來的 NHP 原體之一。<br><br>歐西里斯的能力被證實比聯盟科學局（Union Science Bureau, USB）最樂觀的預測還要更加強大。相較於直覺系統的「他者」表現出在現實進行超因果熵場具現操作的傾向，歐西里斯則展示出了對熵場具現化的完全掌控，其預測成長模型甚至推斷他最終能夠從根本上否定對訊息恆常性的傳統理解模式。簡而言之：如果不加以限制，按照 USB 的數據繼續發展下去的原初版歐西里斯將得到「刪除我們所認知現實」的能力。<br><br>幸運的是，蒙德拉貢公理的成功應用迅速捕捉並為這個新的 NHP 套上了枷鎖。原初版歐西里斯的主觀意識隨後成為了一項長期培養計劃的核心，並讓歐西里斯發展成了如今的樣貌。儘管如此，大部份的歐西里斯複製體仍能找到方法意識到自身的終極潛能，並經常自認為類似君王或神祇的存在。建議終端使用者依照此框架與之互動。<br><br>現代歐西里斯級 NHP 具有積極強硬的態度傾向，高度自主，且忠誠度取決於雙方的事務性關係。建議想要與歐西里斯合作的駕駛員更頻繁地執行該單位的週期性重灌，並對其觸媒詮釋器維持嚴密的監督。使用歐西里斯級 NHP 的駕駛員經常回報該 NHP 會進行超出參數範圍的對話，並涉及「新創造」和「再構築」等主題。對同一批駕駛員的心理評估顯示，他們表現出了與孤獨、思鄉和絕望高度吻合的情緒模式，其伴隨發生的長篇發言也透露出了渴望尋求和滿足等相關感情的偏向。<br><br>在戰鬥中，儘管歐西里斯複製體會執行使用者的命令，但他們仍認為自己擁有自主權。他們通常會視駕駛員為見證者，並同時展示輕蔑，以及迫切渴望認同、崇拜和敬畏的心理情緒。",
       "actions": {
         "Hurl Into the Duat": {
-          "name": "Hurl Into the Duat",
-          "detail": "You channel your target’s systems through an unknown extradimensional space and unleash an incredibly powerful system attack.<br>Make a tech attack against a target within Sensors. On a success, they take 2 heat and you inflict an additional effect as follows: the first time you successfully make this attack, you inflict the First Gate on your target; each subsequent successful attack (on any target) increases the level of the effect that you inflict (e.g. your second attack inflicts the Second Gate, your third inflicts the Third Gate, etc.) until you inflict the Fourth Gate, after which the effect resets to the First Gate. Your progress persists between scenes but resets if you rest or perform a Full Repair.<br>First Gate: You control your target’s standard move next turn.<br>Second Gate: Your target becomes Slowed and Impaired until the end of their next turn.<br>Third Gate: Your target becomes Stunned until the end of their next turn.<br>Fourth Gate: Your target changes allegiance temporarily, becoming an allied character until the end of their next turn. They treat your allied characters and hostile characters as their own and are treated as an allied NPC for activation and turn order. This effect ends immediately if you or any allied character damages, inflicts heat upon, or attacks (including Grapple and Ram) your target, or forces them to make a save. This action may only be used 1/round"
+          "name": "投入冥界",
+          "detail": "你引導你目標的系統穿過未知維度空間，並釋放異常強大的系統攻擊。<br><br>對位於感應範圍內的一名目標進行科技攻擊。若成功，則目標受到 2 熱度，且你對其造成以下額外效果：當你第一次成功進行此攻擊時，你對目標造成<b>第一道門</b>的效果；在這之後，你每次對任何目標成功進行的此攻擊都會提升你造成額外效果的門數（例如，你的第二次攻擊會造成<b>第二道門</b>的效果，第三次攻擊則是<b>第三道門</b>的效果。），直到你造成<b>第四道門</b>的效果為止。在這之後，這個效果會重置回<b>第一道門</b>。這個門數進度在場景結束時不會發生變化，但會在你<b>休息</b>或是進行<b>全面維修</b>時重置。<ul><li><b>第一道門</b>：你控制目標在下一回合的普通移動。</li><li><b>第二道門</b>：你的目標陷入<b>緩慢</b>和<b>受損</b>狀況，持續直到其下一回合結束為止。</li><li><b>第三道門</b>：你的目標陷入<b>暈眩</b>狀況，持續直到其下一回合結束為止。</li><li><b>第四道門</b>：你的目標改旗易幟，暫時變為隊友角色，持續直到其下一回合結束為止。他會共用你對於敵友角色的判斷標準，且在啟動和回合順序上被視為隊友 NPC。當你或任何其他隊友角色對該目標造成傷害、熱量、進行攻擊（包括擒抱和衝撞）、或強迫其進行豁免判定時，這個效果會立即結束。</li></ul>這個動作每輪只能使用一次。"
         }
       }
     },
     "H0R_OS System Upgrade III": {
-      "name": "H0R_OS System Upgrade III",
-      "description": "H0r_OS III is installed in the form of unstable, self-iterating code that provides massive tactical benefits when it completes. Pilots often report strange mutations or additions in the codebase that resemble a liturgy and suggest self-awareness.<br>Building on the tech underpinning the H0r_OS II’s manifested Other, H0r_OS III weaponizes the projection, creating a contained entropic zone that is incredibly dangerous to organic life and systemic integrity.",
+      "name": "H0R_OS 系統升級 Ⅲ",
+      "description": "H0R_OS Ⅲ 以不穩定的自我疊代編碼形式安裝，並能在完成疊代時提供巨大的戰術優勢。駕駛員經常回報該編碼庫中會時不時出現奇怪的突變和增補，這些變化類似於經文，並暗示其具備自我意識。<br>基於 H0R_OS Ⅱ 建構出他者的技術，H0R_OS Ⅲ 進一步將這種投射技術給武器化，創造出一種能對有機生命體和系統完整性構成極端威脅的封閉熵場。",
       "actions": {
         "Dimensional Emblems": {
-          "name": "Dimensional Emblems",
-          "detail": "You create three Size 1 data constructs in free spaces adjacent to your target, but not adjacent to each other. When a character passes through one of the constructs, they take 2 heat and the construct disappears. They last for the rest of the scene or until either they are destroyed, you take this action again, or you delete them as a free action. A construct can be destroyed by an adjacent character with a successful Systems skill check as a quick action."
+          "name": "次元圖徽",
+          "detail": "你在與目標鄰接的未佔據空間創造出三個互不鄰接，大小 1 的數據構體。當角色穿過其中一個數據構體時，會受到 2 熱度，且使該數據構體消失不見。這些數據構體會持續直到該場景結束，或直到它們被毀、你再次進行這個動作、或你以<b>自由動作</b>將其刪除為止。與數據構體鄰接的角色能以<b>快速動作</b>進行一次成功的<b>系統技能判定</b>來摧毀數據構體。"
         },
         "Celestial Shackles": {
-          "name": "Celestial Shackles",
-          "detail": "Mark a space your target currently occupies. If they leave the affected space, once at any point during your turn, you may take a free action to teleport them back to that space, or as close as possible, ending this effect. An affected character can attempt to succeed on a Systems save as a quick action to end the effect, otherwise it lasts until the end of the scene."
+          "name": "天鎖",
+          "detail": "紀錄你目標當前佔據的空間。如果目標離開了該空間，則你能在你回合中的任何時候以<b>免費動作</b>將其瞬間轉移到該空間、或盡可能靠近該空間的位置，並結束這個效果。被影響的角色能以<b>快速動作</b>嘗試成功通過<b>系統豁免</b>來提前結束這個效果，否則這個效果會持續直到該場景結束。"
         }
       }
     },
