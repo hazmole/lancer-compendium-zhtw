@@ -118,9 +118,9 @@
       "detail": "Expend a charge to set an explosive charge in a free adjacent space. It arms at the end of the round; once armed, it explodes if it takes any damage or heat. Characters within Burst 3 must succeed on an AGILITY save or take 2d6 Explosive damage and be pushed out of the affected area, or as far as possible. On a success, they are still pushed but take half damage."
     },
     "Mesmer Mine": {
-      "name": "Mesmer Mine",
-      "tokenName": "Mesmer Mine",
-      "detail": "Characters within the affected Burst 2 area must succeed on a Systems save or become Immobilized until the end of their next turn."
+      "name": "麥斯麥催眠地雷",
+      "tokenName": "麥斯麥催眠地雷",
+      "detail": "所有位於其<b> 爆發 2 </b>範圍內的角色必須成功通過<b>系統豁免</b>，否則陷入<b>固定</b>狀況，持續直到其下一回合結束為止。"
     },
     "Omnibus Plate": {
       "name": "Omnibus Plate",

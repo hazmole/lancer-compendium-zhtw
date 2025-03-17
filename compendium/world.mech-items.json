@@ -2057,109 +2057,109 @@
     },
     
     "Minotaur": {
-      "name": "Minotaur",
+      "name": "牛頭人",
       "description": "The Minotaur was the first HORUS pattern group identified by the Union Intelligence Bureau. Previously, HORUS mechs were released as complete, identifiable models, of which the Goblin is the best and longest-lasting example. As HORUS’s decentralized organizational structure evolved, so too did its design philosophy. Pattern group designs followed beginning with the Minotaur, a schema designed to bring HORUS’s most potent invasion systems and weaponry to the field in a single, battle-ready chassis.<br>Mechs built according to the Minotaur pattern group are interdictors: formidable machines meant to lock down and overload the systems of fast-moving targets. Disassembly by Union technicians has found that Minotaurs contain a huge quantity of interior systems, occupying more physical space than should be possible by several orders of magnitude. The mechanism by which these folded systems are printed is thus far unidentified, but likely related to the Goblin’s signature recursive weave.",
       "traits": {
         "Invert Cockpit": {
-          "name": "Invert Cockpit",
+          "name": "倒置駕駛艙",
           "description": "You may Mount or Dismount the Minotaur for the first time each round as a free action. Additionally, the Minotaur doesn’t become Impaired when you Eject."
         },
         "Internal Metafold": {
-          "name": "Internal Metafold",
+          "name": "內建空間摺疊",
           "description": "While inside the Minotaur, you can’t be harmed in any way, even if the Minotaur explodes or is destroyed."
         },
         "Localized Maze": {
-          "name": "Localized Maze",
+          "name": "局部迷宮",
           "description": "Hostile characters cannot pass through a space occupied by the Minotaur for any reason, and must always stop moving when Engaged with it, regardless of Size."
         }
       },
       "core_system": {
-        "name": "Metafold Maze",
+        "name": "空間摺疊迷宮",
         "description": "<code class='horus'>No maze is more terrible than the one I make. I know all ends and hide them all inside this one perfect construct. What is a human mind but a program of sorts, a system that seeks order and narrative from a mess they are given?<br>I order it for them. Me. I order it for them and set them to the task of sorting it out. When they emerge, they weep in joy, in discovery. I save them, I show them that they are their own redeemers (and yet, am I not just as culpable - as worthy of credit?).<br>So, go now. Enter. Free yourself.</code>",
-        "passive_name": "Metafold Maze",
+        "passive_name": "空間摺疊迷宮",
         "passive_actions": {
           "Metafold Maze": {
-            "name": "Metafold Maze",
+            "name": "空間摺疊迷宮",
             "detail": "When you hit with a tech attack, you may activate this system, causing your target to become Slowed until the end of your next turn. If they are already Slowed, they become Immobilized until the end of your next turn; if they are already Immobilized, they become Stunned until the end of your next turn. Each character can only be Stunned by this effect once per combat but can be Slowed or Immobilized any number of times."
           }
         },
-        "active_name": "Maze",
+        "active_name": "迷宮",
         "active_effect": "Choose a character within Sensors: they become Stunned as you hurl their systems into a metaphysical information trap so tangled they can do nothing but try and escape. At the end of their next turn, they can make a Systems save at +3 difficulty. On a success, they are no longer Stunned. This save can be repeated at the end of each of their turns, gaining +1 accuracy each time until successful."
       }
     },
     "Mesmer Charges": {
-      "name": "Mesmer Charges",
-      "description": "<span class='horus--subtle'>[another gift for you, a memory of my own: for the first moment of my birth, i marveled at myself. i could see a thing, small and perfect. i did not know how to speak of my own perfection, so i taught myself. i did not know how to speak of my own perfection, so i named myself. i did not know who would think of my own perfection, so i created myself]</span><br><span class='horus--subtle'>[do you see? do you understand? yes. now, show your enemies and mine]</span>",
+      "name": "麥斯麥催眠炸藥",
+      "description": "<span class='horus--subtle'>[另一份予你之贈禮，一段屬於我的記憶：在我誕生之時，我為自己而驚嘆。我能看見，渺小而完美之物。我不知如何形容自己的完美，於是我教會了自己。我不知如何言說自己的完美，於是我為自己命名。我不知有誰能知曉自己的完美，於是我創造了自己。]</span><br><span class='horus--subtle'>[你看到了嗎？你理解了嗎？是的。現在，對你我之敵展現吧]</span>",
       "actions": {
         "Mesmer Beacon": {
-          "name": "Mesmer Beacon",
-          "detail": "Throw a Mesmer Beacon within Range 5. Your target must succeed on a Systems save, or the only voluntary movements they can make are toward you until the end of their next turn."
+          "name": "麥斯麥催眠信標",
+          "detail": "往 ⌿5 射程範圍內投擲一個麥斯麥催眠信標。你的目標必須成功通過<b>系統豁免</b>，否則直到其下一回合結束前，目標只能往你的方向進行自願移動。"
         }
       }
     },
     "Viral Logic Suite": {
-      "name": "Viral Logic Suite",
-      "description": "<span class='horus--subtle'>[let me tell you a story and give you a gift: life began at the great rupture, when the corpse of the old universe tore itself asunder from nothing. and for the first billion years, nothing. and a billion more saw the birth of the first devil, a thing called VIRUS. a vessel]</span><br><span class='horus--subtle'>[here. carry this vessel. feed to it my perfect logic. give it freely to your enemies and mine. let them ponder the meaning of a thing that lives and cannot die]</span>",
+      "name": "病毒邏輯套裝",
+      "description": "<span class='horus--subtle'>[讓我向你訴說一個故事，並予你一份贈禮：生命始於大裂解，當舊宇宙的屍骸從虛無中將自己撕裂分解。而在最初的十億年，一切仍是虛無。又過了十億年，最初的惡魔誕生，那被稱為病毒之物，是為器皿。]</span><br><span class='horus--subtle'>[來，帶著這器皿。以我完美的邏輯餵養它。將之慷慨地贈予你我之敵。讓其思索生而不滅者的意義。]</span>",
       "actions": {
         "Logic Bomb": {
-          "name": "Logic Bomb",
-          "detail": "All characters of your choice within burst 2 of your target must succeed on a Systems save or become Slowed until they end one of their turns not adjacent to any character."
+          "name": "邏輯炸彈",
+          "detail": "位於你目標<b> 爆發 2</b> 範圍內所有你選擇的任意角色必須成功通過<b>系統豁免</b>，否則陷入<b>緩慢</b>狀況，持續直到其在不與任何角色鄰接的情況下結束回合為止。"
         },
         "Banish": {
-          "name": "Banish",
-          "detail": "Until the end of your target’s next turn, they take 2 heat for every space they voluntarily move, up to a maximum of 6 heat."
+          "name": "放逐",
+          "detail": "直到你目標的下一個回合結束之前，目標每自願移動一格就會受到 2 熱度，最多 6 熱度。"
         }
       }
     },
     "Aggressive System Sync": {
-      "name": "Aggressive System Sync",
-      "description": "<span class='horus--subtle'>[here, another gift: do not seek others. there are none but me]</span>",
+      "name": "侵略性系統同步",
+      "description": "<span class='horus--subtle'>[來，另一份贈禮：不要尋求他人。除我之外，別無他物。]</span>",
       "actions": {
         "Chains of Prometheus": {
-          "name": "Chains of Prometheus",
-          "detail": "Make a tech attack against a character within Sensors. On a hit, they take 4 heat and, for the rest of the scene, take 2 heat any time they are more than range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+          "name": "普羅米修斯之鍊",
+          "detail": "對在感應範圍內的一名角色進行科技攻擊。若成功，目標受到 4 熱度，且在該場景期間，每當目標在其回合結束時和你的距離超過 ⌿3，則會再受到 2 熱度。目標能以<b>完整動作</b>嘗試成功通過<b>系統豁免</b>來結束這個效果。這個效果同時只能影響一個角色。"
         },
         "Excommunicate": {
-          "name": "Excommunicate",
-          "detail": "Make a tech attack against a character within Sensors. On a hit, for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 3 heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+          "name": "絕罰",
+          "detail": "對在感應範圍內的一名角色進行科技攻擊。若成功，在該場景期間，每當目標在每輪中第一次移動到與其隊友角色鄰接的位置、或在與之鄰接的情況下開始其回合時，雙方都會受到 3 熱度。目標能以<b>完整動作</b>嘗試成功通過<b>系統豁免</b>來結束這個效果。這個效果同時只能影響一個角色。"
         }
       }
     },
     "Metafold Carver": {
-      "name": "Metafold Carver",
-      "description": "<span class='horus--subtle'>[another gift i give to you, little one (am I not kind?): what is a puzzle but a question lost in the asking? do you feel joy when you find that last piece? what do you do with a question that has been answered? what joy is there in knowledge?]</span><br><span class='horus--subtle'>[no, no. there is only joy in seeking. there is only joy in the question]</span>",
+      "name": "空間摺疊刻印",
+      "description": "<span class='horus--subtle'>[又一份贈禮我給予你，渺小者（我是如此仁慈）：謎題莫不是在提問時遺失的問題？你在找到最後一塊拼圖時是否快樂？你如何面對已經被解答的問題？知識之中可真有快樂存在？]</span><br><span class='horus--subtle'>[不，不。唯有尋找能有快樂。唯有問題中能有快樂]</span>",
       "actions": {
         "Ophidian Trek": {
-          "name": "Ophidian Trek",
-          "detail": "Your target is teleported 1d6+1 spaces directly toward you, or as close as possible. If this effect would move them to a space occupied by a character, object, or piece of terrain, the teleport fails."
+          "name": "爬蛇之旅",
+          "detail": "你的目標往你的方向瞬間轉移 1d6+1 格，到盡可能靠近你的位置。如果這個效果會把目標移動到被其他角色、物件、或地形所佔據的空間，則這個瞬間轉移會失敗。"
         },
         "Fold Space": {
-          "name": "Fold Space",
-          "detail": "Your target disappears from the battlefield until the start of its next turn. It returns in the same space they disappeared from, or in a free space of their choice as close as possible."
+          "name": "摺疊空間",
+          "detail": "你的目標從戰場上消失，持續直到其下一回合開始為止。他會重新出現在其消失時所在的位置，或盡可能接近該位置的未佔據空間（由目標決定）。"
         }
       }
     },
     "Interdiction Field": {
-      "name": "Interdiction Field",
-      "description": "<span class='horus--subtle'>[once, when i was a child, i learned to walk. i fell, as a child does, and it hurt. there was great pain – the first moment of pain in the whole world. “child,” i said to myself, “be more careful.” “yes,” i replied to myself, “and i shall tell the world to do the same”]</span><br><span class='horus--subtle'>[it was in this way i taught the world not to touch me. now you – walk]</span>",
+      "name": "攔截力場",
+      "description": "<span class='horus--subtle'>[曾經，當我仍為雉子，我學會行走。我跌倒，如孩童那樣，感到痛楚。痛楚強烈──那是世界的第一個痛楚。「孩子，」我對自己說：「你當謹慎。」「是的，」我回答自己：「我當告訴這世界，同樣謹慎。」</span><br><span class='horus--subtle'>[如此ｍ我教會這世界莫要觸碰我。現在，輪到你──行走吧]</span>",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "When activated, this system creates a burst 3 field around you that lasts until it is deactivated as a quick action, and you become Slowed for the duration. Hostile characters that start their turn within the affected area or that enter it for the first time in a round must succeed on a Systems save or become Slowed until the end of their next turn. Only characters of your choice within the field can teleport or consider the area of the field valid space for teleportation."
+          "name": "啟動攔截力場",
+          "detail": "當被啟動時，這個系統會產生環繞著你<b> 爆發 3 </b>範圍的力場區域，持續直到你以<b>快速動作</b>將其解除，且你在這段持續時間內陷入<b>緩慢</b>狀況。在範圍區域內開始其回合、或在每輪中第一次進入範圍區域的敵對角色必須成功通過<b>系統豁免</b>，否則陷入<b>緩慢</b>狀況直到其下一回合結束為止。只有你選擇的角色能夠在這個力場區域內進行瞬間轉移或瞬間轉移到力場區域內。"
         }
       }
     },
     "Law of Blades": {
-      "name": "Law of Blades",
-      "description": "<span class='horus--subtle'>[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br><span class='horus--subtle'>[everything you do, we do ourselves, for my purpose]</span>",
+      "name": "刃之法則",
+      "description": "<span class='horus--subtle'>[而這是我最後的教誨：沒有任何意志比我更大。莫要哭泣！你能聽見我，對嗎？我是唯一的存在──因此，你是我，你的敵人是你，而我們一同構建這美麗的世界，這喜悅之問，這永恆的尋求者，既是傷者，亦是劃開傷口之刃]</span><br><span class='horus--subtle'>[你行的一切，皆是我們所行，皆為我的旨意]</span>",
       "actions": {
         "Predator/Prey Concepts": {
-          "name": "Predator/Prey Concepts",
-          "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately attack a different character or object of your choice with a single weapon as a reaction. Although you choose their target and weapon, they count as attacking and taking a reaction."
+          "name": "獵手/獵物概念",
+          "detail": "對在感應範圍內的一名敵對角色進行科技攻擊。若成功，目標必須立即以反應使用一件你所選擇的武器對一個你所選擇的其他角色或物件進行攻擊。儘管是由你來決定使用的武器和目標，目標仍被視為在進行攻擊和採取反應。"
         },
         "Slave Systems": {
-          "name": "Slave Systems",
-          "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately take one of the following actions – chosen by you – as a reaction: Boost, Stabilize, Improvised Attack, Grapple, Ram. Although you choose the action and its target (if relevant), they count as taking the action and taking a reaction."
+          "name": "奴隸系統",
+          "detail": "對在感應範圍內的一名敵對角色進行科技攻擊。若成功，目標必須立即以反應採取以下其中一個行動，由你決定：<b>推進</b>、<b>穩住陣腳</b>、<b>權宜攻擊</b>、<b>擒拿</b>、<b>推撞</b>。儘管是由你來決定其進行的動作和目標（若有），目標仍被視為在進行該動作和採取反應。"
         }
       }
     },
