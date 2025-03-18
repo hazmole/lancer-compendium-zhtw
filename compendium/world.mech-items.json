@@ -1585,7 +1585,7 @@
 
     "Balor": {
       "name": "Balor",
-      "description": "如同大部分的荷魯斯樣式組，炎魔有著千萬張不同的面孔。炎魔樣式組，就跟所有的荷魯斯樣式組一樣，並非用來描述一種單一、可辨識的機種，而是泛指一系列共享類似戰場定位的基模。這些基模範型能夠依照駕駛員的規則需求進行列印，並應用於完全客製化的物理框架上。值得注意的是，炎魔樣式組僅能穩定運作於大型平台（二級或以上），因為只有這類平台能夠提供其所需的龐大能量輸出——最好再搭配多重備援系統，以防止發生災難性的系統故障。<br>炎魔樣式組最早的遭遇紀錄，是信天翁和 DoJ/HR 在桑賈克叛亂後，於海拉丁的布蘭卡沙漠中聯合追捕無底洞────一個自由傭兵團轉化的去中心化集團──的過程中被發現。在那場戰役中，聯合部隊與其遭遇，交戰，並最終擊敗了無底洞以及他們使用的炎魔機體──聯盟中央委員會希望這場戰役能夠遏制奈米蠱的爆發。然而，隨後在海拉丁陸續爆發的炎魔事件證明了這個希望終究落空，而這一樣式組仍持續在男爵領的領空肆虐，在卡拉金指揮官之間引發恐慌。<br>在戰場上，炎魔依靠神經同步的地獄蟲群和奈米灰蠱形成了一層不斷流動的防護帷幕，能在瞬間從機體中洶湧而出，以瘋狂變換的型態構築出末世論般的防衛和攻擊系統。一台以最大功率運作的炎魔，比起其物理結構，更像是依賴其翻湧烈焰般的奈米機器來維持其形態。這個特性使其能夠將動能與相干粒子能量分散至整個機體內外，讓攻擊炎魔的過程更像是「朝著憤怒的沸水射擊一樣」──就如某份戰後報告所形容的那樣。",
+      "description": "如同大部分的荷魯斯模板群組，炎魔有著千萬張不同的面孔。炎魔模板群組，就跟所有的荷魯斯模板群組一樣，並非用來描述一種單一、可辨識的機種，而是泛指一系列共享類似戰場定位的基模。這些基模範型能夠依照駕駛員的規則需求進行列印，並應用於完全客製化的物理框架上。值得注意的是，炎魔模板群組僅能穩定運作於大型平台（二級或以上），因為只有這類平台能夠提供其所需的龐大能量輸出——最好再搭配多重備援系統，以防止發生災難性的系統故障。<br>炎魔模板群組最早的遭遇紀錄，是信天翁和 DoJ/HR 在桑賈克叛亂後，於海拉丁的布蘭卡沙漠中聯合追捕無底洞────一個自由傭兵團轉化的去中心化集團──的過程中被發現。在那場戰役中，聯合部隊與其遭遇，交戰，並最終擊敗了無底洞以及他們使用的炎魔機體──聯盟中央委員會希望這場戰役能夠遏制奈米蠱的爆發。然而，隨後在海拉丁陸續爆發的炎魔事件證明了這個希望終究落空，而這一模板群組仍持續在男爵領的領空肆虐，在卡拉金指揮官之間引發恐慌。<br>在戰場上，炎魔依靠神經同步的地獄蟲群和奈米灰蠱形成了一層不斷流動的防護帷幕，能在瞬間從機體中洶湧而出，以瘋狂變換的型態構築出末世論般的防衛和攻擊系統。一台以最大功率運作的炎魔，比起其物理結構，更像是依賴其翻湧烈焰般的奈米機器來維持其形態。這個特性使其能夠將動能與相干粒子能量分散至整個機體內外，讓攻擊炎魔的過程更像是「朝著憤怒的沸水射擊一樣」──就如某份戰後報告所形容的那樣。",
       "traits": {
         "Scouring Swarm": {
           "name": "灼滅蟲群",
@@ -1655,7 +1655,7 @@
     
     "Goblin": {
       "name": "哥布林",
-      "description": "哥布林是第一架被識別為荷魯斯的機甲，有可能是在荷魯斯轉營為樣式組前就存在最古老的舊式骨架。來自哥布林零號模型的通訊紀錄顯示，此骨架最早於聯盟 4900 年就已經出現在萬物網上。這一年也因此被大部份研究該組織的學者和情報官認定為荷魯斯的「創立日」，然而，大量矛盾的證據表明，聯盟 4900 年可能遠遠晚於其實際創立的時間。<br><br>哥布林是一款不比衛士服大上多少的小型機甲，並利用其小巧體型和卓越的機動性來保護駕駛員。它搭載了獨特的遞迴處理織構，讓其能以遠超理論數值的表現發揮電子戰能力。<br><br>即使已經過一個世紀，GMS 的技術人員仍在努力對哥布林和其處理織構進行逆向工程。最近的研究表明，哥布林採用的技術與在 LRA.7726235-B 發現的聖書銘文具有一致性，且與聯盟情報局戈爾貢分隊在索洛托空間摺曲儲藏庫消失前所傳輸的石碑內容相互印證。",
+      "description": "哥布林是第一架被識別為荷魯斯的機甲，有可能是在荷魯斯的開發模式轉為模板群組前就存在最古老的舊式骨架。來自哥布林零號模型的通訊紀錄顯示，此骨架最早於聯盟 4900 年就已經出現在萬物網上。這一年也因此被大部份研究該組織的學者和情報官認定為荷魯斯的「創立日」，然而，大量矛盾的證據表明，聯盟 4900 年可能遠遠晚於其實際創立的時間。<br><br>哥布林是一款不比衛士服大上多少的小型機甲，並利用其小巧體型和卓越的機動性來保護駕駛員。它搭載了獨特的遞迴處理織構，讓其能以遠超理論數值的表現發揮電子戰能力。<br><br>即使已經過一個世紀，GMS 的技術人員仍在努力對哥布林和其處理織構進行逆向工程。最近的研究表明，哥布林採用的技術與在 LRA.7726235-B 發現的聖書銘文具有一致性，且與聯盟情報局戈爾貢分隊在索洛托空間摺曲儲藏庫消失前所傳輸的石碑內容相互印證。",
       "traits": {
         "Liturgicode": {
           "name": "禮拜編碼",
@@ -2057,34 +2057,34 @@
     },
     
     "Minotaur": {
-      "name": "牛頭人",
-      "description": "The Minotaur was the first HORUS pattern group identified by the Union Intelligence Bureau. Previously, HORUS mechs were released as complete, identifiable models, of which the Goblin is the best and longest-lasting example. As HORUS’s decentralized organizational structure evolved, so too did its design philosophy. Pattern group designs followed beginning with the Minotaur, a schema designed to bring HORUS’s most potent invasion systems and weaponry to the field in a single, battle-ready chassis.<br>Mechs built according to the Minotaur pattern group are interdictors: formidable machines meant to lock down and overload the systems of fast-moving targets. Disassembly by Union technicians has found that Minotaurs contain a huge quantity of interior systems, occupying more physical space than should be possible by several orders of magnitude. The mechanism by which these folded systems are printed is thus far unidentified, but likely related to the Goblin’s signature recursive weave.",
+      "name": "米諾陶",
+      "description": "米諾陶是第一款被聯盟情報局辨識出的荷魯斯機甲模板群組。在此之前，荷魯斯機甲仍然是以完整可辨識的機型形式生產，其中歷時最久也最具代表性的例子便是哥布林。然而，隨著荷魯斯去中心化組織結構的演進，其設計理念也隨之改變。而模板群組的設計模式，就是從米諾陶開始：這款機甲模板旨在將荷魯斯最強大的入侵系統和武裝整合在一個單獨，可隨時投入戰鬥的骨架之中。<br><br>依照米諾陶模板群組製造的機甲屬於攔截者：專為封鎖並癱瘓高速目標的系統而設計的強大戰鬥機器。聯盟的技術人員對米諾陶的拆解分析表明，該機體擁有大量的內部系統，其實際佔據的空間甚至比機甲理論上能提供的空間還要大上好幾個量級。關於這種摺曲系統的列印機制至今仍未解明，但極有可能和哥布林那標誌性的遞迴處理織構既術有關。",
       "traits": {
         "Invert Cockpit": {
           "name": "倒置駕駛艙",
-          "description": "You may Mount or Dismount the Minotaur for the first time each round as a free action. Additionally, the Minotaur doesn’t become Impaired when you Eject."
+          "description": "你能以<b>免費動作</b>在每輪中第一次對米諾陶進行<b>上馬</b>或<b>下馬</b>。此外，即使你進行<b>彈射</b>，米諾陶也不會因此陷入<b>受損</b>狀況。"
         },
         "Internal Metafold": {
           "name": "內建空間摺疊",
-          "description": "While inside the Minotaur, you can’t be harmed in any way, even if the Minotaur explodes or is destroyed."
+          "description": "當處於米諾陶機甲內部時，你不會因為任何原因（包括機甲爆炸或被毀）而受傷。"
         },
         "Localized Maze": {
           "name": "局部迷宮",
-          "description": "Hostile characters cannot pass through a space occupied by the Minotaur for any reason, and must always stop moving when Engaged with it, regardless of Size."
+          "description": "敵對角色無法因為任何原因而穿過米諾陶所佔據的空間，且無論大小，都必須在與米諾陶<b>交戰</b>時停止移動。"
         }
       },
       "core_system": {
         "name": "空間摺疊迷宮",
-        "description": "<code class='horus'>No maze is more terrible than the one I make. I know all ends and hide them all inside this one perfect construct. What is a human mind but a program of sorts, a system that seeks order and narrative from a mess they are given?<br>I order it for them. Me. I order it for them and set them to the task of sorting it out. When they emerge, they weep in joy, in discovery. I save them, I show them that they are their own redeemers (and yet, am I not just as culpable - as worthy of credit?).<br>So, go now. Enter. Free yourself.</code>",
+        "description": "<code class='horus'>「沒有迷宮比我建造的可怕。我知曉一切出路，並把它們悉數藏於這完美構造之中。人的意識為何？無非只是一種程式，一種在混沌中尋求秩序和敘事的系統。<br>我為他們安排。是我。我為他們布置，然後讓他們去尋求釐清。當他們終於走出，他們將因發現而喜極哭泣。我拯救他們，我向他們展現他們就是自己的救贖者（然而，難道我不是同樣該被譴責──又同樣值得讚頌嗎？）。<br>所以，去吧。進入其中。解放你自己。」</code>",
         "passive_name": "空間摺疊迷宮",
         "passive_actions": {
           "Metafold Maze": {
             "name": "空間摺疊迷宮",
-            "detail": "When you hit with a tech attack, you may activate this system, causing your target to become Slowed until the end of your next turn. If they are already Slowed, they become Immobilized until the end of your next turn; if they are already Immobilized, they become Stunned until the end of your next turn. Each character can only be Stunned by this effect once per combat but can be Slowed or Immobilized any number of times."
+            "detail": "當你使用科技攻擊命中目標時，你可以啟動這個系統，使你的目標陷入<b>緩慢</b>狀況，持續直到你的下一回合結束為止。如果目標已經處於<b>緩慢</b>狀況，則其改為陷入<b>固定</b>狀況直到你的下一回合結束為止；如果目標已經陷入<b>固定</b>狀況，則其改為陷入<b>暈眩</b>狀況直到你的下一回合結束為止。每個角色在一場戰鬥中只能因為這個效果陷入<b>暈眩</b>狀況一次，<b>緩慢</b>和<b>固定</b>狀況則不限次數。"
           }
         },
         "active_name": "迷宮",
-        "active_effect": "Choose a character within Sensors: they become Stunned as you hurl their systems into a metaphysical information trap so tangled they can do nothing but try and escape. At the end of their next turn, they can make a Systems save at +3 difficulty. On a success, they are no longer Stunned. This save can be repeated at the end of each of their turns, gaining +1 accuracy each time until successful."
+        "active_effect": "選擇在感應範圍內的一名角色，目標陷入<b>暈眩</b>狀況：你把目標的系統扔進了層層交疊的形上學情報陷阱中，使其除了嘗試逃脫之外什麼事都不能做。在其下一回合結束時，目標可以進行帶有 +3 難度的<b>系統豁免</b>，若成功則解除<b>暈眩</b>狀況。目標可以在每個自己的回合結束時重複進行這個豁免，每次得到 +1 準度，直到其成功為止。"
       }
     },
     "Mesmer Charges": {
@@ -2166,7 +2166,7 @@
 
     "Pegasus": {
       "name": "天馬",
-      "description": "天馬型樣式組最早出現在聯盟和昂星霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該樣式組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該樣式組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的樣式組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯樣式組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
+      "description": "天馬型模板群組最早出現在聯盟和昂星霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該模板群組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該模板群組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的模板群組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯模板群組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
       "traits": {
         "¿%:?EXTR!UDE GUN": {
           "name": "¿%:?排!出槍",
