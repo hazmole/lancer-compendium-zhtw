@@ -1896,70 +1896,70 @@
       }
     },
     "Ghoul Nexus": {
-      "name": "Ghoul Nexus",
+      "name": "食屍鬼巢房",
       "profiles": {
         "Ghoul Nexus": {
-          "name": "Ghoul Nexus",
-          "description": "Ghoul nexuses command some of the largest viable drones in modern combat. These drones are slightly smaller than an average human—metal cylinders bristling with hardpoints suitable for most infantry-level anti-mech weapons. Propelled by VTOL/hover-capable jet systems, Ghoul drones are fearsome, all-theater autonomous units that are difficult to track and take down.",
-          "on_attack": "Choose this weapon’s damage type."
+          "name": "食屍鬼巢房",
+          "description": "食屍鬼巢房操控著現代戰場上部分規模最大的可用無人機之一。這些無人機的體型略比普通人類個體要小，機身成金屬圓柱狀，表面佈滿了適用於大部份步兵級反機甲武器的掛載點。依靠垂直起降和懸停噴射系統推進，食屍鬼無人機難以追蹤和擊落，是令人畏懼的全地形自律作戰單位。",
+          "on_attack": "選擇這件武器的傷害類型。"
         }
       }
     },
     "PUPPETMASTER": {
-      "name": "PUPPETMASTER",
-      "description": "Developed by HORUS collectivists, H0r_OS-Rv60 EXP PUPPETMASTER is an interesting piece of anti-drone software. It doesn’t invade a target’s main systems, instead attacking their auxiliary drone-command systems. This sideways attack evades most electronic countermeasures by targeting the subcognitive networks of enemy drones. Once inside a network, PUPPETMASTER spreads ontological-kill memes like wildfire through enemy swarms, eventually following the network traces back to their origin and corrupting the parent nexus.",
+      "name": "傀儡師",
+      "description": "由荷魯斯集體主義者開發的 H0R-OS-R60 EXP「傀儡師」，是一款有趣的對無人機軟體。它並不直接入侵目標的主系統，而是攻擊其輔助無人機指揮系統。這種側向攻擊方式能夠避開大部份的電子反制措施，直接針對敵方無人機的亞認知網絡。一旦侵入該網絡，傀儡師便會在敵方蟲群之中如野火一般散播「主體論殺滅模因」，最後沿著網絡痕跡回溯至源頭，進而侵蝕敵方的巢房中樞。",
       "actions": {
         "Guide the Flock": {
-          "name": "Guide the Flock",
-          "detail": "Move any number of drones within Sensors – including those belonging to other characters – up to 4 spaces in any direction."
+          "name": "牧首",
+          "detail": "將位於感應範圍內任意數量的無人機（包括屬於其他角色的）往任意方向移動最多 4 格。"
         },
         "Electropulse": {
-          "name": "Electropulse",
-          "detail": "Characters of your choice within Sensors adjacent to any Drone or Deployable, even those they own, take 2 energy damage."
+          "name": "電磁衝擊",
+          "detail": "你選擇任意數量個位於感應範圍內，且與任何無人機或可展開物（包含他們自己的）鄰接的角色，目標受到 2 能量傷害。"
         }
       }
     },
     "Ghast Nexus": {
-      "name": "Ghast Nexus",
+      "name": "妖鬼巢房",
       "profiles": {
         "Ghast Nexus": {
-          "name": "Ghast Nexus",
-          "description": "The Ghast is an up-armored, up-armed version of the smaller Ghoul drone; Ghast drones boast an upgraded flight system capable of wielding mech-tier weapons within optimum parameters, and can operate independently from their host chassis or as an integrated weapon. In Hydras, Ghast drones generally act as thoracic segments, providing armor to core systems: powerplant, cockpit, NHP caskets, etc.",
-          "effect": "This weapon may be used to attack as normal, or deployed as a Drone"
+          "name": "妖鬼巢房",
+          "description": "妖鬼是食屍鬼無人機的強化版本，體積更大，且搭載著更高級的裝甲和武裝；妖鬼無人機搭載著升級版的飛行系統，使其能在最佳參數範圍內運用機甲級武器，不僅能作為獨立單位運作，也能作為宿主機甲的內建武器被使用。在九頭蛇機甲中，妖鬼無人機通常會作為胸腔段結構，為其反應爐、駕駛艙、NHP 機匣等核心系統提供裝甲保護。",
+          "effect": "這件武器可以被用來正常進行攻擊，或被當成無人機部署展開。"
         }
       }
     },
     "Tempest Drone": {
-      "name": "Tempest Drone",
-      "description": "The Tempest protocol is a cunning little piece of code that can be uploaded to any broadcast-forward drone, making it – in true HORUS fashion – difficult to detect prior to activation. The protocol is a simple one: an aggressive zone-denial memetic that blasts target systems and NHPs with a strong subjective override, instilling a sharp aversion to certain subjects, areas, and ideas.",
-      "effect": "This large, armored tempest drone may be deployed to a free space within Sensors and line of sight."
+      "name": "暴風無人機",
+      "description": "暴風協定是一小段狡詐的編碼，可以被上傳到任何廣播中繼型無人機，使其在啟動前幾乎無法被察覺──典型荷魯斯風格的體現。這個協定相當簡單：這是一段侵略性的區域拒止模因，透過強烈的主觀覆寫信號轟炸目標系統和 NHP，讓其對特定主題、區域、或概念產生劇烈的排斥感。",
+      "effect": "這個大型武裝暴風無人機能以<b>免費動作</b>在感應和視線範圍內的未佔據空間被展開。"
     },
     "Annihilation Nexus": {
-      "name": "Annihilation Nexus",
+      "name": "滅絕巢房",
       "actions": {
         "Annihilation Nexus Secondary Attack": {
-          "name": "Annihilation Nexus Secondary Attack",
-          "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors."
+          "name": "滅絕巢房:第二次攻擊",
+          "detail": "如果你在你的上個回合使用滅絕巢房進行過攻擊，則你能使用這件武器進行第二次攻擊。這個第二次攻擊不會造成額外傷害，且不會再觸發更多的第二次攻擊。<br>你能選擇以自己或你在感應範圍內的任意無人機作為這件武器攻擊的中心。"
         }
       },
       "profiles": {
         "Annihilation Nexus": {
-          "name": "Annihilation Nexus",
-          "description": "“A storm of bladed death” – nanites organized into maniples, released from a chassis’ onboard nexuses or single-use firing tubes in a burst of filament rings so sharp they slice away at their targets on the molecular level. The visual effect of a maniple being launched is often compared to tinsel being fired through atmosphere.",
-          "on_attack": "You can make a second attack with this weapon at the start of your next turn as a protocol. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
+          "name": "滅絕巢房",
+          "description": "「凌遲風暴」——奈米機器被組織成軍團單元，從機甲的機載巢房或拋棄式發射筒中釋放，爆發形成一個由無數細絲環構成的雲團，其鋒利程度能以分子層級將目標切削。這些奈米機器被發射時的畫面，經常被形容為將金屬箔絲射穿大氣圈一樣。",
+          "on_attack": "你能在你的下一回合開始時以<b>協定</b>使用這件武器進行第二次攻擊。這個第二次攻擊不會造成額外傷害，且不會再觸發更多的第二次攻擊。<br>你能選擇以自己或你在感應範圍內的任意無人機作為這件武器攻擊的中心。",
           "actions": {
             "Annihilation Nexus Secondary Attack": {
-              "name": "Annihilation Nexus Secondary Attack",
-              "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors."
+              "name": "滅絕巢房:第二次攻擊",
+              "detail": "如果你在你的上個回合使用滅絕巢房進行過攻擊，則你能使用這件武器進行第二次攻擊。這個第二次攻擊不會造成額外傷害，且不會再觸發更多的第二次攻擊。<br>你能選擇以自己或你在感應範圍內的任意無人機作為這件武器攻擊的中心。"
             }
           }
         }
       }
     },
     "Assassin Drone": {
-      "name": "Assassin Drone",
-      "description": "Assassin drones are used as area-denial weapons – persistent systems intended to occupy or deny an area against enemy combatants. Fired from a launcher, given simple directives, and equipped with a nearly inexhaustible power supply, assassin drones are capable of securing an area indefinitely.",
-      "effect": "This assassin drone may be deployed to any free, adjacent space."
+      "name": "刺客無人機",
+      "description": "刺客無人機是一種區域拒止武器，用於持續佔領或封鎖特定區域不讓敵軍進入。透過發射器發射，接收簡單的指示，並搭載幾乎無限的能源供應，刺客無人機能夠無限期地維持指定區域的控制權。",
+      "effect": "刺客無人機可以在任何與你鄰接且未被佔據的空間中展開。"
     },
 
     "Manticore": {
