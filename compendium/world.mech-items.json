@@ -1798,77 +1798,77 @@
       }
     },
     "Mimic Mesh": {
-      "name": "Mimic Mesh",
-      "description": "Derived from a rather benign HORUS script, mimic meshes extend across projected sensor ranges to feed live positional and superpositional data to the pilot. This multidimensional data equips an effective leader to coordinate their allies’ movement with the assurance of survival.",
-      "effect": "On activation, choose an allied character within SENSORS: until the end of your next turn, you gain the Battlefield Awareness reaction.",
+      "name": "擬態網絡",
+      "description": "源自一種相對無害的荷魯斯腳本，擬態網絡能夠延展至其投影感應範圍，向駕駛員提供即時的位置信息和疊和數據。這種多維度數據能夠幫助指揮官精準協調隊友的移動，確保戰場上的生存能力。",
+      "effect": "啟動時，選擇感應範圍內的一名隊友角色：直到你的下一回合結束前，你得到<b>戰場意識</b>反應。",
       "actions": {
         "Activate Mimic Mesh": {
-          "name": "Activate Mimic Mesh",
-          "detail": "Until the end of your next turn, you may use the Battlefield Awareness reaction."
+          "name": "啟動擬態網絡",
+          "detail": "直到你的下一回合結束前，你可以使用<b>戰場意識</b>反應。"
         },
         "Battlefield Awareness": {
-          "name": "Battlefield Awareness",
-          "trigger": "A hostile action is taken against your target.",
-          "detail": "You may move 3 spaces towards your target, by the most direct route possible. This movement interrupts and resolves before the triggering action, ignores engagement and doesn’t provoke reactions. This reaction can be taken as many times per round as it is triggered."
+          "name": "戰場意識",
+          "trigger": "當你的目標被指定為敵對動作的目標時。",
+          "detail": "你能以最短路線往你的目標移動 3 格。這個移動會發生在觸發這個反應的動作結算之前，忽略交戰且不會觸發其他反應。這個反應在每輪中可以被觸發並使用無限次數。"
         }
       }
     },
     "Sentinel Drone": {
-      "name": "Sentinel Drone",
-      "description": "Sentinel drones watch for aggressive enemy actions and move quickly to intervene. The precise appearance, manner of locomotion, and means of operation of a given class of sentinel drone may vary, but regardless they conform to one objective portfolio: deny the enemy and protect the master unit.",
-      "effect": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action."
+      "name": "哨兵無人機",
+      "description": "哨兵無人機負責監視敵方的侵略行動，並會迅速介入干涉。不同級別的哨兵無人機，其具體外觀、移動方式和運作模式都可能有所不同，但無論型態如何，它們都遵循著一個相同的目標：阻止敵人並保護主單位。",
+      "effect": "哨兵無人機可以在感應和視線範圍內的一個未佔據空間展開，並設立一個<b> 爆發 2 </b>範圍的警戒區域。位於範圍區域內的敵對角色會在進行任何攻擊之前，都會因為遭到無人機的炮火並受到 3 動能傷害。<br><br>你能以<b>快速動作</b>把哨兵無人機回收或重新展開在其他位置。"
     },
     "//SCORPION V70.1": {
-      "name": "//SCORPION V70.1",
-      "description": "The //SCORPION program has a long history on the omninet despite its rather mundane operation (for HORUS-tagged code, at least). Traced back to pre-Deimos theorycode found on an obscure research paper discussing pre-NHP machine mind reflex-responses, //SCORPION evolved from a simple packet interpreter to a robust anti-incursion program, nimble enough to adapt to most any market-line system that receives its broadcast.",
-      "effect": "Any time you or any allied character adjacent to you is missed by a tech attack or succeed on a save against a hostile tech action, choose one of the following:<ul><li>The attacker becomes Impaired until the end of their next turn and takes 2 heat.</li><li>The attacker becomes Jammed until the end of their next turn.</li></ul>"
+      "name": "//蠍子 V70.1",
+      "description": "盡管其運行模式相較其他荷魯斯編碼來說相對平凡，//蠍子程式在萬物網上已經存在悠久的歷史。最早可追溯到火衛二事件之前，在一篇探討關於前 NHP 機器智能之反射反應的偏門研究論文中，這款程式就出現在其論文記述的理論編碼之中。逐漸的，//蠍子從單純的封包解讀器演化成了強大的反入侵程序，其優秀的靈活性甚至足以適應幾乎所有能夠接收其廣播的市售系統。",
+      "effect": "每當你或與你鄰接的隊友角色遭到科技攻擊但該攻擊失手，或成功通過敵對科技動作造成的豁免判定，則選擇以下其中一個效果：<ul><li>攻擊者受到 2 熱度，並陷入<b>受損</b>狀況，持續直到其下一回合結束為止。</li><li>攻擊者陷入<b>受擾</b>狀況，持續直到其下一回合結束為止。</li></ul>"
     },
     "Monitor Module": {
-      "name": "Monitor Module",
-      "description": "“Good friend. Knows many tricks.”<ul><li>Author inscription found in MONITOR codebase, later deleted.</li></ul>",
+      "name": "監視模組",
+      "description": "「好朋友。懂很多把戲。」<br><i>——在監視模組編碼發現的匿名評論，已移除</i>",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "When activated, gain 1d3 Charges and choose an adjacent allied character: until the end of your next turn, whenever your target is attacked while adjacent to you, expend a Charge to Skirmish against their attacker as a reaction, dealing half damage, heat or burn on hit. All charges are lost when this effect ends."
+          "name": "啟動監視模組",
+          "detail": "當被啟動時，你得到 1d3 發使用次數，並選擇一名與你鄰接的隊友角色：直到你的下一回合結束為止，每當你的目標在與你鄰接時受到攻擊，你可以消耗一發，以<b>反應</b>對攻擊者進行一次<b>交火</b>動作，並在命中時只造成一半的傷害、熱度、或燃燒。當這個效果結束時，所有剩餘的使用次數都會跟著遺失。"
         }
       }
     },
     "Vorpal Gun": {
-      "name": "Vorpal Gun",
+      "name": "屠龍槍",
       "actions": {
         "Snicker-Snack": {
-          "name": "Snicker-Snack",
-          "trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
-          "detail": "You may make an attack against the hostile character with the Vorpal Gun."
+          "name": "鏗鏗鏘鏘",
+          "trigger": "當位於屠龍槍射程和視線範圍內的敵對角色對隊友角色造成傷害時。",
+          "detail": "你使用屠龍槍對該敵對角色進行攻擊。"
         }
       },
       "profiles": {
         "Vorpal Gun": {
-          "name": "Vorpal Gun",
-          "description": "DO NOT STARE DIRECTLY INTO THE APERTURE.",
-          "effect": "Gain the Snicker-Snack reaction, which is the only way you can attack with this weapon.",
+          "name": "屠龍槍",
+          "description": "<b>不可直視槍口。</b>",
+          "effect": "得到<b>鏗鏗鏘鏘</b>反應，這是你唯一能使用此武器進行攻擊的手段。",
           "actions": {
             "Snicker-Snack": {
-              "name": "Snicker-Snack",
-              "trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
-              "detail": "You may make an attack against the hostile character with the Vorpal Gun."
+              "name": "鏗鏗鏘鏘",
+              "trigger": "當位於屠龍槍射程和視線範圍內的敵對角色對隊友角色造成傷害時。",
+              "detail": "你使用屠龍槍對該敵對角色進行攻擊。"
             }
           }
         }
       }
     },
     "SCYLLA-Class NHP": {
-      "name": "SCYLLA-Class NHP",
-      "description": "The first specifications for the Gorgon pattern group hid a secret: SCYLLA, a dormant NHP unknown to Union until its first manifestation in 4852u, when it woke after Union Science Bureau officers ran a test-fax Gorgon through a Balwinder-Bolaño test.<br>SCYLLA proved challenging: USB ontologicians were unable to pin down a stable subjectivity, and SCYLLA reached cascade threshold within minutes of manifestation. To prevent further metastatic cascade, site security engaged SCYLLA's prime unit, defabricating it with a steady bombardment of kinetic and energy weapons.<br><span class='horus--subtle'>[there, a little history, a little background. a little knowledge of where this little one came from. treat it with kindness, and it will love you as a loyal dog does its master.]</span>",
+      "name": "斯庫拉級 NHP",
+      "description": "戈爾貢模板群組的最初規格隱藏了一個秘密：斯庫拉，一個直到聯盟 4852 年以前都尚未為聯盟所知的沉睡 NHP。由聯盟科學局的官員在對戈爾貢測試機進行鮑文德—伯蘭柳測試時，才意外甦醒，首次顯現於這個世界上。<br>斯庫拉的顯現帶來了極大的挑戰：聯盟科學局的本體論學家無法確立其穩定的主觀性，且斯庫拉在顯現後的僅僅數分鐘就達到了崩潰的臨界值。為了防止發生更進一步崩潰轉移，現場安保部隊迅速介入，與斯庫拉原體交戰，持續以動能和能量武器的轟炸將其解構。<br><br><span class='horus--subtle'>[這是，一點點歷史，一點點背景。一點點關於這小不點來自何處的知識。對它珍而重之，它就會如忠犬對待其主一樣愛你。]</span>",
       "actions": {
         "Unleash SCYLLA": {
-          "name": "Unleash SCYLLA",
-          "detail": "Until the start of your next turn, you gain two special reactions that allow you to Skirmish in response to one of the following triggers (chosen when you take this action):<ul><li>A hostile character makes an attack against you or an allied character within range 3 of you.</li><li>A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.</li></ul>These reactions deal half damage, heat or burn on hit and must target the character that triggered them."
+          "name": "釋放斯庫拉",
+          "detail": "直到你的下一回合開始之前，你得到二個特殊的反應，讓你能在達成以下其中一個觸發條件時（進行此動作時選擇）進行<b>交火</b>動作：<ul><li>當敵對角色對你或在你 ⌿3 範圍內的隊友角色進行攻擊時。</li><li>當敵對角色試圖對你選擇的物件進行攻擊或互動時。（你在進行釋放斯庫拉動作時選擇一個位於視線範圍內的物件，且所有角色都會知道該物件被選中。）</li></ul>這些反應只會在命中時造成一半的傷害、熱度、或燃燒，且必須指定觸發反應的角色為目標。"
         },
         "Unleash SCYLLA Reaction": {
-          "name": "Unleash SCYLLA Reaction",
-          "trigger": "One of the following, chosen when the Unleash SCYLLA action is taken:<ul><li>A hostile character makes an attack against you or an allied character within range 3 of you.</li><li>A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.</li></ul>",
-          "detail": "Skirmish against the character that triggered the reaction. This skirmish deals half damage, heat or burn on hit."
+          "name": "釋放斯庫拉反應",
+          "trigger": "你在進行釋放斯庫拉時選擇一個觸發條件：<ul><li>當敵對角色對你或在你 ⌿3 範圍內的隊友角色進行攻擊時。</li><li>當敵對角色試圖對你選擇的物件進行攻擊或互動時（你在進行釋放斯庫拉動作時選擇一個位於視線範圍內的物件，且所有角色都會知道該物件被選中）。</li></ul>",
+          "detail": "對觸發此反應的角色進行<b>交火</b>。這個交火動作只會在命中時造成一半的傷害、熱度、或燃燒。"
         }
       }
     },
@@ -1989,69 +1989,69 @@
       }
     },
     "Catalyst Pistol": {
-      "name": "Catalyst Pistol",
+      "name": "觸媒手槍",
       "profiles": {
         "Catalyst Pistol": {
-          "name": "Catalyst Pistol",
-          "description": "“Burn, thou fiend, before the fire of the Eye of RA!”"
+          "name": "觸媒手槍",
+          "description": "「燒燬吧，汝等妖孽，在拉之眼的聖火之中！」"
         }
       }
     },
     "Beckoner": {
-      "name": "Beckoner",
-      "description": "“I am heard in the House of Stillness; I am clad in the Magick of RA. Know this, blasphemer: what exists is within my grasp.”",
+      "name": "召引者",
+      "description": "「我之聲迴響於寂靜之殿。我身披拉之秘法。冒瀆者，記住此事：天地萬物皆在我掌握之中。」",
       "actions": {
         "Beckon": {
-          "name": "Beckon",
-          "detail": "You take 1d6+2 AP energy damage and swap places with your target, both characters teleporting to the other’s position. Your target must be a Mech and be the same Size as you or larger, or this action fails. Characters can only be swapped to spaces they could normally stand or move on (i.e., if a character cannot fly it can’t be swapped midair)."
+          "name": "召來",
+          "detail": "你受到 1d6+2 穿甲(AP)能量傷害，並與你的目標交換位置：雙方將以瞬間轉移移動到對方的所在空間。你的目標必須要是大小與你相同或更大的<b>機甲</b>，否則這個動作將會失敗。雙方角色都只能被交換位置到自己能正常到達或停留的空間。（例如：如果某個角色不會飛行，它就不能被交換到半空中的位置。）"
         },
         "Summon": {
-          "name": "Summon",
-          "detail": "All characters within range 3 of your target are pulled adjacent to them, or as close as possible."
+          "name": "喚引",
+          "detail": "在你目標 ⌿3 範圍內的所有角色都被盡可能拉動到與之鄰接的位置。"
         }
       }
     },
     "Arc Projector": {
-      "name": "Arc Projector",
+      "name": "電弧投射器",
       "profiles": {
         "Arc Projector": {
-          "name": "Arc Projector",
-          "description": "“Fire be upon thee, APEP! Thy flesh is seared from thy bones; The Lord of the Duat will never enable thy shade to rise again!”",
-          "on_hit": "You may also make a secondary attack against a different character within range 3 of the first target. You can continue making secondary attacks on hits, as long as there are new, valid targets within range; however, each attack generates 1 heat, and secondary attacks can’t deal bonus damage. Characters can’t be hit more than once with the same firing of this weapon."
+          "name": "電弧投射器",
+          "description": "「願烈火降臨於汝，阿佩普！汝之血肉將被焚燒殆盡。冥界之主決不容汝再起！」",
+          "on_hit": "你可以對在第一個目標 ⌿3 範圍內的另一個角色進行第二次攻擊。只要在射程內有其他新的有效目標，你就能在命中時繼續重複進行第二次攻擊；然而，這些攻擊每次都會產生 1 熱度，且不會造成額外傷害。這件武器在同一次使用中只能擊中每個角色最多一次。"
         }
       }
     },
     "Smite": {
-      "name": "Smite",
-      "description": "“Go with thy face averted, thou emission of chaos! The hidden ones have overthrown thy words, thy face is turned backward, thy head is divided in two at the sides; thy skull is ripped from thy spine. Taste thou death!”",
+      "name": "神罰",
+      "description": "「背離退去吧，汝這混沌餘孽！隱秘者已破除汝之妖言，汝之面目已被扭轉，汝之首級已一分為二；汝之顱首已自脊背撕離。親嚐自身之死吧！」",
       "actions": {
         "Smite": {
-          "name": "Smite",
-          "detail": "You take 1d6 AP energy damage and your target must succeed on a Systems save or become Stunned until the end of their next turn. Each character can only be Stunned by this effect once per scene."
+          "name": "神罰",
+          "detail": "你受到 1d6 穿甲(AP)能量傷害，且你的目標必須成功通過<b>系統豁免</b>，否則陷入<b>暈眩</b>狀況直到其下一回合結束為止。每個角色在同個場景中只能因為這個效果被<b>暈眩</b>一次。"
         },
         "Sear": {
-          "name": "Sear",
-          "detail": "You take 1d6 AP energy damage and you deal 2 heat to your target for each other character of Size 1 or larger that is Engaged with or adjacent to them – including you – up to a maximum of 6 heat."
+          "name": "燒灼",
+          "detail": "你受到 1d6 穿甲(AP)能量傷害，然後你的目標每與一個大小 1 或以上的其他角色交戰或鄰接（包括你），你就能對目標造成 2 熱度，最多 6 熱度。"
         }
       }
     },
     "EMP Pulse": {
-      "name": "EMP Pulse",
-      "description": "“Crawl away, APEP! Thou hateful serpent; thou shalt not copulate. Thou art put in chains and taken to the place of execution; there thy slaying shall be carried out.”",
+      "name": "電磁脈衝",
+      "description": "「爬伏離去吧，阿佩普！汝這可恨毒蛇；汝不得交合。汝應身陷囹圄，推至刑場；於彼處慘遭誅滅。」",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "You become Stunned until the end of your next turn and all characters within burst 1 without the Biological tag must succeed on a Systems save or also become Stunned until the end of their next turn. Characters other than yourself can only be Stunned 1/scene by this effect."
+          "name": "啟動電磁脈衝",
+          "detail": "你陷入<b>暈眩</b>狀況直到你的下一回合結束，且在<b> 爆發 1 </b>範圍內所有不具備生物標籤的角色都必須成功通過<b>系統豁免</b>，否則陷入<b>暈眩</b>狀況直到其下一回合結束為止。除了你以外，每個角色在同個場景中只能因為這個效果被<b>暈眩</b>一次。"
         }
       }
     },
     "Lightning Generator": {
-      "name": "Lightning Generator",
-      "description": "“I feed upon my own fire. I am RA, who protects myself. Nothing can harm me.”",
+      "name": "雷電產生器",
+      "description": "「我吞食自身之火。吾名為拉，戒護己身者。萬物不能傷我。」",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "When you activate this protocol, take 1 heat and deal 2 energy to all characters and objects adjacent to you.<br>If you are in the Danger Zone at the start of your turn, this protocol activates automatically, but the damage increases to 4 AP energy."
+          "name": "啟動雷電產生器",
+          "detail": "當你啟動這個協定時，你受到 1 熱度，並對所有與你鄰接的角色和物件造成 2 能量傷害。<br><br>如果你在你的回合開始時處於<b>超溫危域</b>，則這個協定會自動啟動，且傷害變為 4 穿甲(AP)能量傷害。"
         }
       }
     },

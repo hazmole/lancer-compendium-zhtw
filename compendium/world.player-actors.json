@@ -150,9 +150,9 @@
       "detail": "當隊友角色與這部無人機鄰接時，該角色能以<b>快速動作</b>將其啟動，清除 1d6 熱度，解除一個狀況，並裝填一件帶有<b>裝填</b>標籤的武器。在被啟動之後，這部無人機會立即解體。"
     },
     "Sentinel Drone": {
-      "name": "Sentinel Drone",
-      "tokenName": "Sentinel Drone",
-      "detail": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action."
+      "name": "哨兵無人機",
+      "tokenName": "哨兵無人機",
+      "detail": "哨兵無人機可以在感應和視線範圍內的一個未佔據空間展開，並設立一個<b> 爆發 2 </b>範圍的警戒區域。位於範圍區域內的敵對角色會在進行任何攻擊之前，都會因為遭到無人機的炮火並受到 3 動能傷害。<br><br>你能以<b>快速動作</b>把哨兵無人機回收或重新展開在其他位置。"
     },
     "Shredder OROCHI Drone": {
       "name": "Shredder OROCHI Drone",
