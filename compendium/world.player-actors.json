@@ -79,11 +79,6 @@
       "tokenName": "Grounding Mine",
       "detail": "This mine must be detonated remotely as a quick action, affecting a single character within range 5 of the mine: they must succeed on a Hull save or be pulled as far as possible toward the mine and knocked Prone. Flying characters that fail the save are affected the same way, except they are also forced to land (this counts as falling but without damage)."
     },
-    "Guardian OROCHI Drone": {
-      "name": "Guardian OROCHI Drone",
-      "tokenName": "Guardian OROCHI Drone",
-      "detail": "This drone projects a shield. Ranged attacks against adjacent allied characters receive +1 difficulty."
-    },
     "HAVOK Mine": {
       "name": "HAVOK Mine",
       "tokenName": "HAVOK Mine",
@@ -93,11 +88,6 @@
       "name": "Hive Drone",
       "tokenName": "Hive Drone",
       "detail": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
-    },
-    "Hunter OROCHI Drone": {
-      "name": "Hunter OROCHI Drone",
-      "tokenName": "Hunter OROCHI Drone",
-      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Systems save. On a failure, they receive Lock On."
     },
     "ICEOUT Drone": {
       "name": "冷遇無人機",
@@ -134,6 +124,26 @@
       "tokenName": "Omnibus Plate",
       "detail": "The plate cannot be moved, is flat, and does not block movement. It is large enough to hold a single SIZE 1 or smaller DRONE or DEPLOYABLE at a time. DRONES and DEPLOYABLES placed on the plate gain RESISTANCE to all damage and gain +1 to the size of any BURST or BLAST effects they generate. Additionally, any of their effects that require adjacency can now be activated from within Range 2."
     },
+    "Guardian OROCHI Drone": {
+      "name": "大蛇．護法無人機",
+      "tokenName": "大蛇．護法無人機",
+      "detail": "這個無人機會投放護盾。對與這個無人機鄰接的隊友角色進行的遠距攻擊會得到 +1 難度。"
+    },
+    "Hunter OROCHI Drone": {
+      "name": "大蛇．獵手無人機",
+      "tokenName": "大蛇．獵手無人機",
+      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>系統豁免</b>。若豁免失敗，則目標受到<b>鎖定</b>。"
+    },
+    "Shredder OROCHI Drone": {
+      "name": "大蛇．碎裂無人機",
+      "tokenName": "大蛇．碎裂無人機",
+      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>機體豁免</b>。若豁免失敗，則目標受到 1 動能傷害，並陷入<b>離散</b>狀況直到其下一回合結束為止。"
+    },
+    "Snare OROCHI Drone": {
+      "name": "大蛇．陷阱無人機",
+      "tokenName": "大蛇．陷阱無人機",
+      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>敏捷豁免</b>。若豁免失敗，則目標陷入<b>固定</b>狀況。這個<b>固定</b>狀況會持續直到這個無人機被毀、不再與目標鄰接、或目標以<b>快速動作</b>成功通過敏捷豁免為止。"
+    },
     "Perimeter Command Plate": {
       "name": "周界指揮板",
       "tokenName": "周界指揮板",
@@ -154,11 +164,6 @@
       "tokenName": "哨兵無人機",
       "detail": "哨兵無人機可以在感應和視線範圍內的一個未佔據空間展開，並設立一個<b> 爆發 2 </b>範圍的警戒區域。位於範圍區域內的敵對角色會在進行任何攻擊之前，都會因為遭到無人機的炮火並受到 3 動能傷害。<br><br>你能以<b>快速動作</b>把哨兵無人機回收或重新展開在其他位置。"
     },
-    "Shredder OROCHI Drone": {
-      "name": "Shredder OROCHI Drone",
-      "tokenName": "Shredder OROCHI Drone",
-      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Hull save. On a failure, they take 1 kinetic damage and become Shredded until the end of their next turn."
-    },
     "Smoke Mine": {
       "name": "煙霧地雷",
       "tokenName": "煙霧地雷",
@@ -173,11 +178,6 @@
       "name": "Snare Foam",
       "tokenName": "Snare Foam",
       "detail": "When finished, this project continually sprays foam around it, creating a Burst 2 area of difficult terrain. Destroying it removes the effect."
-    },
-    "Snare OROCHI Drone": {
-      "name": "Snare OROCHI Drone",
-      "tokenName": "Snare OROCHI Drone",
-      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make an Agility save. On a failure, they become Immobilized. They only cease to be Immobilized when the drone is destroyed or no longer adjacent, or they succeed on an Agility save as a quick action."
     },
     "Stasis Barrier": {
       "name": "Stasis Barrier",

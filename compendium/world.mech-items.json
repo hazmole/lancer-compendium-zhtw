@@ -1773,28 +1773,28 @@
     },
 
     "Gorgon": {
-      "name": "Gorgon",
-      "description": "The Gorgon is unique among HORUS pattern groups in that it prioritizes defensive systems meant to ensure personal and allied survival; otherwise, it fields a typical complement of horrifying, confusing, and uncanny weapons.<br>The typical Gorgon mounts multiple weapon systems meant to identify and intercept incoming enemies, allowing pilots to project a zone of control around themselves and their allies. The Gorgon is feared for its ability to extrude a dangerous memetic “basilisk”, a projected light-cone of anticognitive, hyperfractal visual data that is deadly to ontologic, sapient beings.",
+      "name": "戈爾貢",
+      "description": "戈爾貢在荷魯斯模版群組中可謂獨樹一幟，因為其優先考量了確保自身和隊友生存率的防禦系統；然而，它仍然配置了典型荷魯斯會有的一系列恐怖、令人惶惑不安的詭異武器。<br><br>戈爾貢通常搭載了多種武器系統，專門用於辨識並攔截來襲的敵人，讓駕駛員能夠投射出一個保護自己和隊友的控制區域。而戈爾貢最為人恐懼的，是它能夠釋放出一種極其危險的模因：「蛇尾雞」，其投射出的視覺光錐體內含有反認知超碎形的視覺數據，對本體論層級的智慧生命體而言極為致命。",
       "traits": {
         "Metastatic Paralysis": {
-          "name": "Metastatic Paralysis",
-          "description": "When an attack roll against the Gorgon lands on 1–2, it automatically misses and the attacker becomes Stunned until the end of their next turn."
+          "name": "轉移性麻痺",
+          "description": "當對戈爾貢進行的攻擊判定骰出 1~2 的骰面時，該攻擊自動失手，且攻擊者會陷入<b>暈眩</b>狀況，持續直到其下一回合結束為止。"
         },
         "Gaze": {
-          "name": "Gaze",
-          "description": "The Gorgon can take two reactions per turn, instead of one."
+          "name": "凝視",
+          "description": "戈爾貢每回合可以進行二次<b>反應</b>，而非原本的一次。"
         },
         "Guardian": {
-          "name": "Guardian",
-          "description": "Adjacent allied characters may use the Gorgon for hard cover."
+          "name": "守護者",
+          "description": "鄰接的隊友角色可以把戈爾貢當作​<b>硬性掩護​</b>。"
         }
       },
       "core_system": {
-        "name": "BASILISK Directed Anticognition Hyperfractal",
-        "description": "The BASILISK is a dangerous memetic weapon derived from DHIYED liturgicode, translated for use in mech-scale engagements. Typically projected from a communications laser, BASILISKs create hyperfractal patterns: memetic interruptions that affects all sapient observers, organic or otherwise. Exposure to a basilisk typically causes immediate encephalitis, massive ocular and cranial hemorrhage, and death – survival is possible with tempering and interdictor heads-up displays, but even then headaches, nausea, and confusion for a short period after viewing are possible. Long-term, survivors often exhibit “flashback” symptoms: momentary paralysis, corporeal alienation, and consciousness destabilization. Anticognition hyperfractals are classified as paracausal weapons; due to the not-as-yet understood nature of their visible-light spectrum broadcast, one would think that they would pose a risk to their user, however, for some reason they do not.",
-        "passive_name": "PASSIVE",
-        "active_name": "Extrude Basilisk",
-        "active_effect": "You project a horrifying basilisk, a visual data-pattern that is incredibly harmful to NHPs and electronic systems, and hard to look at even for humans. For the rest of the scene, hostile characters must succeed on a Systems save before attacking you or any allied characters within range 3. On a failure, they become Stunned until the end of their next turn. Each character can only be Stunned by this effect once per scene."
+        "name": "定向反認知超碎形武器-蛇尾雞",
+        "description": "蛇尾雞是一種危險的模因武器，其技術源自砥耶德禮拜編碼，並被轉譯為適用於機甲級戰鬥的形式。蛇尾雞通常會透過通訊雷射投射以產生超碎形圖案：這種模因性干擾會影響所有靈性存在，無論是有機體或人工智慧都一樣。暴露在蛇尾雞之下通常會導致立即性的腦炎、大範圍眼部和顱內出血、甚至直接死亡。儘管透過緩和性和干擾型的抬頭顯示器能夠提高生存率，但倖存者仍可能會經歷短暫的頭痛、噁心、和意識混亂。長期暴露在影響下的倖存者也往往會出現「重歷」症狀：例如暫時性麻痺、身體異化感、以及意識不穩定等現象。因為其可見光譜傳播機制的本質至今尚未被解明，反認知超碎形武器被歸類為超因果律武器；儘管理論上它會對駕駛員構成威脅，卻出於某種未知原因而相安無事。",
+        "passive_name": "被動",
+        "active_name": "投射蛇尾雞",
+        "active_effect": "你投射出可怕的蛇尾雞，一種對 NHP 和電子系統而言極度有害，甚至連人類也難以定睛注目的視覺性數據圖案。直到該場景結束之前，任何嘗試攻擊你或距離你 ⌿3 範圍內的隊友角色的敵人，都必須成功通過<b>系統豁免</b>。若豁免失敗，則攻擊者陷入<b>暈眩</b>狀況，持續直到其下一回合結束為止。每個角色在同個場景中只能因為這個效果被<b>暈眩</b>一次。"
       }
     },
     "Mimic Mesh": {
@@ -1874,25 +1874,25 @@
     },
 
     "Hydra": {
-      "name": "Hydra",
-      "description": "Like many newer HORUS “frames”, there is no standardized Hydra model. Instead, the designation is a title given to chassis that meet the specifications of the Hydra pattern group – as outlined in Union’s Universal Threat Assessment Manual. The Hydra, like many other pattern-group HORUS mechs, is particularly dangerous in the field, as its precise function is concealed until hostilities begin in earnest.<br>The Hydra is capable of tactically dismembering itself into multiple independently controlled drones, an unnerving phenomenon frequently utilized to deadly effect. With the manifestation of HORUS’s Balor pattern group, the Hydra’s place in HORUS history is clear: a precursor to the Balor virus, the Hydra relies on larger sections of disarticulated chassis rather than nanite clouds for its differentiated battlefield advantage. Despite its more conventional appearance, the Hydra presents a sobering threat to non-HORUS pilots, as its disarticulated drones field a compliment of powerful anti-armor weaponry.",
+      "name": "九頭蛇",
+      "description": "和許多較新型的荷魯斯「骨架」一樣，九頭蛇並沒有固定的標準化型號。相反地，這個辨識編號是給予那些符合九頭蛇模版群組規格的機甲的總稱──其具體規格可參見聯盟的《通用威脅評估手冊》。和許多其他的荷魯斯模板群組機甲一樣，由於九頭蛇的確切能力一直到開始敵對行動時才會展現出來，因此在戰場上格外危險。<br><br>九頭蛇能夠戰術性地將自己分解成多架獨立運行的無人機，這讓人毛骨悚然的現象經常也經常能用來實現致命的成效。隨著荷魯斯炎魔模板群組的出現，九頭蛇在荷魯斯的歷史定位也終於明確——作為炎魔病毒的前身，九頭蛇依靠較大型的解離式骨架部件，而非奈米機器，來取得其區別化的戰場優勢。儘管外觀較為傳統，九頭蛇分解出的無人機群由於配備一系列強大反裝甲武器，成為了對非荷魯斯駕駛員而言極為嚴峻的威脅。",
       "traits": {
         "System Link": {
-          "name": "System Link",
-          "description": "When deployed, the Hydra’s Deployables and Drones gain +5 HP."
+          "name": "系統連結",
+          "description": "九頭蛇的<b>無人機</b>和<b>可展開物</b>在被展開時會得到 +5 HP。"
         },
         "Shepherd Field": {
-          "name": "Shepherd Field",
-          "description": "Drones, Deployables, and objects adjacent to the Hydra gain Resistance to all damage."
+          "name": "牧人力場",
+          "description": "與九頭蛇鄰接的<b>無人機</b>、<b>可展開物</b>和<b>物件</b>得到對所有傷害的抗性。"
         }
       },
       "core_system": {
-        "name": "OROCHI Disarticulation",
-        "description": "First encountered by Union technicians in early Forecast/GALSIM facilities following the Deimos Event, OROCHI was an early manifestation of what was later called the swift-flock phenomenon – a behavior observed in leaderless, autonomous hive drones where individual units combine into a single swarm and follow each other, operating leaderless in physical space with uncanny and unpredictable autonomy; in essence, organizing like birds in a flock.<br>The original manifestation was initially thought to be the impulse-driven remains of a crashed subaltern transport drifting through microgravity; deeper examination proved the original manifestation to be composed of many hundreds of disarticulated subalterns moving with a discernible pattern. The swarm viewed itself not as a machine or a collection of machines, but as a single mind, duplicated across multiple units. This mind was classified as an NHP, given their current codename – OROCHI – and remitted to Venus for further study. At a later point, the hardware comprising OROCHI’s physical form(s) went missing from containment. The investigation is ongoing.<br><span class='horus--subtle'>[I did it, I folded space and freed them, I just thought you should know]</span>",
-        "passive_name": "OROCHI Drones",
-        "passive_effect": "Your mech contains powerful, integrated drone companions. At creation, choose a single OROCHI Drone to accompany you. <br>Your OROCHI drones share your Evasion, E-Defense, and Speed. They can move independently on your turn, but can’t take any other actions. If you can fly or teleport, they can too.<br>If an OROCHI drone is within Sensors, you may recall it as a quick action, integrating it into your mech’s body where it cannot be targeted. You may redeploy it to a space within Sensors as a quick action. <br>When you rest or perform a FULL REPAIR, you may choose a different drone to accompany you; additionally, your drones regain all HP and are automatically repaired if they were destroyed.",
-        "active_name": "Full Deployment",
-        "active_effect": "All four OROCHI drones are deployed to separate points within Sensors; they remain active for the rest of the scene. You may recall or redeploy any number of them at a time."
+        "name": "大蛇解體",
+        "description": "最早是在火衛二事件之後，由聯盟技術人員於早期的預報/銀河模擬設施中發現，「大蛇」是一種後來被稱為「迅聚鳥群化現象」的早期現象表徵──這是一種在群龍無首的自律蟲巢無人機群中能觀察到的行為，這些個體單元會迅速集合成單一蟲群，彼此跟隨，並在物理空間中以詭異而難以預測的方式自主活動；實際上，其組織模式就彷彿飛行中的鳥群一樣。<br><br>最初的現象表徵被認為是源自某艘衛官運輸艦墜毀後留下的殘骸，其受到本能驅使而移動，在微重力環境下漂流。不過，更深入的調查顯示，這個原始現象表徵實際上是由數百個解體的衛官機械組成，並以可識別的模式活動著。這個蟲群並不認為自己是一個或一群機器，而是複製分散於多個單位之間的單一意識。這個意識體隨後被分類為 NHP，被賦予了當前這個代號──「大蛇」──並被送往金星進行進一步的研究。後來，構成大蛇物理型態的硬體從收容設施中消失不見。這起事件的調查現在仍在進行中。<br><br><span class='horus--subtle'>[是我做的，我摺曲空間，放它們自由。我只是覺得該讓你知道]</span>",
+        "passive_name": "大蛇無人機",
+        "passive_effect": "你的機甲擁有強大的內建無人機搭檔。在創造此機甲時，選擇一架大蛇無人機來陪伴你。<br><br>你的大蛇無人機和你共用<b>迴避</b>、<b>電子防禦</b>和<b>速度</b>。它們可以在你的回合獨立移動，但無法進行其他動作。如果你能夠<b>飛行</b>或<b>瞬間轉移</b>，則它們也會擁有相同的能力。<br><br>如果大蛇無人機位於你的感應範圍內，則你能以<b>快速動作</b>將其回收，整合進你的機甲體內，使其無法被指定為有效目標。你能以<b>快速動作</b>將它重新展開在感應範圍內的空間。<br><br>當你休息或進行全面維修時，你可以選擇另一架不同的大蛇無人機來陪伴你；此外，如果你的無人機被毀，則它們會在此時回復所有 HP，並被自動修復。",
+        "active_name": "全面展開",
+        "active_effect": "將四架大蛇無人機<b>全部</b>展開在感應範圍內的不同位置；它們在整個場景期間都會維持啟動，且你可以同時將它們任意回收或重新展開。"
       }
     },
     "Ghoul Nexus": {
@@ -1963,29 +1963,29 @@
     },
 
     "Manticore": {
-      "name": "Manticore",
-      "description": "The Universal Threat Assessment Manual identifies the Manticore pattern group as “an experiment in HORUS’s ‘corebreak’ combat doctrine.” The Manticore PG specializes in using focused, projected electromagnetics to neutralize enemy reactor cores without conventional ammunition, while also fielding a compliment of coherent-beam energy weapons. A fully charged Manticore is an impressive sight, wreathed in brightly glowing nets of plasma that lash out at nearby targets.<br>If anything gives away a Manticore-PG mech, it is the tall spines protruding from the PG’s signature lightning generator. The spines act as heat-dispersal systems for this crude weapon, providing a channel for the incredible amount of heat it generates to bleed from the mech’s body following projection of a close-range arc whip. This system isn’t a perfect heat-dispersal mechanism, and as a result Manticores can often be identified by a chassis covered in cooling, melted metal.<br>The Manticore has only recently appeared on the omninet, and its combat efficacy has prompted other galactic manufacturers to scramble for a response. Analysis of after-action reports from pilots who have engaged this pattern group in the field note a significant uptick in certain omninet noise-to-signal ratios: anoriginary recitations of passages from the Old Humanity Book of the Dead, jigsaw corruptions of ancient works of apocalyptic art, and other eschatological renderings, all of which point toward a nascent psychological warfare tactic.",
+      "name": "刺尾獅",
+      "description": "《通用威脅評估手冊》將刺尾獅模版群組視為「荷魯斯對『核心破壞』戰鬥學說的一場實驗」。刺尾獅模板群組專精於使用聚焦投射的電磁技術，而非依靠傳統彈藥來癱瘓敵方的反應爐核心，並同時搭載有一系列集束能量武器。達到最大充能的刺尾獅呈現出的樣貌令人震撼：刺眼的電漿光網環繞在機體四周，隨時準備爆散襲向附近的目標。<br><br>要說起刺尾獅模版群組機甲的特徵，那就是從其標誌性的雷電產生器中突出的細長棘刺了。這些棘刺作為其粗獷武器的散熱系統，能在其釋放出近距離電弧鞭後，提供一條渠道把其產生的驚人熱能排放到機甲體外。然而，這個系統的散熱機制並不完美，因此刺尾獅機甲經常會以外殼上佈滿冷卻後的熔解金屬的姿態示人。<br><br>刺尾獅直到最近才在萬物網上出現，其強大的戰鬥效能也促使銀河中其他的生產商急於尋找應對方案。針對與該模版群組交戰過的駕駛員的戰後報告分析顯示，某些特定萬物網段的雜訊比率有顯著上升的跡象：包括來自舊人類《死者之書》的變異片段誦讀、對古代末世藝術作品的拼圖式扭曲、以及其他末世論的畫面描繪……這一切跡象都指向了其正在發展一種新興的心理戰戰術。",
       "traits": {
         "Slag Carapace": {
-          "name": "Slag Carapace",
-          "description": "The Manticore has Resistance to Energy Damage and Burn."
+          "name": "礦渣甲殼",
+          "description": "刺尾獅對能量傷害和燃燒具有抗性。"
         },
         "Unstable System": {
-          "name": "Unstable System",
-          "description": "When destroyed, the Manticore explodes as per a reactor meltdown at the end of its next turn."
+          "name": "不穩定系統",
+          "description": "當刺尾獅被毀時，它會在其下一個回合結束時如同爐心溶解一樣爆炸。"
         },
         "Castigate the Enemies of the Godhead": {
-          "name": "Castigate the Enemies of the Godhead",
-          "description": "When you rest or perform a Full Repair, you can push the Manticore into an unstable Castigation State (or bring it out of one). In this state, the Manticore explodes immediately when destroyed due to damage or reactor meltdown, vaporizing it and instantly killing you and any other passengers. Characters within burst 2 must succeed on an Agility save or take 8d6 explosive. On a success, they take half damage. This only takes place if you are physically present in the Manticore."
+          "name": "鞭撻神首之敵",
+          "description": "當你休息或進行全面維修時，你可以將刺尾獅切換到一種不穩定的鞭撻狀態（或將其切換回正常狀態）。在這個狀態中，刺尾獅會在因為受傷或爐心熔解而被毀時立即爆炸，將自己蒸發，並立刻殺死你和所有其他乘客。在其<b> 爆發 2 </b>範圍內的所有角色必須成功通過<b>敏捷豁免</b>，否則受到 8d6 爆炸傷害。若成功則只受到一半的傷害。這個效果只會在你實際待在刺尾獅機體內部時才會發生。"
         }
       },
       "core_system": {
-        "name": "Charged Exoskeleton",
-        "description": "And RA Said Unto Themself:<br><code class='horus'>LET MY NAME ENVELOP YOU. SEEK NO SHELTER FROM THE FLAME OR THE TEETH OF THE BEAST. CLOAK YOURSELF IN THE FIRE OF MY WORD AND CAST BACK TO YOUR ENEMIES THAT WHICH WOULD BLACKEN YOUR FORM.</code>",
-        "passive_name": "Charged Exoskeleton",
-        "passive_effect": "1/round, when you take heat, you may deal 2 AP energy damage to a character within range 3.",
-        "active_name": "Destruction of the Temple of the Enemies of RA",
-        "active_effect": "Your mech crackles with energy: gain Resistance to heat for the rest of this scene and a Charge Die – 1d6, starting at 1. Whenever you take heat or energy, even from yourself, increase the value of the Charge Die by 1. When the Charge Die reaches 6, the absorbed energy discharges in a burst 2 inferno. Characters within the affected area must succeed on an Engineering save or take 6d6 AP energy damage. On a success, they take half damage. Objects in the affected area are automatically hit. Once discharged, this effect ends."
+        "name": "充能外骨骼",
+        "description": "然後拉對祂自己說：<br><code class='horus'>讓我的名圍繞你。莫要尋求庇護躲避烈火和巨獸獠牙。披戴我聖言之火，將本應使你焦黑的災厄反噬你的敵人。</code>",
+        "passive_name": "充能外骨骼",
+        "passive_effect": "每輪一次，當你受到熱度時，你可以對 ⌿3 範圍內的一名角色造成 2 穿甲(AP)能量傷害。",
+        "active_name": "拉之仇敵神廟的毀滅",
+        "active_effect": "你的機甲因為能量流竄而劈啪作響：直到該場景結束為止，你得到對熱度的抗性，並得到 1 顆充能骰，一顆起始數字為 1 的 d6 骰。每當你受到熱度或能量傷害時（包括你自己造成的），將充能骰的數字 +1。當充能骰的數字達到 6 時，你吸收的能量將會釋放變為一團<b> 爆發 2 </b>範圍的熊熊業火。在影響範圍內的角色必須成功通過<b>工程豁免</b>，否則受到 6d6 穿甲(AP)能量傷害。若豁免成功則只受到一半的傷害。在影響範圍內的物件會自動被命中。在釋放能量之後，這個效果就會結束。"
       }
     },
     "Catalyst Pistol": {
