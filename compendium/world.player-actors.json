@@ -18,9 +18,16 @@
       "detail": "When finished, this pack latches onto the next allied character that moves adjacent to it and fuses onto them. The project is destroyed, but they gain +1 ARMOR for the rest of the scene. This could temporarily put them over the armor maximum."
     },
     "Assassin Drone": {
-      "name": "Assassin Drone",
-      "tokenName": "Assassin Drone",
-      "detail": "Upon deployment, it targets a blast 2 area of your choice within line of sight and Sensors and you gain the Area Denial reaction (usable any number of times a round).<br>You may recall or redeploy the assassin drone as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene."
+      "name": "刺客無人機",
+      "tokenName": "刺客無人機",
+      "detail": "在展開後，刺客無人機會瞄準一處由你選擇，位於感應和視線範圍內的<b> 濺射 2 </b>範圍區域，且你得到<b>區域拒止</b>反應（每輪不限定觸發次數）。<br><br>你能以<b>快速動作</b>把刺客無人機回收或重新展開在其他位置。直到被回收或摧毀之前，它將維持展開直到該場景結束為止。",
+      "actions": {
+        "Area Denial": {
+          "name": "區域拒止",
+          "trigger": "當敵對角色在你刺客無人機瞄準的區域內開始移動、或移動進入該區域時。",
+          "detail": "你能使用刺客無人機對目標進行遠距攻擊，該攻擊判定得到你的毅力加值，並在命中時造成 3 動能傷害。"
+        }
+      }
     },
     "Autoloader Drone": {
       "name": "Autoloader Drone",
@@ -63,19 +70,14 @@
       "detail": "這個地雷會在任何角色移動到它所在或與其鄰接的空間時引爆，產生一個 爆發 1 範圍的閃光區域。位於影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則視線範圍被縮減到只剩下其鄰接空間的距離，持續直到其下一回合結束為止。"
     },
     "Ghast Drone": {
-      "name": "Ghast Drone",
-      "tokenName": "Ghast Drone",
-      "detail": "This Ghast nexus can be deployed to a free space within Sensors and line of sight as a free action, where it becomes a stationary, hovering Drone. Once deployed, you may still use it for Skirmish and Barrage attacks as though it is still a weapon, but with line of sight and Range traced from its location.<br>You may recall or redeploy the Ghast nexus as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene. If destroyed, it follows the rules for destroyed Drones and can’t be used until repaired."
+      "name": "妖鬼無人機",
+      "tokenName": "妖鬼無人機",
+      "detail": "妖鬼巢房能以<b>免費動作</b>在感應和視線範圍內的一個未佔據空間展開，並在該處成為一架靜止懸浮的無人機。在被展開後，你仍然能夠把它當成武器來進行<b>交火</b>或<b>彈幕</b>，但使用其所在的位置來計算視線範圍和射程。<br><br>你能以<b>快速動作</b>把妖鬼無人機回收或重新展開在其他位置。直到被回收或摧毀之前，它將維持展開直到該場景結束為止。如果它被毀，則它會遵循無人機被毀的規則，且直到被維修之前都無法再被使用。"
     },
     "Grounding Mine": {
       "name": "Grounding Mine",
       "tokenName": "Grounding Mine",
       "detail": "This mine must be detonated remotely as a quick action, affecting a single character within range 5 of the mine: they must succeed on a Hull save or be pulled as far as possible toward the mine and knocked Prone. Flying characters that fail the save are affected the same way, except they are also forced to land (this counts as falling but without damage)."
-    },
-    "Guardian OROCHI Drone": {
-      "name": "Guardian OROCHI Drone",
-      "tokenName": "Guardian OROCHI Drone",
-      "detail": "This drone projects a shield. Ranged attacks against adjacent allied characters receive +1 difficulty."
     },
     "HAVOK Mine": {
       "name": "HAVOK Mine",
@@ -86,11 +88,6 @@
       "name": "Hive Drone",
       "tokenName": "Hive Drone",
       "detail": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
-    },
-    "Hunter OROCHI Drone": {
-      "name": "Hunter OROCHI Drone",
-      "tokenName": "Hunter OROCHI Drone",
-      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Systems save. On a failure, they receive Lock On."
     },
     "ICEOUT Drone": {
       "name": "冷遇無人機",
@@ -118,14 +115,34 @@
       "detail": "Expend a charge to set an explosive charge in a free adjacent space. It arms at the end of the round; once armed, it explodes if it takes any damage or heat. Characters within Burst 3 must succeed on an AGILITY save or take 2d6 Explosive damage and be pushed out of the affected area, or as far as possible. On a success, they are still pushed but take half damage."
     },
     "Mesmer Mine": {
-      "name": "Mesmer Mine",
-      "tokenName": "Mesmer Mine",
-      "detail": "Characters within the affected Burst 2 area must succeed on a Systems save or become Immobilized until the end of their next turn."
+      "name": "麥斯麥催眠地雷",
+      "tokenName": "麥斯麥催眠地雷",
+      "detail": "所有位於其<b> 爆發 2 </b>範圍內的角色必須成功通過<b>系統豁免</b>，否則陷入<b>固定</b>狀況，持續直到其下一回合結束為止。"
     },
     "Omnibus Plate": {
       "name": "Omnibus Plate",
       "tokenName": "Omnibus Plate",
       "detail": "The plate cannot be moved, is flat, and does not block movement. It is large enough to hold a single SIZE 1 or smaller DRONE or DEPLOYABLE at a time. DRONES and DEPLOYABLES placed on the plate gain RESISTANCE to all damage and gain +1 to the size of any BURST or BLAST effects they generate. Additionally, any of their effects that require adjacency can now be activated from within Range 2."
+    },
+    "Guardian OROCHI Drone": {
+      "name": "大蛇．護法無人機",
+      "tokenName": "大蛇．護法無人機",
+      "detail": "這個無人機會投放護盾。對與這個無人機鄰接的隊友角色進行的遠距攻擊會得到 +1 難度。"
+    },
+    "Hunter OROCHI Drone": {
+      "name": "大蛇．獵手無人機",
+      "tokenName": "大蛇．獵手無人機",
+      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>系統豁免</b>。若豁免失敗，則目標受到<b>鎖定</b>。"
+    },
+    "Shredder OROCHI Drone": {
+      "name": "大蛇．碎裂無人機",
+      "tokenName": "大蛇．碎裂無人機",
+      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>機體豁免</b>。若豁免失敗，則目標受到 1 動能傷害，並陷入<b>離散</b>狀況直到其下一回合結束為止。"
+    },
+    "Snare OROCHI Drone": {
+      "name": "大蛇．陷阱無人機",
+      "tokenName": "大蛇．陷阱無人機",
+      "detail": "當其他角色在與這個無人機鄰接時開始其回合，或在每輪第一次移動到與之鄰接的位置時，你能以<b>反應</b>強迫他進行<b>敏捷豁免</b>。若豁免失敗，則目標陷入<b>固定</b>狀況。這個<b>固定</b>狀況會持續直到這個無人機被毀、不再與目標鄰接、或目標以<b>快速動作</b>成功通過敏捷豁免為止。"
     },
     "Perimeter Command Plate": {
       "name": "周界指揮板",
@@ -143,14 +160,9 @@
       "detail": "當隊友角色與這部無人機鄰接時，該角色能以<b>快速動作</b>將其啟動，清除 1d6 熱度，解除一個狀況，並裝填一件帶有<b>裝填</b>標籤的武器。在被啟動之後，這部無人機會立即解體。"
     },
     "Sentinel Drone": {
-      "name": "Sentinel Drone",
-      "tokenName": "Sentinel Drone",
-      "detail": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action."
-    },
-    "Shredder OROCHI Drone": {
-      "name": "Shredder OROCHI Drone",
-      "tokenName": "Shredder OROCHI Drone",
-      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Hull save. On a failure, they take 1 kinetic damage and become Shredded until the end of their next turn."
+      "name": "哨兵無人機",
+      "tokenName": "哨兵無人機",
+      "detail": "哨兵無人機可以在感應和視線範圍內的一個未佔據空間展開，並設立一個<b> 爆發 2 </b>範圍的警戒區域。位於範圍區域內的敵對角色會在進行任何攻擊之前，都會因為遭到無人機的炮火並受到 3 動能傷害。<br><br>你能以<b>快速動作</b>把哨兵無人機回收或重新展開在其他位置。"
     },
     "Smoke Mine": {
       "name": "煙霧地雷",
@@ -167,20 +179,15 @@
       "tokenName": "Snare Foam",
       "detail": "When finished, this project continually sprays foam around it, creating a Burst 2 area of difficult terrain. Destroying it removes the effect."
     },
-    "Snare OROCHI Drone": {
-      "name": "Snare OROCHI Drone",
-      "tokenName": "Snare OROCHI Drone",
-      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make an Agility save. On a failure, they become Immobilized. They only cease to be Immobilized when the drone is destroyed or no longer adjacent, or they succeed on an Agility save as a quick action."
-    },
     "Stasis Barrier": {
       "name": "Stasis Barrier",
       "tokenName": "Stasis Barrier",
       "detail": "Generate a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you. It counts as an obstruction and provides soft cover, but doesn’t block line of sight.<br>When an attack is made against a character that benefits from this barrier’s soft cover, roll 1d6: on 4+, the attack is consumed by the barrier and has no effect whatsoever. The barrier lasts for the rest of the scene, or until you deactivate it as a quick action. This effect does not stack with Invisible."
     },
     "Tempest Drone": {
-      "name": "Tempest Drone",
-      "tokenName": "Tempest Drone",
-      "detail": "Any character that starts their turn adjacent to the tempest drone or moves adjacent to it for the first time in a round must succeed on a Hull save or take 4 energy damage and be knocked 3 spaces directly away from the drone.<br>You may recall or redeploy the tempest drone as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene."
+      "name": "暴風無人機",
+      "tokenName": "暴風無人機",
+      "detail": "當角色在與暴風無人機鄰接時開始其回合、或在每輪第一次移動到其鄰接空間時，該角色必須成功通過<b>機體豁免</b>，否則受到 4 能量傷害，並被往遠離暴風無人機的方向擊退 3 格距離。<br><br>你能以<b>快速動作</b>把暴風無人機回收或重新展開在其他位置。直到被回收或摧毀之前，它將維持展開直到該場景結束為止。"
     },
     "Thermite Charge": {
       "name": "鋁熱炸彈",
