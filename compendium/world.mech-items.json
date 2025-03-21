@@ -1,5 +1,11 @@
 {
-  "label": "lancer.compendium.mech-items",
+  "label": "機甲彙編",
+  "folders": {
+    "Frame": "骨架",
+    "Mech System": "機甲系統",
+    "Mech Weapon": "機甲武器",
+    "Weapon Mod": "武器改造"
+  },
   "mapping": {
     "system": {
       "path": "system",

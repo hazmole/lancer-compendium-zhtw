@@ -1,5 +1,8 @@
 {
-  "label": "lancer.compendium.player-actors",
+  "label": "預製玩家物件",
+  "folders": {
+    "Deployable": "可展開物"
+  },
   "mapping": {
     "system": {
       "path": "system",
