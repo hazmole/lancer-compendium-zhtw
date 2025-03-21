@@ -2311,62 +2311,62 @@
       }
     },
     "“Roller” Directed Payload Charges": {
-      "name": "“Roller” Directed Payload Charges",
-      "description": "Semi-Autonomous Directed Payload Charges – “roller charges” in the colloquial – propel themselves around cover, through corridors, and across uneven terrain, seeking out and detonating near hostile targets. Armory legionnaires have taken to naming individual rollers, but mascot-attachment is unadvisable.",
+      "name": "「滾雷」定向酬載炸藥",
+      "description": "半自律定向酬載炸藥──通稱「滾雷炸藥」──能自行繞開掩護，穿過走廊，和越過崎嶇地形，尋找敵方目標並在其附近引爆。兵工廠的軍團兵經常會為個別滾雷命名，但我們並不建議對其產生情感依附。",
       "actions": {
         "Roller Grenade": {
-          "name": "Roller Grenade",
-          "detail": "Instead of throwing this grenade, it rolls along a line 10 path directly from you, bouncing over obstructions and objects up to Size 1 and passing through holes or gaps no smaller than Size 1/2. It detonates when it moves through or adjacent to the space occupied by any character: they must succeed on an Agility save or take 1d6+3 explosive damage and be knocked 3 spaces in the direction the grenade was rolled. On a success, they take half damage and aren’t knocked back."
+          "name": "滾雷手榴彈",
+          "detail": "這個手榴彈並非用來投擲，而是會沿著以你為起點的 線性 10 路徑滾動，它會彈跳越過大小最大為 1 的障礙物，並穿過大小最小為 1/2 的孔洞或隙縫。它會在穿過或移動到與任何角色鄰接的空間時引爆，且目標必須成功通過<b>敏捷豁免</b>，否則受到 1d6+3 爆炸傷害，並被往手榴彈滾動的方向擊退 3 格。若豁免成功，則受到的傷害減半且不會被擊退。"
         }
       }
     },
     "Siege Stabilizers": {
-      "name": "Siege Stabilizers",
-      "description": "Some weapons require further stabilization for optimal use. With Armory-designed siege stabilizers installed, a mech becomes a stable firing platform for any weapon.",
+      "name": "攻城穩定器",
+      "description": "有些武器需要額外的穩定性才能發揮最佳效果。在安裝了兵工廠設計的攻城穩定器後，機甲將成為能讓任何武器穩定開火的發射平台。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Your mech’s stabilizers extend (or retract). While they are extended, your ranged attacks gain +5 range, but you become Immobilized, can’t make melee attacks, and can’t make ranged attacks against or centered on characters, objects, or spaces within range 5."
+          "name": "啟動攻城穩定器",
+          "detail": "你展開（或收回）你機甲的穩定器。當穩定器被展開時，你的遠距攻擊得到 +5⌿ 射程，但你陷入<b>固定</b>狀況，無法進行肉搏攻擊，且無法對 ⌿5 範圍內的角色、物件、或空間進行遠距攻擊。"
         }
       }
     },
     "Autoloader Drone": {
-      "name": "Autoloader Drone",
-      "description": "Autoloader drones are many-limbed machines that assist their team by loading ordnance, maintaining powerline hookups, and cycling magazine-fed weapons, in addition to many other physical tasks.",
-      "effect": "Expend a charge to deploy this autoloader drone to any adjacent space."
+      "name": "自動裝填無人機",
+      "description": "自動裝填無人機是一種多肢臂機器，能夠協助團隊裝填彈藥、保養電線連接、為彈匣武器循環供彈，並執行其他各種物理工作。",
+      "effect": "消耗一發來在任何鄰接空間展開一架自動裝填無人機。"
     },
     "Flak Launcher": {
-      "name": "Flak Launcher",
-      "description": "Designed for use against atmospheric fliers, these anti-air autocannons fire simple, proximity or impact-detonated shells effective against light armor, organic, and subaltern targets.",
+      "name": "防空發射器",
+      "description": "這些防空自動火炮被設計用來對付大氣層內的飛行目標，能發射簡單的近炸式彈藥或撞擊引信彈藥，對輕裝甲、有機體和機械目標都能發揮效果。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Choose a flying character within range 15 and line of sight. They must succeed on an Agility save or immediately land (this counts as falling without any damage), and additionally become Slowed and can’t fly until the end of their next turn."
+          "name": "啟動防空發射器",
+          "detail": "選擇在 ⌿15 範圍和視線範圍內的一名飛行角色。目標必須成功通過<b>敏捷豁免</b>，否則立即落地（這被視為墜落，但不會造成任何傷害），陷入<b>緩慢</b>狀況且無法飛行，持續直到其下一回合結束為止。"
         }
       }
     },
     "Siege Cannon": {
-      "name": "Siege Cannon",
+      "name": "攻城炮",
       "profiles": {
         "Siege Mode": {
-          "name": "Siege Mode",
-          "description": "The siege cannon is the Armory’s quintessential artillery piece: a howitzer cannon fed by an automated loading system. Typically mounted on long-range mechs deployed in artillery or squad-support roles, siege cannons are capable of both indirect and direct fire as the situation demands with variable ammunition options.",
-          "on_attack": "Choose to fire in either siege mode or direct fire mode."
+          "name": "攻城模式",
+          "description": "攻城炮是兵工廠最典型的自走大炮：一門透過自動裝填系統供彈的榴彈炮。通常安裝在擔任自走炮或小隊支援角色的長程機甲上，攻城炮能夠根據戰況需要，使用不同類型的彈藥進行直射或曲射炮擊。",
+          "on_attack": "選擇使用攻城模式或直射模式來開火。"
         },
         "Direct Fire Mode": {
-          "name": "Direct Fire Mode",
-          "description": "The siege cannon is the Armory’s quintessential artillery piece: a howitzer cannon fed by an automated loading system. Typically mounted on long-range mechs deployed in artillery or squad-support roles, siege cannons are capable of both indirect and direct fire as the situation demands with variable ammunition options.",
-          "on_attack": "Choose to fire in either siege mode or direct fire mode."
+          "name": "直射模式",
+          "description": "攻城炮是兵工廠最典型的自走大炮：一門透過自動裝填系統供彈的榴彈炮。通常安裝在擔任自走炮或小隊支援角色的長程機甲上，攻城炮能夠根據戰況需要，使用不同類型的彈藥進行直射或曲射炮擊。",
+          "on_attack": "選擇使用攻城模式或直射模式來開火。"
         }
       }
     },
     "External Ammo Feed": {
-      "name": "External Ammo Feed",
-      "description": "An external ammo feed is any sort of ammunition beyond what is carried in a mech’s integrated storage: from magazines strapped to bodies or limbs; battery packs attached to hip clasps; or massive, dorsal-mounted ammunition and charge packs, externals ensure that pilots have more than enough boom to get the job done.",
+      "name": "外置供彈系統",
+      "description": "外置供彈系統泛指任何置於機甲內建空間之外的彈藥庫：這包括綁在機體或四肢上的彈匣、安裝在腰部扣具上的電池組，以及龐大的背掛式彈藥和炸藥包，這些外置彈藥能確保駕駛員擁有足夠的火力去達成他們的任務。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "1/round, you can activate this system to reload a Loading weapon."
+          "name": "啟動外置供彈系統",
+          "detail": "每輪一次，你能啟動這個系統來<b>裝填</b>一個帶有<b>裝填</b>標籤的武器。"
         }
       }
     },

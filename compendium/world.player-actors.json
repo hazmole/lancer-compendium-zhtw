@@ -30,14 +30,14 @@
       }
     },
     "Autoloader Drone": {
-      "name": "Autoloader Drone",
-      "tokenName": "Autoloader Drone",
-      "detail": "1/round, one character adjacent to it may reload a Loading weapon as a quick action. It deactivates at the end of the scene."
+      "name": "自動裝填無人機",
+      "tokenName": "自動裝填無人機",
+      "detail": "每輪一次，與這個無人機鄰接的角色能以<b>快速動作</b>來<b>裝填</b>一個帶有<b>裝填</b>標籤的武器。這個無人機會在該場景結束時停止運作。"
     },
     "Bouncing Mine": {
-      "name": "Bouncing Mine",
-      "tokenName": "Bouncing Mine",
-      "detail": "This mine detonates when a flying character passes over or adjacent to it, up to 10 spaces high. The mine launches itself upwards and detonates: all characters within the affected area must succeed on a Systems save or take 2d6 explosive damage and immediately land (this counts as falling without any damage); additionally, they can’t fly until the end of their next turn. On a success, they take half damage and are otherwise unaffected."
+      "name": "彈跳地雷",
+      "tokenName": "彈跳地雷",
+      "detail": "這個地雷會在飛行角色從其所在位置或鄰近空間的上方最多 10 格內範圍飛過時引爆。這個地雷會自行往上彈射並引爆：影響範圍內的所有角色必須成功通過<b>系統豁免</b>，否則受到 2d6 爆炸傷害並立即落地（這被視為墜落，但不會造成任何傷害）；此外，目標直到其下一回合結束前都不能再飛行。若豁免成功，則目標受到的傷害減半且不受其他效果影響。"
     },
     "Breaching Charge": {
       "name": "突破炸藥",
