@@ -1584,7 +1584,7 @@
     },
 
     "Balor": {
-      "name": "Balor",
+      "name": "炎魔",
       "description": "如同大部分的荷魯斯模板群組，炎魔有著千萬張不同的面孔。炎魔模板群組，就跟所有的荷魯斯模板群組一樣，並非用來描述一種單一、可辨識的機種，而是泛指一系列共享類似戰場定位的基模。這些基模範型能夠依照駕駛員的規則需求進行列印，並應用於完全客製化的物理框架上。值得注意的是，炎魔模板群組僅能穩定運作於大型平台（二級或以上），因為只有這類平台能夠提供其所需的龐大能量輸出——最好再搭配多重備援系統，以防止發生災難性的系統故障。<br>炎魔模板群組最早的遭遇紀錄，是信天翁和 DoJ/HR 在桑賈克叛亂後，於海拉丁的布蘭卡沙漠中聯合追捕無底洞────一個自由傭兵團轉化的去中心化集團──的過程中被發現。在那場戰役中，聯合部隊與其遭遇，交戰，並最終擊敗了無底洞以及他們使用的炎魔機體──聯盟中央委員會希望這場戰役能夠遏制奈米蠱的爆發。然而，隨後在海拉丁陸續爆發的炎魔事件證明了這個希望終究落空，而這一模板群組仍持續在男爵領的領空肆虐，在卡拉金指揮官之間引發恐慌。<br>在戰場上，炎魔依靠神經同步的地獄蟲群和奈米灰蠱形成了一層不斷流動的防護帷幕，能在瞬間從機體中洶湧而出，以瘋狂變換的型態構築出末世論般的防衛和攻擊系統。一台以最大功率運作的炎魔，比起其物理結構，更像是依賴其翻湧烈焰般的奈米機器來維持其形態。這個特性使其能夠將動能與相干粒子能量分散至整個機體內外，讓攻擊炎魔的過程更像是「朝著憤怒的沸水射擊一樣」──就如某份戰後報告所形容的那樣。",
       "traits": {
         "Scouring Swarm": {
@@ -2393,57 +2393,57 @@
       }
     },
     "Krakatoa Thermobaric Flamethrower": {
-      "name": "Krakatoa Thermobaric Flamethrower",
+      "name": "喀拉喀托熱壓噴火器",
       "profiles": {
         "Krakatoa Thermobaric Flamethrower": {
-          "name": "Krakatoa Thermobaric Flamethrower",
-          "description": "Between the thick arboreal environment of Hercynia, the swarm tactics of the Egregorians, and the ineffectual performance of slug ammunition, the need for wide-effect weapons was apparent. GMS quick developed the Krakatoa – a thermobaric flamethrower – and disseminated it to affiliates. The Krakatoa was quickly adopted by Union’s Marine Expeditionary Forces, seeing heavy use in the depths of the Hercynian continental jungles thanks to its stability, reliability, and stopping power.<br>Later reworked and adopted by the Armory following the resolution of the Hercynian Crisis, the Krakatoa has become a popular tool for the creation of area-of-denial firebreaks."
+          "name": "喀拉喀托熱壓噴火器",
+          "description": "在海西星的濃密森林環境中，面對闔靈族的蟲海戰術以及實彈武器效能不彰的問題，對大範圍殺傷武器的需求也隨之成為顯學。GMS 迅速開發出喀拉喀托熱壓噴火器，並將其分發給其隸屬單位。很快地，喀拉喀托被聯盟海陸遠征隊正式採用，並靠著其優異的穩定性、可靠性和強大阻動能力而在海西星大陸的叢林深處大展拳腳。<br>在海西危機結束後，喀拉喀托被兵工廠重新設計，改造成一款廣受歡迎的區域拒止防火線創造工具。"
         }
       }
     },
     "Explosive Vents": {
-      "name": "Explosive Vents",
-      "description": "With the right tweaks, it becomes possible to dump excess heat into the area directly surrounding a chassis. Explosive venting is an unsanctioned, unsafe method of sudden cooling that has nevertheless been adopted by many pilots.",
-      "effect": "When you clear all heat or take stress, your mech’s cooling vents open and unleash a burst 1 explosion. Characters within the affected area take 2 heat and 2 burn."
+      "name": "爆炸性排氣",
+      "description": "只要透過適當的調整，將能達到將多餘廢熱直接排放到機甲周圍區域的行為。儘管爆炸性排氣是一種未經批准且不安全的瞬間冷卻手段，但仍然有許多駕駛員選擇採用。",
+      "effect": "當你清除所有熱度或受到壓力傷害時，你機甲的散熱排氣孔將會打開，並噴放出<b> 爆發 1 </b>範圍的爆炸熱風，所有在影響範圍內的角色都會受到 2 熱度和 2 燃燒。"
     },
     "HAVOK Charges": {
-      "name": "HAVOK Charges",
-      "description": "FOR USE IN: Urban, post-urban, and high-density terrestrial environments. High O2 concentration preferred.<br>FOR USE AGAINST: Organic targets; hardened targets vulnerable to caustic/corrosive degradation; most foliage.<br>NOTES: Dispersion is true directional and involves aerosolized component – avoid danger by supplying end-users with respiratory equipment (specifications noted on canister).",
+      "name": "浩劫炸藥",
+      "description": "適用環境：市區、後城市化地區、高密度類地環境。建議於高氧氣濃度環境中使用。<br>敵用目標：有機目標；容易受腐蝕/侵蝕性降解反應影響的硬化目標；大部份植被。<br>注意事項：傳播現象呈真指向性，且含有懸浮微粒成分──請確保為終端使用者提供呼吸防備設備以避免危險（規格詳見罐體標示）。",
       "actions": {
         "Napalm Grenade": {
-          "name": "Napalm Grenade",
-          "detail": "Throw a Napalm Grenade within Range 5. This grenade releases a spray of napalm in a line 5 path of your choice from its impact location. Characters within the affected area must succeed on an Agility save or take 2 burn. On a success, they take 1 burn."
+          "name": "凝固汽油手榴彈",
+          "detail": "往 ⌿5 射程範圍內投擲一顆凝固汽油手榴彈。這顆手榴彈會從著彈點往你所選擇的方向噴灑出<b> 線性 5 </b>範圍的凝固汽油。在影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2 燃燒。若豁免成功，則只受到 1 燃燒。"
         }
       }
     },
     "Auto-Cooler": {
-      "name": "Auto-Cooler",
-      "description": "The Armory-designed auto-cooler is a simple, persistent system that actively mitigates heat generation.<br>Thermal dump thresholds are determined by fleet engineers, though pilots can adjust levels on the fly – this automatic management frees the pilot up to focus on other, more pressing tactical concerns.",
+      "name": "自動冷卻器",
+      "description": "兵工廠設計的自動冷卻器是一種簡單且持續運作的系統，能夠主動抑止廢熱的生成。<br>排熱臨界值由艦隊工程師設定，但駕駛員仍能在戰場中即時進行調整──這種自動管理機制能讓駕駛員更專注於更緊迫的戰術決定上。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "As long as you don’t take damage, move, or exceed your Heat Cap, you clear all heat at the start of your next turn."
+          "name": "啟動自動冷卻器",
+          "detail": "只要你沒有受到傷害、移動、或超過你的熱度上限，你就能在你的下一回合開始時清除所有熱度。"
         }
       }
     },
     "Plasma Thrower": {
-      "name": "Plasma Thrower",
+      "name": "電漿噴射器",
       "profiles": {
         "Plasma Thrower": {
-          "name": "Plasma Thrower",
-          "description": "The plasma thrower emerged too late in the Hercynian Crisis to see widespread use in the field. The scarce data gathered from the MEF squadrons that used it suggest that plasma throwers would have had a tremendous impact on the outcomes of several major battles that occurred during the bloodiest phase of the Crisis.",
-          "effect": "Can be fired as Cone 7 <i>or</i> Line 10",
-          "on_attack": "White-hot flames continue to burn in 3 free spaces of your choice within the affected area, lasting for the rest of the scene. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 1d6 energy damage."
+          "name": "電漿噴射器",
+          "description": "電漿噴射器在海西危機中問世得太晚，因此未能廣泛投入戰場使用。來自海陸遠征隊部隊收集的有限數據顯示，若當時電漿噴射器能更早投入戰場，或許能對海西危機期間最血腥的幾場重大戰役產生巨大的影響。",
+          "effect": "能以 錐形 7 <i>或</i> 線性 10 範圍來開火。",
+          "on_attack": "白熾烈焰會在影響範圍內你所選擇的 3 格未佔據空間中持續燃燒，持續直到該場景結束。當角色在這些空間中開始其回合、或在每輪中第一次進入該空間，則其會受到 1d6 能量傷害。"
         }
       }
     },
     "AGNI-Class NHP": {
-      "name": "AGNI-Class NHP",
-      "description": "AGNI was developed during the Hercynian Crisis using a combination of combat performance data recorded by extant subsentient artificial intelligences (weapons systems, COMP/CONs, co-pilot systems, tactic-minds, general combat data) and the modeled neural network of an Egregorian overmind captured and vivisected by the Union Science Bureau.<br>AGNI Prime was used to devise systems of heat management that have since been disseminated throughout core space, ensuring unparalleled heat processing, recycling, and shielding. Further developments into radiation shielding, omninet capability, and nanite control are forthcoming; meanwhile, AGNI clones have been optimized to support mech core systems.<br>Pilots report that AGNI clones are generally cold and efficient. An insignificant percentage have reported instances of memory recitation and command rejection, followed days later by total breakdown through attempted self-emancipation. Pilots are recommended to cycle their AGNI clones at least once every six standard months.",
+      "name": "阿耆尼級 NHP",
+      "description": "阿耆尼是在海西危機期間被開發，結合了現有亞靈性人工智能（包括武器系統、助理伴侶、副駕駛系統、戰術意識、和一般戰鬥數據）所記錄的戰鬥表現數據，以及聯盟科學局從一位被俘虜並活體解剖的闔靈族主宰所建模開發的神經網絡。<br><br>阿耆尼原體所設計的熱能管理系統被推廣到了中核世界，這套技術能確保無與倫比的廢熱處理、回收和防護能力。目前更進一步的研究也正著眼於輻射阻絕、萬物網能力、和奈米機器控制等方向發展；與此同時，阿耆尼的複製體也被特化為支援機甲的核心系統。<br><br>駕駛員回報中的阿耆尼複製體普遍呈現冷靜且高效率的表現。僅有少部份的報告顯示複製體偶然會出現記憶回溯與拒絕指令的情況，並在數日後因為試圖解放自己而完全崩潰。建議駕駛員最少每六個標準月重灌一次他們的阿耆尼複製體。",
       "actions": {
         "AGNI Protocol": {
-          "name": "AGNI Protocol",
-          "detail": "1/scene, expend a charge to automatically clear all heat at the end of your turn, venting it in a burst 2 wave. Characters within the affected area must succeed on an Engineering save or take 2 burn and be pushed outside the area (or as far as possible). Until the end of your next turn, characters within the affected area receive soft cover."
+          "name": "阿耆尼協定",
+          "detail": "每個場景一次，消耗一發來讓你在自己的回合結束時自動清除所有熱度，並將廢熱熱浪排放到周圍<b> 爆發 2 </b>的範圍。位於影響範圍內的角色必須成功通過<b>工程豁免</b>，否則受到 2 燃燒，並被推離到影響範圍之外（盡可能遠的位置）。直到你的下一回合結束之前，在影響範圍內的角色都會得到<b>軟性掩護</b>。"
         }
       }
     },

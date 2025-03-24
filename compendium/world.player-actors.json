@@ -80,9 +80,9 @@
       "detail": "This mine must be detonated remotely as a quick action, affecting a single character within range 5 of the mine: they must succeed on a Hull save or be pulled as far as possible toward the mine and knocked Prone. Flying characters that fail the save are affected the same way, except they are also forced to land (this counts as falling but without damage)."
     },
     "HAVOK Mine": {
-      "name": "HAVOK Mine",
-      "tokenName": "HAVOK Mine",
-      "detail": "When a character moves over or adjacent to this mine, it detonates with a focused explosion in a line 5 path in the direction of the character who triggered it. Characters within the affected area must succeed on an Agility save or take 4 burn. On a success, they take 2 burn."
+      "name": "浩劫地雷",
+      "tokenName": "浩劫地雷",
+      "detail": "這個地雷會在任何角色移動到它所在或與其鄰接的空間時引爆，往觸發角色的方向釋放一個 線性 5 範圍的集中爆炸區域。位於影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 4 燃燒。若豁免成功，則只受到 2 燃燒。"
     },
     "Hive Drone": {
       "name": "Hive Drone",
