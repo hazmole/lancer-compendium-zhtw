@@ -2474,65 +2474,65 @@
       }
     },
     "Stub Cannon": {
-      "name": "Stub Cannon",
+      "name": "短管炮",
       "profiles": {
         "Stub Cannon": {
-          "name": "Stub Cannon",
-          "description": "The stub cannon is a supercompact rotary cannon – short-range, but suitable for integration into hardpoints and manipulators."
+          "name": "短管炮",
+          "description": "短管炮是一款超緊湊型的轉輪機炮，儘管射程較短，但適合整入武器掛載點和操作手臂中使用。"
         }
       }
     },
     "Grounding Charges": {
-      "name": "Grounding Charges",
-      "description": "Grounding charges take a simple pulse/wave principle and apply a second dimension: gravitic generation. When triggered, the grounding charge triggers a gravity well that pulls all destabilized materiel towards it. A potent anti-positional weapon, grounding charges are commonly used to disrupt prepared positions and pull enemies from cover.",
+      "name": "接地炸藥",
+      "description": "接地炸藥運用了簡單的脈衝／波動原理，並加入了第二個維度：重力生成。當被引爆時，接地炸藥會引發重力井，將所有未被固定的物質拉向其中心。作為一種強效的反陣地武器，接地炸藥經常被用於破壞陣地佈署並將敵人從掩護中拉出。",
       "actions": {
         "Gravity Grenade": {
-          "name": "Gravity Grenade",
-          "detail": "Throw a Gravity Grenade within Range 5. Your target must succeed on an Agility save or be Slowed until they make no voluntary movements for a full turn on their own turn."
+          "name": "重力手榴彈",
+          "detail": "往 ⌿5 射程範圍內投擲一顆重力手榴彈。你的目標必須成功通過<b>敏捷豁免</b>，否則陷入<b>緩慢</b>狀況，持續直到其在自己的整個回合中都沒進行過任何自願移動為止。"
         }
       }
     },
     "Gravity Gun": {
-      "name": "Gravity Gun",
+      "name": "重力槍",
       "profiles": {
         "Gravity Gun": {
-          "name": "Gravity Gun",
-          "description": "“The complex negotiations of gravity and time, shattered in an instant by a machine that can pluck waves like a player strums the strings of a guitar.<br>We’ve weaponized the force that holds all things in its embrace. What could go wrong?”",
-          "on_attack": "Characters within the affected area must succeed on a Hull save or take 1d6 energy damage and be pulled as close to the center of the blast possible. This weapon cannot be modified or benefit from core bonuses."
+          "name": "重力槍",
+          "description": "「重力與時間之間複雜的協調互動在一瞬間被這台機器崩解，如同演奏者撥弄吉他的弦一樣操弄波動。<br>我們將維繫萬物的力量化為武器。這能出什麼差錯呢？」",
+          "on_attack": "影響範圍內的角色必須成功通過<b>機體豁免</b>，否則受到 1d6 能量傷害，並被盡可能拉動到濺射範圍的中心。這件武器無法被改造，也不會受益於核心加成。"
         }
       }
     },
     "Repulser Field": {
-      "name": "Repulser Field",
-      "description": "Utilizing a subsonic pressure wave, repulser fields emit tremendous single-wave pulses that stun, deter, and dissuade close-proximity hostiles.",
+      "name": "拒斥力場",
+      "description": "利用亞音速壓力波，拒斥力場能夠釋放出強大的單波脈衝，用以震懾，阻擋，並驅離近距離的敵對目標。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This system emits a burst 2 pulse around you. Characters within the affected area must succeed on a Hull save or be knocked 2 spaces directly away from you; then, all Mines within the affected area detonate simultaneously.<br>You count as having Immunity to any damage or effects immediately forced by mines detonated using this system, although persistent effects still affect you."
+          "name": "啟動拒斥力場",
+          "detail": "這個系統會在你周圍釋放出<b> 爆發 2 </b>範圍的脈衝。影響範圍內的角色必須成功通過<b>機體豁免</b>，否則被往遠離你的方向直線擊退 2 格；然後，在影響範圍內的所有地雷都會同時被引爆。<br><br>你免疫於所有被這個系統強制引爆的地雷造成的任何傷害和瞬發效果，但你仍會受到這些地雷的持續型效果影響。"
         }
       }
     },
     "Clamp Bombs": {
-      "name": "Clamp Bombs",
-      "description": "Built using similar grapple-head technology to IPS-N’s assault grapples, clamp bombs can affix to designated or proximal targets before detonating, ensuring total target contact. Clamping on soft targets typically results in total termination prior to detonation.",
+      "name": "夾鉗炸彈",
+      "description": "使用了類似 IPS-N 突擊擒拿系統的抓鉤技術，夾鉗炸彈能夠附著在特定或附近目標上後再引爆，確保與目標完全接觸。當夾鉗鎖定在軟目標身上時，通常在引爆前就足以導致其死亡。",
       "actions": {
         "Launch Clamp Bombs": {
-          "name": "Launch Clamp Bombs",
-          "detail": "Expend a charge to fire a cluster of miniature bombs at a character within Sensors. They must succeed on an Engineering save, or the bombs clamp on. At the end of their next turn, the bombs detonate, dealing 1d6+3 AP explosive damage. All characters adjacent to your target take half damage. The target can disarm and detach the bombs by voluntarily moving at least 4 spaces before the end of their turn."
+          "name": "發射夾鉗炸彈",
+          "detail": "消耗一發，對位於感應範圍內的一名角色發射集束微型炸彈。目標必須成功通過<b>工程豁免</b>，否則將會被炸彈夾鉗附著。在目標的下一回合結束時，這些炸彈會被引爆並造成 1d6+3 穿甲(AP)爆炸傷害。所有與目標鄰接的角色也會受到一半的傷害。目標可以在其回合結束前透過自願移動至少 4 格距離來解除並拆卸這些炸彈。"
         }
       }
     },
     "Tesseract": {
-      "name": "Tesseract",
-      "description": "Hold sand above the water: feel it, permanent and cohesive. Place that same sand in the water: watch it drift away, weightless. This is the tool I have made for you: a way to imbue the weighted with mass-as-feathers.<br>— TT-AUDATA, Think Tank paramind.",
+      "name": "超空間立方",
+      "description": "在水面上緊握塵沙：感受它的穩固和凝聚。將這塵沙放入水中：看著它飄散而去，輕盈無重。這就是我為你打造的工具：賦予重物使其如羽無重之法。<br><i>—— TT-奧妲塔，智囊團亞智能</i>",
       "actions": {
         "Spread Focus": {
-          "name": "Spread Focus",
-          "detail": "Choose a blast 3 area within Sensors: this area, extending 6 spaces high, becomes a zero-g area. In addition to the usual rules for zero-g movement, objects that enter the affected area float in place, and objects or characters that are knocked, moved, or pulled out of the area sink harmlessly to the ground at the end of their turn instead of falling. This area disperses if you create a new one. Otherwise, the effect persists until the end of the scene. When the zone disperses, everything within floats harmlessly to the ground."
+          "name": "放大焦點",
+          "detail": "選擇位於感應範圍內的<b> 濺射 3 </b>範圍區域：這個區域以及其向上延伸 6 格高度內的空間將變為無重力空間。除了適用原本的無重力移動規則之外，任何進入影響空間內的物件都會在原地飄浮，且被擊退、移動或推離影響空間的物件和角色，都會在其回合結束時安然飄降落地，而不會墜落。當你創造新的無重力空間時，舊的空間將會隨即解消。除此之外的場合，這個無重力空間會持續直到該場景結束為止。當這個空間解消，所有其中的事物都會安然飄降落地。"
         },
         "Pinpoint Focus": {
-          "name": "Pinpoint Focus",
-          "detail": "Choose a hostile or willing allied character within Sensors. If they are allied, they float 6 spaces into the air, becoming Immobilized while in the air but counting as flying and unable to fall. They can choose to sink harmlessly to the ground at the end of any of their turns or the start of any of yours. If they are hostile, they must succeed on an Engineering save or experience the same effect as an allied character; however, they sink harmlessly to the ground at the end of their next turn. Hostile characters can each be affected 1/scene."
+          "name": "縮小焦點",
+          "detail": "選擇感應範圍內的一名敵對角色或自願隊友角色。如果目標為隊友角色，則其會往上飄浮至 6 格高的空間，在飄浮期間陷入<b>固定</b>狀況，但被視為飛行中且不會墜落。目標可以選擇在自己的任何一個回合結束時，或是在你的回合開始時安然飄降落地。如果目標為敵對角色，則其必須成功通過<b>工程豁免</b>，否則受到與前述相同的效果；然而，目標會在其下一回合結束時安然飄降落地。每個敵對角色在同個場景中只會受到這個效果影響一次。"
         }
       }
     },

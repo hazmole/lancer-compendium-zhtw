@@ -75,9 +75,9 @@
       "detail": "妖鬼巢房能以<b>免費動作</b>在感應和視線範圍內的一個未佔據空間展開，並在該處成為一架靜止懸浮的無人機。在被展開後，你仍然能夠把它當成武器來進行<b>交火</b>或<b>彈幕</b>，但使用其所在的位置來計算視線範圍和射程。<br><br>你能以<b>快速動作</b>把妖鬼無人機回收或重新展開在其他位置。直到被回收或摧毀之前，它將維持展開直到該場景結束為止。如果它被毀，則它會遵循無人機被毀的規則，且直到被維修之前都無法再被使用。"
     },
     "Grounding Mine": {
-      "name": "Grounding Mine",
-      "tokenName": "Grounding Mine",
-      "detail": "This mine must be detonated remotely as a quick action, affecting a single character within range 5 of the mine: they must succeed on a Hull save or be pulled as far as possible toward the mine and knocked Prone. Flying characters that fail the save are affected the same way, except they are also forced to land (this counts as falling but without damage)."
+      "name": "接地地雷",
+      "tokenName": "接地地雷",
+      "detail": "這個地雷必須以<b>快速動作</b>來遙控引爆，並影響距離地雷 ⌿5 範圍內的一個角色：目標必須成功通過<b>機體豁免</b>，否則被盡可能被拉動到地雷所在的位置，並被拉倒<b>伏臥</b>。豁免失敗的飛行角色同樣會被這個效果影響，且必須被迫立即落地（這被視為墜落，但不會造成任何傷害）。"
     },
     "HAVOK Mine": {
       "name": "浩劫地雷",
