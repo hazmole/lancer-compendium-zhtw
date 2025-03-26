@@ -2559,57 +2559,57 @@
       }
     },
     "Stasis Bolt": {
-      "name": "Stasis Bolt",
-      "description": "To better protect Armory personnel beyond the Purview, the Think Tank developed the Stasis Bolt, a portable stasis-projection system designed to interdict shrapnel and projectiles from unseen, hidden, or unknown assailants. When the Stasis Bolt detects a proximal explosion or incoming projectile, it projects a delimited stasis point that blocks projectiles before impact.",
-      "effect": "This system charges as a quick action, readying a projected stasis point. While it is charged, you gain the Interdiction Point reaction. It can only hold one charge at a time, but charges last for the rest of the scene or until used.",
+      "name": "靜滯箭束",
+      "description": "為了更有效地保護管轄範圍外的兵工廠人員，智囊團開發了靜滯箭束這款可攜式的靜滯力場投射系統，用來攔截來自未被察覺、隱藏、或是未知敵人所發射的彈片和投射物。當靜滯箭束探測到近距離爆炸或有投射物來襲時，就會投射出一個限定範圍的靜滯點，在被命中之前擋下投射物。",
+      "effect": "這個系統能以<b>快速動作</b>充能，準備好隨時投放靜滯點。在充能後，你得到<b>阻絕點</b>反應。這個系統同時只能有一發充能，但這發充能會持續直到該場景結束、或被使用為止。",
       "actions": {
         "Charge Stasis Bolt": {
-          "name": "Charge Stasis Bolt",
-          "detail": "Charge the Stasis Bolt, gaining the Interdiction Point Reaction"
+          "name": "充能靜滯箭束",
+          "detail": "充能靜滯箭束，得到<b>阻絕點</b>反應。"
         },
         "Interdiction Point": {
-          "name": "Interdiction Point",
-          "trigger": "You or an allied character within range 5 are targeted by a ranged attack.",
-          "detail": "Make a contested ranged attack roll: if you win the contested roll, the attack automatically misses. The Stasis Bolt loses its charge."
+          "name": "阻絕點",
+          "trigger": "當你或位於 ⌿5 範圍內的隊友角色成為遠距攻擊的目標時。",
+          "detail": "對該遠距攻擊進行對抗判定：若你勝出，則該攻擊自動失手。<b>靜滯箭束</b>失去充能。"
         }
       }
     },
     "Stasis Generator": {
-      "name": "Stasis Generator",
-      "description": "The skies of Creighton boiled black as ink, marbled by shuddering light. Screaming, angels fell wreathed in flame. The ones who could still run fled for the shelters; for seven days, they crouched in a deeper dark and felt the world shake itself apart.<br>—A.V. Wynyard, “The Killing of Creighton” [epic prose poem, banned throughout the Purview]",
+      "name": "靜滯力場產生器",
+      "description": "克雷頓的天空漆黑如墨，點點火光如雲石交織。尖叫哀號，天使在烈火中墜落。仍能奔跑之人逃向避難所。在七日之間，他們蜷縮進更深沉的黑暗中，感受世界崩裂瓦解。<br><i>——A.V. 溫亞德, 《克雷頓的殞落》[散文史詩，在界址全境被禁]</i>",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Choose a hostile character or willing allied character within line of sight and range 5: until the end of their next turn, they become Stunned, gain Immunity to all damage and effects, and can’t be moved, targeted, or affected by any other character or effect. This can be used on each character 1/scene. Hostile characters can succeed on an Engineering save to ignore this effect."
+          "name": "啟動靜滯力場產生器",
+          "detail": "選擇在 ⌿5 範圍和視線範圍內的一名敵對角色或自願隊友角色：直到其下一回合結束前，目標陷入<b>暈眩</b>狀況，免疫於所有傷害和效果，且不會被任何其他角色或效果給強制移動、影響、或選為目標。這個效果在同個場景只能對每個角色使用一次。敵對角色可以透過通過<b>工程豁免</b>來避免承受這個效果。"
         }
       }
     },
     "Phase-Ready Mod": {
-      "name": "Phase-Ready Mod",
-      "description": "As it was named following its first use during the civil hostilities on Luna de Oro, phase-ready ammunition is the “devil’s bullets”. Each round contains a nanoprocessor suite networked with its weapon of origin that calculates and translates the specific nature of that round’s superpositional relation with a projected future doppelgänger that manifests in the space immediately before its intended target. To put it simply, phase-ready rounds, when fired, exist in two places at once: exiting the barrel of the weapon they were fired from, and directly in front of the target, prior to impact. The prime round may never hit its target, but given it already exists at the moment of impact, the doppelgänger round will reliably reach its mark.",
-      "effect": "As long as you know the rough location of your target, the weapon this mod is applied to can attack through solid walls and obstructions, doesn’t require line of sight, and ignores all cover, but targets attacked this way count as Invisible."
+      "name": "相位躍遷模組",
+      "description": "首次使用於金月內戰期間，相位躍遷彈藥也因而得到了「惡魔子彈」的別名。每一發子彈都包含了一組與發射武器相互連線的奈米處理器套件，能夠計算和轉譯該子彈與其投射出的未來二重體之間的超定位關係，並使二重體子彈能夠在預定攻擊目標的正前方顯現。說得簡單點，當相位躍遷彈藥被發射時將同時存在於兩個位置：發射武器的槍口，以及即將命中目標的著彈點。儘管主彈可能無法直接命中目標，但因為二重體已經位於命中瞬間的位置，因此仍能確保其擊中目標。",
+      "effect": "選擇一件武器來應用這個改造：只要你知道目標大致的位置，應用此改造的武器的攻擊就能夠穿過實心牆體和障礙物，不需要視線，且忽略任何掩護，但被這個方式攻擊的目標將被視為處於<b>隱形</b>狀態。"
     },
     "Stasis Barrier": {
-      "name": "Stasis Barrier",
-      "description": "Stasis barriers are the result of Harrison Armory’s interest in gravitic manipulation and superpositional negotiation. Guided by solid-state generation–projection units, stasis barriers are deployable walls of antigravity that deny almost all incoming kinetic and energetic attacks. By twisting local gravity, a stasis barrier denies both particles and waves on a molecular level—matter that impacts the barrier simply ceases to exist, although anomalous fluctuations may allow some projectiles to pass through.",
-      "effect": "Expend a charge to activate this stasis barrier, generating a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you."
+      "name": "靜滯護盾",
+      "description": "靜滯護盾是哈里遜兵工廠對重力操控和疊加態調節技術的研究成果。透過固態生成投射單元引導展開，靜滯護盾是一款可佈署的反重力牆體，能夠阻擋絕大部份來襲的動能和能量攻擊。藉由扭曲局部重力，靜滯護盾能在分子層面阻止粒子和波動通過──任何撞上這面護盾的物質將徹底消失，但異常波動仍可能導致部份投射物穿透這個屏障。",
+      "effect": "消耗一發來啟動靜滯護盾，在至少有一格與你鄰接的未佔據空間中產生一個 4 格高的<b> 線性 4 </b>範圍的護盾"
     },
     "Displacer": {
-      "name": "Displacer",
+      "name": "位移槍",
       "profiles": {
         "Displacer": {
-          "name": "Displacer",
-          "description": "The Displacer is the result of ongoing blinkspace exposure tests and refinement of standard interstellar travel methods. In terms of appearance, the Displacer could be mistaken for a conventional energy rifle, but it requires a massive secondary, dorsal-mounted reactor: when fired, the Displacer identifies a bubble of local space (size and location determined on an ad hoc basis by the user) and snaps it into blinkspace. The destination of the bubble is unknown, but the effect is dramatic: anything inside simply ceases to exist in this dimension, transported somewhere in the void of blinkspace. The Displacer makes no sound when fired, but the sudden and necessary venting of its power supply is tremendous; similarly, the heatwave of its backblast vent is deadly to any unshielded personnel exposed to it."
+          "name": "位移槍",
+          "description": "對於霎間暴露測試和標準星際旅行技術改良的持續研究，最終導致了位移槍的誕生。位移槍在外觀上很容易被誤認成普通的能量步槍，但其運行的能量消耗龐大，甚至需要搭載龐大的機甲級背掛式反應爐來進行供能。在開火時，位移槍會鎖定一個局部空間泡（尺寸和位置由使用者當下決定），並將其瞬間拋入霎間。沒有人知道這個空間泡最終會被傳送到何處，但其效果極為驚人：任何位於該空間的事物都將從這個維度中消失，並被傳送到霎間某處的虛空之中。儘管位移槍在開火時不會發出聲音，但其能量供應時所需的瞬間排熱相當劇烈；同樣地，其背部排熱口釋放的熱浪對於任何沒有防護的生物而言也相當致命。"
         }
       }
     },
     "Blinkshield": {
-      "name": "Blinkshield",
-      "description": "Characteristically for a weapon based on Think Tank research, Harrison Armory’s Blinkshield leans into the fuzzy nature of quantum manipulation. Operating in a similar fashion to a blinkspace gate, the Blinkshield generates a spherical sheath of energy that allows its operator to pierce realspace and exist, for a moment, in the null-environment of blinkspace. Think Tank spokespeople acknowledge the tactical benefits of (un)momentary (non)existence in blinkspace, but caution against repeated exposure without sufficient pre- and post-exposure conditioning and counseling.",
+      "name": "霎盾",
+      "description": "一如其他基於智囊團研究而開發的武器，哈里遜兵工廠的霎盾充分運用了量子操縱的模糊特性。使用了和霎間閘門相似的運作方式，霎盾能產生一個球形的能量外殼，讓操作者能夠撕穿現實空間，短暫地存在於霎間的虛無環境中。智囊團發言人承認，能夠（非）瞬間（不）存在於霎間帶來了顯著的戰術優勢，但他們也警告，若未經適當的暴露前後調適和心理輔導，連續曝露在該環境下可能會帶來嚴重的後果。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This system generates a burst 4 bubble around your mech, within which the flow of time is altered drastically. Nothing can enter or exit the bubble, not even light – it’s both impermeable and has Immunity to all damage and effects. Line of sight can’t be drawn through the border of the area, and it can’t be crossed by any action or effect – even those that don’t require line of sight – but time passes normally on both sides. For characters within the affected area, the world outside goes totally black; likewise, characters outside the affected area see a perfect black sphere.<br>When the Blinkshield is activated, characters partially within the affected area must make an Agility save: on a success, they move to the nearest free space on the side of their choice, inside or outside the area; on a failure, you choose.<br>This effect remains stationary even if you move, and lasts until the end of your next turn."
+          "name": "啟動霎盾",
+          "detail": "這個系統會在你的機甲周圍產生一個<b> 爆發 4 </b>範圍的氣泡，劇烈扭曲範圍內的時間流速。任何事物都無法進入或離開這個氣泡，就連光線也一樣──它不可穿透，且免疫於所有傷害和效果。視線無法穿過這個區域範圍的邊界，任何動作和效果也無法穿過它（包括那些不需要視線的效果），但氣泡內外的時間會以相同速度正常流動。對於影響範圍內的角色而言，氣泡外側的世界呈現漆黑一片，反之亦然。<br><br>當霎盾被啟動時，只有一部分處於影響範圍的角色必須進行<b>敏捷豁免</b>：若豁免成功，則其可以自行決定要移動到內側或外側的未佔據空間；若豁免失敗，則由你決定目標要移動到哪一側。<br><br>這個效果範圍不會跟著你移動，而是維持在原地不動，且會持續直到你的下一回合結束為止。"
         }
       }
     },

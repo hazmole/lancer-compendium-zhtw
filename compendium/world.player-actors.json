@@ -180,9 +180,9 @@
       "detail": "When finished, this project continually sprays foam around it, creating a Burst 2 area of difficult terrain. Destroying it removes the effect."
     },
     "Stasis Barrier": {
-      "name": "Stasis Barrier",
-      "tokenName": "Stasis Barrier",
-      "detail": "Generate a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you. It counts as an obstruction and provides soft cover, but doesn’t block line of sight.<br>When an attack is made against a character that benefits from this barrier’s soft cover, roll 1d6: on 4+, the attack is consumed by the barrier and has no effect whatsoever. The barrier lasts for the rest of the scene, or until you deactivate it as a quick action. This effect does not stack with Invisible."
+      "name": "靜滯護盾",
+      "tokenName": "靜滯護盾",
+      "detail": "在至少有一格與你鄰接的未佔據空間中產生一個 4 格高的<b> 線性 4 </b>範圍的護盾。這個護盾被視為障礙物，會提供<b>軟性掩護</b>，但不會阻擋視線。<br><br>當受到攻擊的角色從這個護盾提供的<b>軟性掩護</b>中受益，擲 1d6：若結果為 4+，則該攻擊被護盾抵銷，因此無法造成任何影響。這個護盾會持續直到該場景結束，或直到你以<b>快速動作</b>將其解除。這個效果不會與<b>隱形</b>狀態的效果疊加。"
     },
     "Tempest Drone": {
       "name": "暴風無人機",
