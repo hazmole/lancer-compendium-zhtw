@@ -2651,42 +2651,67 @@
       }
     },
     "Shatterhead Colony Missiles": {
-      "name": "Shatterhead Colony Missiles",
+      "name": "碎首集束飛彈",
       "profiles": {
         "Shatterhead Colony Missiles": {
-          "name": "Shatterhead Colony Missiles",
-          "description": "Developed following costly urban and naval boarding engagements in the Interest War, Shatterhead Colony Missiles are now a standard part of the arsenal fielded by Armory interdiction teams. When they reach an optimal distance, Shatterheads break open in a burst of high-catalyst fuel to reveal a cluster of small thermobaric pellets that spread out and ignite, choking the affected area with flame. The effect overloads energy shielding and saturates cover, though only a small percent of the projectiles actually reach their target.",
-          "effect": "The final attack roll for this weapon can never be affected by difficulty."
+          "name": "碎首集束飛彈",
+          "description": "為了因應利益戰爭中代價高昂的都市戰和登舷戰而開發設計，碎首集束飛彈現在已經成為了兵工廠攔截部隊的標準配備之一。碎首飛彈會在抵達最適距離時，透過高效觸媒燃料分裂成大量的小型熱壓彈丸，四散開來並迅速點燃，將目標區域吞沒於火舌之中。這個效果能使能量護盾過載並使掩體飽和，但只有少部分的投射物能真正命中目標。",
+          "effect": "這件武器最終的攻擊判定永遠不會受到<b>難度</b>的影響。"
         }
       }
     },
     "ENCLAVE-Pattern Support Shield": {
-      "name": "ENCLAVE-Pattern Support Shield",
-      "description": "The Armory’s ENCLAVE-Pattern Support Shield creates a localized one-way blinkfield, folding a thin dome of complex realspace around its user and their immediate area, protecting occupants from incoming projectiles. Entities within the field can fire out, but probabilistic fluctuations cause incoming projectiles to “lag”, skipping them away from their intended target and along a randomized trajectory.",
+      "name": "飛地型支援護盾",
+      "description": "兵工廠研發的飛地型支援護盾能夠產生局部的單向霎場，在其使用者及其周圍區域摺疊出一層複雜的現實空間稀薄穹頂，為內部人員抵禦來襲的投射物。位於霎場內部的個體能正常對外開火，但霎場導致的機率波動會使來自外部的投射物產生「滯緩」現象，使其偏離原本的目標，沿著隨機軌跡偏轉。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This system generates a burst 3 dome that lasts until the end of your next turn. You become Immobilized for the duration, but any ranged or melee attacks made against characters within the affected area from outside the dome receive +1 difficulty.<br>Additionally, gain the Blinkfield Intervention reaction while the shield is active."
+          "name": "啟動飛地型支援護盾",
+          "detail": "這個系統會產生一個<b> 爆發 3 </b>範圍的穹頂，維持直到你的下一回合結束為止。你在這段期間陷入<b>固定</b>狀況，但任何源自穹頂外，以影響範圍內的角色為目標的遠距或肉搏攻擊都會受到<b> +1 難度</b>。<br><br>此外，在這個護盾啟動期間，你得到<b>霎場干涉</b>反應。"
         },
         "Blinkfield Intervention": {
-          "name": "Blinkfield Intervention",
-          "trigger": "A character or object within the affected area is attacked.",
-          "detail": "Take two Heat, then grant the attack’s target Resistance to all damage from this attack."
+          "name": "霎場干涉",
+          "trigger": "當影響範圍內的角色或物件被攻擊時。",
+          "detail": "受到 2 熱度，然後讓被攻擊的目標得到對該攻擊造成所有傷害的抗性。"
+        }
+      }
+    },
+    "Flash Anchor": {
+      "name": "快閃錨點",
+      "description": "快閃錨點運用使用者引導的量子疊加鎖定投射技術，來在物理戰鬥和快速移動中識別並輔助隊友，確保其在任何情境下都能維持精準的戰術位置。",
+      "actions": {
+        "Flash Lock": {
+          "name": "快閃鎖定",
+          "trigger": "當你或位於感應和視線範圍內的隊友角色被推動、拉動、擊退、或擊倒<b>伏臥</b>時。",
+          "detail": "受到 2 熱度。無效該移動或狀態的發生，且直到目標的下一回合開始為止，目標對所有上述效果免疫。"
+        }
+      }
+    },
+    "Hardlight Defense System": {
+      "name": "硬光防禦系統",
+      "description": "硬光防禦系統是對理論上完美科技的一種不完美實現。這個系統目前由智囊團的 NHP 和工程師們共同開發，透過投射出如同雷射般緊密且穩定的光波以抵斥物質和能量。這個效果相當於創造出了一個固體表面，適合用於防禦或建立臨時屏障；然而，這項技術目前尚無法有效降低其環境溫度，因此這個硬光表面仍然會灼燒附近的有機物質。",
+      "actions": {
+        "Action": {
+          "name": "啟動硬光防禦系統",
+          "detail": "這個系統會創造出一個覆蓋<b> 爆發 3 </b>範圍的硬光護盾。在這個護盾運作期間，你陷入<b>固定</b>狀況。它會阻擋雙向的視線，且任何攻擊和效果都無法穿過它（即使其不需要視線也一樣）。僅有部位在影響範圍內的角色會忽略這個效果，且可以如常判斷其視線範圍。<br><br>角色可以移動穿過這個護盾，但當角色在每輪第一次穿過護盾邊緣、或在護盾邊緣開始自己的回合時，其會受到 2 燃燒。<br><br>這個護盾會維持直到該場景結束，或直到你以<b>協定</b>將其停止。"
+        },
+        "Deactivate Hardlight Defense System": {
+          "name": "停止硬光防禦系統",
+          "detail": "停止硬光防禦系統，解除其造成的<b>固定</b>狀況。"
         }
       }
     },
     "Paracausal Mod": {
-      "name": "Paracausal Mod",
-      "description": "Paracausal weapons are a headache for military planners; their precise A–Z function is often obscured, though they consistently produce the same “Z” output per “A” input.<br />The first reports of unregulated paracausal weaponry occurred during the civil engagements on Tian Shen. System-local forces received sealed magazines with directions to be loaded and fired as normal, although inspection of the magazines’ contents was prohibited on grounds that it would “damage the payload”. Helmet and gun cam footage do not betray the anomalous effects of this ordnance, though after-action reports uncovered a seemingly minor, though incredibly odd fact: every single trooper outfitted with this paracausal ammunition scored a 100% positive impact rate.<br />Union has scheduled all unregulated paracausal weapons and ammunition for retrieval, and the bureau is currently investigating Harrison Armory for its role in the development of the technology. Despite this, paracausal ammunition is still in use, as shipments and codes continue to leak to interested parties.",
-      "effect": "This weapon gains Overkill, and its damage can’t be reduced in any way, including by other effects and systems (such as Resistance, Armor, etc)."
+      "name": "超因果律模組",
+      "description": "超因果律武器的存在總是讓軍事規劃人員頭痛不已；儘管它們總能在輸入相同的「因」後得到相同的「果」，但其確切的因果運作細節往往籠罩在層層謎團中。<br><br>最早關於未受管制超因果律武器的報告出現在是在天申地區的內戰。當地部隊收到密封彈匣，並被指示按照常規進行裝填和射擊，但同時也被明令禁止檢查彈匣的內容，理由是避免因此「損害彈藥載荷」。頭盔和槍械上的攝影鏡頭並未揭示這些彈藥的異常之處，但從戰後報告中卻能發現一個看似微不足道，卻極其詭異的事實：所有配備了這套超因果律彈藥的士兵都達到了 100% 的命中率。<br><br>聯盟已經安排回收所有未受管制的超因果律武器和彈藥，當局也正在著手調查哈里遜兵工廠在此項技術開發中的角色。儘管如此，由於貨物和編碼仍不斷被洩漏給有興趣的買家，超因果律彈藥仍持續在市面上流通。",
+      "effect": "選擇一件武器來應用這個改造：該武器得到<b>殺絕</b>標籤，且其傷害無法被任何方式給減輕（包括其他效果、系統、抗性、裝甲等）。"
     },
     "NOAH-Class NHP": {
-      "name": "NOAH-Class NHP",
-      "description": "Originally developed from a captured Minerva pre-eidolon anomaly, NOAH was adapted for use as a metropolitan administrative NHP on Ras Shamra. The unit that would become NOAH did not, at first, seem like a suitable candidate for military application: this changed after one of its clones was flagged for review following the spontaneous implementation of anomalous traffic patterns, pedestrian routing, and vac-loop scheduling. Armory ontologisticians and engineers isolated and emphasized endemic protocols that could be exploited for tactical advantage.<br>Over numerous iterations and lifecycles, NOAH Prime displayed a high level of adaptability in multiple-variable geospatial problems. A proclivity toward crisis management and multi-actor tracking led to NOAH’s pairing with the Armory’s ENCLAVE-Pattern Support Shield. By networking a series of jet-assist mobility drones carrying an ENCLAVE generator, monitored and controlled by a NOAH clone, Think Tank was able to create an unparalleled personal shielding system: the Diluvian Ark, a miniaturized cluster-shield system unique to the NOAH NHP.<br>Using the Diluvian Ark, NOAH is able to intercept incoming kinetics – and even redirect projectiles back to their source – with stunning accuracy.",
+      "name": "挪亞級 NHP",
+      "description": "挪亞最初是從一個被捕捉的密涅瓦前幻靈異變體開發而來，並在之後被改造成為拉斯沙姆拉的都市管理用 NHP。一開始，這個後來成為了挪亞的單位並未被認為能應用於軍事用途，直到其中一個複製體因為突然自發性地實施異常交通模式、行人引導和真空列車軌道調度而被標記進行審查。兵工廠的本體論學者和工程師們因此隔離並強化了其內部的部分固有協定，使其能在戰術層面發揮作用。<br><br>在經過無數次的疊代和循環後，挪亞原體在多變數地理空間問題的處理中展現了極高的適應性。其對於危機管理和多行為體追蹤方面的傾向，導致了挪亞與兵工廠的飛地型支援護盾被整合起來。透過將一系統帶有飛地產生器的噴射輔助機動無人機連網相接，並讓挪亞複製體進行監察和操縱，智囊團成功開發出了一套無人能及的個人護盾系統：洪水方舟，一款挪亞級 NHP 獨有的微型化群聚護盾系統。<br><br>憑藉著洪水方舟系統，挪亞能以驚人的準確度攔截來襲的動能攻擊，甚至將彈道武器反轉射向其原始發射點。",
       "actions": {
         "Diluvian Ark": {
-          "name": "Diluvian Ark",
-          "detail": "These effects apply until the end of your next turn:<ul><li>You become Slowed.</li><li>Each time you or an allied adjacent character are targeted by a ranged attack, you may take 1 heat as a reaction and roll 1d6 before the attacker rolls: on 4+, you take an additional 1 heat and the attack automatically misses you and any allies adjacent to you. This effect does not stack with Invisible.</li><li>Each time a ranged attack fails to hit you or an adjacent allied character, the attacker takes 4 kinetic damage.</li></ul>"
+          "name": "洪水方舟",
+          "detail": "這些效果會持續直到你的下一回合結束為止：<ul><li>你陷入<b>緩慢</b>狀況。</li><li>每當你或與你鄰接的隊友角色成為遠距攻擊的目標，你可以在攻擊者擲骰前消耗<b>反應</b>，受到 1 熱度，並擲 1d6：若結果為 4+，你額外受到 1 熱度，且該攻擊自動失手。這個效果不會與<b>隱形</b>狀態的效果疊加。</li><li>每當以你或與你鄰接的隊友角色為目標的遠距攻擊失手，攻擊者都會受到 4 動能傷害。</li></ul>"
         }
       }
     },
