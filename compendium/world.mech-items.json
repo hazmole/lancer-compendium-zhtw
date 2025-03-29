@@ -1570,7 +1570,7 @@
           "description": "每輪一次，當總督蛺蝶對其他角色的攻擊造成<b>會心一擊</b>時，其可以立即對自己<b> ⌿3 </b>範圍內的任意角色造成 2 爆炸傷害，並將它們擊退 1 格。"
         },
         "Pressure Plating": {
-          "name": "壓力板甲",
+          "name": "壓力鍍層",
           "description": "總督蛺蝶具有對爆炸傷害的抗性。"
         }
       },
@@ -2282,32 +2282,53 @@
     },
 
     "Barbarossa": {
-      "name": "Barbarossa",
-      "description": "The Barbarossa is Harrison Armory’s most massive frame to date, built, per the orders of Harrison II, to “stand as the unstoppable image of Harrison I” and to carry the heaviest of weapons and equipment the Armory offers. Standing nearly thirteen meters tall, it is an unsubtle beast of a mech, inspiring terror in enemies and awe in allies. The Barbarossa can mount weapons suitable for engaging toe-to-toe with gunboats and low-gross tonnage subline vessels; due to its size and slow maneuverability, it is often employed in low-gravity engagements where mass is less of a concern.<br>The Barbarossa is a popular target for Purview essayists, who have been known to remark on the drawbacks that come with its size and how, as a result, it is a perfect stand-in for their political enemies.",
+      "name": "巴巴羅薩",
+      "description": "巴巴羅薩是哈里遜兵工廠迄今為止最巨型的機甲，由哈里遜二世親自下令打造，為了「展現哈里遜一世勢不可擋的形象」，並讓其能攜帶兵工廠提供的最重型武器和裝備。這架怪物機甲高達 13 米，其設計毫不掩飾地展現出壓倒性的威嚇力，讓敵人心生恐懼，讓隊友心懷敬畏。巴巴羅薩可以裝備足以和炮艦甚至小型星艦一決雌雄的重型武裝。然而，由於其龐大體型和緩慢的機動力，它通常會被部署在低重力環境，藉此減少質量帶來的負擔。<br><br>巴巴羅薩是在管轄域內的許多評論家熱衷使用的題材目標，他們往往會指出其體型帶來的缺陷，並借此影射他們的政治對手。",
       "traits": {
         "Heavy Frame": {
-          "name": "Heavy Frame",
-          "description": "The Barbarossa can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters."
+          "name": "重型骨架",
+          "description": "巴巴羅薩不會被比它更小的角色給推動、拉動、擊倒<b>伏臥</b>或是擊退。"
         },
         "Pressure Plating": {
-          "name": "Pressure Plating",
-          "description": "The Barbarossa has resistance to Explosive Damage."
+          "name": "壓力鍍層",
+          "description": "巴巴羅薩具有對爆炸傷害的抗性。"
         },
         "Colossus": {
-          "name": "Colossus",
-          "description": "Adjacent allied characters can use the Barbarossa for hard cover."
+          "name": "巨人",
+          "description": "鄰接的隊友角色可以把巴巴羅薩當作​<b>硬性掩護​</b>。"
         },
         "Slow": {
-          "name": "Slow",
-          "description": "The Barbarossa receives +1 difficulty on Agility checks and saves."
+          "name": "緩慢",
+          "description": "巴巴羅薩在進行<b>敏捷判定和豁免</b>時會得到 +1 難度。"
         }
       },
       "core_system": {
-        "name": "Apocalypse Rail",
-        "description": "Fresh from the Armory’s dayside research and development campus, the LGC-04 “Apocalypse Rail” is an exponential gravitic catapult – a to-scale test product pushed to licensed pilots for field trials as part of the Armory’s ongoing Plenary Beach Magnitude Weapons Test Project.<br>Distinct from current logarithmic short- or long-spool ship-to-ship weapons (kinetic or energetic/particular), this new platform taps into the Armory’s current gravitic research to exponentially charge and distribute a kinetic payload downrange. This increase in potential energy loading and decrease in total charge time comes at the cost of stability: where the logarithmic spool cannon is stable and shock-resistant, the exponential gravitic catapult is prone to destabilization. For the time being, built-in failsafes will trigger in the event of sudden traumatic destabilization to prevent detonation of the system, resetting any charging process underway at the time of the shock.<br>The LGC-04 “Apocalypse Rail” system is scaled considerably down from its intended operational role – that is, replacing capital ship spinal spool cannons – in order to effect the accumulation of live data for use in improving the system prior to naval adoption.",
-        "passive_name": "PASSIVE",
-        "active_name": "Charge Rail",
-        "active_effect": "When activated, you start charging the Barbarossa’s Apocalypse Rail, an incredibly powerful ship-to-ship long-spool weapon system that requires target calibration. Gain an Apocalypse Die, 1d6 starting at 4. At the start of each of your turns, lower the value of the Apocalypse Die by 1, to a minimum of 1. If you move (even involuntarily) or become Stunned or Jammed, the Apocalypse Die resets to 4 and then continues to count down as usual.<br>If the value of the Apocalypse Die is 1–3, you can attack on your turn with the Apocalypse Rail as a full action, but can’t move or take any other actions on the same turn. After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4. If you reach the end of the scene without using it, you regain 1 CP.<br>At the end of the scene, lose the Apocalypse Die, and the Apocalypse Rail stops charging."
+        "name": "末日導軌炮",
+        "description": "從兵工廠的晝側研究發展中心新鮮出爐，LGC-04「末日導軌炮」是一款指數級重力彈射武器。作為兵工廠持續進行的全岸量級武器測試計畫的一部份，這款實際比例的測試商品已經被推送給持有授權許可的駕駛員進行實戰測試。<br>相較於現有的對數級艦對艦武器（無論動能或能量／粒子武器），這款全新的發射平台採用了兵工廠最新型的重力技術，使其能夠以指數級進行充能並發射動能彈頭。這項技術顯著提高了能量累積的強度，降低了充能所需的時間，代價則是穩定性的下降：比起穩定且耐衝擊的對數級軸盤大炮，指數級重力彈射武器更容易發生擾動。目前，其內建的故障保險機制會在突發創傷性擾動發生時被啟動，在避免系統自爆的同時，重置正在進行的充能程序。<br>LGC-04「末日導軌炮」系統的規模遠小於其原始設計：主力艦的龍骨軸盤大炮，以便在投入艦隊使用前更有效地積累更多的實戰數據，進一步改良系統。",
+        "passive_name": "被動",
+        "active_name": "導軌充能",
+        "active_effect": "在啟動後，你開始充能巴巴羅薩的末日導軌炮：一款威力驚人，需要鎖定校準的艦對艦長軸盤武器系統。你獲得一顆<b>末日骰</b>，一顆起始數字為 4 的 d6 骰。在你的每個回合開始時，將末日骰的數字 -1，最低降到 1。如果你移動（無論自願與否）、或是陷入<b>暈眩</b>或<b>受擾</b>狀況，則末日骰會重設為 4，並接著如常繼續倒數。<br><br>如果末日骰的數字為 1~3，則你能在你自己的回合以<b>完整動作</b>使用末日導軌炮進行攻擊，但在該回合期間不能移動或進行任何其他動作。在使用末日導軌炮進行攻擊之後，末日骰會重設為 4。如果你在該場景結束時都沒有使用過它，則你恢復 1 CP。<br><br>在該場景結束時，你失去末日骰，且末日導軌炮將停止充能。"
+      }
+    },
+    "Apocalypse Rail": {
+      "name": "末日導軌炮",
+      "profiles": {
+        "Charge Rail: 4": {
+          "name": "導軌充能：4",
+          "effect": "不能被用來開火。"
+        },
+        "Charge Rail: 3": {
+          "name": "導軌充能：3",
+          "effect": "影響範圍內的物件自動受到 20 穿甲(AP)爆炸傷害。在攻擊後，爆炸揚起的塵埃會在影響範圍內飄揚，為其中的角色提供<b>軟性掩護</b>，持續直到你的下個回合結束為止。"
+        },
+        "Charge Rail: 2": {
+          "name": "導軌充能：2",
+          "effect": "影響範圍內的物件和地形自動受到 40 穿甲(AP)爆炸傷害，且被命中的角色陷入<b>離散</b>和<b>受損</b>狀況，持續直到其下一回合結束為止。爆炸會捲起一團燃燒的暴風雲團：直到你的下個回合結束為止，影響範圍內的角色會受益於<b>軟性掩護</b>，且在影響範圍內開始自己回合、或在每輪中第一次進入影響範圍內的角色也都會受到 4 燃燒。"
+        },
+        "Charge Rail: 1": {
+          "name": "導軌充能：1",
+          "effect": "影響範圍內的物件和地形自動受到 100 穿甲(AP)爆炸傷害，且被命中的角色陷入<b>離散</b>和<b>暈眩</b>狀況，持續直到其下一回合結束為止。影響範圍內的地表將在衝擊中蒸發：在該場景期間，影響範圍內的區域被視為困難地形，位於影響範圍內的角色將受益於<b>軟性掩護</b>，且在影響範圍內開始自己回合、或在每輪中第一次進入影響範圍內的角色也都會受到 4 燃燒。"
+        }
       }
     },
     "“Roller” Directed Payload Charges": {
@@ -2560,7 +2581,7 @@
     },
     "Stasis Bolt": {
       "name": "靜滯箭束",
-      "description": "為了更有效地保護管轄範圍外的兵工廠人員，智囊團開發了靜滯箭束這款可攜式的靜滯力場投射系統，用來攔截來自未被察覺、隱藏、或是未知敵人所發射的彈片和投射物。當靜滯箭束探測到近距離爆炸或有投射物來襲時，就會投射出一個限定範圍的靜滯點，在被命中之前擋下投射物。",
+      "description": "為了更有效地保護管轄域外的兵工廠人員，智囊團開發了靜滯箭束這款可攜式的靜滯力場投射系統，用來攔截來自未被察覺、隱藏、或是未知敵人所發射的彈片和投射物。當靜滯箭束探測到近距離爆炸或有投射物來襲時，就會投射出一個限定範圍的靜滯點，在被命中之前擋下投射物。",
       "effect": "這個系統能以<b>快速動作</b>充能，準備好隨時投放靜滯點。在充能後，你得到<b>阻絕點</b>反應。這個系統同時只能有一發充能，但這發充能會持續直到該場景結束、或被使用為止。",
       "actions": {
         "Charge Stasis Bolt": {
