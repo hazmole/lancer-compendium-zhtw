@@ -2393,24 +2393,24 @@
     },
 
     "Genghis": {
-      "name": "Genghis",
-      "description": "The original Genghis frame marked the dawn of the mech age; the Armory’s new line seeks to redefine it. From its roots as a modified GMS hardsuit, the Genghis Mk I became notorious for its use in the Hercynian Crisis – the first-contact war that triggered the violent overthrow of the Second Committee. In the administrative and political chaos that followed the Crisis, Harrison Armory secured the design and adapted it to serve as the basis of its first proprietary mechs, including the Sherman and the Saladin.<br>The new Genghis bears some resemblance to the chassis of Hercynian notoriety, serving in a similar area-denial/soft-target elimination role; The Genghis Mk II has been brought in line with the Third Committee’s Utopian Pillars.",
+      "name": "成吉思",
+      "description": "成吉思的原版骨架標誌著機甲時代的黎明；而兵工廠發行的新型號則試圖重新定義這一經典。最早起源自經過改裝的 GMS 強化裝甲服，成吉思 MK1 因為其在海西危機中被投入使用而變得惡名昭彰：這場第一次接觸戰爭最終也導致了第二中央委員會被推翻。在海西危機之後伴隨而來的行政和政治混亂中，哈里遜兵工廠成功取得了成吉思的設計，並將其作為基礎，開發出了兵工廠包括薛曼和薩拉丁在內的首批專屬機甲型號。<br><br>新型的成吉思 MK2 仍然保留了海西危機時期機體的部分特徵，同樣擔任著區域封鎖／軟目標殲滅的職責；如今，成吉思 MK2 已經經過調整，以符合第三中央委員會制定的烏托邦支柱理念。",
       "traits": {
         "Insulated": {
-          "name": "Insulated",
-          "description": "The Genghis has Immunity to burn."
+          "name": "隔熱",
+          "description": "成吉思免疫於<b>燃燒</b>。"
         },
         "Emergency Vent": {
-          "name": "Emergency Vent",
-          "description": "When the Genghis takes structure damage, it clears all heat."
+          "name": "緊急排熱",
+          "description": "當成吉思受到結構傷害時，清除自己的所有熱度。"
         }
       },
       "core_system": {
-        "name": "TBK Sustain Suite",
-        "description": "To better manage the Genghis’s tremendous power demands and rapidly accelerate heat dispersion, the Think Tank developed a suite of power-management mechanisms. After extensive field testing, pilots discovered that the TBK Sustain Suite can be used as both a heat sink and an area-denial weapon.",
-        "passive_name": "PASSIVE",
-        "active_name": "Expose Power Cells",
-        "active_effect": "The next time you exceed your Heat Cap this scene, you instead clear all heat and vent a burst 3 cloud of burning matter from your mech.<br>Until the start of your next turn, all characters within the affected area count as Invisible to everyone except you, and characters other than you take 2 burn and 2 heat when they start their turn in the area or enter it for the first time in a round. Once this effect ends, characters within the affected area receive soft cover (which you ignore) until the start of your following turn, at which point the cloud disperses."
+        "name": "TBK 維持套裝",
+        "description": "為了更有效地管理成吉思那龐大的能源需求並加速熱量排放，智囊團研發了一整套動力管理機制。經過了大規模的實戰測試，駕駛員發現 TBK 維持套裝不僅能作為散熱器，還能被當成區域拒止武器使用。",
+        "passive_name": "被動",
+        "active_name": "暴露能量電池",
+        "active_effect": "在該場景期間，當你下一次超過自己的熱度上限時，你可以改為清除所有熱度，並從機甲排放出<b> 爆發 3 </b>範圍的灼熱物質。<br><br>直到你的下一回合開始前，在影響範圍內的所有角色對除了你以外的所有人而言都視為處於<b>隱形</b>狀態，且除了你之外的角色會在每輪第一次進入影響範圍內、或在該處開始自己的回合時受到 2 燃燒和 2 熱度。在這個效果結束後，影響範圍內的角色將會受益於<b>軟性掩護</b>（你一樣忽略這個效果），持續直到你的再下一個回合開始為止，隨著熱雲消散一同解除。"
       }
     },
     "Krakatoa Thermobaric Flamethrower": {
@@ -2470,28 +2470,28 @@
     },
 
     "Iskander": {
-      "name": "Iskander",
-      "description": "Developed on the proving grounds of the Armory’s Think Tank, the Iskander is a new specialist frame designed to bring gravtech area-control and breach capabilities to a mechanized platform.<br>A bulky frame, the Iskander fields a mix of kinetic and causal-energy systems that empower pilots to triumph in a wide portfolio of scenarios. The Iskander platform has no civilian counterpart: it is intended to be used as a frontline command and control platform, with an emphasis toward identifying and eliminating static explosive threats.",
+      "name": "伊斯坎達爾",
+      "description": "在兵工廠智囊團的實驗場上開發，伊斯坎達爾是一款設計於將重力科技應用於區域拒止和突破作戰的新型專業機甲，增強機械化作戰平台的戰術價值。<br><br>伊斯坎達爾這款笨重的骨架搭載了動能和因果能量系統的混合配置，使駕駛員能夠在各式作戰環境中取得優勢。伊斯坎達爾並沒有推出任何民用版本：它的設計完全專注於前線指揮和控制，並特別強調偵測並消除靜態爆炸威脅的能力。",
       "traits": {
         "Assault Launcher": {
-          "name": "Assault Launcher",
-          "description": "1/round, the Iskander may throw one Grenade or plant one Mine as though it has range 15."
+          "name": "突擊發射器",
+          "description": "每輪一次，伊斯坎達爾能以 ⌿15 射程來投擲手榴彈或部署地雷。"
         },
         "Mine Deployers": {
-          "name": "Mine Deployers",
-          "description": "1/round, when the Iskander plants a Mine (even using its Assault Launcher trait), it may plant up to two other Mines in free spaces adjacent to itself as a free action."
+          "name": "佈雷兵",
+          "description": "每輪一次，當伊斯坎達爾部署地雷時（包括透過<b>突擊發射器</b>特徵），其能以<b>免費動作</b>在自己鄰接的未佔據空間再額外部署最多二個其它地雷。"
         },
         "Skeleton Key": {
-          "name": "Skeleton Key",
-          "description": "The Iskander never triggers or sets off Mines or other proximity-based systems unless it chooses to do so."
+          "name": "骷髏鑰匙",
+          "description": "除非刻意如此，否則伊斯坎達爾永遠不會觸發地雷或其他近迫觸發系統。"
         }
       },
       "core_system": {
-        "name": "Broad-Sweep Seeder",
-        "description": "The Broad-Sweep Seeder is a proprietary device developed during the Orrugi Occupation, during which Armory legionnaires fought an embittered, recalcitrant local guerilla movement. IEDs, VBEDs, and D/SABEDs were often employed by the resistance; to counter the threat, Harrison Armory developed the Seeder to simultaneously scan, identify, and eliminate explosive threats in proximity to stationary units. The technology proved successful and, with minor adaptation, was adapted for installation on Armory frames.<br>The Broad-Sweep Seeder emits an excited LIDAR hivecone to flag potential targets: if positive identification occurs, the target is neutralized with a spray of mag-accelerated, dull-coat flechettes. The Seeder can also carry explosive hivemines.",
-        "passive_name": "PASSIVE",
-        "active_name": "Death Cloud",
-        "active_effect": "This system fires an enormous, expanding cloud of micromines across the whole battlefield, affecting all hostile characters within range 50. For the rest of the scene, when hostile characters make any movement other than their standard move (including involuntary movement), they take 3 AP explosive damage. This effect can trigger any number of times, but only 1/round for each character."
+        "name": "廣域掃蕩播撒機",
+        "description": "廣域掃蕩播撒機是一款在奧魯基佔領戰期間，在兵工廠的軍團士兵與當地頑強的游擊勢力激戰時開發而成的專屬裝置。為了對抗反抗軍頻繁使用的土製炸彈、車載炸彈、和誘導／定向爆炸裝置，哈里遜兵工廠開發了播撒機以同時進行掃描、識別和清除駐紮單位周圍的爆炸威脅。這項技術確實取得了成功，在經過小幅改造後，被進一步被整合安裝在兵工廠的機甲平台上。<br><br>廣域掃蕩播撒機透過釋放激發光學雷達巢錐來標記潛在威脅目標：一旦確認為爆炸裝置，便會立即以磁加速的啞光塗層鏢彈來快速摧毀目標。此外，播撒機本身也可以攜帶爆炸性蟲巢地雷。",
+        "passive_name": "被動",
+        "active_name": "死神烏雲",
+        "active_effect": "這個系統會發射一團龐大的微型地雷雲團以覆蓋整個戰場，影響在 ⌿50 範圍內的所有敵對角色。直到該場景結束之前，每當敵對角色進行任何普通移動以外的移動時（包括強制移動），都會受到 3 穿甲(AP)爆炸傷害。這個效果可以觸發無限次，但同一輪中對每個角色只能觸發一次。"
       }
     },
     "Stub Cannon": {
@@ -2559,24 +2559,24 @@
     },
 
     "Napoleon": {
-      "name": "Napoleon",
-      "description": "Perhaps in a tongue-in-cheek nod to its namesake, the Napoleon is a squat frame in comparison to other Harrison Armory designs. Its frame is packed with marvels of Armory engineering – technology that demands nothing less than the best and brightest pilots. In spite of its small stature, the Napoleon employs one of the Armory’s most terrifying new weapons, the Displacer, which manifests pinpoint, one-way blinkspace ruptures on its targets.<br>Notable for more than its stature, this chassis boasts a tremendous record of success, with pilots reporting a .800 return rate in high-KIA operations. The Napoleon is a popular chassis among breach divisions of the Armory’s legions, Think Tank security, and Union Economic Bureau development teams.",
+      "name": "拿破崙",
+      "description": "或許是對其名字的一個詼諧致敬，拿破崙相比其他哈里遜兵工廠機甲的設計要顯得更加矮小。然而，其骨架內部滿載著兵工廠工程學的奇蹟──只有最優秀最聰慧的駕駛員能夠駕馭。盡管體型偏小，拿破崙仍搭載了兵工廠最為恐怖的新型武器之一：位移槍，這款武器能精準鎖定目標，並在其位置產生一個單向的霎間裂縫缺口，使敵人瞬間從現實中消失。<br><br>這款機甲的聲名不僅僅是源自其體型，更因為其輝煌戰績表現而廣受矚目。即使是在高陣亡率的任務中，拿破崙機甲的駕駛員也有高達八成的存活率。無論是在兵工廠的軍團攻城隊、智囊團安保單位，或是聯盟經濟局的開發團隊中，拿破崙都是相當受歡迎的機甲。",
       "traits": {
         "Heavy Shielding": {
-          "name": "Heavy Shielding",
-          "description": "When the Napoleon would take half damage on a successful check or save, it instead reduces the damage to 1."
+          "name": "重型護盾",
+          "description": "當拿破崙因為成功通過判定或豁免而將要使受到的傷害減半時，改為將該傷害減輕為 1。"
         },
         "Flash Aegis": {
-          "name": "Flash Aegis",
-          "description": "When the Napoleon Braces, it reduces incoming damage to 1 instead of gaining Resistance."
+          "name": "閃耀神盾",
+          "description": "當拿破崙進行<b>受身</b>時，它改為將受到的傷害變為 1，而非取得<b>抗性</b>。"
         }
       },
       "core_system": {
-        "name": "Trueblack Aegis",
-        "description": "The Trueblack Aegis is a breakthrough in personal shielding developed by the Armory’s Think Tank. Like the Armory’s other NHP-derived technologies, the Aegis is a “black-box” technology: its code and inner workings are highly confidential, and it can typically only be requisitioned by pilots of high rank or standing within Harrison Armory. Some Cosmopolitan pilots have described the appearance of the Aegis as similar to the void – or blindness – they see when looking into blinkspace. It’s safe to assume the device harnesses unstable blinkfield technology to manifest a thin blinkspace bubble within defined parameters. The blinkfield can only maintain coherence for a brief moment but can be flickered on and off to create a total blinkspace dome.",
-        "passive_name": "PASSIVE",
-        "active_name": "Activate Aegis",
-        "active_effect": "A shimmering, utterly black field quickly envelops your mech, covering it like a second skin. For the rest of the scene, you:<ul><li>reduce all damage to 1, except for damage that ignores reduction;</li><li>gain Immunity to all tech actions, including beneficial ones, and any current tech effects or conditions on you end;</li><li>can only use systems with the Shield tag – any others immediately deactivate (systems that do not require activation are unaffected);</li><li>can’t take quick actions, full actions, or reactions, except for standard moves, Grapple, Ram, Improvised Attack, Activate (Shield systems only), Skill Check, and Boost;</li><li>can’t Overcharge;</li><li>can’t use comms to talk to other characters (as sound doesn’t exit the shield).</li></ul>You can still receive statuses and Heat, and can be affected by involuntary movement. You can otherwise interact normally with the world, including picking up and dragging items, and so on."
+        "name": "真黑神盾",
+        "description": "真黑神盾是兵工廠智囊團在個人防護領域中開發的突破性技術。和兵工廠的其他 NHP 衍生科技一樣，神盾屬於「黑盒子」技術：其編碼和內部運作機制皆屬於高度機密，通常僅限於高階駕駛員或與哈里遜兵工廠關係良好者使用。部份寰宇公民的駕駛員曾經如此形容，表示神盾在啟動時的視覺效果很類似於他們凝視霎間時所見的虛空與黑暗。基本上可以假定這個裝置是運用不穩定的霎間場技術在特定範圍內產生一層霎間薄膜。儘管霎間場只能維持極為短暫的時間，但仍可以透過快速開關的方式來構築出完整的霎間護罩。",
+        "passive_name": "被動",
+        "active_name": "啟動神盾",
+        "active_effect": "一個搖曳著的完全黑暗力場迅速覆蓋你的機甲，如同第二層皮膚一樣將其包裹。直到該場景結束前，你得到以下效果：<ul><li>除了能夠忽略減免的傷害外，所有你受到的傷害變為 1。</li><li>你免疫於所有科技動作（包括有益效果），且你受到的所有科技效果和狀況也都隨之結束。</li><li>你只能使用擁有<b>盾牌</b>標籤的系統，任何其他啟動中的系統都會立即停止（不需要啟動的系統則不受影響）。</li><li>你不能進行除了<b>普通移動</b>、<b>擒拿</b>、<b>衝撞</b>、<b>權宜攻擊</b>、<b>啟動</b>（限定護盾系統）、<b>技能判定</b>、和<b>推進</b>以外的<b>快速動作</b>、<b>完整動作</b>、和<b>反應</b>。</li><li>你不能進行<b>超限</b>。</li><li>你不能透過通訊和其他角色溝通（因為聲音也無法離開護盾）。</li></ul>你仍然會受到狀態效果和熱度，也會受到強制移動的影響。除此之外，你能夠如常和其他事物互動，包括撿拾和拖行物品等等。"
       }
     },
     "Stasis Bolt": {
@@ -2640,22 +2640,22 @@
       "description": "The Saladin is a hardy and efficient platform for full-squad support shielding. Based on early defense-oriented versions of the Genghis, the Saladin became the stuff of Armory legend following the exploits of Harrison I “Fearkiller” during the Interest War.<br>Since its first iteration, the Saladin has proved successful in a defensive and support role; it has even become a mainstay among Union Department of Justic and Human Rights liberator teams engaged in emancipation and refugee escort missions, despite the ideological (and, often, tactical) friction between the Armory and the DoJ/HR. Records from these engagements indicate that the Saladin’s massive bulk alone was a comfort and morale boost to DoJ/HR troopers and their charges, many of whom referred to the mechs as “Big Sal”. Union-flagged Saladin pilots often report null balances on bar tabs following engagements in emancipated systems.",
       "traits": {
         "Reinforced Frame": {
-          "name": "Reinforced Frame",
-          "description": "The Saladin has Immunity to Shredded."
+          "name": "強化骨架",
+          "description": "薩拉丁免疫於<b>離散</b>狀況。"
         },
         "Guardian": {
-          "name": "Guardian",
-          "description": "Adjacent allied characters can use the Saladin for hard cover."
+          "name": "守護者",
+          "description": "鄰接的隊友角色可以把薩拉丁當作​<b>硬性掩護​</b>。"
         },
         "Warp Shield": {
-          "name": "Warp Shield",
-          "description": "1/round, the Saladin can give +1 difficulty to any attack against it or an allied character within Sensors as a reaction before the roll is made."
+          "name": "扭曲護盾",
+          "description": "每輪一次，薩拉丁可以在自己或感應範圍內的隊友角色被攻擊時，在該攻擊判定擲骰前以<b>反應</b>來使該攻擊得到 +1 難度。"
         }
       },
       "core_system": {
         "name": "Tachyon Loop",
         "description": "Developed by the Think Tank as a joint venture with IPS-Northstar’s Stellar Engineering Unit, the Tachyon Loop uses a closed-loop system to restrain and manipulate a tachyon lance, accelerating tachyons at faster-than-light speeds around a central buckler. The buckler can be carried by a mech or mounted directly, interceding directional incoming fire. As the tachyons travel faster than light, they are invisible to the naked eye, giving the shield the appearance of a large spoked wheel.",
-        "passive_name": "PASSIVE",
+        "passive_name": "被動",
         "active_name": "Tachyon Shield",
         "active_effect": "This system projects an accelerated-tachyon shield over an allied character within Sensors. You may choose a new target as a quick action. Gain the Defensive Pulse reaction for the rest of the scene.<br>Defensive Pulse<br>Reaction, 1/round<br>Trigger: Your target is attacked.<br>Effect: You empower their tachyon shield with a pulse of energy. They gain Resistance to all damage from the attack, and if the attack misses, you may force the attacker to reroll it against a character or object of your choice, checking line of sight and Range from your target instead of from the attacker. If the attack was part of an area of effect, the new target must be inside the same area of effect from the original attack instead.",
         "active_actions": {
@@ -2742,22 +2742,22 @@
       "description": "The Sherman is the classic Harrison Armory frame: any station, nation, world, or state—stellar or interstellar—with an Armory fleet-supply contract fields a backbone force of Sherman mechs. The Sherman is designed to carry a range of Harrison Armory’s main battle-line energy weaponry, with a rugged, versatile reactor to back it up. After the GMS-SP1 Everest, the Sherman is the second-most-common mech in the core systems—so common that GMS has recently begun equipping its stock models with more ablative and wave-scatter defenses, specifically to deal with hostile actors fielding Shermans.<br>At present, the Mk I is in wide use, with exclusive, first-contract Mk II units only now rolling off the lines at Ras Shamra and other Armory special-project worlds.",
       "traits": {
         "Superior Reactor": {
-          "name": "Superior Reactor",
-          "description": "The Sherman gains +1 accuracy on Engineering checks and saves."
+          "name": "卓越反應爐",
+          "description": "薛曼在進行<b>工程判定和豁免</b>時會得到 +1 準度。"
         },
         "Mathur Stop": {
-          "name": "Mathur Stop",
-          "description": "When the Sherman clears all heat, you may choose to receive heat equal to half its Heat Cap, putting it in the Danger Zone."
+          "name": "默圖爾停點",
+          "description": "當薛曼清除所有熱度時，你可以選擇受到等同其<b>熱度上限</b>的一半的熱度，使其進入<b>超溫危域</b>。"
         },
         "Vent Heat": {
-          "name": "Vent Heat",
-          "description": "When you Stabilize the Sherman or it exceeds its Heat Cap, it benefits from soft cover until the start of your next turn."
+          "name": "排放高熱",
+          "description": "當薛曼進行<b>穩住陣腳</b>或超過自己的熱度上限時，它直到自己的下一回合開始前都將受益於<b>軟性掩護</b>。"
         }
       },
       "core_system": {
         "name": "Zone-Focus Mk IV SOLIDCORE",
         "description": "The ZF4 SOLIDCORE is a hard-mounted, dual-source energy beam weapon. Powered by a millifold power generation system, the ZF4 features a secondary belt-fed rack of solidcore batteries that can be used to overcharge a single impulse beam, extending the weapon’s range and destructive power.",
-        "passive_name": "PASSIVE",
+        "passive_name": "被動",
         "active_name": "COREBURN Protocol",
         "active_effect": "Your ZF4 SOLIDCORE immediately gains 3 Charges, to a maximum of 4; additionally, for the rest of this scene, Stabilize generates 2 Charges instead of 1, and all terrain, objects, and deployables take 10 AP energy damage per charge on hit."
       }
@@ -2821,12 +2821,12 @@
       "description": "HA’s Tokugawa is a relative newcomer on the market, popular in core systems for security, CQB, and ship-boarding applications. The Tokugawa is an unsubtle, imposing mech – a sturdy platform from which its systems can draw necessary power. Unlike other frames, the Tokugawa’s unique reactor is designed to allow standard limitations to be removed with ease. Knowing this, experienced (or foolhardy) pilots can ‘overclock’ the reactor, increasing its output and gaining an incredible power draw for their energy weapons.",
       "traits": {
         "Limit Break": {
-          "name": "Limit Break",
-          "description": "When the Tokugawa is Exposed, its ranged and melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat."
+          "name": "界線突破",
+          "description": "當德川陷入<b>曝露</b>狀態時，其遠距和肉搏攻擊都會在命中時造成 +3 額外能量傷害，且所有會造成動能或爆炸傷害的武器都會改為造成能量傷害。此外，其遠距武器會得到 +5⌿ 射程，肉搏武器得到 +1 威脅。"
         },
         "Plasma Sheath": {
-          "name": "Plasma Sheath",
-          "description": "When the Tokugawa is in the Danger Zone and attacks with a weapon that deals any amount of energy, all bonus damage becomes burn."
+          "name": "電漿鞘套",
+          "description": "當德川處於<b>超溫危域</b>並使用會造成任何能量傷害的武器進行攻擊，則其所有額外傷害都會變為燃燒。"
         }
       },
       "core_system": {
