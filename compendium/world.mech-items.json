@@ -2637,7 +2637,7 @@
 
     "Saladin": {
       "name": "Saladin",
-      "description": "The Saladin is a hardy and efficient platform for full-squad support shielding. Based on early defense-oriented versions of the Genghis, the Saladin became the stuff of Armory legend following the exploits of Harrison I “Fearkiller” during the Interest War.<br>Since its first iteration, the Saladin has proved successful in a defensive and support role; it has even become a mainstay among Union Department of Justic and Human Rights liberator teams engaged in emancipation and refugee escort missions, despite the ideological (and, often, tactical) friction between the Armory and the DoJ/HR. Records from these engagements indicate that the Saladin’s massive bulk alone was a comfort and morale boost to DoJ/HR troopers and their charges, many of whom referred to the mechs as “Big Sal”. Union-flagged Saladin pilots often report null balances on bar tabs following engagements in emancipated systems.",
+      "description": "薩拉丁是一款堅固而高效的全隊支援護盾平台。其設計源自早期防禦特化版本的成吉思機型，隨著「殺懼者」哈里遜一世於利益戰爭時建立的輝煌戰功，也讓薩拉丁成為了兵工廠的傳奇。<br><br>從初代機型問世以來，薩拉丁便證明了其在防禦和支援領域的卓越表現；儘管兵工廠和聯盟司法和人權部門（DoJ/HR）之間存在意識形態和戰術理念上的分歧，它仍然成為了 DoJ/HR 解放部隊在執行解放和護衛難民任務時的標配機體。這些交戰紀錄顯示，薩拉丁龐大的機體本身便能為 DoJ/HR 士兵和其保護對象帶來莫大的安心感與士氣提升，甚至讓其得到了「薩大哥」這個暱稱。在解放地區執行任務的隸屬聯盟的薩拉丁駕駛員，經常會發現自己在酒吧中的帳單被清零──代表著來自解放民眾的感謝與敬意。",
       "traits": {
         "Reinforced Frame": {
           "name": "強化骨架",
@@ -2653,20 +2653,20 @@
         }
       },
       "core_system": {
-        "name": "Tachyon Loop",
-        "description": "Developed by the Think Tank as a joint venture with IPS-Northstar’s Stellar Engineering Unit, the Tachyon Loop uses a closed-loop system to restrain and manipulate a tachyon lance, accelerating tachyons at faster-than-light speeds around a central buckler. The buckler can be carried by a mech or mounted directly, interceding directional incoming fire. As the tachyons travel faster than light, they are invisible to the naked eye, giving the shield the appearance of a large spoked wheel.",
+        "name": "迅子迴圈",
+        "description": "由智囊團和極星船運的星空工程部門聯合開發，迅子迴圈採用了封閉迴路系統來限制並操控迅子長槍，使迅子以超光速圍繞著中央圓盾旋轉。這個小圓盾能夠由機甲手持或直接安裝於機體上，用於攔截來襲的指向性攻擊。由於迅子的速度比光速還快，無法憑藉肉眼觀察，使這面盾牌看起來彷彿一個巨大的輻射狀輪盤一樣。",
         "passive_name": "被動",
-        "active_name": "Tachyon Shield",
-        "active_effect": "This system projects an accelerated-tachyon shield over an allied character within Sensors. You may choose a new target as a quick action. Gain the Defensive Pulse reaction for the rest of the scene.<br>Defensive Pulse<br>Reaction, 1/round<br>Trigger: Your target is attacked.<br>Effect: You empower their tachyon shield with a pulse of energy. They gain Resistance to all damage from the attack, and if the attack misses, you may force the attacker to reroll it against a character or object of your choice, checking line of sight and Range from your target instead of from the attacker. If the attack was part of an area of effect, the new target must be inside the same area of effect from the original attack instead.",
+        "active_name": "迅子護盾",
+        "active_effect": "這個系統對位於感應範圍內的一名隊友角色投放一個加速迅子護盾。你能以<b>快速動作</b>重新選擇一個新的目標。你在該場景期間得到<b>防禦脈衝</b>反應。",
         "active_actions": {
           "Defensive Pulse": {
-            "name": "Defensive Pulse",
-            "trigger": "Your target is attacked.",
-            "detail": "You empower their tachyon shield with a pulse of energy. They gain Resistance to all damage from the attack, and if the attack misses, you may force the attacker to reroll it against a character or object of your choice, checking line of sight and Range from your target instead of from the attacker. If the attack was part of an area of effect, the new target must be inside the same area of effect from the original attack instead."
+            "name": "防禦脈衝",
+            "trigger": "當你的目標被攻擊時。",
+            "detail": "你利用脈衝能量強化目標身上的迅子護盾。目標得到對該攻擊所有傷害的<b>抗性</b>，且如果該攻擊失手，你可以強制該攻擊者對你選擇的一個角色或目標重新進行該攻擊，以你的目標而非攻擊者來計算該攻擊的視線和射程範圍。如果該攻擊是範圍攻擊的一部份，則新的目標必須處於原攻擊的範圍之內。"
           },
           "Retarget Tachyon Shield": {
-            "name": "Retarget Tachyon Shield",
-            "detail": "Change the target of your Tachyon Shield to another allied character within Sensors."
+            "name": "重新投射迅子護盾",
+            "detail": "選擇一個感應範圍內的隊友角色作為你迅子護盾的新目標。"
           }
         }
       }
