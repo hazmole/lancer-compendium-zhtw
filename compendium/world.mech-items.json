@@ -2166,7 +2166,7 @@
 
     "Pegasus": {
       "name": "天馬",
-      "description": "天馬型模板群組最早出現在聯盟和昂星霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該模板群組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該模板群組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的模板群組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯模板群組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
+      "description": "天馬型模板群組最早出現在聯盟和昂星霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該模板群組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該模板群組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的模板群組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯模板群組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯沙姆拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
       "traits": {
         "¿%:?EXTR!UDE GUN": {
           "name": "¿%:?排!出槍",
@@ -2636,7 +2636,7 @@
     },
 
     "Saladin": {
-      "name": "Saladin",
+      "name": "薩拉丁",
       "description": "薩拉丁是一款堅固而高效的全隊支援護盾平台。其設計源自早期防禦特化版本的成吉思機型，隨著「殺懼者」哈里遜一世於利益戰爭時建立的輝煌戰功，也讓薩拉丁成為了兵工廠的傳奇。<br><br>從初代機型問世以來，薩拉丁便證明了其在防禦和支援領域的卓越表現；儘管兵工廠和聯盟司法和人權部門（DoJ/HR）之間存在意識形態和戰術理念上的分歧，它仍然成為了 DoJ/HR 解放部隊在執行解放和護衛難民任務時的標配機體。這些交戰紀錄顯示，薩拉丁龐大的機體本身便能為 DoJ/HR 士兵和其保護對象帶來莫大的安心感與士氣提升，甚至讓其得到了「薩大哥」這個暱稱。在解放地區執行任務的隸屬聯盟的薩拉丁駕駛員，經常會發現自己在酒吧中的帳單被清零──代表著來自解放民眾的感謝與敬意。",
       "traits": {
         "Reinforced Frame": {
@@ -2738,8 +2738,8 @@
     },
 
     "Sherman": {
-      "name": "Sherman",
-      "description": "The Sherman is the classic Harrison Armory frame: any station, nation, world, or state—stellar or interstellar—with an Armory fleet-supply contract fields a backbone force of Sherman mechs. The Sherman is designed to carry a range of Harrison Armory’s main battle-line energy weaponry, with a rugged, versatile reactor to back it up. After the GMS-SP1 Everest, the Sherman is the second-most-common mech in the core systems—so common that GMS has recently begun equipping its stock models with more ablative and wave-scatter defenses, specifically to deal with hostile actors fielding Shermans.<br>At present, the Mk I is in wide use, with exclusive, first-contract Mk II units only now rolling off the lines at Ras Shamra and other Armory special-project worlds.",
+      "name": "薛曼",
+      "description": "薛曼是哈里遜兵工廠最具代表性的機甲：任何擁有兵工廠艦隊供應合約的太空站、國家、星球或星際國家，都會使用薛曼作為其作戰主力。薛曼的設計能夠適配多種兵工廠的主力戰線能量武器，並搭載堅固耐用的多功能反應爐以支撐其能量輸出。在 GMS-SP1 埃佛勒斯之後，薛曼是中核星系中第二常見的機甲──其普及程度之高，甚至迫使 GMS 在近期開始為他們的商品機型加裝更多的燒蝕裝甲和波散防禦系統，專門用以應對敵對勢力的薛曼機甲。<br><br>目前，第一代薛曼仍被廣泛使用，而獨家首批的第二代機體則剛剛離開拉斯沙姆拉和其他兵工廠的特殊計畫星球的產線，準備投入服役。",
       "traits": {
         "Superior Reactor": {
           "name": "卓越反應爐",
@@ -2755,11 +2755,32 @@
         }
       },
       "core_system": {
-        "name": "Zone-Focus Mk IV SOLIDCORE",
-        "description": "The ZF4 SOLIDCORE is a hard-mounted, dual-source energy beam weapon. Powered by a millifold power generation system, the ZF4 features a secondary belt-fed rack of solidcore batteries that can be used to overcharge a single impulse beam, extending the weapon’s range and destructive power.",
+        "name": "第四代區域聚焦硬核炮",
+        "description": "第四代區域聚焦（Zone Focus MK4, ZF4）硬核炮是一款固定安裝型的雙源能量光束武器。透過多重摺曲能源系統提供動力，ZF4 另外配備著內含硬核電池的次級彈鍊，可用於超載單發脈衝光束，強化這件武器的射程和破壞力。",
         "passive_name": "被動",
-        "active_name": "COREBURN Protocol",
-        "active_effect": "Your ZF4 SOLIDCORE immediately gains 3 Charges, to a maximum of 4; additionally, for the rest of this scene, Stabilize generates 2 Charges instead of 1, and all terrain, objects, and deployables take 10 AP energy damage per charge on hit."
+        "active_name": "燒核協定",
+        "active_effect": "你的 ZF4 硬核炮立即得到 3 充能，上限為 4 充能；此外，在該場景期間，<b>穩住陣腳</b>動作會產生 2 充能，而非原本的 1 充能，且所有地形、物件、和可展開物都會在被命中時受到等同於「10 x 充能數」的穿甲(AP)能量傷害。"
+      }
+    },
+    "ZF4 SOLIDCORE": {
+      "name": "ZF4 硬核炮",
+      "profiles": {
+        "1 Charge": {
+          "name": "1 充能",
+          "effect": "這件武器的性能取決於它擁有的充能數。它一開始擁有 1 充能，射程為<b> 線性 4 </b>範圍，並能造成 1d6 能量傷害。每當你進行<b>穩住陣腳</b>時，你會再得到 1 充能，上限為 4 充能。每一發額外充能都會使 ZF4 得到額外的<b> +4 線性</b>範圍和 +1d6 能量傷害，並會在每次攻擊後重置為 1 充能。這件武器累積的充能數在場景結束時不會發生變化，但會在<b>全面維修</b>時重設為 1。"
+        },
+        "2 Charges": {
+          "name": "2 充能",
+          "effect": "這件武器的性能取決於它擁有的充能數。它一開始擁有 1 充能，射程為<b> 線性 4 </b>範圍，並能造成 1d6 能量傷害。每當你進行<b>穩住陣腳</b>時，你會再得到 1 充能，上限為 4 充能。每一發額外充能都會使 ZF4 得到額外的<b> +4 線性</b>範圍和 +1d6 能量傷害，並會在每次攻擊後重置為 1 充能。這件武器累積的充能數在場景結束時不會發生變化，但會在<b>全面維修</b>時重設為 1。"
+        },
+        "3 Charges": {
+          "name": "3 充能",
+          "effect": "這件武器的性能取決於它擁有的充能數。它一開始擁有 1 充能，射程為<b> 線性 4 </b>範圍，並能造成 1d6 能量傷害。每當你進行<b>穩住陣腳</b>時，你會再得到 1 充能，上限為 4 充能。每一發額外充能都會使 ZF4 得到額外的<b> +4 線性</b>範圍和 +1d6 能量傷害，並會在每次攻擊後重置為 1 充能。這件武器累積的充能數在場景結束時不會發生變化，但會在<b>全面維修</b>時重設為 1。"
+        },
+        "4 Charges": {
+          "name": "4 充能",
+          "effect": "這件武器的性能取決於它擁有的充能數。它一開始擁有 1 充能，射程為<b> 線性 4 </b>範圍，並能造成 1d6 能量傷害。每當你進行<b>穩住陣腳</b>時，你會再得到 1 充能，上限為 4 充能。每一發額外充能都會使 ZF4 得到額外的<b> +4 線性</b>範圍和 +1d6 能量傷害，並會在每次攻擊後重置為 1 充能。這件武器累積的充能數在場景結束時不會發生變化，但會在<b>全面維修</b>時重設為 1。"
+        }
       }
     },
     "SOL-Pattern Laser Rifle": {
@@ -2817,8 +2838,8 @@
     },
 
     "Tokugawa": {
-      "name": "Tokugawa",
-      "description": "HA’s Tokugawa is a relative newcomer on the market, popular in core systems for security, CQB, and ship-boarding applications. The Tokugawa is an unsubtle, imposing mech – a sturdy platform from which its systems can draw necessary power. Unlike other frames, the Tokugawa’s unique reactor is designed to allow standard limitations to be removed with ease. Knowing this, experienced (or foolhardy) pilots can ‘overclock’ the reactor, increasing its output and gaining an incredible power draw for their energy weapons.",
+      "name": "德川",
+      "description": "哈里遜兵工廠的「德川」在市場上屬於相對新穎的機甲，在中核星系內因其優秀的安保、CQB、和登舷作戰能力中而廣受歡迎。德川是一款鋒芒畢露、氣勢逼人的機甲，其堅固的機體結構能為其系統提供足夠所需的能量。和其他骨架不同，德川的獨特反應爐設計讓使用者能輕易解除其標準功率限制，這讓資歷老練（或魯莽大膽）的駕駛員可以選擇讓反應爐「超頻」，進一步增加輸出，為他們的能量武器提供驚人的能量。",
       "traits": {
         "Limit Break": {
           "name": "界線突破",
@@ -2830,17 +2851,17 @@
         }
       },
       "core_system": {
-        "name": "Superheated Reactor Feed",
-        "description": "Pilots of a certain breed thrive at the very edge of catastrophe, risking either glorious success or utter failure in each moment. These daredevils are familiar with the howl of critical heat warnings – the warbling siren song of destruction and superheated reactor feeds. Tokugawa pilots are notorious for supercharging their weapons with excess energy, pushing their heat gauge to the max. Harnessing the Tokugawa’s unique reactor, these pilots churn out damage and make no friends in the engineering bay – assuming they don’t melt into a ball of slag before they make it back from the line.",
-        "passive_name": "Overclock",
+        "name": "超高溫反應爐供能",
+        "description": "某種類型的駕駛員天生就樂於身處災難邊緣，每一刻都在光榮勝利和徹底毀滅之間徘徊。這些膽大妄為的勇者早已熟悉機甲在過熱臨界警告的咆哮──那毀滅與超高溫反應爐供能的妖鳥哀歌。德川駕駛員以其濫用多餘能量為武器強行充能，使熱量指標超越極限而惡名昭彰。他們會充分利用德川獨特的反應爐設計，在造成龐大傷害輸出的同時，讓自己成為工程部門的頭號公敵──前提是他們沒有在從前線歸來之前就化為一團熔渣。",
+        "passive_name": "超頻",
         "passive_actions": {
           "Overclock": {
-            "name": "Overclock",
-            "detail": "You cause your mech to become Exposed until the end of your next turn."
+            "name": "超頻",
+            "detail": "你讓你的機甲陷入<b>曝露</b>狀態，持續直到你的下一回合結束為止。"
           }
         },
-        "active_name": "Radiance",
-        "active_effect": "For the rest of this scene, weapons that deal any energy gain +5 range if they are ranged or +2 threat if they are melee.<br>While you’re Exposed, Limit Break stacks with these bonuses for a total increase of +10 range and +3 threat."
+        "active_name": "輝光",
+        "active_effect": "直到該場景結束為止，會造成任何能量傷害的武器將得到 +5⌿ 射程（若為遠距武器）或 +2 威脅（若為肉搏武器）。<br>當你處於<b>曝露</b>狀態時，<b>界線突破</b>特徵會與這個效果疊加，使其變為總共 +10⌿ 射程和 +3 威脅。"
       }
     },
     "Annihilator": {
