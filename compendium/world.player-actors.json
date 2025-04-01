@@ -33,14 +33,14 @@
       }
     },
     "Autoloader Drone": {
-      "name": "Autoloader Drone",
-      "tokenName": "Autoloader Drone",
-      "detail": "1/round, one character adjacent to it may reload a Loading weapon as a quick action. It deactivates at the end of the scene."
+      "name": "自動裝填無人機",
+      "tokenName": "自動裝填無人機",
+      "detail": "每輪一次，與這個無人機鄰接的角色能以<b>快速動作</b>來<b>裝填</b>一個帶有<b>裝填</b>標籤的武器。這個無人機會在該場景結束時停止運作。"
     },
     "Bouncing Mine": {
-      "name": "Bouncing Mine",
-      "tokenName": "Bouncing Mine",
-      "detail": "This mine detonates when a flying character passes over or adjacent to it, up to 10 spaces high. The mine launches itself upwards and detonates: all characters within the affected area must succeed on a Systems save or take 2d6 explosive damage and immediately land (this counts as falling without any damage); additionally, they can’t fly until the end of their next turn. On a success, they take half damage and are otherwise unaffected."
+      "name": "彈跳地雷",
+      "tokenName": "彈跳地雷",
+      "detail": "這個地雷會在飛行角色從其所在位置或鄰近空間的上方最多 10 格內範圍飛過時引爆。這個地雷會自行往上彈射並引爆：影響範圍內的所有角色必須成功通過<b>系統豁免</b>，否則受到 2d6 爆炸傷害並立即落地（這被視為墜落，但不會造成任何傷害）；此外，目標直到其下一回合結束前都不能再飛行。若豁免成功，則目標受到的傷害減半且不受其他效果影響。"
     },
     "Breaching Charge": {
       "name": "突破炸藥",
@@ -78,14 +78,14 @@
       "detail": "妖鬼巢房能以<b>免費動作</b>在感應和視線範圍內的一個未佔據空間展開，並在該處成為一架靜止懸浮的無人機。在被展開後，你仍然能夠把它當成武器來進行<b>交火</b>或<b>彈幕</b>，但使用其所在的位置來計算視線範圍和射程。<br><br>你能以<b>快速動作</b>把妖鬼無人機回收或重新展開在其他位置。直到被回收或摧毀之前，它將維持展開直到該場景結束為止。如果它被毀，則它會遵循無人機被毀的規則，且直到被維修之前都無法再被使用。"
     },
     "Grounding Mine": {
-      "name": "Grounding Mine",
-      "tokenName": "Grounding Mine",
-      "detail": "This mine must be detonated remotely as a quick action, affecting a single character within range 5 of the mine: they must succeed on a Hull save or be pulled as far as possible toward the mine and knocked Prone. Flying characters that fail the save are affected the same way, except they are also forced to land (this counts as falling but without damage)."
+      "name": "接地地雷",
+      "tokenName": "接地地雷",
+      "detail": "這個地雷必須以<b>快速動作</b>來遙控引爆，並影響距離地雷 ⌿5 範圍內的一個角色：目標必須成功通過<b>機體豁免</b>，否則被盡可能被拉動到地雷所在的位置，並被拉倒<b>伏臥</b>。豁免失敗的飛行角色同樣會被這個效果影響，且必須被迫立即落地（這被視為墜落，但不會造成任何傷害）。"
     },
     "HAVOK Mine": {
-      "name": "HAVOK Mine",
-      "tokenName": "HAVOK Mine",
-      "detail": "When a character moves over or adjacent to this mine, it detonates with a focused explosion in a line 5 path in the direction of the character who triggered it. Characters within the affected area must succeed on an Agility save or take 4 burn. On a success, they take 2 burn."
+      "name": "浩劫地雷",
+      "tokenName": "浩劫地雷",
+      "detail": "這個地雷會在任何角色移動到它所在或與其鄰接的空間時引爆，往觸發角色的方向釋放一個 線性 5 範圍的集中爆炸區域。位於影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 4 燃燒。若豁免成功，則只受到 2 燃燒。"
     },
     "Hive Drone": {
       "name": "Hive Drone",
@@ -183,9 +183,9 @@
       "detail": "When finished, this project continually sprays foam around it, creating a Burst 2 area of difficult terrain. Destroying it removes the effect."
     },
     "Stasis Barrier": {
-      "name": "Stasis Barrier",
-      "tokenName": "Stasis Barrier",
-      "detail": "Generate a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you. It counts as an obstruction and provides soft cover, but doesn’t block line of sight.<br>When an attack is made against a character that benefits from this barrier’s soft cover, roll 1d6: on 4+, the attack is consumed by the barrier and has no effect whatsoever. The barrier lasts for the rest of the scene, or until you deactivate it as a quick action. This effect does not stack with Invisible."
+      "name": "靜滯護盾",
+      "tokenName": "靜滯護盾",
+      "detail": "在至少有一格與你鄰接的未佔據空間中產生一個 4 格高的<b> 線性 4 </b>範圍的護盾。這個護盾被視為障礙物，會提供<b>軟性掩護</b>，但不會阻擋視線。<br><br>當受到攻擊的角色從這個護盾提供的<b>軟性掩護</b>中受益，擲 1d6：若結果為 4+，則該攻擊被護盾抵銷，因此無法造成任何影響。這個護盾會持續直到該場景結束，或直到你以<b>快速動作</b>將其解除。這個效果不會與<b>隱形</b>狀態的效果疊加。"
     },
     "Tempest Drone": {
       "name": "暴風無人機",

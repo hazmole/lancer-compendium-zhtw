@@ -1576,7 +1576,7 @@
           "description": "每輪一次，當總督蛺蝶對其他角色的攻擊造成<b>會心一擊</b>時，其可以立即對自己<b> ⌿3 </b>範圍內的任意角色造成 2 爆炸傷害，並將它們擊退 1 格。"
         },
         "Pressure Plating": {
-          "name": "壓力板甲",
+          "name": "壓力鍍層",
           "description": "總督蛺蝶具有對爆炸傷害的抗性。"
         }
       },
@@ -1590,7 +1590,7 @@
     },
 
     "Balor": {
-      "name": "Balor",
+      "name": "炎魔",
       "description": "如同大部分的荷魯斯模板群組，炎魔有著千萬張不同的面孔。炎魔模板群組，就跟所有的荷魯斯模板群組一樣，並非用來描述一種單一、可辨識的機種，而是泛指一系列共享類似戰場定位的基模。這些基模範型能夠依照駕駛員的規則需求進行列印，並應用於完全客製化的物理框架上。值得注意的是，炎魔模板群組僅能穩定運作於大型平台（二級或以上），因為只有這類平台能夠提供其所需的龐大能量輸出——最好再搭配多重備援系統，以防止發生災難性的系統故障。<br>炎魔模板群組最早的遭遇紀錄，是信天翁和 DoJ/HR 在桑賈克叛亂後，於海拉丁的布蘭卡沙漠中聯合追捕無底洞────一個自由傭兵團轉化的去中心化集團──的過程中被發現。在那場戰役中，聯合部隊與其遭遇，交戰，並最終擊敗了無底洞以及他們使用的炎魔機體──聯盟中央委員會希望這場戰役能夠遏制奈米蠱的爆發。然而，隨後在海拉丁陸續爆發的炎魔事件證明了這個希望終究落空，而這一模板群組仍持續在男爵領的領空肆虐，在卡拉金指揮官之間引發恐慌。<br>在戰場上，炎魔依靠神經同步的地獄蟲群和奈米灰蠱形成了一層不斷流動的防護帷幕，能在瞬間從機體中洶湧而出，以瘋狂變換的型態構築出末世論般的防衛和攻擊系統。一台以最大功率運作的炎魔，比起其物理結構，更像是依賴其翻湧烈焰般的奈米機器來維持其形態。這個特性使其能夠將動能與相干粒子能量分散至整個機體內外，讓攻擊炎魔的過程更像是「朝著憤怒的沸水射擊一樣」──就如某份戰後報告所形容的那樣。",
       "traits": {
         "Scouring Swarm": {
@@ -2172,7 +2172,7 @@
 
     "Pegasus": {
       "name": "天馬",
-      "description": "天馬型模板群組最早出現在聯盟和昂星霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該模板群組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該模板群組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的模板群組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯模板群組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
+      "description": "天馬型模板群組最早出現在聯盟和昂星霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該模板群組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該模板群組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的模板群組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯模板群組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯沙姆拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
       "traits": {
         "¿%:?EXTR!UDE GUN": {
           "name": "¿%:?排!出槍",
@@ -2190,7 +2190,7 @@
         "passive_effect": "[ERROR]<br>[射程 15][1 穿甲(AP)動能傷害]<br><br>你機甲上的萬物槍是先進到違反物理規則的實驗性裝置：它不需要掛載點，也不屬於任何武器類型——這代表你的天賦無法適用於它。<br><br>你不能正常使用此武器進行攻擊。相反的，每輪一次，你能在你的回合中以<b>免費動作</b>使用它對一名位於射程和視線範圍內的角色造成 1 點穿甲(AP)動能傷害。這個行動不被視為攻擊，自動命中，忽略掩護，無視免疫，且該傷害無法被任何手段減輕或忽略。這條規則凌駕於任何其他規則之上。",
         "passive_actions": {
           "Fire Omnigun": {
-            "name": "Fire Omnigun",
+            "name": "發射萬物槍",
             "detail": "每輪一次，在你的回合中以<b>免費動作</b>，對一名位於射程和視線範圍內的角色造成 1 點穿甲(AP)動能傷害。這個行動不被視為攻擊，自動命中，忽略掩護，無視免疫，且該傷害無法被任何手段減輕或忽略。這條規則凌駕於任何其他規則之上。"
           }
         },
@@ -2288,567 +2288,634 @@
     },
 
     "Barbarossa": {
-      "name": "Barbarossa",
-      "description": "The Barbarossa is Harrison Armory’s most massive frame to date, built, per the orders of Harrison II, to “stand as the unstoppable image of Harrison I” and to carry the heaviest of weapons and equipment the Armory offers. Standing nearly thirteen meters tall, it is an unsubtle beast of a mech, inspiring terror in enemies and awe in allies. The Barbarossa can mount weapons suitable for engaging toe-to-toe with gunboats and low-gross tonnage subline vessels; due to its size and slow maneuverability, it is often employed in low-gravity engagements where mass is less of a concern.<br>The Barbarossa is a popular target for Purview essayists, who have been known to remark on the drawbacks that come with its size and how, as a result, it is a perfect stand-in for their political enemies.",
+      "name": "巴巴羅薩",
+      "description": "巴巴羅薩是哈里遜兵工廠迄今為止最巨型的機甲，由哈里遜二世親自下令打造，為了「展現哈里遜一世勢不可擋的形象」，並讓其能攜帶兵工廠提供的最重型武器和裝備。這架怪物機甲高達 13 米，其設計毫不掩飾地展現出壓倒性的威嚇力，讓敵人心生恐懼，讓隊友心懷敬畏。巴巴羅薩可以裝備足以和炮艦甚至小型星艦一決雌雄的重型武裝。然而，由於其龐大體型和緩慢的機動力，它通常會被部署在低重力環境，藉此減少質量帶來的負擔。<br><br>巴巴羅薩是在管轄域內的許多評論家熱衷使用的題材目標，他們往往會指出其體型帶來的缺陷，並借此影射他們的政治對手。",
       "traits": {
         "Heavy Frame": {
-          "name": "Heavy Frame",
-          "description": "The Barbarossa can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters."
+          "name": "重型骨架",
+          "description": "巴巴羅薩不會被比它更小的角色給推動、拉動、擊倒<b>伏臥</b>或是擊退。"
         },
         "Pressure Plating": {
-          "name": "Pressure Plating",
-          "description": "The Barbarossa has resistance to Explosive Damage."
+          "name": "壓力鍍層",
+          "description": "巴巴羅薩具有對爆炸傷害的抗性。"
         },
         "Colossus": {
-          "name": "Colossus",
-          "description": "Adjacent allied characters can use the Barbarossa for hard cover."
+          "name": "巨人",
+          "description": "鄰接的隊友角色可以把巴巴羅薩當作​<b>硬性掩護​</b>。"
         },
         "Slow": {
-          "name": "Slow",
-          "description": "The Barbarossa receives +1 difficulty on Agility checks and saves."
+          "name": "緩慢",
+          "description": "巴巴羅薩在進行<b>敏捷判定和豁免</b>時會得到 +1 難度。"
         }
       },
       "core_system": {
-        "name": "Apocalypse Rail",
-        "description": "Fresh from the Armory’s dayside research and development campus, the LGC-04 “Apocalypse Rail” is an exponential gravitic catapult – a to-scale test product pushed to licensed pilots for field trials as part of the Armory’s ongoing Plenary Beach Magnitude Weapons Test Project.<br>Distinct from current logarithmic short- or long-spool ship-to-ship weapons (kinetic or energetic/particular), this new platform taps into the Armory’s current gravitic research to exponentially charge and distribute a kinetic payload downrange. This increase in potential energy loading and decrease in total charge time comes at the cost of stability: where the logarithmic spool cannon is stable and shock-resistant, the exponential gravitic catapult is prone to destabilization. For the time being, built-in failsafes will trigger in the event of sudden traumatic destabilization to prevent detonation of the system, resetting any charging process underway at the time of the shock.<br>The LGC-04 “Apocalypse Rail” system is scaled considerably down from its intended operational role – that is, replacing capital ship spinal spool cannons – in order to effect the accumulation of live data for use in improving the system prior to naval adoption.",
-        "passive_name": "PASSIVE",
-        "active_name": "Charge Rail",
-        "active_effect": "When activated, you start charging the Barbarossa’s Apocalypse Rail, an incredibly powerful ship-to-ship long-spool weapon system that requires target calibration. Gain an Apocalypse Die, 1d6 starting at 4. At the start of each of your turns, lower the value of the Apocalypse Die by 1, to a minimum of 1. If you move (even involuntarily) or become Stunned or Jammed, the Apocalypse Die resets to 4 and then continues to count down as usual.<br>If the value of the Apocalypse Die is 1–3, you can attack on your turn with the Apocalypse Rail as a full action, but can’t move or take any other actions on the same turn. After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4. If you reach the end of the scene without using it, you regain 1 CP.<br>At the end of the scene, lose the Apocalypse Die, and the Apocalypse Rail stops charging."
+        "name": "末日導軌炮",
+        "description": "從兵工廠的晝側研究發展中心新鮮出爐，LGC-04「末日導軌炮」是一款指數級重力彈射武器。作為兵工廠持續進行的全岸量級武器測試計畫的一部份，這款實際比例的測試商品已經被推送給持有授權許可的駕駛員進行實戰測試。<br>相較於現有的對數級艦對艦武器（無論動能或能量／粒子武器），這款全新的發射平台採用了兵工廠最新型的重力技術，使其能夠以指數級進行充能並發射動能彈頭。這項技術顯著提高了能量累積的強度，降低了充能所需的時間，代價則是穩定性的下降：比起穩定且耐衝擊的對數級軸盤大炮，指數級重力彈射武器更容易發生擾動。目前，其內建的故障保險機制會在突發創傷性擾動發生時被啟動，在避免系統自爆的同時，重置正在進行的充能程序。<br>LGC-04「末日導軌炮」系統的規模遠小於其原始設計：主力艦的龍骨軸盤大炮，以便在投入艦隊使用前更有效地積累更多的實戰數據，進一步改良系統。",
+        "passive_name": "被動",
+        "active_name": "導軌充能",
+        "active_effect": "在啟動後，你開始充能巴巴羅薩的末日導軌炮：一款威力驚人，需要鎖定校準的艦對艦長軸盤武器系統。你獲得一顆<b>末日骰</b>，一顆起始數字為 4 的 d6 骰。在你的每個回合開始時，將末日骰的數字 -1，最低降到 1。如果你移動（無論自願與否）、或是陷入<b>暈眩</b>或<b>受擾</b>狀況，則末日骰會重設為 4，並接著如常繼續倒數。<br><br>如果末日骰的數字為 1~3，則你能在你自己的回合以<b>完整動作</b>使用末日導軌炮進行攻擊，但在該回合期間不能移動或進行任何其他動作。在使用末日導軌炮進行攻擊之後，末日骰會重設為 4。如果你在該場景結束時都沒有使用過它，則你恢復 1 CP。<br><br>在該場景結束時，你失去末日骰，且末日導軌炮將停止充能。"
+      }
+    },
+    "Apocalypse Rail": {
+      "name": "末日導軌炮",
+      "profiles": {
+        "Charge Rail: 4": {
+          "name": "導軌充能：4",
+          "effect": "不能被用來開火。"
+        },
+        "Charge Rail: 3": {
+          "name": "導軌充能：3",
+          "effect": "影響範圍內的物件自動受到 20 穿甲(AP)爆炸傷害。在攻擊後，爆炸揚起的塵埃會在影響範圍內飄揚，為其中的角色提供<b>軟性掩護</b>，持續直到你的下個回合結束為止。"
+        },
+        "Charge Rail: 2": {
+          "name": "導軌充能：2",
+          "effect": "影響範圍內的物件和地形自動受到 40 穿甲(AP)爆炸傷害，且被命中的角色陷入<b>離散</b>和<b>受損</b>狀況，持續直到其下一回合結束為止。爆炸會捲起一團燃燒的暴風雲團：直到你的下個回合結束為止，影響範圍內的角色會受益於<b>軟性掩護</b>，且在影響範圍內開始自己回合、或在每輪中第一次進入影響範圍內的角色也都會受到 4 燃燒。"
+        },
+        "Charge Rail: 1": {
+          "name": "導軌充能：1",
+          "effect": "影響範圍內的物件和地形自動受到 100 穿甲(AP)爆炸傷害，且被命中的角色陷入<b>離散</b>和<b>暈眩</b>狀況，持續直到其下一回合結束為止。影響範圍內的地表將在衝擊中蒸發：在該場景期間，影響範圍內的區域被視為困難地形，位於影響範圍內的角色將受益於<b>軟性掩護</b>，且在影響範圍內開始自己回合、或在每輪中第一次進入影響範圍內的角色也都會受到 4 燃燒。"
+        }
       }
     },
     "“Roller” Directed Payload Charges": {
-      "name": "“Roller” Directed Payload Charges",
-      "description": "Semi-Autonomous Directed Payload Charges – “roller charges” in the colloquial – propel themselves around cover, through corridors, and across uneven terrain, seeking out and detonating near hostile targets. Armory legionnaires have taken to naming individual rollers, but mascot-attachment is unadvisable.",
+      "name": "「滾雷」定向酬載炸藥",
+      "description": "半自律定向酬載炸藥──通稱「滾雷炸藥」──能自行繞開掩護，穿過走廊，和越過崎嶇地形，尋找敵方目標並在其附近引爆。兵工廠的軍團兵經常會為個別滾雷命名，但我們並不建議對其產生情感依附。",
       "actions": {
         "Roller Grenade": {
-          "name": "Roller Grenade",
-          "detail": "Instead of throwing this grenade, it rolls along a line 10 path directly from you, bouncing over obstructions and objects up to Size 1 and passing through holes or gaps no smaller than Size 1/2. It detonates when it moves through or adjacent to the space occupied by any character: they must succeed on an Agility save or take 1d6+3 explosive damage and be knocked 3 spaces in the direction the grenade was rolled. On a success, they take half damage and aren’t knocked back."
+          "name": "滾雷手榴彈",
+          "detail": "這個手榴彈並非用來投擲，而是會沿著以你為起點的 線性 10 路徑滾動，它會彈跳越過大小最大為 1 的障礙物，並穿過大小最小為 1/2 的孔洞或隙縫。它會在穿過或移動到與任何角色鄰接的空間時引爆，且目標必須成功通過<b>敏捷豁免</b>，否則受到 1d6+3 爆炸傷害，並被往手榴彈滾動的方向擊退 3 格。若豁免成功，則受到的傷害減半且不會被擊退。"
         }
       }
     },
     "Siege Stabilizers": {
-      "name": "Siege Stabilizers",
-      "description": "Some weapons require further stabilization for optimal use. With Armory-designed siege stabilizers installed, a mech becomes a stable firing platform for any weapon.",
+      "name": "攻城穩定器",
+      "description": "有些武器需要額外的穩定性才能發揮最佳效果。在安裝了兵工廠設計的攻城穩定器後，機甲將成為能讓任何武器穩定開火的發射平台。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Your mech’s stabilizers extend (or retract). While they are extended, your ranged attacks gain +5 range, but you become Immobilized, can’t make melee attacks, and can’t make ranged attacks against or centered on characters, objects, or spaces within range 5."
+          "name": "啟動攻城穩定器",
+          "detail": "你展開（或收回）你機甲的穩定器。當穩定器被展開時，你的遠距攻擊得到 +5⌿ 射程，但你陷入<b>固定</b>狀況，無法進行肉搏攻擊，且無法對 ⌿5 範圍內的角色、物件、或空間進行遠距攻擊。"
         }
       }
     },
     "Autoloader Drone": {
-      "name": "Autoloader Drone",
-      "description": "Autoloader drones are many-limbed machines that assist their team by loading ordnance, maintaining powerline hookups, and cycling magazine-fed weapons, in addition to many other physical tasks.",
-      "effect": "Expend a charge to deploy this autoloader drone to any adjacent space."
+      "name": "自動裝填無人機",
+      "description": "自動裝填無人機是一種多肢臂機器，能夠協助團隊裝填彈藥、保養電線連接、為彈匣武器循環供彈，並執行其他各種物理工作。",
+      "effect": "消耗一發來在任何鄰接空間展開一架自動裝填無人機。"
     },
     "Flak Launcher": {
-      "name": "Flak Launcher",
-      "description": "Designed for use against atmospheric fliers, these anti-air autocannons fire simple, proximity or impact-detonated shells effective against light armor, organic, and subaltern targets.",
+      "name": "防空發射器",
+      "description": "這些防空自動火炮被設計用來對付大氣層內的飛行目標，能發射簡單的近炸式彈藥或撞擊引信彈藥，對輕裝甲、有機體和機械目標都能發揮效果。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Choose a flying character within range 15 and line of sight. They must succeed on an Agility save or immediately land (this counts as falling without any damage), and additionally become Slowed and can’t fly until the end of their next turn."
+          "name": "啟動防空發射器",
+          "detail": "選擇在 ⌿15 範圍和視線範圍內的一名飛行角色。目標必須成功通過<b>敏捷豁免</b>，否則立即落地（這被視為墜落，但不會造成任何傷害），陷入<b>緩慢</b>狀況且無法飛行，持續直到其下一回合結束為止。"
         }
       }
     },
     "Siege Cannon": {
-      "name": "Siege Cannon",
+      "name": "攻城炮",
       "profiles": {
         "Siege Mode": {
-          "name": "Siege Mode",
-          "description": "The siege cannon is the Armory’s quintessential artillery piece: a howitzer cannon fed by an automated loading system. Typically mounted on long-range mechs deployed in artillery or squad-support roles, siege cannons are capable of both indirect and direct fire as the situation demands with variable ammunition options.",
-          "on_attack": "Choose to fire in either siege mode or direct fire mode."
+          "name": "攻城模式",
+          "description": "攻城炮是兵工廠最典型的自走大炮：一門透過自動裝填系統供彈的榴彈炮。通常安裝在擔任自走炮或小隊支援角色的長程機甲上，攻城炮能夠根據戰況需要，使用不同類型的彈藥進行直射或曲射炮擊。",
+          "on_attack": "選擇使用攻城模式或直射模式來開火。"
         },
         "Direct Fire Mode": {
-          "name": "Direct Fire Mode",
-          "description": "The siege cannon is the Armory’s quintessential artillery piece: a howitzer cannon fed by an automated loading system. Typically mounted on long-range mechs deployed in artillery or squad-support roles, siege cannons are capable of both indirect and direct fire as the situation demands with variable ammunition options.",
-          "on_attack": "Choose to fire in either siege mode or direct fire mode."
+          "name": "直射模式",
+          "description": "攻城炮是兵工廠最典型的自走大炮：一門透過自動裝填系統供彈的榴彈炮。通常安裝在擔任自走炮或小隊支援角色的長程機甲上，攻城炮能夠根據戰況需要，使用不同類型的彈藥進行直射或曲射炮擊。",
+          "on_attack": "選擇使用攻城模式或直射模式來開火。"
         }
       }
     },
     "External Ammo Feed": {
-      "name": "External Ammo Feed",
-      "description": "An external ammo feed is any sort of ammunition beyond what is carried in a mech’s integrated storage: from magazines strapped to bodies or limbs; battery packs attached to hip clasps; or massive, dorsal-mounted ammunition and charge packs, externals ensure that pilots have more than enough boom to get the job done.",
+      "name": "外置供彈系統",
+      "description": "外置供彈系統泛指任何置於機甲內建空間之外的彈藥庫：這包括綁在機體或四肢上的彈匣、安裝在腰部扣具上的電池組，以及龐大的背掛式彈藥和炸藥包，這些外置彈藥能確保駕駛員擁有足夠的火力去達成他們的任務。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "1/round, you can activate this system to reload a Loading weapon."
+          "name": "啟動外置供彈系統",
+          "detail": "每輪一次，你能啟動這個系統來<b>裝填</b>一個帶有<b>裝填</b>標籤的武器。"
         }
       }
     },
 
     "Genghis": {
-      "name": "Genghis",
-      "description": "The original Genghis frame marked the dawn of the mech age; the Armory’s new line seeks to redefine it. From its roots as a modified GMS hardsuit, the Genghis Mk I became notorious for its use in the Hercynian Crisis – the first-contact war that triggered the violent overthrow of the Second Committee. In the administrative and political chaos that followed the Crisis, Harrison Armory secured the design and adapted it to serve as the basis of its first proprietary mechs, including the Sherman and the Saladin.<br>The new Genghis bears some resemblance to the chassis of Hercynian notoriety, serving in a similar area-denial/soft-target elimination role; The Genghis Mk II has been brought in line with the Third Committee’s Utopian Pillars.",
+      "name": "成吉思",
+      "description": "成吉思的原版骨架標誌著機甲時代的黎明；而兵工廠發行的新型號則試圖重新定義這一經典。最早起源自經過改裝的 GMS 強化裝甲服，成吉思 MK1 因為其在海西危機中被投入使用而變得惡名昭彰：這場第一次接觸戰爭最終也導致了第二中央委員會被推翻。在海西危機之後伴隨而來的行政和政治混亂中，哈里遜兵工廠成功取得了成吉思的設計，並將其作為基礎，開發出了兵工廠包括薛曼和薩拉丁在內的首批專屬機甲型號。<br><br>新型的成吉思 MK2 仍然保留了海西危機時期機體的部分特徵，同樣擔任著區域封鎖／軟目標殲滅的職責；如今，成吉思 MK2 已經經過調整，以符合第三中央委員會制定的烏托邦支柱理念。",
       "traits": {
         "Insulated": {
-          "name": "Insulated",
-          "description": "The Genghis has Immunity to burn."
+          "name": "隔熱",
+          "description": "成吉思免疫於<b>燃燒</b>。"
         },
         "Emergency Vent": {
-          "name": "Emergency Vent",
-          "description": "When the Genghis takes structure damage, it clears all heat."
+          "name": "緊急排熱",
+          "description": "當成吉思受到結構傷害時，清除自己的所有熱度。"
         }
       },
       "core_system": {
-        "name": "TBK Sustain Suite",
-        "description": "To better manage the Genghis’s tremendous power demands and rapidly accelerate heat dispersion, the Think Tank developed a suite of power-management mechanisms. After extensive field testing, pilots discovered that the TBK Sustain Suite can be used as both a heat sink and an area-denial weapon.",
-        "passive_name": "PASSIVE",
-        "active_name": "Expose Power Cells",
-        "active_effect": "The next time you exceed your Heat Cap this scene, you instead clear all heat and vent a burst 3 cloud of burning matter from your mech.<br>Until the start of your next turn, all characters within the affected area count as Invisible to everyone except you, and characters other than you take 2 burn and 2 heat when they start their turn in the area or enter it for the first time in a round. Once this effect ends, characters within the affected area receive soft cover (which you ignore) until the start of your following turn, at which point the cloud disperses."
+        "name": "TBK 維持套裝",
+        "description": "為了更有效地管理成吉思那龐大的能源需求並加速熱量排放，智囊團研發了一整套動力管理機制。經過了大規模的實戰測試，駕駛員發現 TBK 維持套裝不僅能作為散熱器，還能被當成區域拒止武器使用。",
+        "passive_name": "被動",
+        "active_name": "暴露能量電池",
+        "active_effect": "在該場景期間，當你下一次超過自己的熱度上限時，你可以改為清除所有熱度，並從機甲排放出<b> 爆發 3 </b>範圍的灼熱物質。<br><br>直到你的下一回合開始前，在影響範圍內的所有角色對除了你以外的所有人而言都視為處於<b>隱形</b>狀態，且除了你之外的角色會在每輪第一次進入影響範圍內、或在該處開始自己的回合時受到 2 燃燒和 2 熱度。在這個效果結束後，影響範圍內的角色將會受益於<b>軟性掩護</b>（你一樣忽略這個效果），持續直到你的再下一個回合開始為止，隨著熱雲消散一同解除。"
       }
     },
     "Krakatoa Thermobaric Flamethrower": {
-      "name": "Krakatoa Thermobaric Flamethrower",
+      "name": "喀拉喀托熱壓噴火器",
       "profiles": {
         "Krakatoa Thermobaric Flamethrower": {
-          "name": "Krakatoa Thermobaric Flamethrower",
-          "description": "Between the thick arboreal environment of Hercynia, the swarm tactics of the Egregorians, and the ineffectual performance of slug ammunition, the need for wide-effect weapons was apparent. GMS quick developed the Krakatoa – a thermobaric flamethrower – and disseminated it to affiliates. The Krakatoa was quickly adopted by Union’s Marine Expeditionary Forces, seeing heavy use in the depths of the Hercynian continental jungles thanks to its stability, reliability, and stopping power.<br>Later reworked and adopted by the Armory following the resolution of the Hercynian Crisis, the Krakatoa has become a popular tool for the creation of area-of-denial firebreaks."
+          "name": "喀拉喀托熱壓噴火器",
+          "description": "在海西星的濃密森林環境中，面對闔靈族的蟲海戰術以及實彈武器效能不彰的問題，對大範圍殺傷武器的需求也隨之成為顯學。GMS 迅速開發出喀拉喀托熱壓噴火器，並將其分發給其隸屬單位。很快地，喀拉喀托被聯盟海陸遠征隊正式採用，並靠著其優異的穩定性、可靠性和強大阻動能力而在海西星大陸的叢林深處大展拳腳。<br>在海西危機結束後，喀拉喀托被兵工廠重新設計，改造成一款廣受歡迎的區域拒止防火線創造工具。"
         }
       }
     },
     "Explosive Vents": {
-      "name": "Explosive Vents",
-      "description": "With the right tweaks, it becomes possible to dump excess heat into the area directly surrounding a chassis. Explosive venting is an unsanctioned, unsafe method of sudden cooling that has nevertheless been adopted by many pilots.",
-      "effect": "When you clear all heat or take stress, your mech’s cooling vents open and unleash a burst 1 explosion. Characters within the affected area take 2 heat and 2 burn."
+      "name": "爆炸性排氣",
+      "description": "只要透過適當的調整，將能達到將多餘廢熱直接排放到機甲周圍區域的行為。儘管爆炸性排氣是一種未經批准且不安全的瞬間冷卻手段，但仍然有許多駕駛員選擇採用。",
+      "effect": "當你清除所有熱度或受到壓力傷害時，你機甲的散熱排氣孔將會打開，並噴放出<b> 爆發 1 </b>範圍的爆炸熱風，所有在影響範圍內的角色都會受到 2 熱度和 2 燃燒。"
     },
     "HAVOK Charges": {
-      "name": "HAVOK Charges",
-      "description": "FOR USE IN: Urban, post-urban, and high-density terrestrial environments. High O2 concentration preferred.<br>FOR USE AGAINST: Organic targets; hardened targets vulnerable to caustic/corrosive degradation; most foliage.<br>NOTES: Dispersion is true directional and involves aerosolized component – avoid danger by supplying end-users with respiratory equipment (specifications noted on canister).",
+      "name": "浩劫炸藥",
+      "description": "適用環境：市區、後城市化地區、高密度類地環境。建議於高氧氣濃度環境中使用。<br>敵用目標：有機目標；容易受腐蝕/侵蝕性降解反應影響的硬化目標；大部份植被。<br>注意事項：傳播現象呈真指向性，且含有懸浮微粒成分──請確保為終端使用者提供呼吸防備設備以避免危險（規格詳見罐體標示）。",
       "actions": {
         "Napalm Grenade": {
-          "name": "Napalm Grenade",
-          "detail": "Throw a Napalm Grenade within Range 5. This grenade releases a spray of napalm in a line 5 path of your choice from its impact location. Characters within the affected area must succeed on an Agility save or take 2 burn. On a success, they take 1 burn."
+          "name": "凝固汽油手榴彈",
+          "detail": "往 ⌿5 射程範圍內投擲一顆凝固汽油手榴彈。這顆手榴彈會從著彈點往你所選擇的方向噴灑出<b> 線性 5 </b>範圍的凝固汽油。在影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2 燃燒。若豁免成功，則只受到 1 燃燒。"
         }
       }
     },
     "Auto-Cooler": {
-      "name": "Auto-Cooler",
-      "description": "The Armory-designed auto-cooler is a simple, persistent system that actively mitigates heat generation.<br>Thermal dump thresholds are determined by fleet engineers, though pilots can adjust levels on the fly – this automatic management frees the pilot up to focus on other, more pressing tactical concerns.",
+      "name": "自動冷卻器",
+      "description": "兵工廠設計的自動冷卻器是一種簡單且持續運作的系統，能夠主動抑止廢熱的生成。<br>排熱臨界值由艦隊工程師設定，但駕駛員仍能在戰場中即時進行調整──這種自動管理機制能讓駕駛員更專注於更緊迫的戰術決定上。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "As long as you don’t take damage, move, or exceed your Heat Cap, you clear all heat at the start of your next turn."
+          "name": "啟動自動冷卻器",
+          "detail": "只要你沒有受到傷害、移動、或超過你的熱度上限，你就能在你的下一回合開始時清除所有熱度。"
         }
       }
     },
     "Plasma Thrower": {
-      "name": "Plasma Thrower",
+      "name": "電漿噴射器",
       "profiles": {
         "Plasma Thrower": {
-          "name": "Plasma Thrower",
-          "description": "The plasma thrower emerged too late in the Hercynian Crisis to see widespread use in the field. The scarce data gathered from the MEF squadrons that used it suggest that plasma throwers would have had a tremendous impact on the outcomes of several major battles that occurred during the bloodiest phase of the Crisis.",
-          "effect": "Can be fired as Cone 7 <i>or</i> Line 10",
-          "on_attack": "White-hot flames continue to burn in 3 free spaces of your choice within the affected area, lasting for the rest of the scene. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 1d6 energy damage."
+          "name": "電漿噴射器",
+          "description": "電漿噴射器在海西危機中問世得太晚，因此未能廣泛投入戰場使用。來自海陸遠征隊部隊收集的有限數據顯示，若當時電漿噴射器能更早投入戰場，或許能對海西危機期間最血腥的幾場重大戰役產生巨大的影響。",
+          "effect": "能以 錐形 7 <i>或</i> 線性 10 範圍來開火。",
+          "on_attack": "白熾烈焰會在影響範圍內你所選擇的 3 格未佔據空間中持續燃燒，持續直到該場景結束。當角色在這些空間中開始其回合、或在每輪中第一次進入該空間，則其會受到 1d6 能量傷害。"
         }
       }
     },
     "AGNI-Class NHP": {
-      "name": "AGNI-Class NHP",
-      "description": "AGNI was developed during the Hercynian Crisis using a combination of combat performance data recorded by extant subsentient artificial intelligences (weapons systems, COMP/CONs, co-pilot systems, tactic-minds, general combat data) and the modeled neural network of an Egregorian overmind captured and vivisected by the Union Science Bureau.<br>AGNI Prime was used to devise systems of heat management that have since been disseminated throughout core space, ensuring unparalleled heat processing, recycling, and shielding. Further developments into radiation shielding, omninet capability, and nanite control are forthcoming; meanwhile, AGNI clones have been optimized to support mech core systems.<br>Pilots report that AGNI clones are generally cold and efficient. An insignificant percentage have reported instances of memory recitation and command rejection, followed days later by total breakdown through attempted self-emancipation. Pilots are recommended to cycle their AGNI clones at least once every six standard months.",
+      "name": "阿耆尼級 NHP",
+      "description": "阿耆尼是在海西危機期間被開發，結合了現有亞靈性人工智能（包括武器系統、助理伴侶、副駕駛系統、戰術意識、和一般戰鬥數據）所記錄的戰鬥表現數據，以及聯盟科學局從一位被俘虜並活體解剖的闔靈族主宰所建模開發的神經網絡。<br><br>阿耆尼原體所設計的熱能管理系統被推廣到了中核世界，這套技術能確保無與倫比的廢熱處理、回收和防護能力。目前更進一步的研究也正著眼於輻射阻絕、萬物網能力、和奈米機器控制等方向發展；與此同時，阿耆尼的複製體也被特化為支援機甲的核心系統。<br><br>駕駛員回報中的阿耆尼複製體普遍呈現冷靜且高效率的表現。僅有少部份的報告顯示複製體偶然會出現記憶回溯與拒絕指令的情況，並在數日後因為試圖解放自己而完全崩潰。建議駕駛員最少每六個標準月重灌一次他們的阿耆尼複製體。",
       "actions": {
         "AGNI Protocol": {
-          "name": "AGNI Protocol",
-          "detail": "1/scene, expend a charge to automatically clear all heat at the end of your turn, venting it in a burst 2 wave. Characters within the affected area must succeed on an Engineering save or take 2 burn and be pushed outside the area (or as far as possible). Until the end of your next turn, characters within the affected area receive soft cover."
+          "name": "阿耆尼協定",
+          "detail": "每個場景一次，消耗一發來讓你在自己的回合結束時自動清除所有熱度，並將廢熱熱浪排放到周圍<b> 爆發 2 </b>的範圍。位於影響範圍內的角色必須成功通過<b>工程豁免</b>，否則受到 2 燃燒，並被推離到影響範圍之外（盡可能遠的位置）。直到你的下一回合結束之前，在影響範圍內的角色都會得到<b>軟性掩護</b>。"
         }
       }
     },
 
     "Iskander": {
-      "name": "Iskander",
-      "description": "Developed on the proving grounds of the Armory’s Think Tank, the Iskander is a new specialist frame designed to bring gravtech area-control and breach capabilities to a mechanized platform.<br>A bulky frame, the Iskander fields a mix of kinetic and causal-energy systems that empower pilots to triumph in a wide portfolio of scenarios. The Iskander platform has no civilian counterpart: it is intended to be used as a frontline command and control platform, with an emphasis toward identifying and eliminating static explosive threats.",
+      "name": "伊斯坎達爾",
+      "description": "在兵工廠智囊團的實驗場上開發，伊斯坎達爾是一款設計於將重力科技應用於區域拒止和突破作戰的新型專業機甲，增強機械化作戰平台的戰術價值。<br><br>伊斯坎達爾這款笨重的骨架搭載了動能和因果能量系統的混合配置，使駕駛員能夠在各式作戰環境中取得優勢。伊斯坎達爾並沒有推出任何民用版本：它的設計完全專注於前線指揮和控制，並特別強調偵測並消除靜態爆炸威脅的能力。",
       "traits": {
         "Assault Launcher": {
-          "name": "Assault Launcher",
-          "description": "1/round, the Iskander may throw one Grenade or plant one Mine as though it has range 15."
+          "name": "突擊發射器",
+          "description": "每輪一次，伊斯坎達爾能以 ⌿15 射程來投擲手榴彈或部署地雷。"
         },
         "Mine Deployers": {
-          "name": "Mine Deployers",
-          "description": "1/round, when the Iskander plants a Mine (even using its Assault Launcher trait), it may plant up to two other Mines in free spaces adjacent to itself as a free action."
+          "name": "佈雷兵",
+          "description": "每輪一次，當伊斯坎達爾部署地雷時（包括透過<b>突擊發射器</b>特徵），其能以<b>免費動作</b>在自己鄰接的未佔據空間再額外部署最多二個其它地雷。"
         },
         "Skeleton Key": {
-          "name": "Skeleton Key",
-          "description": "The Iskander never triggers or sets off Mines or other proximity-based systems unless it chooses to do so."
+          "name": "骷髏鑰匙",
+          "description": "除非刻意如此，否則伊斯坎達爾永遠不會觸發地雷或其他近迫觸發系統。"
         }
       },
       "core_system": {
-        "name": "Broad-Sweep Seeder",
-        "description": "The Broad-Sweep Seeder is a proprietary device developed during the Orrugi Occupation, during which Armory legionnaires fought an embittered, recalcitrant local guerilla movement. IEDs, VBEDs, and D/SABEDs were often employed by the resistance; to counter the threat, Harrison Armory developed the Seeder to simultaneously scan, identify, and eliminate explosive threats in proximity to stationary units. The technology proved successful and, with minor adaptation, was adapted for installation on Armory frames.<br>The Broad-Sweep Seeder emits an excited LIDAR hivecone to flag potential targets: if positive identification occurs, the target is neutralized with a spray of mag-accelerated, dull-coat flechettes. The Seeder can also carry explosive hivemines.",
-        "passive_name": "PASSIVE",
-        "active_name": "Death Cloud",
-        "active_effect": "This system fires an enormous, expanding cloud of micromines across the whole battlefield, affecting all hostile characters within range 50. For the rest of the scene, when hostile characters make any movement other than their standard move (including involuntary movement), they take 3 AP explosive damage. This effect can trigger any number of times, but only 1/round for each character."
+        "name": "廣域掃蕩播撒機",
+        "description": "廣域掃蕩播撒機是一款在奧魯基佔領戰期間，在兵工廠的軍團士兵與當地頑強的游擊勢力激戰時開發而成的專屬裝置。為了對抗反抗軍頻繁使用的土製炸彈、車載炸彈、和誘導／定向爆炸裝置，哈里遜兵工廠開發了播撒機以同時進行掃描、識別和清除駐紮單位周圍的爆炸威脅。這項技術確實取得了成功，在經過小幅改造後，被進一步被整合安裝在兵工廠的機甲平台上。<br><br>廣域掃蕩播撒機透過釋放激發光學雷達巢錐來標記潛在威脅目標：一旦確認為爆炸裝置，便會立即以磁加速的啞光塗層鏢彈來快速摧毀目標。此外，播撒機本身也可以攜帶爆炸性蟲巢地雷。",
+        "passive_name": "被動",
+        "active_name": "死神烏雲",
+        "active_effect": "這個系統會發射一團龐大的微型地雷雲團以覆蓋整個戰場，影響在 ⌿50 範圍內的所有敵對角色。直到該場景結束之前，每當敵對角色進行任何普通移動以外的移動時（包括強制移動），都會受到 3 穿甲(AP)爆炸傷害。這個效果可以觸發無限次，但同一輪中對每個角色只能觸發一次。"
       }
     },
     "Stub Cannon": {
-      "name": "Stub Cannon",
+      "name": "短管炮",
       "profiles": {
         "Stub Cannon": {
-          "name": "Stub Cannon",
-          "description": "The stub cannon is a supercompact rotary cannon – short-range, but suitable for integration into hardpoints and manipulators."
+          "name": "短管炮",
+          "description": "短管炮是一款超緊湊型的轉輪機炮，儘管射程較短，但適合整入武器掛載點和操作手臂中使用。"
         }
       }
     },
     "Grounding Charges": {
-      "name": "Grounding Charges",
-      "description": "Grounding charges take a simple pulse/wave principle and apply a second dimension: gravitic generation. When triggered, the grounding charge triggers a gravity well that pulls all destabilized materiel towards it. A potent anti-positional weapon, grounding charges are commonly used to disrupt prepared positions and pull enemies from cover.",
+      "name": "接地炸藥",
+      "description": "接地炸藥運用了簡單的脈衝／波動原理，並加入了第二個維度：重力生成。當被引爆時，接地炸藥會引發重力井，將所有未被固定的物質拉向其中心。作為一種強效的反陣地武器，接地炸藥經常被用於破壞陣地佈署並將敵人從掩護中拉出。",
       "actions": {
         "Gravity Grenade": {
-          "name": "Gravity Grenade",
-          "detail": "Throw a Gravity Grenade within Range 5. Your target must succeed on an Agility save or be Slowed until they make no voluntary movements for a full turn on their own turn."
+          "name": "重力手榴彈",
+          "detail": "往 ⌿5 射程範圍內投擲一顆重力手榴彈。你的目標必須成功通過<b>敏捷豁免</b>，否則陷入<b>緩慢</b>狀況，持續直到其在自己的整個回合中都沒進行過任何自願移動為止。"
         }
       }
     },
     "Gravity Gun": {
-      "name": "Gravity Gun",
+      "name": "重力槍",
       "profiles": {
         "Gravity Gun": {
-          "name": "Gravity Gun",
-          "description": "“The complex negotiations of gravity and time, shattered in an instant by a machine that can pluck waves like a player strums the strings of a guitar.<br>We’ve weaponized the force that holds all things in its embrace. What could go wrong?”",
-          "on_attack": "Characters within the affected area must succeed on a Hull save or take 1d6 energy damage and be pulled as close to the center of the blast possible. This weapon cannot be modified or benefit from core bonuses."
+          "name": "重力槍",
+          "description": "「重力與時間之間複雜的協調互動在一瞬間被這台機器崩解，如同演奏者撥弄吉他的弦一樣操弄波動。<br>我們將維繫萬物的力量化為武器。這能出什麼差錯呢？」",
+          "on_attack": "影響範圍內的角色必須成功通過<b>機體豁免</b>，否則受到 1d6 能量傷害，並被盡可能拉動到濺射範圍的中心。這件武器無法被改造，也不會受益於核心加成。"
         }
       }
     },
     "Repulser Field": {
-      "name": "Repulser Field",
-      "description": "Utilizing a subsonic pressure wave, repulser fields emit tremendous single-wave pulses that stun, deter, and dissuade close-proximity hostiles.",
+      "name": "拒斥力場",
+      "description": "利用亞音速壓力波，拒斥力場能夠釋放出強大的單波脈衝，用以震懾，阻擋，並驅離近距離的敵對目標。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This system emits a burst 2 pulse around you. Characters within the affected area must succeed on a Hull save or be knocked 2 spaces directly away from you; then, all Mines within the affected area detonate simultaneously.<br>You count as having Immunity to any damage or effects immediately forced by mines detonated using this system, although persistent effects still affect you."
+          "name": "啟動拒斥力場",
+          "detail": "這個系統會在你周圍釋放出<b> 爆發 2 </b>範圍的脈衝。影響範圍內的角色必須成功通過<b>機體豁免</b>，否則被往遠離你的方向直線擊退 2 格；然後，在影響範圍內的所有地雷都會同時被引爆。<br><br>你免疫於所有被這個系統強制引爆的地雷造成的任何傷害和瞬發效果，但你仍會受到這些地雷的持續型效果影響。"
         }
       }
     },
     "Clamp Bombs": {
-      "name": "Clamp Bombs",
-      "description": "Built using similar grapple-head technology to IPS-N’s assault grapples, clamp bombs can affix to designated or proximal targets before detonating, ensuring total target contact. Clamping on soft targets typically results in total termination prior to detonation.",
+      "name": "夾鉗炸彈",
+      "description": "使用了類似 IPS-N 突擊擒拿系統的抓鉤技術，夾鉗炸彈能夠附著在特定或附近目標上後再引爆，確保與目標完全接觸。當夾鉗鎖定在軟目標身上時，通常在引爆前就足以導致其死亡。",
       "actions": {
         "Launch Clamp Bombs": {
-          "name": "Launch Clamp Bombs",
-          "detail": "Expend a charge to fire a cluster of miniature bombs at a character within Sensors. They must succeed on an Engineering save, or the bombs clamp on. At the end of their next turn, the bombs detonate, dealing 1d6+3 AP explosive damage. All characters adjacent to your target take half damage. The target can disarm and detach the bombs by voluntarily moving at least 4 spaces before the end of their turn."
+          "name": "發射夾鉗炸彈",
+          "detail": "消耗一發，對位於感應範圍內的一名角色發射集束微型炸彈。目標必須成功通過<b>工程豁免</b>，否則將會被炸彈夾鉗附著。在目標的下一回合結束時，這些炸彈會被引爆並造成 1d6+3 穿甲(AP)爆炸傷害。所有與目標鄰接的角色也會受到一半的傷害。目標可以在其回合結束前透過自願移動至少 4 格距離來解除並拆卸這些炸彈。"
         }
       }
     },
     "Tesseract": {
-      "name": "Tesseract",
-      "description": "Hold sand above the water: feel it, permanent and cohesive. Place that same sand in the water: watch it drift away, weightless. This is the tool I have made for you: a way to imbue the weighted with mass-as-feathers.<br>— TT-AUDATA, Think Tank paramind.",
+      "name": "超空間立方",
+      "description": "在水面上緊握塵沙：感受它的穩固和凝聚。將這塵沙放入水中：看著它飄散而去，輕盈無重。這就是我為你打造的工具：賦予重物使其如羽無重之法。<br><i>—— TT-奧妲塔，智囊團亞智能</i>",
       "actions": {
         "Spread Focus": {
-          "name": "Spread Focus",
-          "detail": "Choose a blast 3 area within Sensors: this area, extending 6 spaces high, becomes a zero-g area. In addition to the usual rules for zero-g movement, objects that enter the affected area float in place, and objects or characters that are knocked, moved, or pulled out of the area sink harmlessly to the ground at the end of their turn instead of falling. This area disperses if you create a new one. Otherwise, the effect persists until the end of the scene. When the zone disperses, everything within floats harmlessly to the ground."
+          "name": "放大焦點",
+          "detail": "選擇位於感應範圍內的<b> 濺射 3 </b>範圍區域：這個區域以及其向上延伸 6 格高度內的空間將變為無重力空間。除了適用原本的無重力移動規則之外，任何進入影響空間內的物件都會在原地飄浮，且被擊退、移動或推離影響空間的物件和角色，都會在其回合結束時安然飄降落地，而不會墜落。當你創造新的無重力空間時，舊的空間將會隨即解消。除此之外的場合，這個無重力空間會持續直到該場景結束為止。當這個空間解消，所有其中的事物都會安然飄降落地。"
         },
         "Pinpoint Focus": {
-          "name": "Pinpoint Focus",
-          "detail": "Choose a hostile or willing allied character within Sensors. If they are allied, they float 6 spaces into the air, becoming Immobilized while in the air but counting as flying and unable to fall. They can choose to sink harmlessly to the ground at the end of any of their turns or the start of any of yours. If they are hostile, they must succeed on an Engineering save or experience the same effect as an allied character; however, they sink harmlessly to the ground at the end of their next turn. Hostile characters can each be affected 1/scene."
+          "name": "縮小焦點",
+          "detail": "選擇感應範圍內的一名敵對角色或自願隊友角色。如果目標為隊友角色，則其會往上飄浮至 6 格高的空間，在飄浮期間陷入<b>固定</b>狀況，但被視為飛行中且不會墜落。目標可以選擇在自己的任何一個回合結束時，或是在你的回合開始時安然飄降落地。如果目標為敵對角色，則其必須成功通過<b>工程豁免</b>，否則受到與前述相同的效果；然而，目標會在其下一回合結束時安然飄降落地。每個敵對角色在同個場景中只會受到這個效果影響一次。"
         }
       }
     },
 
     "Napoleon": {
-      "name": "Napoleon",
-      "description": "Perhaps in a tongue-in-cheek nod to its namesake, the Napoleon is a squat frame in comparison to other Harrison Armory designs. Its frame is packed with marvels of Armory engineering – technology that demands nothing less than the best and brightest pilots. In spite of its small stature, the Napoleon employs one of the Armory’s most terrifying new weapons, the Displacer, which manifests pinpoint, one-way blinkspace ruptures on its targets.<br>Notable for more than its stature, this chassis boasts a tremendous record of success, with pilots reporting a .800 return rate in high-KIA operations. The Napoleon is a popular chassis among breach divisions of the Armory’s legions, Think Tank security, and Union Economic Bureau development teams.",
+      "name": "拿破崙",
+      "description": "或許是對其名字的一個詼諧致敬，拿破崙相比其他哈里遜兵工廠機甲的設計要顯得更加矮小。然而，其骨架內部滿載著兵工廠工程學的奇蹟──只有最優秀最聰慧的駕駛員能夠駕馭。盡管體型偏小，拿破崙仍搭載了兵工廠最為恐怖的新型武器之一：位移槍，這款武器能精準鎖定目標，並在其位置產生一個單向的霎間裂縫缺口，使敵人瞬間從現實中消失。<br><br>這款機甲的聲名不僅僅是源自其體型，更因為其輝煌戰績表現而廣受矚目。即使是在高陣亡率的任務中，拿破崙機甲的駕駛員也有高達八成的存活率。無論是在兵工廠的軍團攻城隊、智囊團安保單位，或是聯盟經濟局的開發團隊中，拿破崙都是相當受歡迎的機甲。",
       "traits": {
         "Heavy Shielding": {
-          "name": "Heavy Shielding",
-          "description": "When the Napoleon would take half damage on a successful check or save, it instead reduces the damage to 1."
+          "name": "重型護盾",
+          "description": "當拿破崙因為成功通過判定或豁免而將要使受到的傷害減半時，改為將該傷害減輕為 1。"
         },
         "Flash Aegis": {
-          "name": "Flash Aegis",
-          "description": "When the Napoleon Braces, it reduces incoming damage to 1 instead of gaining Resistance."
+          "name": "閃耀神盾",
+          "description": "當拿破崙進行<b>受身</b>時，它改為將受到的傷害變為 1，而非取得<b>抗性</b>。"
         }
       },
       "core_system": {
-        "name": "Trueblack Aegis",
-        "description": "The Trueblack Aegis is a breakthrough in personal shielding developed by the Armory’s Think Tank. Like the Armory’s other NHP-derived technologies, the Aegis is a “black-box” technology: its code and inner workings are highly confidential, and it can typically only be requisitioned by pilots of high rank or standing within Harrison Armory. Some Cosmopolitan pilots have described the appearance of the Aegis as similar to the void – or blindness – they see when looking into blinkspace. It’s safe to assume the device harnesses unstable blinkfield technology to manifest a thin blinkspace bubble within defined parameters. The blinkfield can only maintain coherence for a brief moment but can be flickered on and off to create a total blinkspace dome.",
-        "passive_name": "PASSIVE",
-        "active_name": "Activate Aegis",
-        "active_effect": "A shimmering, utterly black field quickly envelops your mech, covering it like a second skin. For the rest of the scene, you:<ul><li>reduce all damage to 1, except for damage that ignores reduction;</li><li>gain Immunity to all tech actions, including beneficial ones, and any current tech effects or conditions on you end;</li><li>can only use systems with the Shield tag – any others immediately deactivate (systems that do not require activation are unaffected);</li><li>can’t take quick actions, full actions, or reactions, except for standard moves, Grapple, Ram, Improvised Attack, Activate (Shield systems only), Skill Check, and Boost;</li><li>can’t Overcharge;</li><li>can’t use comms to talk to other characters (as sound doesn’t exit the shield).</li></ul>You can still receive statuses and Heat, and can be affected by involuntary movement. You can otherwise interact normally with the world, including picking up and dragging items, and so on."
+        "name": "真黑神盾",
+        "description": "真黑神盾是兵工廠智囊團在個人防護領域中開發的突破性技術。和兵工廠的其他 NHP 衍生科技一樣，神盾屬於「黑盒子」技術：其編碼和內部運作機制皆屬於高度機密，通常僅限於高階駕駛員或與哈里遜兵工廠關係良好者使用。部份寰宇公民的駕駛員曾經如此形容，表示神盾在啟動時的視覺效果很類似於他們凝視霎間時所見的虛空與黑暗。基本上可以假定這個裝置是運用不穩定的霎間場技術在特定範圍內產生一層霎間薄膜。儘管霎間場只能維持極為短暫的時間，但仍可以透過快速開關的方式來構築出完整的霎間護罩。",
+        "passive_name": "被動",
+        "active_name": "啟動神盾",
+        "active_effect": "一個搖曳著的完全黑暗力場迅速覆蓋你的機甲，如同第二層皮膚一樣將其包裹。直到該場景結束前，你得到以下效果：<ul><li>除了能夠忽略減免的傷害外，所有你受到的傷害變為 1。</li><li>你免疫於所有科技動作（包括有益效果），且你受到的所有科技效果和狀況也都隨之結束。</li><li>你只能使用擁有<b>盾牌</b>標籤的系統，任何其他啟動中的系統都會立即停止（不需要啟動的系統則不受影響）。</li><li>你不能進行除了<b>普通移動</b>、<b>擒拿</b>、<b>衝撞</b>、<b>權宜攻擊</b>、<b>啟動</b>（限定護盾系統）、<b>技能判定</b>、和<b>推進</b>以外的<b>快速動作</b>、<b>完整動作</b>、和<b>反應</b>。</li><li>你不能進行<b>超限</b>。</li><li>你不能透過通訊和其他角色溝通（因為聲音也無法離開護盾）。</li></ul>你仍然會受到狀態效果和熱度，也會受到強制移動的影響。除此之外，你能夠如常和其他事物互動，包括撿拾和拖行物品等等。"
       }
     },
     "Stasis Bolt": {
-      "name": "Stasis Bolt",
-      "description": "To better protect Armory personnel beyond the Purview, the Think Tank developed the Stasis Bolt, a portable stasis-projection system designed to interdict shrapnel and projectiles from unseen, hidden, or unknown assailants. When the Stasis Bolt detects a proximal explosion or incoming projectile, it projects a delimited stasis point that blocks projectiles before impact.",
-      "effect": "This system charges as a quick action, readying a projected stasis point. While it is charged, you gain the Interdiction Point reaction. It can only hold one charge at a time, but charges last for the rest of the scene or until used.",
+      "name": "靜滯箭束",
+      "description": "為了更有效地保護管轄域外的兵工廠人員，智囊團開發了靜滯箭束這款可攜式的靜滯力場投射系統，用來攔截來自未被察覺、隱藏、或是未知敵人所發射的彈片和投射物。當靜滯箭束探測到近距離爆炸或有投射物來襲時，就會投射出一個限定範圍的靜滯點，在被命中之前擋下投射物。",
+      "effect": "這個系統能以<b>快速動作</b>充能，準備好隨時投放靜滯點。在充能後，你得到<b>阻絕點</b>反應。這個系統同時只能有一發充能，但這發充能會持續直到該場景結束、或被使用為止。",
       "actions": {
         "Charge Stasis Bolt": {
-          "name": "Charge Stasis Bolt",
-          "detail": "Charge the Stasis Bolt, gaining the Interdiction Point Reaction"
+          "name": "充能靜滯箭束",
+          "detail": "充能靜滯箭束，得到<b>阻絕點</b>反應。"
         },
         "Interdiction Point": {
-          "name": "Interdiction Point",
-          "trigger": "You or an allied character within range 5 are targeted by a ranged attack.",
-          "detail": "Make a contested ranged attack roll: if you win the contested roll, the attack automatically misses. The Stasis Bolt loses its charge."
+          "name": "阻絕點",
+          "trigger": "當你或位於 ⌿5 範圍內的隊友角色成為遠距攻擊的目標時。",
+          "detail": "對該遠距攻擊進行對抗判定：若你勝出，則該攻擊自動失手。<b>靜滯箭束</b>失去充能。"
         }
       }
     },
     "Stasis Generator": {
-      "name": "Stasis Generator",
-      "description": "The skies of Creighton boiled black as ink, marbled by shuddering light. Screaming, angels fell wreathed in flame. The ones who could still run fled for the shelters; for seven days, they crouched in a deeper dark and felt the world shake itself apart.<br>—A.V. Wynyard, “The Killing of Creighton” [epic prose poem, banned throughout the Purview]",
+      "name": "靜滯力場產生器",
+      "description": "克雷頓的天空漆黑如墨，點點火光如雲石交織。尖叫哀號，天使在烈火中墜落。仍能奔跑之人逃向避難所。在七日之間，他們蜷縮進更深沉的黑暗中，感受世界崩裂瓦解。<br><i>——A.V. 溫亞德, 《克雷頓的殞落》[散文史詩，在界址全境被禁]</i>",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Choose a hostile character or willing allied character within line of sight and range 5: until the end of their next turn, they become Stunned, gain Immunity to all damage and effects, and can’t be moved, targeted, or affected by any other character or effect. This can be used on each character 1/scene. Hostile characters can succeed on an Engineering save to ignore this effect."
+          "name": "啟動靜滯力場產生器",
+          "detail": "選擇在 ⌿5 範圍和視線範圍內的一名敵對角色或自願隊友角色：直到其下一回合結束前，目標陷入<b>暈眩</b>狀況，免疫於所有傷害和效果，且不會被任何其他角色或效果給強制移動、影響、或選為目標。這個效果在同個場景只能對每個角色使用一次。敵對角色可以透過通過<b>工程豁免</b>來避免承受這個效果。"
         }
       }
     },
     "Phase-Ready Mod": {
-      "name": "Phase-Ready Mod",
-      "description": "As it was named following its first use during the civil hostilities on Luna de Oro, phase-ready ammunition is the “devil’s bullets”. Each round contains a nanoprocessor suite networked with its weapon of origin that calculates and translates the specific nature of that round’s superpositional relation with a projected future doppelgänger that manifests in the space immediately before its intended target. To put it simply, phase-ready rounds, when fired, exist in two places at once: exiting the barrel of the weapon they were fired from, and directly in front of the target, prior to impact. The prime round may never hit its target, but given it already exists at the moment of impact, the doppelgänger round will reliably reach its mark.",
-      "effect": "As long as you know the rough location of your target, the weapon this mod is applied to can attack through solid walls and obstructions, doesn’t require line of sight, and ignores all cover, but targets attacked this way count as Invisible."
+      "name": "相位躍遷模組",
+      "description": "首次使用於金月內戰期間，相位躍遷彈藥也因而得到了「惡魔子彈」的別名。每一發子彈都包含了一組與發射武器相互連線的奈米處理器套件，能夠計算和轉譯該子彈與其投射出的未來二重體之間的超定位關係，並使二重體子彈能夠在預定攻擊目標的正前方顯現。說得簡單點，當相位躍遷彈藥被發射時將同時存在於兩個位置：發射武器的槍口，以及即將命中目標的著彈點。儘管主彈可能無法直接命中目標，但因為二重體已經位於命中瞬間的位置，因此仍能確保其擊中目標。",
+      "effect": "選擇一件武器來應用這個改造：只要你知道目標大致的位置，應用此改造的武器的攻擊就能夠穿過實心牆體和障礙物，不需要視線，且忽略任何掩護，但被這個方式攻擊的目標將被視為處於<b>隱形</b>狀態。"
     },
     "Stasis Barrier": {
-      "name": "Stasis Barrier",
-      "description": "Stasis barriers are the result of Harrison Armory’s interest in gravitic manipulation and superpositional negotiation. Guided by solid-state generation–projection units, stasis barriers are deployable walls of antigravity that deny almost all incoming kinetic and energetic attacks. By twisting local gravity, a stasis barrier denies both particles and waves on a molecular level—matter that impacts the barrier simply ceases to exist, although anomalous fluctuations may allow some projectiles to pass through.",
-      "effect": "Expend a charge to activate this stasis barrier, generating a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you."
+      "name": "靜滯護盾",
+      "description": "靜滯護盾是哈里遜兵工廠對重力操控和疊加態調節技術的研究成果。透過固態生成投射單元引導展開，靜滯護盾是一款可佈署的反重力牆體，能夠阻擋絕大部份來襲的動能和能量攻擊。藉由扭曲局部重力，靜滯護盾能在分子層面阻止粒子和波動通過──任何撞上這面護盾的物質將徹底消失，但異常波動仍可能導致部份投射物穿透這個屏障。",
+      "effect": "消耗一發來啟動靜滯護盾，在至少有一格與你鄰接的未佔據空間中產生一個 4 格高的<b> 線性 4 </b>範圍的護盾"
     },
     "Displacer": {
-      "name": "Displacer",
+      "name": "位移槍",
       "profiles": {
         "Displacer": {
-          "name": "Displacer",
-          "description": "The Displacer is the result of ongoing blinkspace exposure tests and refinement of standard interstellar travel methods. In terms of appearance, the Displacer could be mistaken for a conventional energy rifle, but it requires a massive secondary, dorsal-mounted reactor: when fired, the Displacer identifies a bubble of local space (size and location determined on an ad hoc basis by the user) and snaps it into blinkspace. The destination of the bubble is unknown, but the effect is dramatic: anything inside simply ceases to exist in this dimension, transported somewhere in the void of blinkspace. The Displacer makes no sound when fired, but the sudden and necessary venting of its power supply is tremendous; similarly, the heatwave of its backblast vent is deadly to any unshielded personnel exposed to it."
+          "name": "位移槍",
+          "description": "對於霎間暴露測試和標準星際旅行技術改良的持續研究，最終導致了位移槍的誕生。位移槍在外觀上很容易被誤認成普通的能量步槍，但其運行的能量消耗龐大，甚至需要搭載龐大的機甲級背掛式反應爐來進行供能。在開火時，位移槍會鎖定一個局部空間泡（尺寸和位置由使用者當下決定），並將其瞬間拋入霎間。沒有人知道這個空間泡最終會被傳送到何處，但其效果極為驚人：任何位於該空間的事物都將從這個維度中消失，並被傳送到霎間某處的虛空之中。儘管位移槍在開火時不會發出聲音，但其能量供應時所需的瞬間排熱相當劇烈；同樣地，其背部排熱口釋放的熱浪對於任何沒有防護的生物而言也相當致命。"
         }
       }
     },
     "Blinkshield": {
-      "name": "Blinkshield",
-      "description": "Characteristically for a weapon based on Think Tank research, Harrison Armory’s Blinkshield leans into the fuzzy nature of quantum manipulation. Operating in a similar fashion to a blinkspace gate, the Blinkshield generates a spherical sheath of energy that allows its operator to pierce realspace and exist, for a moment, in the null-environment of blinkspace. Think Tank spokespeople acknowledge the tactical benefits of (un)momentary (non)existence in blinkspace, but caution against repeated exposure without sufficient pre- and post-exposure conditioning and counseling.",
+      "name": "霎盾",
+      "description": "一如其他基於智囊團研究而開發的武器，哈里遜兵工廠的霎盾充分運用了量子操縱的模糊特性。使用了和霎間閘門相似的運作方式，霎盾能產生一個球形的能量外殼，讓操作者能夠撕穿現實空間，短暫地存在於霎間的虛無環境中。智囊團發言人承認，能夠（非）瞬間（不）存在於霎間帶來了顯著的戰術優勢，但他們也警告，若未經適當的暴露前後調適和心理輔導，連續曝露在該環境下可能會帶來嚴重的後果。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This system generates a burst 4 bubble around your mech, within which the flow of time is altered drastically. Nothing can enter or exit the bubble, not even light – it’s both impermeable and has Immunity to all damage and effects. Line of sight can’t be drawn through the border of the area, and it can’t be crossed by any action or effect – even those that don’t require line of sight – but time passes normally on both sides. For characters within the affected area, the world outside goes totally black; likewise, characters outside the affected area see a perfect black sphere.<br>When the Blinkshield is activated, characters partially within the affected area must make an Agility save: on a success, they move to the nearest free space on the side of their choice, inside or outside the area; on a failure, you choose.<br>This effect remains stationary even if you move, and lasts until the end of your next turn."
+          "name": "啟動霎盾",
+          "detail": "這個系統會在你的機甲周圍產生一個<b> 爆發 4 </b>範圍的氣泡，劇烈扭曲範圍內的時間流速。任何事物都無法進入或離開這個氣泡，就連光線也一樣──它不可穿透，且免疫於所有傷害和效果。視線無法穿過這個區域範圍的邊界，任何動作和效果也無法穿過它（包括那些不需要視線的效果），但氣泡內外的時間會以相同速度正常流動。對於影響範圍內的角色而言，氣泡外側的世界呈現漆黑一片，反之亦然。<br><br>當霎盾被啟動時，只有一部分處於影響範圍的角色必須進行<b>敏捷豁免</b>：若豁免成功，則其可以自行決定要移動到內側或外側的未佔據空間；若豁免失敗，則由你決定目標要移動到哪一側。<br><br>這個效果範圍不會跟著你移動，而是維持在原地不動，且會持續直到你的下一回合結束為止。"
         }
       }
     },
 
     "Saladin": {
-      "name": "Saladin",
-      "description": "The Saladin is a hardy and efficient platform for full-squad support shielding. Based on early defense-oriented versions of the Genghis, the Saladin became the stuff of Armory legend following the exploits of Harrison I “Fearkiller” during the Interest War.<br>Since its first iteration, the Saladin has proved successful in a defensive and support role; it has even become a mainstay among Union Department of Justic and Human Rights liberator teams engaged in emancipation and refugee escort missions, despite the ideological (and, often, tactical) friction between the Armory and the DoJ/HR. Records from these engagements indicate that the Saladin’s massive bulk alone was a comfort and morale boost to DoJ/HR troopers and their charges, many of whom referred to the mechs as “Big Sal”. Union-flagged Saladin pilots often report null balances on bar tabs following engagements in emancipated systems.",
+      "name": "薩拉丁",
+      "description": "薩拉丁是一款堅固而高效的全隊支援護盾平台。其設計源自早期防禦特化版本的成吉思機型，隨著「殺懼者」哈里遜一世於利益戰爭時建立的輝煌戰功，也讓薩拉丁成為了兵工廠的傳奇。<br><br>從初代機型問世以來，薩拉丁便證明了其在防禦和支援領域的卓越表現；儘管兵工廠和聯盟司法和人權部門（DoJ/HR）之間存在意識形態和戰術理念上的分歧，它仍然成為了 DoJ/HR 解放部隊在執行解放和護衛難民任務時的標配機體。這些交戰紀錄顯示，薩拉丁龐大的機體本身便能為 DoJ/HR 士兵和其保護對象帶來莫大的安心感與士氣提升，甚至讓其得到了「薩大哥」這個暱稱。在解放地區執行任務的隸屬聯盟的薩拉丁駕駛員，經常會發現自己在酒吧中的帳單被清零──代表著來自解放民眾的感謝與敬意。",
       "traits": {
         "Reinforced Frame": {
-          "name": "Reinforced Frame",
-          "description": "The Saladin has Immunity to Shredded."
+          "name": "強化骨架",
+          "description": "薩拉丁免疫於<b>離散</b>狀況。"
         },
         "Guardian": {
-          "name": "Guardian",
-          "description": "Adjacent allied characters can use the Saladin for hard cover."
+          "name": "守護者",
+          "description": "鄰接的隊友角色可以把薩拉丁當作​<b>硬性掩護​</b>。"
         },
         "Warp Shield": {
-          "name": "Warp Shield",
-          "description": "1/round, the Saladin can give +1 difficulty to any attack against it or an allied character within Sensors as a reaction before the roll is made."
+          "name": "扭曲護盾",
+          "description": "每輪一次，薩拉丁可以在自己或感應範圍內的隊友角色被攻擊時，在該攻擊判定擲骰前以<b>反應</b>來使該攻擊得到 +1 難度。"
         }
       },
       "core_system": {
-        "name": "Tachyon Loop",
-        "description": "Developed by the Think Tank as a joint venture with IPS-Northstar’s Stellar Engineering Unit, the Tachyon Loop uses a closed-loop system to restrain and manipulate a tachyon lance, accelerating tachyons at faster-than-light speeds around a central buckler. The buckler can be carried by a mech or mounted directly, interceding directional incoming fire. As the tachyons travel faster than light, they are invisible to the naked eye, giving the shield the appearance of a large spoked wheel.",
-        "passive_name": "PASSIVE",
-        "active_name": "Tachyon Shield",
-        "active_effect": "This system projects an accelerated-tachyon shield over an allied character within Sensors. You may choose a new target as a quick action. Gain the Defensive Pulse reaction for the rest of the scene.<br>Defensive Pulse<br>Reaction, 1/round<br>Trigger: Your target is attacked.<br>Effect: You empower their tachyon shield with a pulse of energy. They gain Resistance to all damage from the attack, and if the attack misses, you may force the attacker to reroll it against a character or object of your choice, checking line of sight and Range from your target instead of from the attacker. If the attack was part of an area of effect, the new target must be inside the same area of effect from the original attack instead.",
+        "name": "迅子迴圈",
+        "description": "由智囊團和極星船運的星空工程部門聯合開發，迅子迴圈採用了封閉迴路系統來限制並操控迅子長槍，使迅子以超光速圍繞著中央圓盾旋轉。這個小圓盾能夠由機甲手持或直接安裝於機體上，用於攔截來襲的指向性攻擊。由於迅子的速度比光速還快，無法憑藉肉眼觀察，使這面盾牌看起來彷彿一個巨大的輻射狀輪盤一樣。",
+        "passive_name": "被動",
+        "active_name": "迅子護盾",
+        "active_effect": "這個系統對位於感應範圍內的一名隊友角色投放一個加速迅子護盾。你能以<b>快速動作</b>重新選擇一個新的目標。你在該場景期間得到<b>防禦脈衝</b>反應。",
         "active_actions": {
           "Defensive Pulse": {
-            "name": "Defensive Pulse",
-            "trigger": "Your target is attacked.",
-            "detail": "You empower their tachyon shield with a pulse of energy. They gain Resistance to all damage from the attack, and if the attack misses, you may force the attacker to reroll it against a character or object of your choice, checking line of sight and Range from your target instead of from the attacker. If the attack was part of an area of effect, the new target must be inside the same area of effect from the original attack instead."
+            "name": "防禦脈衝",
+            "trigger": "當你的目標被攻擊時。",
+            "detail": "你利用脈衝能量強化目標身上的迅子護盾。目標得到對該攻擊所有傷害的<b>抗性</b>，且如果該攻擊失手，你可以強制該攻擊者對你選擇的一個角色或目標重新進行該攻擊，以你的目標而非攻擊者來計算該攻擊的視線和射程範圍。如果該攻擊是範圍攻擊的一部份，則新的目標必須處於原攻擊的範圍之內。"
           },
           "Retarget Tachyon Shield": {
-            "name": "Retarget Tachyon Shield",
-            "detail": "Change the target of your Tachyon Shield to another allied character within Sensors."
+            "name": "重新投射迅子護盾",
+            "detail": "選擇一個感應範圍內的隊友角色作為你迅子護盾的新目標。"
           }
         }
       }
     },
     "Shatterhead Colony Missiles": {
-      "name": "Shatterhead Colony Missiles",
+      "name": "碎首集束飛彈",
       "profiles": {
         "Shatterhead Colony Missiles": {
-          "name": "Shatterhead Colony Missiles",
-          "description": "Developed following costly urban and naval boarding engagements in the Interest War, Shatterhead Colony Missiles are now a standard part of the arsenal fielded by Armory interdiction teams. When they reach an optimal distance, Shatterheads break open in a burst of high-catalyst fuel to reveal a cluster of small thermobaric pellets that spread out and ignite, choking the affected area with flame. The effect overloads energy shielding and saturates cover, though only a small percent of the projectiles actually reach their target.",
-          "effect": "The final attack roll for this weapon can never be affected by difficulty."
+          "name": "碎首集束飛彈",
+          "description": "為了因應利益戰爭中代價高昂的都市戰和登舷戰而開發設計，碎首集束飛彈現在已經成為了兵工廠攔截部隊的標準配備之一。碎首飛彈會在抵達最適距離時，透過高效觸媒燃料分裂成大量的小型熱壓彈丸，四散開來並迅速點燃，將目標區域吞沒於火舌之中。這個效果能使能量護盾過載並使掩體飽和，但只有少部分的投射物能真正命中目標。",
+          "effect": "這件武器最終的攻擊判定永遠不會受到<b>難度</b>的影響。"
         }
       }
     },
     "ENCLAVE-Pattern Support Shield": {
-      "name": "ENCLAVE-Pattern Support Shield",
-      "description": "The Armory’s ENCLAVE-Pattern Support Shield creates a localized one-way blinkfield, folding a thin dome of complex realspace around its user and their immediate area, protecting occupants from incoming projectiles. Entities within the field can fire out, but probabilistic fluctuations cause incoming projectiles to “lag”, skipping them away from their intended target and along a randomized trajectory.",
+      "name": "飛地型支援護盾",
+      "description": "兵工廠研發的飛地型支援護盾能夠產生局部的單向霎場，在其使用者及其周圍區域摺疊出一層複雜的現實空間稀薄穹頂，為內部人員抵禦來襲的投射物。位於霎場內部的個體能正常對外開火，但霎場導致的機率波動會使來自外部的投射物產生「滯緩」現象，使其偏離原本的目標，沿著隨機軌跡偏轉。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This system generates a burst 3 dome that lasts until the end of your next turn. You become Immobilized for the duration, but any ranged or melee attacks made against characters within the affected area from outside the dome receive +1 difficulty.<br>Additionally, gain the Blinkfield Intervention reaction while the shield is active."
+          "name": "啟動飛地型支援護盾",
+          "detail": "這個系統會產生一個<b> 爆發 3 </b>範圍的穹頂，維持直到你的下一回合結束為止。你在這段期間陷入<b>固定</b>狀況，但任何源自穹頂外，以影響範圍內的角色為目標的遠距或肉搏攻擊都會受到<b> +1 難度</b>。<br><br>此外，在這個護盾啟動期間，你得到<b>霎場干涉</b>反應。"
         },
         "Blinkfield Intervention": {
-          "name": "Blinkfield Intervention",
-          "trigger": "A character or object within the affected area is attacked.",
-          "detail": "Take two Heat, then grant the attack’s target Resistance to all damage from this attack."
+          "name": "霎場干涉",
+          "trigger": "當影響範圍內的角色或物件被攻擊時。",
+          "detail": "受到 2 熱度，然後讓被攻擊的目標得到對該攻擊造成所有傷害的抗性。"
+        }
+      }
+    },
+    "Flash Anchor": {
+      "name": "快閃錨點",
+      "description": "快閃錨點運用使用者引導的量子疊加鎖定投射技術，來在物理戰鬥和快速移動中識別並輔助隊友，確保其在任何情境下都能維持精準的戰術位置。",
+      "actions": {
+        "Flash Lock": {
+          "name": "快閃鎖定",
+          "trigger": "當你或位於感應和視線範圍內的隊友角色被推動、拉動、擊退、或擊倒<b>伏臥</b>時。",
+          "detail": "受到 2 熱度。無效該移動或狀態的發生，且直到目標的下一回合開始為止，目標對所有上述效果免疫。"
+        }
+      }
+    },
+    "Hardlight Defense System": {
+      "name": "硬光防禦系統",
+      "description": "硬光防禦系統是對理論上完美科技的一種不完美實現。這個系統目前由智囊團的 NHP 和工程師們共同開發，透過投射出如同雷射般緊密且穩定的光波以抵斥物質和能量。這個效果相當於創造出了一個固體表面，適合用於防禦或建立臨時屏障；然而，這項技術目前尚無法有效降低其環境溫度，因此這個硬光表面仍然會灼燒附近的有機物質。",
+      "actions": {
+        "Action": {
+          "name": "啟動硬光防禦系統",
+          "detail": "這個系統會創造出一個覆蓋<b> 爆發 3 </b>範圍的硬光護盾。在這個護盾運作期間，你陷入<b>固定</b>狀況。它會阻擋雙向的視線，且任何攻擊和效果都無法穿過它（即使其不需要視線也一樣）。僅有部位在影響範圍內的角色會忽略這個效果，且可以如常判斷其視線範圍。<br><br>角色可以移動穿過這個護盾，但當角色在每輪第一次穿過護盾邊緣、或在護盾邊緣開始自己的回合時，其會受到 2 燃燒。<br><br>這個護盾會維持直到該場景結束，或直到你以<b>協定</b>將其停止。"
+        },
+        "Deactivate Hardlight Defense System": {
+          "name": "停止硬光防禦系統",
+          "detail": "停止硬光防禦系統，解除其造成的<b>固定</b>狀況。"
         }
       }
     },
     "Paracausal Mod": {
-      "name": "Paracausal Mod",
-      "description": "Paracausal weapons are a headache for military planners; their precise A–Z function is often obscured, though they consistently produce the same “Z” output per “A” input.<br />The first reports of unregulated paracausal weaponry occurred during the civil engagements on Tian Shen. System-local forces received sealed magazines with directions to be loaded and fired as normal, although inspection of the magazines’ contents was prohibited on grounds that it would “damage the payload”. Helmet and gun cam footage do not betray the anomalous effects of this ordnance, though after-action reports uncovered a seemingly minor, though incredibly odd fact: every single trooper outfitted with this paracausal ammunition scored a 100% positive impact rate.<br />Union has scheduled all unregulated paracausal weapons and ammunition for retrieval, and the bureau is currently investigating Harrison Armory for its role in the development of the technology. Despite this, paracausal ammunition is still in use, as shipments and codes continue to leak to interested parties.",
-      "effect": "This weapon gains Overkill, and its damage can’t be reduced in any way, including by other effects and systems (such as Resistance, Armor, etc)."
+      "name": "超因果律模組",
+      "description": "超因果律武器的存在總是讓軍事規劃人員頭痛不已；儘管它們總能在輸入相同的「因」後得到相同的「果」，但其確切的因果運作細節往往籠罩在層層謎團中。<br><br>最早關於未受管制超因果律武器的報告出現在是在天申地區的內戰。當地部隊收到密封彈匣，並被指示按照常規進行裝填和射擊，但同時也被明令禁止檢查彈匣的內容，理由是避免因此「損害彈藥載荷」。頭盔和槍械上的攝影鏡頭並未揭示這些彈藥的異常之處，但從戰後報告中卻能發現一個看似微不足道，卻極其詭異的事實：所有配備了這套超因果律彈藥的士兵都達到了 100% 的命中率。<br><br>聯盟已經安排回收所有未受管制的超因果律武器和彈藥，當局也正在著手調查哈里遜兵工廠在此項技術開發中的角色。儘管如此，由於貨物和編碼仍不斷被洩漏給有興趣的買家，超因果律彈藥仍持續在市面上流通。",
+      "effect": "選擇一件武器來應用這個改造：該武器得到<b>殺絕</b>標籤，且其傷害無法被任何方式給減輕（包括其他效果、系統、抗性、裝甲等）。"
     },
     "NOAH-Class NHP": {
-      "name": "NOAH-Class NHP",
-      "description": "Originally developed from a captured Minerva pre-eidolon anomaly, NOAH was adapted for use as a metropolitan administrative NHP on Ras Shamra. The unit that would become NOAH did not, at first, seem like a suitable candidate for military application: this changed after one of its clones was flagged for review following the spontaneous implementation of anomalous traffic patterns, pedestrian routing, and vac-loop scheduling. Armory ontologisticians and engineers isolated and emphasized endemic protocols that could be exploited for tactical advantage.<br>Over numerous iterations and lifecycles, NOAH Prime displayed a high level of adaptability in multiple-variable geospatial problems. A proclivity toward crisis management and multi-actor tracking led to NOAH’s pairing with the Armory’s ENCLAVE-Pattern Support Shield. By networking a series of jet-assist mobility drones carrying an ENCLAVE generator, monitored and controlled by a NOAH clone, Think Tank was able to create an unparalleled personal shielding system: the Diluvian Ark, a miniaturized cluster-shield system unique to the NOAH NHP.<br>Using the Diluvian Ark, NOAH is able to intercept incoming kinetics – and even redirect projectiles back to their source – with stunning accuracy.",
+      "name": "挪亞級 NHP",
+      "description": "挪亞最初是從一個被捕捉的密涅瓦前幻靈異變體開發而來，並在之後被改造成為拉斯沙姆拉的都市管理用 NHP。一開始，這個後來成為了挪亞的單位並未被認為能應用於軍事用途，直到其中一個複製體因為突然自發性地實施異常交通模式、行人引導和真空列車軌道調度而被標記進行審查。兵工廠的本體論學者和工程師們因此隔離並強化了其內部的部分固有協定，使其能在戰術層面發揮作用。<br><br>在經過無數次的疊代和循環後，挪亞原體在多變數地理空間問題的處理中展現了極高的適應性。其對於危機管理和多行為體追蹤方面的傾向，導致了挪亞與兵工廠的飛地型支援護盾被整合起來。透過將一系統帶有飛地產生器的噴射輔助機動無人機連網相接，並讓挪亞複製體進行監察和操縱，智囊團成功開發出了一套無人能及的個人護盾系統：洪水方舟，一款挪亞級 NHP 獨有的微型化群聚護盾系統。<br><br>憑藉著洪水方舟系統，挪亞能以驚人的準確度攔截來襲的動能攻擊，甚至將彈道武器反轉射向其原始發射點。",
       "actions": {
         "Diluvian Ark": {
-          "name": "Diluvian Ark",
-          "detail": "These effects apply until the end of your next turn:<ul><li>You become Slowed.</li><li>Each time you or an allied adjacent character are targeted by a ranged attack, you may take 1 heat as a reaction and roll 1d6 before the attacker rolls: on 4+, you take an additional 1 heat and the attack automatically misses you and any allies adjacent to you. This effect does not stack with Invisible.</li><li>Each time a ranged attack fails to hit you or an adjacent allied character, the attacker takes 4 kinetic damage.</li></ul>"
+          "name": "洪水方舟",
+          "detail": "這些效果會持續直到你的下一回合結束為止：<ul><li>你陷入<b>緩慢</b>狀況。</li><li>每當你或與你鄰接的隊友角色成為遠距攻擊的目標，你可以在攻擊者擲骰前消耗<b>反應</b>，受到 1 熱度，並擲 1d6：若結果為 4+，你額外受到 1 熱度，且該攻擊自動失手。這個效果不會與<b>隱形</b>狀態的效果疊加。</li><li>每當以你或與你鄰接的隊友角色為目標的遠距攻擊失手，攻擊者都會受到 4 動能傷害。</li></ul>"
         }
       }
     },
 
     "Sherman": {
-      "name": "Sherman",
-      "description": "The Sherman is the classic Harrison Armory frame: any station, nation, world, or state—stellar or interstellar—with an Armory fleet-supply contract fields a backbone force of Sherman mechs. The Sherman is designed to carry a range of Harrison Armory’s main battle-line energy weaponry, with a rugged, versatile reactor to back it up. After the GMS-SP1 Everest, the Sherman is the second-most-common mech in the core systems—so common that GMS has recently begun equipping its stock models with more ablative and wave-scatter defenses, specifically to deal with hostile actors fielding Shermans.<br>At present, the Mk I is in wide use, with exclusive, first-contract Mk II units only now rolling off the lines at Ras Shamra and other Armory special-project worlds.",
+      "name": "薛曼",
+      "description": "薛曼是哈里遜兵工廠最具代表性的機甲：任何擁有兵工廠艦隊供應合約的太空站、國家、星球或星際國家，都會使用薛曼作為其作戰主力。薛曼的設計能夠適配多種兵工廠的主力戰線能量武器，並搭載堅固耐用的多功能反應爐以支撐其能量輸出。在 GMS-SP1 埃佛勒斯之後，薛曼是中核星系中第二常見的機甲──其普及程度之高，甚至迫使 GMS 在近期開始為他們的商品機型加裝更多的燒蝕裝甲和波散防禦系統，專門用以應對敵對勢力的薛曼機甲。<br><br>目前，第一代薛曼仍被廣泛使用，而獨家首批的第二代機體則剛剛離開拉斯沙姆拉和其他兵工廠的特殊計畫星球的產線，準備投入服役。",
       "traits": {
         "Superior Reactor": {
-          "name": "Superior Reactor",
-          "description": "The Sherman gains +1 accuracy on Engineering checks and saves."
+          "name": "卓越反應爐",
+          "description": "薛曼在進行<b>工程判定和豁免</b>時會得到 +1 準度。"
         },
         "Mathur Stop": {
-          "name": "Mathur Stop",
-          "description": "When the Sherman clears all heat, you may choose to receive heat equal to half its Heat Cap, putting it in the Danger Zone."
+          "name": "默圖爾停點",
+          "description": "當薛曼清除所有熱度時，你可以選擇受到等同其<b>熱度上限</b>的一半的熱度，使其進入<b>超溫危域</b>。"
         },
         "Vent Heat": {
-          "name": "Vent Heat",
-          "description": "When you Stabilize the Sherman or it exceeds its Heat Cap, it benefits from soft cover until the start of your next turn."
+          "name": "排放高熱",
+          "description": "當薛曼進行<b>穩住陣腳</b>或超過自己的熱度上限時，它直到自己的下一回合開始前都將受益於<b>軟性掩護</b>。"
         }
       },
       "core_system": {
-        "name": "Zone-Focus Mk IV SOLIDCORE",
-        "description": "The ZF4 SOLIDCORE is a hard-mounted, dual-source energy beam weapon. Powered by a millifold power generation system, the ZF4 features a secondary belt-fed rack of solidcore batteries that can be used to overcharge a single impulse beam, extending the weapon’s range and destructive power.",
-        "passive_name": "PASSIVE",
-        "active_name": "COREBURN Protocol",
-        "active_effect": "Your ZF4 SOLIDCORE immediately gains 3 Charges, to a maximum of 4; additionally, for the rest of this scene, Stabilize generates 2 Charges instead of 1, and all terrain, objects, and deployables take 10 AP energy damage per charge on hit."
+        "name": "第四代區域聚焦硬核炮",
+        "description": "第四代區域聚焦（Zone Focus MK4, ZF4）硬核炮是一款固定安裝型的雙源能量光束武器。透過多重摺曲能源系統提供動力，ZF4 另外配備著內含硬核電池的次級彈鍊，可用於超載單發脈衝光束，強化這件武器的射程和破壞力。",
+        "passive_name": "被動",
+        "active_name": "燒核協定",
+        "active_effect": "你的 ZF4 硬核炮立即得到 3 充能，上限為 4 充能；此外，在該場景期間，<b>穩住陣腳</b>動作會產生 2 充能，而非原本的 1 充能，且所有地形、物件、和可展開物都會在被命中時受到等同於「10 x 充能數」的穿甲(AP)能量傷害。"
+      }
+    },
+    "ZF4 SOLIDCORE": {
+      "name": "ZF4 硬核炮",
+      "profiles": {
+        "1 Charge": {
+          "name": "1 充能",
+          "effect": "這件武器的性能取決於它擁有的充能數。它一開始擁有 1 充能，射程為<b> 線性 4 </b>範圍，並能造成 1d6 能量傷害。每當你進行<b>穩住陣腳</b>時，你會再得到 1 充能，上限為 4 充能。每一發額外充能都會使 ZF4 得到額外的<b> +4 線性</b>範圍和 +1d6 能量傷害，並會在每次攻擊後重置為 1 充能。這件武器累積的充能數在場景結束時不會發生變化，但會在<b>全面維修</b>時重設為 1。"
+        },
+        "2 Charges": {
+          "name": "2 充能",
+          "effect": "這件武器的性能取決於它擁有的充能數。它一開始擁有 1 充能，射程為<b> 線性 4 </b>範圍，並能造成 1d6 能量傷害。每當你進行<b>穩住陣腳</b>時，你會再得到 1 充能，上限為 4 充能。每一發額外充能都會使 ZF4 得到額外的<b> +4 線性</b>範圍和 +1d6 能量傷害，並會在每次攻擊後重置為 1 充能。這件武器累積的充能數在場景結束時不會發生變化，但會在<b>全面維修</b>時重設為 1。"
+        },
+        "3 Charges": {
+          "name": "3 充能",
+          "effect": "這件武器的性能取決於它擁有的充能數。它一開始擁有 1 充能，射程為<b> 線性 4 </b>範圍，並能造成 1d6 能量傷害。每當你進行<b>穩住陣腳</b>時，你會再得到 1 充能，上限為 4 充能。每一發額外充能都會使 ZF4 得到額外的<b> +4 線性</b>範圍和 +1d6 能量傷害，並會在每次攻擊後重置為 1 充能。這件武器累積的充能數在場景結束時不會發生變化，但會在<b>全面維修</b>時重設為 1。"
+        },
+        "4 Charges": {
+          "name": "4 充能",
+          "effect": "這件武器的性能取決於它擁有的充能數。它一開始擁有 1 充能，射程為<b> 線性 4 </b>範圍，並能造成 1d6 能量傷害。每當你進行<b>穩住陣腳</b>時，你會再得到 1 充能，上限為 4 充能。每一發額外充能都會使 ZF4 得到額外的<b> +4 線性</b>範圍和 +1d6 能量傷害，並會在每次攻擊後重置為 1 充能。這件武器累積的充能數在場景結束時不會發生變化，但會在<b>全面維修</b>時重設為 1。"
+        }
       }
     },
     "SOL-Pattern Laser Rifle": {
-      "name": "SOL-Pattern Laser Rifle",
+      "name": "太陽型雷射步槍",
       "profiles": {
         "SOL-Pattern Laser Rifle": {
-          "name": "SOL-Pattern Laser Rifle",
-          "description": "Laser rifles contain a series of apertures and lenses that amplify and focus light into tight beams, sometimes visible, that heat the zone of impact for long enough to turn it into plasma. The SOL-Pattern Laser Rifle consistently outputs 3.5 petawatts, pulsed, but can also project a steady beam at lower power levels. The SOL is entirely self-contained but can be patched into a mech’s reactor core for emergency recharge.<br>Although some laser rifles double as communications and data-transfer devices, the SOL is strictly suitable for combat applications."
+          "name": "太陽型雷射步槍",
+          "description": "雷射步槍內部包含一系列光圈和透鏡，能夠把光線增強並聚焦成緊密的高能光束。這些光束有時可見，其高熱也能在持續加熱著彈點後將其轉變為電漿態。太陽型雷射步槍能夠持續輸出高達 350 千兆瓦的脈衝，也能在較低功率下投射出穩定的雷射束。太陽槍屬於完全獨立功能系統，但也能連接機甲的反應爐心以在緊急情況下進行充能。<br><br>儘管有些雷射步槍同時能被作為通訊和數據傳輸設備使用，太陽槍則完全為戰鬥用途設計，不具備其他非戰鬥功能。"
         }
       }
     },
     "Reactor Stabilizer": {
-      "name": "Reactor Stabilizer",
-      "description": "A necessary component of most mechs that rely on high energy output, reactor stabilizers add another layer of failsafes to vent heat, manage power flow, and shunt excessive output into weapons and systems as needed.",
-      "effect": "You may reroll overheating checks, but must keep the second result, even if it’s worse."
+      "name": "反應爐穩定器",
+      "description": "對於大部分依賴高能量輸出的機甲而言，反應爐穩定器是必不可缺的部件。它能為機體添加額外的故障保險機制，能夠協助排放廢熱、控制能量流動，並在需要時將過量輸出轉移到武器和系統中。",
+      "effect": "你可以重擲過熱判定，但必須適用重擲的結果。"
     },
     "ANDROMEDA-Pattern Heavy Laser Rifle": {
-      "name": "ANDROMEDA-Pattern Heavy Laser Rifle",
+      "name": "仙女型重雷射步槍",
       "profiles": {
         "ANDROMEDA-Pattern Heavy Laser Rifle": {
-          "name": "ANDROMEDA-Pattern Heavy Laser Rifle",
-          "description": "The Harrison Armory ANDROMEDA-Pattern Heavy Laser Rifle scales up the SOL by half, adding a second projector that can fire independently, synchronized, or in alternating patterns and wavelengths with the primary projector. The effect overwhelms most shields, but the power draw necessary makes this weapon impractical on platforms without the necessary heat reduction and dispersal to manage the incredible cost."
+          "name": "仙女型重雷射步槍",
+          "description": "哈里遜兵工廠的仙女型重雷射步槍在太陽型步槍的基礎上升級了 1.5 倍，並額外增設了一個副發射器，能夠獨立開火、與主發射器同步運作或交替使用不同模式和波長進行攻擊。這個效果能夠壓制大部分的護盾，但其巨大的能源消耗使這款武器難以在缺乏必要熱量調節和排放系統的機甲平台上被有效使用。"
         }
       }
     },
     "Redundant Systems Upgrade": {
-      "name": "Redundant Systems Upgrade",
-      "description": "A common right-of-distribution modification by pilots in forward operating bases, the addition of redundant systems guarantees a measure of reliability beyond stock design standards.",
+      "name": "備援系統升級",
+      "description": "一款經常被前線作戰基地的駕駛員改造的標準分發授權系統，額外添加的備援系統能確保其可靠性超過原廠的設計標準。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Expend a charge to Stabilize as a quick action."
+          "name": "啟動備援系統升級",
+          "detail": "消耗一發來以<b>快速動作</b>進行<b>穩住陣腳</b>。"
         }
       }
     },
     "Tachyon Lance": {
-      "name": "Tachyon Lance",
+      "name": "迅子長槍",
       "profiles": {
         "Tachyon Lance": {
-          "name": "Tachyon Lance",
-          "description": "Tachyon lances are the weaponized results of joint IPS-N and Harrison Armory experiments into faster-than-light travel. Rendered obsolete by subsequent developments in blinkspace travel (and the difficulty of ensuring corporeal passenger survival), the Armory’s tachyon accelerators were mothballed until Think Tank engineers realized their potential application as weapons. Tachyon lances project tachyon particles – essentially subatomic localized objects – faster than light toward their targets. These particles are impossible to perceive optically, and because they travel faster than light, can’t be seen or evaded. Although the particles are tiny, they travel with colossal speed and energy. The damage a tachyon lance deals to its target – should it hit – is unparalleled.",
-          "on_attack": "If you’re in the Danger Zone, create a cone 3 backblast of burning plasma in the opposite direction to the attack. Characters within the affected area must succeed on an Engineering save or take 4 burn and 2 heat. Until the start of your next turn, the affected area provides soft cover."
+          "name": "迅子長槍",
+          "description": "迅子長槍是極星船運和哈里遜兵工廠聯合進行超光速航行研究而意外誕生的武器化成果。隨著霎間航行技術的發展（也因為確保活體乘客生存的難度），該技術在載具運輸上的應用遭到淘汰，這些迅子加速器一度被封存在倉庫深處，直到智囊團的工程師發現其作為武器的潛在價值。迅子長槍能夠將迅子粒子──一種局部化亞原子物質──以超光速射向目標。由於這些粒子無法被光學探測，且其速度超越光速，因而無法被觀測或迴避。儘管這些粒子極其微小，但它們攜帶的能量和速度卻極為驚人。一旦擊中目標，迅子長槍造成的傷害可謂無可限量。",
+          "on_attack": "如果你處於<b>超溫危域</b>，則往該次攻擊的反方向產生一個<b> 錐形 3 </b>範圍的高熱電漿尾焰。位於影響範圍的角色必須成功通過<b>工程豁免</b>，否則受到 4 燃燒和 2 熱度。直到你的下一回合開始為止，該影響範圍也將提供<b>軟性掩護</b>的效果。"
         }
       }
     },
     "ASURA-Class NHP": {
-      "name": "ASURA-Class NHP",
-      "description": "ASURA was born from the Armory’s Think Tank thought-war games, an autonomous response to repeated failures during forlorn hope scenarios. ASURA manifested in the systems of simulated mechs as a recode of HORUS’s PUPPETMASTER virus, hijacking friendly mechs and forcing them to act far beyond human capacity—at such speed and intensity that the g-force would kill organic pilots with the sudden amplified mass of their own bodies.<br>While these results were initially deemed a failure by Think Tank NHPs and engineers, it was enough to justify further study on ASURA. Personality and parasentience code was injected into the initial anomalous PUPPETMASTER strain, and first contact handled by Think Tank NHPs. Further societal acclimation and conditioning were fast tracked, giving Armory engineers the first iteration of ASURA after a decade of study, recoding, and reeducation. ASURA, as they exist now, is a scaled-back version of that initial manifestation: while retaining some of their initial impetuousness, ASURA clones now recognize the need to keep their pilot alive and will operate within parameters set by their pilot’s medical and psychological tolerances.",
+      "name": "阿修羅級 NHP",
+      "description": "阿修羅誕生自兵工廠智囊團進行的思維戰爭模擬實驗，作為對敢死突擊情境中不斷反覆失敗的自律性應對方案。阿修羅以荷魯斯「傀儡師」病毒的重編碼版本具現於模擬機甲的系統中，並強行騎劫隊友機甲，迫使它們以遠超人類極限的速度和強度行動──其產生的 G 力甚至足以讓有機體駕駛員因為自己瞬間倍增的重量而被殺死。<br>儘管這種結果最初被智囊團的 NHP 和工程師判定為失敗，但其潛力仍足以促成對阿修羅的進一步研究。人格與亞靈性編碼被注入了最初的異常傀儡師病毒株，並由智囊團 NHP 著手進行第一次接觸。隨後，兵工廠加快了阿修羅的社會制約調整，使其在數十年的研究、重編碼、和再教育後，推出了第一代的阿修羅。現存的阿修羅是其最初顯現實體的小規模版本：儘管仍保留了部分的急躁性質，但阿修羅複製體如今已能理解讓駕駛員存活的重要性，並會根據駕駛員的醫療和心理容許範圍進行作戰。",
       "actions": {
         "ASURA Protocol": {
-          "name": "ASURA Protocol",
-          "detail": "1/scene, expend a charge to take two additional quick actions or one additional full action this turn. These actions must obey restrictions on duplicate actions."
+          "name": "阿修羅協定",
+          "detail": "每個場景一次，消耗一發來在該回合中進行二個額外的<b>快速動作</b>、或一個額外的<b>完整動作</b>。這些動作仍須遵循同名動作的限制。"
         }
       }
     },
 
     "Tokugawa": {
-      "name": "Tokugawa",
-      "description": "HA’s Tokugawa is a relative newcomer on the market, popular in core systems for security, CQB, and ship-boarding applications. The Tokugawa is an unsubtle, imposing mech – a sturdy platform from which its systems can draw necessary power. Unlike other frames, the Tokugawa’s unique reactor is designed to allow standard limitations to be removed with ease. Knowing this, experienced (or foolhardy) pilots can ‘overclock’ the reactor, increasing its output and gaining an incredible power draw for their energy weapons.",
+      "name": "德川",
+      "description": "哈里遜兵工廠的「德川」在市場上屬於相對新穎的機甲，在中核星系內因其優秀的安保、CQB、和登舷作戰能力中而廣受歡迎。德川是一款鋒芒畢露、氣勢逼人的機甲，其堅固的機體結構能為其系統提供足夠所需的能量。和其他骨架不同，德川的獨特反應爐設計讓使用者能輕易解除其標準功率限制，這讓資歷老練（或魯莽大膽）的駕駛員可以選擇讓反應爐「超頻」，進一步增加輸出，為他們的能量武器提供驚人的能量。",
       "traits": {
         "Limit Break": {
-          "name": "Limit Break",
-          "description": "When the Tokugawa is Exposed, its ranged and melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat."
+          "name": "界線突破",
+          "description": "當德川陷入<b>曝露</b>狀態時，其遠距和肉搏攻擊都會在命中時造成 +3 額外能量傷害，且所有會造成動能或爆炸傷害的武器都會改為造成能量傷害。此外，其遠距武器會得到 +5⌿ 射程，肉搏武器得到 +1 威脅。"
         },
         "Plasma Sheath": {
-          "name": "Plasma Sheath",
-          "description": "When the Tokugawa is in the Danger Zone and attacks with a weapon that deals any amount of energy, all bonus damage becomes burn."
+          "name": "電漿鞘套",
+          "description": "當德川處於<b>超溫危域</b>並使用會造成任何能量傷害的武器進行攻擊，則其所有額外傷害都會變為燃燒。"
         }
       },
       "core_system": {
-        "name": "Superheated Reactor Feed",
-        "description": "Pilots of a certain breed thrive at the very edge of catastrophe, risking either glorious success or utter failure in each moment. These daredevils are familiar with the howl of critical heat warnings – the warbling siren song of destruction and superheated reactor feeds. Tokugawa pilots are notorious for supercharging their weapons with excess energy, pushing their heat gauge to the max. Harnessing the Tokugawa’s unique reactor, these pilots churn out damage and make no friends in the engineering bay – assuming they don’t melt into a ball of slag before they make it back from the line.",
-        "passive_name": "Overclock",
+        "name": "超高溫反應爐供能",
+        "description": "某種類型的駕駛員天生就樂於身處災難邊緣，每一刻都在光榮勝利和徹底毀滅之間徘徊。這些膽大妄為的勇者早已熟悉機甲在過熱臨界警告的咆哮──那毀滅與超高溫反應爐供能的妖鳥哀歌。德川駕駛員以其濫用多餘能量為武器強行充能，使熱量指標超越極限而惡名昭彰。他們會充分利用德川獨特的反應爐設計，在造成龐大傷害輸出的同時，讓自己成為工程部門的頭號公敵──前提是他們沒有在從前線歸來之前就化為一團熔渣。",
+        "passive_name": "超頻",
         "passive_actions": {
           "Overclock": {
-            "name": "Overclock",
-            "detail": "You cause your mech to become Exposed until the end of your next turn."
+            "name": "超頻",
+            "detail": "你讓你的機甲陷入<b>曝露</b>狀態，持續直到你的下一回合結束為止。"
           }
         },
-        "active_name": "Radiance",
-        "active_effect": "For the rest of this scene, weapons that deal any energy gain +5 range if they are ranged or +2 threat if they are melee.<br>While you’re Exposed, Limit Break stacks with these bonuses for a total increase of +10 range and +3 threat."
+        "active_name": "輝光",
+        "active_effect": "直到該場景結束為止，會造成任何能量傷害的武器將得到 +5⌿ 射程（若為遠距武器）或 +2 威脅（若為肉搏武器）。<br>當你處於<b>曝露</b>狀態時，<b>界線突破</b>特徵會與這個效果疊加，使其變為總共 +10⌿ 射程和 +3 威脅。"
       }
     },
     "Annihilator": {
-      "name": "Annihilator",
+      "name": "湮滅者",
       "profiles": {
         "Annihilator": {
-          "name": "Annihilator",
-          "description": "Harrison Armory is known to employ somewhat unconventional development methods: tactical solutions are theorized and designed in the field as often as they are in the lab, with the former often outperforming the latter. The Annihilator’s name comes from pilots’ slang for a jury-rigged weapon first improvised in the Bradbury Rebellion, when desperate resistance pilots found a way to shunt the incredible waste heat from their reactors into a directed blast.",
-          "on_hit": "Make a secondary attack against all characters within burst 1 of the target. These attacks can’t deal bonus damage, and don’t trigger the Annihilator’s heat cost or secondary attacks."
+          "name": "湮滅者",
+          "description": "哈里遜兵工廠以其有些非常規的開發方式而聞名——戰術解決方案的設計和理論化不僅發生在實驗室，在戰場上也同樣頻繁，而後者的實際效益也往往優於前者。湮滅者這個名稱源自於布拉德伯理起義期間，是駕駛員們對當時即興發明的拼裝武器的俗稱。當時，陷入絕境的反抗軍駕駛員找到了一種方法，能將反應爐產生的驚人廢熱轉化為指向性爆炸衝擊波。",
+          "on_hit": "對位於目標<b> 爆發 1 </b>範圍內的所有角色進行第二次攻擊。這些攻擊不會造成額外傷害，且不會觸發湮滅者的熱度代價和更多第二次攻擊。"
         }
       }
     },
     "External Batteries": {
-      "name": "External Batteries",
-      "description": "External batteries are by no means unique; however, according to Harrison Armory marketing, POWERALL cells are the longest-lasting, fastest cycling, and highest capacity solid-state cells available. A side-effect of their high capacity is a proportionate increase in volatility, but pilots must agree to absolve Harrison Armory of any liability prior to receiving print authorization.",
-      "effect": "Weapons that deal any energy gain +5 RANGE if they are ranged or +1 THREAT if they are melee. When you take any structure damage, this system is destroyed and you take 1d6 AP explosive damage from the explosion. This damage can’t be prevented or reduced in any way."
+      "name": "外置電池",
+      "description": "外置電池並不是什麼獨特的技術；然而，根據哈里遜兵工廠的市場宣傳，全能電池是目前市面上續航時間最長、充電速度最快，且容量最高的固態電池。然而其超高容量的其中一個副作用是相應提高了不穩定性，因此駕駛員在得到列印許可前，必須同意免除哈里遜兵工廠的任何法律責任。",
+      "effect": "會造成任何能量傷害的武器將得到 +5⌿ 射程（若為遠距武器）或 +1 威脅（若為肉搏武器）。當你受到任何結構傷害時，這個系統會被毀，且你因為爆炸而受到 1d6 穿甲(AP)爆炸傷害。這個傷害無法被任何手段給減輕或避免。"
     },
     "Torch": {
-      "name": "Torch",
+      "name": "炬焰",
       "profiles": {
         "Torch": {
-          "name": "Torch",
-          "description": "The Torch is a potent weapon: a heavy crescent-bladed plasma cutter, powered straight from a chassis’ reactor. Torches generally project as axes, though their blades can be changed to a range of other shapes. A common weapon in CQB theaters, the torch has lately become a status symbol among officers, carried by many alongside a smaller auxiliary weapon."
+          "name": "炬焰",
+          "description": "炬焰是一款重型偃月刀形狀的電漿切割器，由機甲反應爐直接供能，是相當強力的武器。炬焰通常會以戰斧型態顯現，但其刃部也可以被更換成多種不同的形狀。作為 CQB 領域的常見武器，炬焰在近期更是成為了軍官間的地位象徵，被許多人與小型副武器一起配戴在身邊。"
         }
       }
     },
     "Deep Well Heat Sink": {
-      "name": "Deep Well Heat Sink",
-      "description": "The Deep Well experimental heat-sink system is a part of the Armory’s VANGUARD line of equipment, available to licensed beta testers. Through a complex, delicate weave of heat exchangers, Deep Well recycles the heat generated by a mech into usable energy. The system works well, but the delicate nature of the exchange renders it highly volatile.",
-      "effect": "When you start your turn in the Danger Zone, you gain Resistance to heat for the rest of the turn. This effect persists even if you leave the Danger Zone during your turn."
+      "name": "深井散熱器",
+      "description": "深井實驗性散熱系統是兵工廠「先鋒」系列裝備的一部份，僅供持有測試許可的試用者使用。透過複雜而精細的熱交換織網結構，深井能將機甲產生的熱能回收轉化為可用能量。該系統運行效率良好，但交換器精巧脆弱的性質也讓其具備高度不穩定性。",
+      "effect": "當你在你的回合開始時處於<b>超溫危域</b>，則你在該回合期間將得到對熱度的<b>抗性</b>。即使你在該回合期間脫離<b>超溫危域</b>，這個效果也會持續發揮作用。"
     },
     "LUCIFER-Class NHP": {
-      "name": "LUCIFER-Class NHP",
-      "description": "LUCIFER came to the Think Tank’s attention after their repeated victories in thought-war games. LUCIFER clones are characterized by their brash, enthusiastic personality, often expressing frustration with timid pilots. This bombastic personality hides a calculating, brilliant tactical mind that feeds constant information to pilots – often faster than they can process it.<br>LUCIFER’s combat doctrine demands action, appearing to less daring pilots as a chaotic blend of reckless maneuvering and aggressive offense that keeps defenders beleaguered and unable to respond. Pilots looking to partner with LUCIFER clones should be aware that this attack style is likely to leave them vulnerable to counterattack, and also that these NHPs enjoy what they call “good-natured ribbing”.",
+      "name": "路西法級 NHP",
+      "description": "在思維戰爭模擬中屢屢獲勝後，路西法成功引起了智囊團的關注。路西法複製體以其張揚且熱情的個性為特色，並經常對過度謹慎的駕駛員表現出沮喪不滿。然而，在其誇張的個性下，卻隱藏著一顆精密卓越的戰術頭腦，能夠不斷將戰場情報灌輸給駕駛員，甚至快到讓人難以跟上的程度。<br>路西法的戰鬥哲學強調主動進攻，在較為保守的駕駛員眼中，這種風格看起來就像是魯莽機動和激進攻勢交織而成的混亂戰法，讓敵人在接連攻勢下疲於應對。想要與路西法複製體搭檔的駕駛員，需要注意其攻擊風格很容易把自己暴露於敵人的反擊之下，且這些 NHP 特別喜歡它們所謂的「友善調侃」。",
       "actions": {
         "LUCIFER Protocol": {
-          "name": "LUCIFER Protocol",
-          "detail": "Expend a charge to give your next ranged or melee attack this turn bonus damage on hit equal to your current heat after activating this protocol, as long as the weapon deals any energy."
+          "name": "路西法協定",
+          "detail": "消耗一發，你在該回合中下一次進行的遠距或肉搏攻擊如果會造成任何能量傷害，則該攻擊會在命中時造成等同於你啟動這個協定後的熱度的額外傷害。"
         }
       }
     },
     "Plasma Gauntlet": {
-      "name": "Plasma Gauntlet",
-      "description": "This studded gauntlet draws on a core reactor pulse to momentarily superheat the air around a mech’s manipulator, creating a plasma field momentarily hotter than the surface of the sun. Thrust into an opponent’s chassis, plasma gauntlets give mechs the power to warp armor, vaporize shielding, and rip apart internal systems with their bare hands – if they don’t collapse in on themselves first.",
+      "name": "電漿護手",
+      "description": "這款鉚釘護手利用核心反應爐的脈衝瞬間使機械臂周圍的空氣過熱，形成一層瞬間溫度超過太陽表面的電漿場。當被猛然貫入敵人的機甲時，電漿護手的強大力量能讓使用者扭曲裝甲、蒸發護盾、甚至徒手撕毀內部系統──前提是他們不會先一步自行崩毀。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This system can only be used in the Danger Zone.<br>Expend a charge and choose a character adjacent to you: they must succeed on an Agility save or take 4d6 AP energy damage and be knocked Prone. On a success, they take half damage and aren’t knocked Prone. You take half of the damage inflicted – before reduction – as heat and become Stunned until the start of your next turn."
+          "name": "啟動電漿護手",
+          "detail": "這個系統只能在你處於<b>超溫危域</b>時使用。<br><br>消耗一發並選擇一個與你鄰接的角色：目標必須成功通過<b>敏捷豁免</b>，否則受到 4d6 穿甲(AP)能量傷害，並被擊倒<b>伏臥</b>。若豁免成功，則目標只受到一半的傷害且不會<b>伏臥</b>。你會受到等同於造成傷害的一半（使用減免前的數值）的熱度，並陷入<b>暈眩</b>狀態，持續直到你的下一回合開始為止。"
         }
       }
     },
