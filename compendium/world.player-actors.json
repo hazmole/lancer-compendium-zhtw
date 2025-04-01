@@ -53,9 +53,9 @@
       "detail": "When finished, this repair station generates a Burst 1 field within which allied characters gain IMMUNITY to burn and clear any burn currently affecting them."
     },
     "Deployable Shield (Reserve)": {
-      "name": "Deployable Shield (Reserve)",
-      "tokenName": "Deployable Shield (Reserve)",
-      "detail": "Grants soft cover to all friendly characters in a BURST 2 radius"
+      "name": "可部署護盾（保留）",
+      "tokenName": "可部署護盾（保留）",
+      "detail": "對<b> 爆發 2 </b>範圍內的所有隊友角色提供<b>軟性掩護</b>。"
     },
     "Emplacement": {
       "name": "Emplacement",
@@ -88,9 +88,9 @@
       "detail": "這個地雷會在任何角色移動到它所在或與其鄰接的空間時引爆，往觸發角色的方向釋放一個 線性 5 範圍的集中爆炸區域。位於影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 4 燃燒。若豁免成功，則只受到 2 燃燒。"
     },
     "Hive Drone": {
-      "name": "Hive Drone",
-      "tokenName": "Hive Drone",
-      "detail": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+      "name": "蟲巢無人機",
+      "tokenName": "蟲巢無人機",
+      "detail": "蟲巢無人機可以在感應和視線範圍內的一個未佔據空間展開，並釋放出<b> 爆發 2 </b>範圍的灰蠱蟲群，產生以下的效果：<ul><li>至少部分處於影響範圍內的隊友角色，以及蟲巢無人機本身，都會得到<b>軟性掩護</b>。</li><li>在影響範圍內開始其回合，或是在每輪第一次進入該範圍的敵方角色會受到 1 穿甲(AP)動能傷害。多架蟲巢無人機之間的重疊範圍不會重覆觸發這個效果。</li></ul>無人機能以<b>快速動作</b>回收，或在另一個空間展開。"
     },
     "ICEOUT Drone": {
       "name": "冷遇無人機",
