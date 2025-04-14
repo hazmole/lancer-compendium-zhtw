@@ -947,24 +947,13 @@
       "name": "固像之課",
       "description": "「閉上雙眼。將敵人形象刻於腦內；想像它在任何視點和任何角度的模樣。在你念想中，它已成為更加完美之物。用你意念粉碎它，殺死這完美之物。張開雙眼。」<br><i>——《盧濟駱六課》第三課</i>",
       "effect": "每輪一次，作為任何隊友角色開始回合時的<b>反應</b>，你可以對在<b>視線和感應範圍</b>內的一名角色進行<b>鎖定</b>科技動作。",
-      "actions": [{
-        "name": "固像之課",
-        "detail": "對視線和感應範圍內的一名角色進行一次 鎖定 科技動作。",
-        "trigger": "任何隊友角色開始回合時",
-        "activation": "Reaction",
-        "cost": 0,
-        "damage": [],
-        "frequency": "1/round",
-        "heat_cost": 0,
-        "init": "",
-        "lid": "",
-        "mech": true,
-        "pilot": false,
-        "range": [],
-        "synergy_locations": [],
-        "terse": "",
-        "tech_attack": false
-      }]
+      "actions": {
+        "Lesson of the Held Image": {
+          "name": "固像之課",
+          "trigger": "任何隊友角色開始回合時",
+          "detail": "對視線和感應範圍內的一名角色進行一次 鎖定 科技動作。"
+        }
+      }
     },
     "The Lesson of Thinking-Tomorrow’s-Thought": {
       "name": "明想之課",
