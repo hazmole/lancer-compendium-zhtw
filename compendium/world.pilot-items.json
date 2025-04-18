@@ -731,40 +731,40 @@
       }
     },
     "Demolitionist": {
-      "name": "Demolitionist",
-      "description": "Explosives and warfare go together like alcohol and bad decisions. The power of a bomb in the palm of your hand is a great equalizer, and a well-placed satchel charge or two has brought even the mightiest of fortifications tumbling down. Forget bullets with names etched on them, the packages you deliver go out addressed “To Whom It May Concern,” and you’ve got plenty to go around.",
-      "terse": "Improve your grenades and mines to fly further and hit harder",
+      "name": "爆破專家",
+      "description": "炸藥與戰爭的關係就如同酒精與糟糕決定一樣密不可分。你握在掌心的炸藥威力足以扭轉戰局，一兩發佈置得當的炸藥包甚至能讓最堅固的防禦工事轟然倒塌。忘掉那些刻有仇家名字的子彈吧，現在你送出的包裹上都寫著「至可能有關的倒楣蛋」，而你手中的庫存還多得是。",
+      "terse": "增強你的手榴彈和地雷，讓它們能飛得更遠，炸得更痛。",
       "ranks": {
         "Frag and Clear": {
-          "name": "Frag and Clear",
-          "description": "When you use a Grenade, you may choose one character in the affected area to ignore its effects. Additionally, at the end of each scene, you restore 1 charge to each Limited system with the Mine tag for each undetonated Mine you deployed from that system."
+          "name": "破片掃蕩",
+          "description": "當你使用<b>手榴彈</b>時，你可以選擇讓影響範圍內的一名角色忽略其效果影響。此外，在每個場景結束時，每一個在該場景中被展開且尚未被引爆的<b>地雷</b>，都會讓你恢復該<b>地雷</b>的<b>受限</b>系統的一發使用次數。"
         },
         "Quarterback": {
-          "name": "Quarterback",
-          "description": "Your Grenades gain +3 Range, and you can plant Mines up to Range 3 (or add +3 Range to them if they have one). Additionally, you do not require line of sight for Grenades and Mines as long as it’s possible to trace a path to the target."
+          "name": "長距拋擲",
+          "description": "你的<b>手榴彈</b>得到 +3⌿ 射程，且你可以在最遠 ⌿3 射程範圍的位置鋪設<b>地雷</b>（若該地雷原本就擁有射程，則該為 +3⌿ 射程）。此外，當你使用<b>手榴彈</b>或鋪設<b>地雷</b>時，你的目標位置不再需要位於你的視線範圍內，只需要有能夠到達目標位置的路徑即可。"
         },
         "Fire in the Hole": {
-          "name": "Fire in the Hole",
-          "description": "<p>Your explosive charges have been enhanced with customized payloads. 1/round, you may choose one of the following:</p> <ul> <li>When you throw a Grenade, up to three characters within Range 3 of the targeted space take 2 explosive damage and are knocked back 1 space in a direction of your choice by explosive shrapnel.</li> <li>When a character fails a save against one of your Mines, they take +1d6 explosive bonus damage. If the mine deals no damage normally when detonated, whether it forces a save or not, one character in the affected area takes 1d6 explosive damage instead.</li> </ul>"
+          "name": "爆破預備",
+          "description": "你的炸藥都使用了特製火藥進行強化。<b>每輪一次</b>，你可以選擇以下其中一個效果：<ul><li>當你投擲<b>手榴彈</b>時，選擇距離著彈點 ⌿3 範圍內的最多三個角色，這些角色將被爆炸破片波及，受到 2 爆炸傷害，並被往你選擇的任意方向擊退 1 格。</li><li>當有角色在對抗你<b>地雷</b>的豁免判定中失敗，他將受到 +1d6 額外的爆炸傷害。如果該地雷不會在引爆時造成傷害，則無論其是否需要豁免，選擇影響範圍內的一個角色改為受到 1d6 爆炸傷害。</li></ul>"
         }
       }
     },
     "Sysop": {
-      "name": "Sysop",
-      "description": "Modern systemic warfare is a filthy mess of code-worms, logic bombs, and adaptive viruses, to say nothing of all the physical detritus that litters the battlefield, and you’re the one responsible for keeping things clean. System operator or system optimizer, formatting software barriers or tuning servos, your command of diagnostic programs and deep-level hardware overrides gives you all the tools you need to push your squad’s limits beyond manufacturer spec with orderly, surgical precision.",
-      "terse": "Improve your Bolster to shield your allies from systemic attacks",
+      "name": "系統管理員",
+      "description": "現代的系統性戰爭是一場混亂不堪的泥巴仗，充斥著蠕蟲代碼、邏輯炸彈跟自適應病毒，更別提那些遍布戰場的物理殘骸了──而你正是負責清理這一切的人。無論是被叫做系統操作員還是系統優化師，是將軟體屏障格式化或是調校伺服器結構，你對診斷程式和底層硬體覆寫的知識讓你掌握了你所需的一切技巧，使你能以手術般精準的方式將你們小隊的機甲推升至超越原廠規格的能力。",
+      "terse": "增進你的強化科技動作，保護你的隊友不受系統攻擊。",
       "ranks": {
         "Inoculation": {
-          "name": "Inoculation",
-          "description": "When you Bolster an allied character, the additional Accuracy they gain lasts until their next skill check or save."
+          "name": "預防注射",
+          "description": "當你<b>強化</b>隊友角色時，他因此得到的額外<b>準度</b>會改為持續到他進行下一次技能或豁免判定為止。"
         },
         "Firewall": {
-          "name": "Firewall",
-          "description": "When you Bolster an allied character, tech attacks against them receive +1 Difficulty until the end of their next turn."
+          "name": "防火牆",
+          "description": "當你<b>強化</b>隊友角色時，直到其下一回合結束為止，對他進行的科技攻擊都將得到<b> +1 難度</b>。"
         },
         "Aggressive Countermeasures": {
-          "name": "Aggressive Countermeasures",
-          "description": "1/round, when you Bolster an ally, you induce a special cycle into their reactor. They reduce the next amount of heat they would take from a hostile character to 0, and that character takes 2 heat and becomes Impaired until the end of their next turn. This effect does not stack, and lasts until triggered."
+          "name": "攻性反制",
+          "description": "每輪一次，當你<b>強化</b>隊友角色時，你同時在其反應爐內植入一段特殊迴圈代碼。當他下一次受到敵對角色造成的熱度時，將該熱度降為 0，且讓該敵對角色反過來受到 2 熱度，並陷入<b>受損</b>狀況，持續直到其下一回合結束為止。這個效果不會疊加，且會持續直到被觸發為止。"
         }
       }
     },
@@ -1514,6 +1514,56 @@
       "name": "追加機甲技能",
       "description": "增加一點機甲技能點，用來提升駕駛員的機體、敏捷、系統、或工程評級。",
       "label": "Bonus"
+    },
+    "Up-Armoring": {
+      "name": "裝甲升級",
+      "description": "這是一項簡單直接的戰地改裝：在機甲外部加裝額外的鍍層。你的機甲在下一個任務期間得到 +1 裝甲（最多 +4），且你在下一場戰鬥開始時得到 +5 護盾。",
+      "label": "Resource"
+    },
+    "Hot-Load Ammunition": {
+      "name": "超負荷彈藥",
+      "description": "為武器彈藥添加過強的威力通常來說並不合法，但相當管用。你可以消耗這個儲備來強化你的武器。你下一次成功進行的遠距或肉搏攻擊所造成的傷害無法被任何方式減少，且目標必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。這個效果會在你的遠距或肉搏攻擊判定命中時、或該場景結束時結束。",
+      "label": "Resource"
+    },
+    "Recon Drone": {
+      "name": "偵查無人機",
+      "description": "由於強烈的信號干擾籠罩了整座城市，這些在高處盤旋，能長時間飛行的無人機是少數能提供給駕駛員們最有效情報的工具。在每場戰鬥開始時，選擇一個位於 ⌿50 範圍內的敵對角色，並<b>掃描</b>該角色。這個動作不需要視線。",
+      "label": "Resource"
+    },
+    "Sniper Team": {
+      "name": "狙擊小隊",
+      "description": "LSA 地面部隊和聯盟海軍陸戰隊在這次任務中接受了聯合行動的速成課程，而沒有什麼比實彈射擊更能培養團隊默契的了。你可以在任意戰鬥開始時消耗這個儲備，傳喚附近的狙擊小隊為你提供火力支援。直到該場景結束前，每當你使用<b>鎖定</b>科技動作，你的目標都會受到帶有穿甲(AP)效果的 2 動能傷害。",
+      "label": "Resource"
+    },
+    "LOOKINGGLASS Overlay": {
+      "name": "窺視鏡插片",
+      "description": "這套頭部感應器插件能夠擊敗哪怕是最先進的熱學／光學／系統偽裝系統，儘管它只能在燒毀前的這一小段時間內以這般強度運行。你可以在任何戰鬥期間消耗這個儲備來啟動感應器。在該場景結束前，你將忽略<b>軟性掩護</b>，以及 ⌿3 範圍內角色的<b>隱形</b>狀態。 ⌿3 範圍內的敵對角色無法進入<b>匿跡</b>狀態，但如果他已經處於<b>匿跡</b>狀態，則該狀態仍會繼續維持。",
+      "label": "Resource"
+    },
+    "Leg Enhancements": {
+      "name": "腿部增強",
+      "description": "機甲原本就被設計用來應對崎嶇地形，但一系列關節和電機馬達的強化能讓這項優勢更加亮眼。你的機甲在接下來的任務期間將無視<b>困難地形</b>。此外，在該任務期間，你可以消耗這個儲備來忽略敵對勢力對你施加的<b>緩慢</b>或<b>固定</b>狀況，在其發生時將其抵銷。",
+      "label": "Resource"
+    },
+    "High-Mobility Pack": {
+      "name": "高機動套裝",
+      "description": "LSA 使用這些外部裝載的飛行單元來實行快速突擊和空頭行動，且其規則設計能夠輕易被修改和列印成 GMS 標準規格。你可以在任意戰鬥開始時消耗這個儲備，使你在該場景期間的任何移動都被視為<b>飛行</b>。此外，你可以在所有其他角色（PC 和 NPC）完成部署後，將自己部署在地圖上的任意位置。",
+      "label": "Resource"
+    },
+    "Golden Ticket": {
+      "name": "黃金票券",
+      "description": "儘管金中尉只被授權分發有限的牌照，但里奧提供的這些未登記備份編碼可以幫助你進一步拓展這些牌照。你得到一件出自《至日雨行動》的異域裝備。",
+      "label": "Resource"
+    },
+    "Personal Touch": {
+      "name": "個人化改裝",
+      "description": "看起來沃娜對你頗有好感，或至少相當中意你的機甲。在下一個任務期間，你的機甲得到一個免費的<b>個人塗裝</b>系統，且你可以消耗這個儲備，使你的所有機甲能力判定和豁免判定在該戰鬥期間都得到<b> +1 準度</b>。",
+      "label": "Resource"
+    },
+    "Return to Sender": {
+      "name": "物歸原主",
+      "description": "把繳獲的砲彈當作給機甲搭載的即興爆炸裝置來使用並不是個明智的選擇，但這大概不是駕駛員做過最糟的決定。你的機甲裝備了威力強大的一次性炸彈。<b>每個任務一次</b>，你能夠以<b>快速動作</b>在 ⌿3 範圍內創造一個<b> 爆發 2 </b>範圍的爆炸。影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 3d6 爆炸傷害，成功則只受到一半的傷害。影響範圍內的物件、掩護、和地形都會受到帶有穿甲(AP)效果的 30 爆炸傷害。同時只能有一名 PC 擁有這個儲備；任何再次骰到這項結果的玩家可以從列表中任意選擇另一項儲備。",
+      "label": "Resource"
     }
   }
 }

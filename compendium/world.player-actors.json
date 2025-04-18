@@ -107,11 +107,6 @@
       "tokenName": "蓮花投射器",
       "detail": "這個偵查無人機可以在感應和視線範圍內的一個空間展開，並會在該處產生<b> 爆發 2 </b>範圍的區域，提供以下效果：<ul><li>你知道影響範圍內所有角色的當前位置、HP、迴避、電子防禦、和熱度。</li><li>影響範圍內的敵對角色無法進行<b>躲藏</b>，且其如果在影響範圍內結束回合的話會失去<b>匿跡</b>狀態。</li><li>敵對角色在影響範圍內期間將無法受益於<b>隱形</b>狀態。</li></ul>你能以<b>快速動作</b>收回或重新展開你的偵查無人機。"
     },
-    "Lurker Mine": {
-      "name": "Lurker Mine",
-      "tokenName": "Lurker Mine",
-      "detail": "This mine does not detonate as normal. Instead, gain the Selective Detonation reaction, which can be performed once per deployed lurker mine."
-    },
     "Markey’s Fusebox": {
       "name": "Markey’s Fusebox",
       "tokenName": "Markey’s Fusebox",
@@ -219,6 +214,19 @@
       "name": "網顎陷阱",
       "tokenName": "網顎陷阱",
       "detail": "網顎陷阱不會阻礙移動，且直到被觸發前都不能被攻擊。<br>網顎陷阱會在任何角色移動到其所在位置時被觸發。目標必須成功通過<b>機體豁免</b>，否則受到 1d6 穿甲(AP)動能傷害，並陷入<b>固定</b>狀況。這個效果會持續直到網顎陷阱被毀為止。"
+    },
+
+    "Lurker Mine": {
+      "name": "潛伏者地雷",
+      "tokenName": "潛伏者地雷",
+      "detail": "這個地雷並不會如常引爆。取而代之的是，你獲得<b>選擇性引爆</b>反應，每部署一個潛伏者地雷就可以進行一次。",
+      "actions": {
+        "Selective Detonation": {
+          "name": "選擇性引爆",
+          "trigger": "當角色進入潛伏者地雷所在的空間或與其鄰接的空間，或在該處開始其回合時。",
+          "detail": "該地雷被引爆，所有被影響的角色必須通過<b>敏捷豁免</b>，否則受到 2d6 爆炸傷害。豁免成功則只受到一半的傷害。"
+        }
+      }
     }
   }
 }
