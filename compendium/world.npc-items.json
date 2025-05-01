@@ -1955,13 +1955,22 @@
         "effect": "鄰接的隊友角色可以把防衛型嘍囉當作​<b>硬性掩護​</b>。"
       }
     },
+    "Heavy Frame": {
+      "name": "沉重骨架",
+      "npcf_heavy_frame_demolisher": {
+        "effect": "粉碎者不會被比他小的角色給<b>推動</b>、<b>拉動</b>、<b>擊退</b>、或擊倒<b>​伏臥​</b>。"
+      },
+      "npcf_heavy_frame_goliath": {
+        "effect": "巨人不會被比他小的角色給<b>推動</b>、<b>拉動</b>、<b>擊退</b>、或擊倒<b>​伏臥​</b>。"
+      }
+    },
     "Juggernaut": {
       "name": "勢不可擋",
       "npc-rebake_npcf_juggernaut_ultra": {
         "effect": "在超體的回合開始時，他可以清除自己身上的一個狀況。如果他這麼做，則他必須選擇一項：他陷入<b>受損</b>狀況直到其下一回合結束、受到無法被任何方式減輕的<b> 5 能量傷害</b>、或是他在該回合只能進行<b>一個快速動作</b>，而非原本的完整動作或二個快速動作。"
       },
       "npc-rebake_npcf_juggernaut_berserker": {
-        "effect": "當狂戰士使用<b>雪崩衝刺</b>時，所有與其前進路徑或最終位置鄰接的角色，無論敵友，都必須通過<b>機體豁免</b>，否則被撞倒<b>伏臥</b>。"
+        "effect": "當狂戰士使用<b>雪崩衝刺</b>時，所有與狂戰士的移動路徑或最終位置鄰接的角色（無論敵友）都必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。"
       }
     },
     "Limitless": {
@@ -2171,15 +2180,369 @@
     },
 
     "Barricade [K]": {"name": "路障 [K]" },
+    "Graviton Lance": {
+      "name": "重力子長槍",
+      "on_hit": "目標陷入<b>緩慢</b>狀況直到其下一回合結束。"
+    },
+    "Mobile Printer": {
+      "name": "機動列印機",
+      "effect": "路障在<b> ⌿3 射程</b>內的一處未佔據空間列印出一個<b> 大小 2 </b>的立方體。這個立方體是一個擁有<b> 20 HP </b>和<b> 迴避 5 </b>的物件，並能夠提供<b>硬性掩護</b>。路障同時只能有一個立方體被展開；如果他展開了新的，則舊的將會立即解體。"
+    },
+    "Drag Down": {
+      "name": "拖垮",
+      "effect": "路障對<b>感應範圍</b>內的一個角色進行科技攻擊。若命中，直到目標的下一回合結束前，目標每自願移動一格就會受到<b> 2 AP 能量傷害</b>。"
+    },
+    "Bulwark Mods": {
+      "name": "壁壘模組",
+      "effect": "路障忽略<b>困難地形</b>和<b>危險地形</b>的影響。"
+    },
+    "Spike Barrier": {
+      "name": "尖刺阻障",
+      "effect": "被<b>機動列印機</b>列印出的立方體表面覆蓋著鋒利尖刺；當除了路障以外的任何角色在每輪中第一次移動到與立方體鄰接的位置時，該角色就會受到<b> {2/3/4} AP 動能傷害</b>，且必須成功通過<b>敏捷豁免</b>，否則失去其所有剩餘移動，就彷彿其陷入<b>交戰</b>狀態一樣。"
+    },
+    "Extruding Printer": {
+      "name": "擠製列印機",
+      "effect": "路障在<b> ⌿3 射程</b>內的未佔據空間列印出二個<b> 大小 2 </b>的立方體。這個立方體是一個擁有<b> 20 HP </b>和<b> 迴避 5 </b>的物件，並能夠提供<b>硬性掩護</b>。"
+    },
+    "Extrudite": {
+      "name": "精煉觸媒",
+      "effect": "路障可以使用<b>機動列印機</b>同時列印二個立方體，而非原本的一個。當新的立方體被展開時，舊的也不會再因此解體。將<b>機動列印機</b>取代為<b>擠製列印機</b>。"
+    },
+    "Hunger/Pursuit Limpets": {
+      "name": "飢餓／追逐吸附雷",
+      "effect": "路障迅速列印出一大片微型機動地雷，讓其展開在一處與路障鄰接且未被佔據的<b> 大小 4 </b>範圍區域。該範圍區域變為<b>困難地形</b>；此外，當敵對角色在每輪第一次進入該區域、或在該區域開始其回合時，他都必須成功通過<b>系統豁免</b>，否則陷入<b>緩慢</b>狀況直到其下一回合結束為止。"
+    },
+    "Seismic Repulsor": {
+      "name": "地震排斥力場",
+      "effect": "路障從其列印出的其中一個立方體發射地震波，在它周圍創造一個<b> 爆發 3 </b>範圍的區域。所有在影響範圍內且非<b>飛行</b>中的角色都必須成功通過<b>機體豁免</b>，否則被往遠離立方體的方向擊退<b> 3 格</b>並摔倒<b>伏臥</b>。被這個方式影響的隊友角色（包括路障自己）不會因此被擊倒<b>伏臥</b>。然後，該立方體被摧毀。"
+    },
+    "Titan-Snare Drone": {
+      "name": "泰坦羅網無人機",
+      "effect": "<b>羅網無人機（大小 1/2、HP 5/8/10、迴避 10/12/14、電子防禦 10/12/14、標籤：無人機）</b><br><br>這個無人機可以被列印並展開在任意未佔據的鄰接空間。當敵對角色移動進入該無人機的<b> ⌿3 射程</b>內，或在其中開始其回合時，這個無人機將會發射一道脈衝，使目標陷入<b>固定</b>狀況，持續直到無人機被毀為止。"
+    },
+
     "Bastion [K]": { "name": "堡壘 [K]" },
+    "Rotary Grenade Launcher": {
+      "name": "轉輪榴彈發射器",
+      "effect": "鄰接的隊友角色能以<b>快速動作</b>來重新裝填這件武器。"
+    },
+    "Heavy Assault Shield": {
+      "name": "重型突擊盾牌",
+      "on_hit": "目標必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。"
+    },
+    "Friendly Interdiction": {
+      "name": "友軍攔截",
+      "effect": "選擇在視線範圍內的一個角色為目標，堡壘和另一個鄰接的隊友角色得到該目標造成的所有傷害的<b>抗性</b>。堡壘能以<b>協定</b>選擇一個新的目標或隊友角色。該隊友角色會在不與堡壘鄰接時失去這個<b>抗性</b>。"
+    },
+    "Near-Threat Denial System": {
+      "name": "近威脅拒阻系統",
+      "effect": "當位於堡壘<b> ⌿3 射程</b>內的角色對堡壘或其使用<b>友軍攔截</b>保護的角色進行攻擊時，他會在判定前受到<b> {2/3/4} AP 爆炸傷害</b>。"
+    },
+    "Fearless Defender": {
+      "name": "無懼衛士",
+      "trigger": "當在堡壘<b> ⌿5 射程</b>內的隊友角色受到傷害，且堡壘不處於<b>固定</b>、<b>緩慢</b>、<b>暈眩</b>或其他無法移動的情況時。",
+      "effect": "堡壘移動到與觸發角色鄰接的空間，並代為承受傷害。然後，堡壘可以立即對觸發角色使用<b>友軍攔截</b>。"
+    },
+    "Siege Guardian": {
+      "name": "攻城護兵",
+      "effect": "所有隊友角色會在與堡壘鄰接時得到源自<b>濺射</b>、<b>爆發</b>、<b>線性</b>和<b>錐形</b>範圍攻擊傷害的<b>抗性</b>。"
+    },
+    "Deathcounter": {
+      "name": "死亡克制器",
+      "effect": "堡壘身邊繚繞著一道劈啪作響的能量力場，所有角色都能看見這道力場。當堡壘在每輪第一次被遠距或肉搏攻擊命中時，將該攻擊的所有傷害降低到 0，在這之後，這道能量力場將明顯消散，直到下一輪開始時才重新啟動。"
+    },
+    "Stack Up": {
+      "name": "疊聚",
+      "effect": "當堡壘進行普通移動或<b>推進</b>時，一個與其鄰接的隊友角色可以選擇跟著他一起移動，仿效其移動路徑。該隊友角色的移動忽略交戰，且不會觸發反應。每個隊友在每輪中只能透過這個方式移動最多等同其<b>速度</b>的距離。"
+    },
+
     "Berserker [K]": {"name": "狂戰士 [K]" },
+    "Chain Axe": {
+      "name": "鏈斧",
+      "effect": "<b>會心一擊時</b>：目標陷入<b>離散</b>狀況直到其下一回合結束。"
+    },
+    "Avalanche Charge": {
+      "name": "雪崩衝刺",
+      "effect": "狂戰士以直線移動等同其<b>速度</b>的距離，忽略交戰和反應，然後使用<b>鏈斧</b>隨機攻擊一個與其鄰接的角色（無論敵友）。"
+    },
+    "Stampede Defense": {
+      "name": "狂亂防禦",
+      "effect": "除非狂戰士陷入<b>受損</b>、<b>暈眩</b>、<b>固定</b>、<b>離散</b>、<b>緩慢</b>或<b>曝露</b>狀況，否則他對所有傷害都有<b>抗性</b>。"
+    },
+    "Aggression": {
+      "name": "侵略狂擊",
+      "effect": "當狂戰士在每輪第一次受到傷害之後，他必須立即使用<b>鏈斧</b>隨機攻擊一個與其鄰接的角色（無論敵友）。這個攻擊甚至會在狂戰士被毀時發生。"
+    },
+    "Harpoon Cannon": {
+      "name": "魚叉大炮",
+      "on_hit": "若目標的<b>大小</b>比狂戰士相同或更小，則目標被以直線盡可能拉動到與狂戰士鄰接的位置。若目標的<b>大小</b>比狂戰士更大，則改為讓狂戰士被拉動到與其鄰接的位置。如果這個移動會讓狂戰士與目標鄰接，則狂戰士對目標進行<b>擒拿</b>。"
+    },
+    "Retribution": {
+      "name": "報復",
+      "effect": "每當狂戰士受到傷害，他下一次進行的攻擊將會造成<b> +1d6 額外傷害</b>。狂戰士會在其進行攻擊後、或是其下一回合結束時失去這個額外傷害。"
+    },
+    "Headhunter": {
+      "name": "獵頭者",
+      "effect": "每當狂戰士使用<b>鏈斧</b>攻擊一個處於<b>擒拿</b>、<b>固定</b>、<b>暈眩</b>或<b>伏臥</b>狀況的角色，該攻擊不需要會心一擊，而只需要命中就會使目標陷入<b>離散</b>狀況。"
+    },
+    "Overdrive Servos": {
+      "name": "過載超速馬達",
+      "effect": "狂戰士在進行<b>推撞</b>和<b>擒拿</b>時視為<b> 大小 3</b>，且會在<b>推撞</b>和<b>擒拿</b>命中時造成<b> {3/4/5} 動能傷害</b>。"
+    },
+
     "Bombard [K]": {"name": "炮兵 [K]" },
+    "Bombard Cannon": {
+      "name": "轟擊火炮"
+    },
+    "Cluster Munitions": {
+      "name": "集束彈",
+      "effect": "炮兵的攻擊每有一個額外目標（不包括第一個目標），就會對所有目標造成<b> {+2/+3/+4} 額外傷害</b>。"
+    },
+    "Earthshaker Shells": {
+      "name": "地震彈",
+      "effect": "當使用<b>轟擊火炮</b>進行攻擊時，炮兵可以同時發射一枚特殊的地震炮彈。除了原本的傷害之外，位於<b>濺射</b>範圍內的其中一個角色必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。瓦礫和土塊將因為衝擊揚起，在著彈點<b> ⌿3 射程</b>內的未佔據空間上創造出二個<b> 大小 1 </b>的<b>硬性掩護</b>。然後，除非這個攻擊指定了二個或更多角色為目標，否則<b>轟擊火炮</b>必須被重新<b>裝填</b>後才能被再次使用（視同得到<b>裝填</b>標籤）。"
+    },
+    "Siege Armor": {
+      "name": "攻城裝甲",
+      "effect": "炮兵對所有源自<b> ⌿3 射程</b>外的攻擊造成的傷害具有<b>抗性</b>。"
+    },
+    "High-Impact Shells": {
+      "name": "高能衝擊彈",
+      "effect": "當使用<b>轟擊火炮</b>進行攻擊時，炮兵可以同時發射一枚特殊的高能衝擊炮彈。若命中，目標將被往遠離砲兵或遠離<b>濺射</b>範圍中心的方向擊退<b> 2 格</b>，每一個額外目標都會讓擊退距離<b> +1 格</b>，最高到<b> 5 格</b>。然後，除非這個攻擊指定了二個或更多角色為目標，否則<b>轟擊火炮</b>必須被重新<b>裝填</b>後才能被再次使用（視同得到<b>裝填</b>標籤）。同一次攻擊最多只能使用一種特殊炮彈。"
+    },
+    "Bunker Buster": {
+      "name": "碉堡破壞彈",
+      "effect": "當使用<b>轟擊火炮</b>進行攻擊時，炮兵可以同時發射一枚特殊的碉堡破壞炮彈。<b>轟擊火炮</b>將自動對影響範圍內的所有物件和地形造成<b> {10/20/30} AP 爆炸傷害</b>，且範圍內的其中一個角色必須成功通過<b>機體豁免</b>，否則陷入<b>離散</b>狀況直到其下一回合結束為止。然後，除非這個攻擊指定了二個或更多角色為目標，否則<b>轟擊火炮</b>必須被重新<b>裝填</b>後才能被再次使用（視同得到<b>裝填</b>標籤）。同一次攻擊最多只能使用一種特殊炮彈。"
+    },
+    "Flare Drone": {
+      "name": "閃焰無人機",
+      "effect": "<b>閃焰無人機（大小 1/2、HP 10/15/20、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>這個無人機可以被展開在視線和<b> ⌿25 射程</b>內的一處空間，它會在原地懸浮並開始釋放出籠罩<b> 爆發 2 </b>範圍的明亮強光。影響範圍內的所有角色（包括移動進入該範圍，和在該範圍內開始其回合的角色）都會失去<b>匿跡</b>和<b>隱形</b>狀態，且無法在該區域內進行<b>躲藏</b>或得到<b>隱形</b>狀態。此外，炮兵對影響範圍內的角色（包括這個無人機）進行的攻擊會得到<b> +1 準度</b>。炮兵同時只能有一架閃焰無人機被展開；如果炮兵展開了新的無人機，則舊的將會立即解體。"
+    },
+    "High-Angle Fire": {
+      "name": "高角度曲射",
+      "effect": "炮兵可以使用<b>轟擊火炮</b>預備一發延遲性的高角度炮火。選擇一個<b> 濺射 3 </b>範圍的區域，所有角色都會知道該區域被選中。然後，炮兵會在下一輪結束，所有角色都行動過之後，對範圍內的所有目標進行一次攻擊。"
+    },
+    "Counterbattery Suite": {
+      "name": "反炮戰套裝",
+      "trigger": "當敵對角色對炮兵進行攻擊時。",
+      "effect": "攻擊者被<b>鎖定</b>。這個反應無法對在炮兵<b> ⌿3 射程</b>內的角色使用。"
+    },
+
     "Breacher [K]": { "name": "攻堅者 [K]" },
+    "Dual Shotguns": {
+      "name": "雙管霰彈槍",
+      "effect": "這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標。這件武器最終的攻擊判定永遠無法受益於<b>準度</b>。"
+    },
+    "Breach Ram": {
+      "name": "攻城鎚",
+      "effect": "攻堅者以直線移動最多<b> 6 格</b>，忽略交戰且能夠穿過（但不能停留）其他角色佔據的空間。在移動路徑上的障礙物和物件會受到<b> 30 AP 動能傷害</b>。攻堅者可以穿過任何被因此摧毀的障礙物，並繼續移動直到其移動了<b> 6 格</b>，或碰到摧毀不了的障礙物為止。任何在攻堅者移動路徑上的角色必須成功通過<b>敏捷豁免</b>，否則將從路徑上被推開後摔倒<b>伏臥</b>。"
+    },
+    "Break Armor": {
+      "name": "破甲",
+      "effect": "在同一回合中被攻堅者使用<b>雙管霰彈槍</b>命中超過一次的角色將陷入<b>離散</b>狀況，持續直到該場景結束。"
+    },
+    "Ram Plating": {
+      "name": "衝撞鍍層",
+      "effect": "攻堅者在進行<b>衝撞</b>時得到<b> +1 準度</b>。"
+    },
+    "Follower Count": {
+      "name": "追蹤者計數",
+      "effect": "攻堅者對<b>感應範圍</b>內的一個角色進行科技攻擊。若命中，則攻堅者對目標進行的所有攻擊都會得到<b> +1 準度</b>，且每回合一次能以<b>免費動作</b>進行<b>推進</b>往目標的方向移動。這個效果會持續直到攻堅者或目標被毀，且不能改變這個效果的目標，除非攻堅者自願受到<b> 4 熱度 </b>以嘗試進行對其他目標進行這個科技攻擊。"
+    },
+    "Thermal Charge": {
+      "name": "高熱炸彈",
+      "effect": "攻堅者可以往<b> ⌿5 射程</b>內的一處空間投擲手榴彈。在著彈點<b> 濺射 1 </b>爆炸範圍內的角色必須成功通過<b>敏捷豁免</b>否則受到<b> {2/3/4} 燃燒</b>，並陷入<b>離散</b>狀況直到其下一回合結束為止。在影響範圍內的物件、地形和<b>可展開物</b>會自動受到<b> 30 AP 爆炸傷害</b>；若有任何物件或地形因此被毀，則攻堅者能立即往其中一個這些空間盡可能移動等同其<b>速度</b>的距離。"
+    },
+    "Painmaker": {
+      "name": "痛苦製造者",
+      "effect": "攻堅者準備進行一輪槍彈齊射，陷入<b>緩慢</b>狀況直到其下一回合結束為止。所有角色都會知道這個效果。在攻堅者的下個回合期間，他下一次使用<b>雙管霰彈槍</b>時，可以改為進行四次攻擊，而非原本的二次。"
+    },
+    "Fragmentation Shells": {
+      "name": "破片彈",
+      "effect": "<b>每輪一次</b>，當攻堅者使用<b>雙管霰彈槍</b>進行攻擊並命中時，在目標<b> ⌿3 射程</b>內的另一個角色會受到<b> {2/3/4} 動能傷害</b>，加上等同原本目標<b>裝甲</b>數值的額外傷害。"
+    },
+    "Breach and Clear": {
+      "name": "攻堅掃蕩",
+      "effect": "當攻堅者使用<b>破城鎚</b>時，他也可以使用<b>雙管霰彈槍</b>攻擊任何在移動路徑上的角色。<b>雙管霰彈槍</b>只能以這個方式對每個角色進行一次攻擊（而非原本的二次攻擊），且這些攻擊只會在命中時造成一半的傷害。"
+    },
+
     "Cataphract [K]": { "name": "重鐵騎 [K]" },
+    "Ram Cannon": {
+      "name": "Ram Cannon",
+      "trigger": "",
+      "effect": "This lance can be used as either a ranged or melee weapon, but not both in the same turn. When used as a ranged weapon, <strong>Critical Hits</strong> cause the target to become <strong>Impaired</strong> until the end of their next turn. When used as a melee weapon, it gains <strong>Knockback 2</strong>."
+    },
+    "Trample": {
+      "name": "Trample",
+      "trigger": "",
+      "effect": "The Cataphract ignores engagement and can pass through – but not stop in – spaces occupied by other characters, 1/turn dealing <strong>{2/3/4} kinetic damage</strong> to those characters."
+    },
+    "Impale": {
+      "name": "Impale",
+      "trigger": "",
+      "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save at <strong>+1 Difficulty</strong>. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>."
+    },
+    "Point-Defense Shield": {
+      "name": "Point-Defense Shield",
+      "trigger": "",
+      "effect": "The Cataphract has <strong>Resistance</strong> to all damage from the closest hostile character. If multiple characters are equally close, this effect does not apply."
+    },
+    "Electrified Lasso": {
+      "name": "Electrified Lasso",
+      "trigger": "",
+      "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they are pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them."
+    },
+    "Lance Shot": {
+      "name": "Lance Shot",
+      "trigger": "",
+      "effect": "The Cataphract fires a piercing lance in a <strong>Line 5</strong> path. All characters within the affected area must pass a <strong>Hull</strong> save or be knocked back <strong>3 spaces</strong>. Any character that collides with an obstruction or another character also becomes <strong>Immobilized</strong> until the end of their next turn."
+    },
+    "Electromagnetic Bola": {
+      "name": "Electromagnetic Bola",
+      "trigger": "",
+      "effect": "A flying character in <strong>Range 10</strong> must pass an Agility save. On a failure, they are pulled <strong>3 spaces</strong>, land immediately, and become <strong>Immobilized</strong> until the end of their next turn. This counts as falling but without damage."
+    },
+    "Charge": {
+      "name": "Charge",
+      "trigger": "",
+      "effect": "The Cataphract moves spaces equal to their <strong>Speed</strong> in a straight line, ignoring <strong>reactions</strong> and engagement, then attacks a target within <strong>Range</strong> with the <strong>Ram Cannon</strong>."
+    },
+    "Capacitor Discharge": {
+      "name": "Capacitor Discharge",
+      "trigger": "",
+      "effect": "As long as the Cataphract isn't <strong>Slowed</strong> or <strong>Jammed</strong>, whenever characters make melee attacks against them, they take <strong>{2/3/4} Heat</strong> before rolling."
+    },
+
     "Demolisher [K]": { "name": "粉碎者 [K]" },
+    "Demolition Hammer": {
+      "name": "Demolition Hammer",
+      "trigger": "",
+      "effect": ""
+    },
+    "Earthshatter": {
+      "name": "Earthshatter",
+      "trigger": "",
+      "effect": "<strong>On Attack</strong>: The Demolisher deals <strong>10/20/30 AP kinetic damage</strong> to an object or piece of terrain within <strong>Range 2</strong>, if there is one. Hit or miss, place a <strong>Size 1</strong> piece of terrain that grants <strong>hard cover</strong> in a free space adjacent to your target. The terrain has <strong>10 HP</strong> and <strong>Evasion 5</strong>. This weapon does not need to be retrieved between uses"
+    },
+    "Shock Armor": {
+      "name": "Shock Armor",
+      "trigger": "",
+      "effect": "The Demolisher has <strong>Resistance to damage from melee weapons</strong>."
+    },
+    "Jet Propulsion": {
+      "name": "Jet Propulsion",
+      "trigger": "",
+      "effect": "Whenever the Demolisher makes an attack with the <strong>Demolition Hammer</strong>, it may take <strong>4 Heat</strong> to move <strong>4 spaces</strong> in a straight line directly towards the target before the attack."
+    },
+    "Kinetic Compensation": {
+      "name": "Kinetic Compensation",
+      "trigger": "",
+      "effect": "Each time the Demolisher misses with the <strong>Demolition Hammer</strong>, they gain <strong>+1 Accuracy</strong> on all subsequent attacks with it until they hit. This <strong>Accuracy</strong> can be gained multiple times and stacks."
+    },
+    "Seismic Destroyer": {
+      "name": "Seismic Destroyer",
+      "trigger": "",
+      "effect": "Unless they can fly, all characters in a <strong>Cone 5</strong> area pass an <strong>Agility</strong> save or be knocked <strong>Prone</strong>. All objects and terrain within this area takes <strong>{10/20/30} AP kinetic damage</strong>; if any terrain or objects are destroyed this way, all affected characters also automatically take <strong>{4/6/8} kinetic damage</strong>."
+    },
+    "Hullcracker": {
+      "name": "Hullcracker",
+      "trigger": "",
+      "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilized</strong> and <strong>Shredded</strong> until the end of their next turn."
+    },
+    "Drag Cables": {
+      "name": "Drag Cables",
+      "trigger": "",
+      "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can attempt to reel in the cables as a <strong>protocol</strong>, forcing an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br><br>An embedded character or an adjacent ally can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target."
+    },
+
     "Engineer [K]": { "name": "工程師 [K]" },
+    "Flak Cannon": {
+      "name": "Flak Cannon",
+      "trigger": "",
+      "effect": "This weapon gains <strong>+1 Accuracy</strong> against <strong>flying</strong> targets."
+    },
+    "Target Designator": {
+      "name": "Target Designator",
+      "trigger": "",
+      "effect": "The Engineer chooses a character within line of sight and <strong>Sensors</strong>; they gain <strong>Lock On</strong>. At the end of the Engineer's turn, up to two of their <strong>Deployable Turrets</strong> will attack that target (if it is within range) instead of attacking the nearest hostile character.<br><br>This trait automatically <strong>recharges</strong> whenever two or more <strong>Deployable Turrets</strong> are destroyed by hostile characters before the end of the Engineer's next turn."
+    },
+    "Deployable Turret": {
+      "name": "Deployable Turret",
+      "trigger": "",
+      "effect": "Deployable Turret (<strong>Size</strong> 1/2, <strong>HP</strong> {1/1/1}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags:</strong> Drone)<br><br>Up to two of these self-constructing turrets can be deployed to any free space within <strong>Range 3</strong>. At the end of Engineer’s turn, deployed turrets attack the nearest hostile character within <strong>Range 10</strong>. They attack at +{1/2/3} and deal <strong>{4/5/6} Kinetic damage</strong>. The Engineer may have six turrets deployed at one time; if they deploy additional turrets beyond this, previous turrets of their choice are destroyed until they have no more than six total.<br><br>All turrets are destroyed when the Engineer is destroyed. If the Engineer becomes <strong>Jammed</strong> or <strong>Stunned</strong>, their turrets are also disabled for the duration of those conditions instead of attacking."
+    },
+    "Perimiter Defense": {
+      "name": "Perimiter Defense",
+      "trigger": "",
+      "effect": "<strong>Deployable Turrets</strong> gain <strong>Threat 3</strong> and can <strong>Overwatch</strong> (1/round per turret), and the Engineer gains the <strong>Auto-Tracking</strong> reaction."
+    },
+    "Deployable Fortifications": {
+      "name": "Deployable Fortifications",
+      "trigger": "",
+      "effect": "<strong>Deployable Turrets</strong> are <strong>Size 1</strong>, and adjacent allied characters can use them for <strong>hard cover</strong>."
+    },
+    "Mobile Turrets": {
+      "name": "Mobile Turrets",
+      "trigger": "",
+      "effect": "At the start of the Engineer’s turn, they may move two <strong>Deployable Turrets</strong> up to <strong>3 spaces</strong> in any direction."
+    },
+    "Auto-Tracking": {
+      "name": "Auto-Tracking",
+      "trigger": "An allied character within <strong>Range 3</strong> of a <strong>Deployable Turret</strong> makes a successful attack.",
+      "effect": "The <strong>Deployable Turret</strong> makes an attack against the triggering character's target, as long as the target is within line of sight and <strong>Range</strong>."
+    },
+    "Skyshield Protocol": {
+      "name": "Skyshield Protocol",
+      "trigger": "",
+      "effect": "Deployable Turrets gain <strong>+1 Accuracy</strong> against <strong>flying</strong> targets."
+    },
+    "Repurpose": {
+      "name": "Repurpose",
+      "trigger": "",
+      "effect": "The Engineer chooses an allied character adjacent to one of their <strong>Deployable Turrets</strong>; that character either gains {3/4/5} <strong>Overshield</strong> or gains <strong>+1 Accuracy</strong> on all attacks, checks and saves until the end of their next turn. The turret is then destroyed."
+    },
+
     "Goliath [K]": { "name": "巨人 [K]" },
-    
+    "Drum Shotgun": {
+      "name": "Drum Shotgun",
+      "trigger": "",
+      "effect": "This weapon ignores ranged penalties from <strong>Engaged</strong>."
+    },
+    "Crush Targeting": {
+      "name": "Crush Targeting",
+      "trigger": "",
+      "effect": "A hostile character within Sensors and line of sight gains <strong>+3 Difficulty</strong> to attack against any character other than the Goliath until the start of the Goliath’s next turn. This effect does not stack, and the effect ends immediately if the Goliath becomes <strong>Jammed</strong> or <strong>Stunned</strong>."
+    },
+    "Towering Stride": {
+      "name": "Towering Stride",
+      "trigger": "",
+      "effect": "The Goliath can end its turn overlapping obstructions, cover, and terrain smaller than <strong>Size 3</strong>."
+    },
+    "Power Knuckle": {
+      "name": "Power Knuckle",
+      "trigger": "",
+      "effect": "A character within <strong>Range 2</strong> must pass a <strong>Hull</strong> save or take <strong>{4/5/6} Kinetic damage</strong>, be pushed <strong>5 spaces</strong> directly away from the Goliath, and knocked <strong>Prone</strong>."
+    },
+    "Pin": {
+      "name": "Pin",
+      "trigger": "",
+      "effect": "A character within <strong>Range 2</strong> becomes <strong>Immobilized</strong> and <strong>Impaired</strong> until they either damage the Goliath, the Goliath is <strong>Stunned</strong> or destroyed, or the Goliath targets another character with this effect. The Goliath is <strong>Immobilized</strong> for the duration of this effect."
+    },
+    "Mag Gauntlet": {
+      "name": "Mag Gauntlet",
+      "trigger": "",
+      "effect": "A character within Sensors and line of sight must pass a <strong>Hull</strong> save or be pulled <strong>3 spaces</strong> towards the Goliath. If they are pulled adjacent to the Goliath (or are already adjacent to them), they automatically become grappled. The Goliath can only grapple one character this way at a time, and can't use this system while grappling someone this way."
+    },
+    "Coercive Force": {
+      "name": "Coercive Force",
+      "trigger": "",
+      "effect": "All characters of the Goliath's choice within <strong>Sensors</strong> are pulled <strong>2 spaces</strong> towards the Goliath."
+    },
+    "Attractor Field": {
+      "name": "Attractor Field",
+      "trigger": "An allied character within <strong>Range 2</strong> and line of sight is targeted by an attack dealing <strong>kinetic</strong> or <strong>explosive</strong> damage.",
+      "effect": "The Goliath becomes the target of the attack instead. If the attack was an area of effect, such as a <strong>Line</strong>, <strong>Cone</strong>, <strong>Blast</strong>, etc, the attacker must now position it so it targets the Goliath, or as close as possible, which could change its targets. This transfer takes place even if the attack could not have hit the Goliath (i.e. it was a melee attack)."
+    },
 
     "Hive [K]": { "name": "蟲巢 [K]" },
     "Hunter-Killer Nexus": {
