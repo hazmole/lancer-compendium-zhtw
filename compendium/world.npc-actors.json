@@ -46,8 +46,8 @@
       "tokenName": "重鐵騎"
     },
     "DEMOLISHER": {
-      "name": "終結者",
-      "tokenName": "終結者"
+      "name": "粉碎者",
+      "tokenName": "粉碎者"
     },
     "ENGINEER": {
       "name": "工程師",
@@ -126,8 +126,8 @@
       "tokenName": "兵隊"
     },
     "SUPPORT": {
-      "name": "援助者",
-      "tokenName": "援助者"
+      "name": "援護者",
+      "tokenName": "援護者"
     },
     "WITCH": {
       "name": "女巫",
