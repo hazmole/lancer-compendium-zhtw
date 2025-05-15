@@ -270,7 +270,7 @@
 		"npc.notes.tooltip": "顯示這張角色卡上的註記",
 		"npc.notes.edit.tooltip": "編輯這張角色卡上的註記",
 		"npc.traits.label": "特徵",
-		"npc.reactions.label": "反應爐",
+		"npc.reactions.label": "反應",
 		"npc.techAttacks.label": "科技攻擊",
 		"npc.utilities.label": "戰鬥能力",
 		"npc.macros.label": "腳本 / 巨集",
