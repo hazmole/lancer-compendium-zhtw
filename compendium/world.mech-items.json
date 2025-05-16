@@ -1369,6 +1369,31 @@
         "active_effect": "選擇位於 ⌿50 範圍內任意數量的角色：每個目標必須成功通過<b>敏捷豁免</b>，否則受到 1d6+4 爆炸傷害。若豁免成功，則只受到一半的傷害。這些自律型導彈能命中任何目標，只要你與目標之間存在一條可能的路徑即可。"
       }
     },
+    "Viceroy": {
+      "name": "總督蛺蝶",
+      "description": "作為 SSC 旗下 Bella Ciao 系列的分支，總督蛺蝶是經過嚴格實地測試後研發出的機體。跟其大型姊妹機：無處不在的金斑蝶相比，總督蛺蝶旨在提供一個更通俗易得的版本。最初以「小金斑蝶」的名義開發，這款機甲儘管體型縮水，實力卻仍然不容小覷，並依舊展現出了 SSC 機甲一貫的高品質工程設計。相較於專注毀滅性遠程炮火的金斑蝶，總督蛺蝶更像是一名近身鬥士，憑藉精密的近威脅瞄準矩陣，以致命精準度揮灑其姊妹機搭載的飛彈發射器。<br><br>搭載著金斑蝶的 SSC-30 高穿透飛彈系統的縮小版本，總督蛺蝶的火力完全足以對其周圍區域實行飽和轟炸，以極高的準確度鎖定目標，並發射小型卻高當量的彈頭。<br><br>這個特性，在配合其內建的單發式跳躍模組，讓總督蛺蝶成為了擁有毀滅性先制打擊能力的強力突擊部隊機種。而其先進的防爆裝甲則能確保它無視其在「震懾打擊」作戰中可能對自己造成的傷害。<br><br>自正式發表以來，總督蛺蝶就成為了以 SSC 標準而言相對低廉的機體，並迅速被廣泛分派到 SSC 的合作夥伴和子公司中使用。隨著即將通過的量產許可，可以預期總督蛺蝶在不久遠的未來成為戰場前線的「士兵級」機甲，與哈里遜兵工廠的薛曼分庭抗禮。",
+      "traits": {
+        "Near-Threat Targeting Processor": {
+          "name": "近威脅瞄準處理器",
+          "description": "總督蛺蝶可以把其<b>發射器</b>武器視為帶有<b> 威脅 3 </b>標籤的<b> CQB 武器</b>。"
+        },
+        "Vigilante Omnidirectional Launchers": {
+          "name": "衛警全向發射器",
+          "description": "每輪一次，當總督蛺蝶對其他角色的攻擊造成<b>會心一擊</b>時，其可以立即對自己<b> ⌿3 </b>範圍內的任意角色造成 2 爆炸傷害，並將它們擊退 1 格。"
+        },
+        "Pressure Plating": {
+          "name": "壓力鍍層",
+          "description": "總督蛺蝶具有對爆炸傷害的抗性。"
+        }
+      },
+      "core_system": {
+        "name": "SSC-41 天狗輔助導彈管",
+        "description": "透過將其內建的衛警發射器發揮到極限，總督蛺蝶能夠對其周圍環境進行毀滅性的飽和轟炸。憑藉其防爆外裝，總督蛺蝶能夠在承受這場轟炸的同時，結合小型化的天狗單發式跳躍系統，實現各種精湛的高階戰場戰術。這不只能讓它發動幾乎無法阻擋的先制炮擊，也能執行戲劇性的撤退作戰。其中，「天國暴雨」是最為知名的一種可怕戰術，足以讓任何面對總督蛺蝶的敵人聞之膽戰心驚。",
+        "passive_name": "被動",
+        "active_name": "天國暴雨",
+        "active_effect": "以你為中心產生一個<b> 爆發 3 </b>範圍的導彈轟炸。範圍區域內的敵對角色必須成功通過<b>機體豁免</b>，否則受到 1d6+3 爆炸傷害，並被擊倒<b>伏臥</b>。豁免成功則只受到一半傷害，並維持站立。你可以消耗受影響角色身上的<b>鎖定</b>，使其在這個豁免中自動失敗。<br><br>在進行這個動作之前或之後，你可以<b>飛行</b>移動最多等同你速度的距離，忽略交戰，且不會觸發反應。你必須在堅固地表上結束這個移動，否則開始墜落。"
+      }
+    },
     "Sharanga Missiles": {
       "name": "舍羅伽飛彈",
       "profiles": {
@@ -1547,7 +1572,7 @@
     },
     "Swallowtail (Ranger Variant)": {
       "name": "鳳蝶（遊騎兵改型）",
-      "description": "<p>這個變體型號可以藉由取代鳳蝶二級牌照的基本骨架而獲得，或在《壁花無處容身》戰役中透過援助劇情角色而作為異類裝備獲得。</p><p>這種鳳蝶變體型號常見於海西城邦聯盟（Hercynian United Cities，HUC）的遊騎兵部隊中。它是從早期廢棄在此地的 SSC 勘測遠征隊的物資殘骸中回收，並透過逆向工程改造而來的結果。由於無法以列印技術複製機甲，遊騎兵們只能辛苦地精心生產和組裝每一架機體，確保其達到高規格標準。與其他 SSC 骨架的流線奢華風格不同，這種鳳蝶型機甲看起來相當粗獷。每一駕機甲都保留著前任駕駛留下的痕跡——塗裝、戰鬥彩繪、特製裝備、迷彩和歲月留下的戰損。它們經過了兩個世代的修復和維護，每一架對城邦聯盟而言都彌足珍貴。</p>",
+      "description": "<p>這個變體型號可以透過取代鳳蝶二級牌照的基本骨架來獲得，或在《壁花無處容身》戰役中透過援助劇情角色而作為異類裝備獲得。</p><p>這種鳳蝶變體型號常見於海西城邦聯盟（Hercynian United Cities，HUC）的遊騎兵部隊中。它是從早期廢棄在此地的 SSC 勘測遠征隊的物資殘骸中回收，並透過逆向工程改造而來的結果。由於無法以列印技術複製機甲，遊騎兵們只能辛苦地精心生產和組裝每一架機體，確保其達到高規格標準。與其他 SSC 骨架的流線奢華風格不同，這種鳳蝶型機甲看起來相當粗獷。每一駕機甲都保留著前任駕駛留下的痕跡——塗裝、戰鬥彩繪、特製裝備、迷彩和歲月留下的戰損。它們經過了兩個世代的修復和維護，每一架對城邦聯盟而言都彌足珍貴。</p>",
       "traits": {
         "Scout Battlefield": {
           "name": "偵查戰場",
@@ -1627,29 +1652,134 @@
       }
     },
 
-    "Viceroy": {
-      "name": "總督蛺蝶",
-      "description": "作為 SSC 旗下 Bella Ciao 系列的分支，總督蛺蝶是經過嚴格實地測試後研發出的機體。跟其大型姊妹機：無處不在的金斑蝶相比，總督蛺蝶旨在提供一個更通俗易得的版本。最初以「小金斑蝶」的名義開發，這款機甲儘管體型縮水，實力卻仍然不容小覷，並依舊展現出了 SSC 機甲一貫的高品質工程設計。相較於專注毀滅性遠程炮火的金斑蝶，總督蛺蝶更像是一名近身鬥士，憑藉精密的近威脅瞄準矩陣，以致命精準度揮灑其姊妹機搭載的飛彈發射器。<br><br>搭載著金斑蝶的 SSC-30 高穿透飛彈系統的縮小版本，總督蛺蝶的火力完全足以對其周圍區域實行飽和轟炸，以極高的準確度鎖定目標，並發射小型卻高當量的彈頭。<br><br>這個特性，在配合其內建的單發式跳躍模組，讓總督蛺蝶成為了擁有毀滅性先制打擊能力的強力突擊部隊機種。而其先進的防爆裝甲則能確保它無視其在「震懾打擊」作戰中可能對自己造成的傷害。<br><br>自正式發表以來，總督蛺蝶就成為了以 SSC 標準而言相對低廉的機體，並迅速被廣泛分派到 SSC 的合作夥伴和子公司中使用。隨著即將通過的量產許可，可以預期總督蛺蝶在不久遠的未來成為戰場前線的「士兵級」機甲，與哈里遜兵工廠的薛曼分庭抗禮。",
+    "Atlas": {
+      "name": "皇蛾",
+      "description": "<p>Originally commissioned as a dueling mech by the Baronic Houses of Smoke and Order, the Atlas blurs the line between mechanized chassis and powered personal armor. Thanks to a long-running research project from SSC's Exotic Materials Group, the designers were able to employ the bleeding edge of reactor miniaturization tech: the result was a chassis that resembled a large, sleek hardsuit, almost skintight in places. While the Atlas sacrifices the durability of a larger frame, its essential systems are so closely melded with its user's movements that it offers unparalleled maneuverability.</p> <p>Although the Atlas was initially licensed only to Baronic clients, its design was leaked when a group of ExoMat personnel lost a suit to a Sparri espada in an intense game of Kapkat. Despite their initial attempt to recover the suit, SSC relented, citing the eager demand from Sparri groups for access to the full license. </p> <p>Considered the perfect warrior frame for hunting the native megafauna of Sparr, the Atlas now enjoys a dual reputation among both the Sparri peoples and Karrakin nobility. To the Sparri, the Atlas &ndash; its combat efficacy notwithstanding &ndash; is highly valued for the direct access its systems allow to their ancestral memory; Atlas frames on Sparr are the heirlooms of great warriors, tied to family (blood and chosen) and maintained by hand. Each suit on Sparr bears the history of its previous pilots in both decorations and FCA-compliant machine learning, which enables Sparri hunters to almost literally call upon their ancestors in battle. The Atlas has become so popular among the Sparri that they even developed a new martial art based on the Atlas: Jäger Kunst. </p> <p>The Karrakin nobility, on the other hand, find the Atlas to be a perfect machine for noble heroism &ndash; that the Sparri have an affinity for it only makes the chassis that much more desirable among Karrakin Sparrist scholars. Commonly decorated with purchased Sparri saga discs, Vast pelts, and saga lines, Karrakin suits blend imagined profiles of Annorum Passacaglia and Annorum Tyrannus-era heroes with profiles of Sparri warriors, daredevils, vast-hunters, and espadas.</p>",
       "traits": {
-        "Near-Threat Targeting Processor": {
-          "name": "近威脅瞄準處理器",
-          "description": "總督蛺蝶可以把其<b>發射器</b>武器視為帶有<b> 威脅 3 </b>標籤的<b> CQB 武器</b>。"
+        "Giantkiller": {
+          "name": "巨人殺手",
+          "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character."
         },
-        "Vigilante Omnidirectional Launchers": {
-          "name": "衛警全向發射器",
-          "description": "每輪一次，當總督蛺蝶對其他角色的攻擊造成<b>會心一擊</b>時，其可以立即對自己<b> ⌿3 </b>範圍內的任意角色造成 2 爆炸傷害，並將它們擊退 1 格。"
+        "Jäger Dodge": {
+          "name": "獵人閃避",
+          "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
+          "actions": {
+            "Jäger Dodge": {
+              "name": "獵人閃避",
+              "trigger": "You take damage from a character larger than yourself",
+              "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+            }
+          }
         },
-        "Pressure Plating": {
-          "name": "壓力鍍層",
-          "description": "總督蛺蝶具有對爆炸傷害的抗性。"
+        "Finishing Blow": {
+          "name": "終結一擊",
+          "description": "1/round, deal +1d6 bonus damage on a successful melee attack against a PRONE target."
+        },
+        "Exposed Reactor": {
+          "name": "外露反應爐",
+          "description": "皇蛾在進行<b>工程判定和豁免</b>時會得到 +1 難度。"
         }
       },
       "core_system": {
-        "name": "SSC-41 天狗輔助導彈管",
-        "description": "透過將其內建的衛警發射器發揮到極限，總督蛺蝶能夠對其周圍環境進行毀滅性的飽和轟炸。憑藉其防爆外裝，總督蛺蝶能夠在承受這場轟炸的同時，結合小型化的天狗單發式跳躍系統，實現各種精湛的高階戰場戰術。這不只能讓它發動幾乎無法阻擋的先制炮擊，也能執行戲劇性的撤退作戰。其中，「天國暴雨」是最為知名的一種可怕戰術，足以讓任何面對總督蛺蝶的敵人聞之膽戰心驚。",
+        "name": "BLOODLINE Active Assist",
+        "description": "The ATLAS extends microneedles into the musculature and ancillary nervous system of its pilot, melding flesh, machine, and the memory of all who wore it before.",
         "passive_name": "被動",
-        "active_name": "天國暴雨",
-        "active_effect": "以你為中心產生一個<b> 爆發 3 </b>範圍的導彈轟炸。範圍區域內的敵對角色必須成功通過<b>機體豁免</b>，否則受到 1d6+3 爆炸傷害，並被擊倒<b>伏臥</b>。豁免成功則只受到一半傷害，並維持站立。你可以消耗受影響角色身上的<b>鎖定</b>，使其在這個豁免中自動失敗。<br><br>在進行這個動作之前或之後，你可以<b>飛行</b>移動最多等同你速度的距離，忽略交戰，且不會觸發反應。你必須在堅固地表上結束這個移動，否則開始墜落。"
+        "active_name": "Final Hunt",
+        "active_effect": "<p>For the rest of the scene, you:</p> <ul> <li>Move an additional 1 space when you voluntarily move for any reason (e.g. standard moves, BOOST, movement from systems or talents).</li> <li>Benefits from soft cover at all times, no matter where you are.</li> <li>Can HIDE even in the open, without requiring cover.</li> </ul> <p> The only way to reveal you is for another character to SEARCH for you or for you to lose Hidden as usual &ndash; by using BOOST, attacking, forcing a save, and so on. When active, 1/round, when you make a melee or ranged attack while HIDDEN, your target must also succeed on a HULL save or be knocked PRONE. This takes place before the attack is rolled </p>"
+      }
+    },
+    "Kraul Rifle": {
+      "name": "魚叉步槍",
+      "profiles": {
+        "name": "魚叉步槍",
+        "description": "Hunting the Vast — the titanic megafauna of Sparr — is a dangerous, profitable venture for the Sparri people. Skins, bones, meat, and other trophies from their bodies can create months – or even years, in the case of especially old, grand, or unique beasts – of prosperity for the hunters and their kin. These popular long rifles, refined to SSC standards, are rugged and durable, perfect for dragging down the great creatures and their attendants.",
+        "on_hit": "your target is impaled by this weapon’s harpoon-like projectile. Any time after your target takes any action or movement during their next turn, you can reel in the line and boost as a reaction, moving toward that target by the most direct route possible. They must then pass a HULL save or be knocked PRONE; succeed or fail, this effect ends. The line snaps if your target teleports."
+      }
+    },
+    "Multi-Gear Maneuver System": {
+      "name": "多重裝備機動系統",
+      "description": "Used by Sparri hunters to bridge the vast gaps in the ice sheet that cover their world, this system is in high demand among daredevils and thrill-seekers across the planet.",
+      "actions": {
+        "Fire Zip Line": {
+          "name": "Fire Zip Line",
+          "detail": "You fire a zip line 8 spaces long that connects 2 free spaces in line of sight, one of which must be adjacent to you. Both ends must be attached to a surface, such as a wall or floor. It activates at the end of your turn with the following benefits: <ul> <li>Size 1/2 characters that are adjacent to either end of the line can move to the other end as a quick action as long as they are able to grab onto it. They can hop off at any point along the line if they wish. </li> <li>Whenever Size 1 or larger characters cross the space occupied by the line for the first time in a round or start their turn within one, they must succeed on an Agility save or fall Prone. </li> </ul>Any character adjacent to the start or endpoint of the line can tear the line down by succeeding on a Hull check as a quick action or by successfully performing a melee attack against either end. The line has 1 HP and Evasion 10. Destroying the zip line in this way does not destroy this system. Otherwise, the line lasts until you use this system again."
+        }
+      }
+    },
+    "Jäger Kunst I": {
+      "name": "獵人武藝 I",
+      "description": "Based on earlier hardsuit martial arts, Jäger Kunst pushes the form beyond human parameters, enabling actions and motions faster than human thought. Many Atlas suits can be printed with a suite of combat forms already enabled, although letting the chassis perform these movements without the user first learning them can lead to catastrophic self-injury",
+      "actions": {
+        "Jäger Kunst I": {
+          "name": "獵人武藝 I",
+          "detail": "For the rest of the turn, any time you move adjacent to an object or free-standing piece of terrain larger than you, you move 2 spaces in any direction as a free action, ignoring engagement and reactions, running, tumbling, or sliding around. You can do this multiple times a turn, but only once for each unique object or piece of terrain."
+        }
+      }
+    },
+    "Ricochet Blades": {
+      "name": "跳彈圓刀",
+      "description": "These disc-shaped blades are designed, produced, and hand-finished by SSC’s Toledo blade enclave. The material is flexible enough to bounce when striking against surfaces but sharp enough to slice bone and metal. Unlike the edged weapons made by the more restrictive Terashima enclave, the Toledo enclave produces these weapons with the expectation that they’ll be used and discarded. This does not impact their quality but does lead to supply shortages from time to time – this exclusivity is intentional. Due to their comparative rarity, Toledo discs are often used as currency by Sparri espadas; their use in combat or hunting is a mark of status.",
+      "actions": {
+        "Throw Ricochet Blade": {
+          "name": "投擲跳彈圓刀",
+          "detail": "As a quick action, you throw a ricochet blade along a line 3 path, dealing 2 Kinetic Damage to all characters within the affected area. If the initial line reaches a piece of terrain or object of Size 1 or larger, draw another line 3 path from that object in a new direction that doesn't overlap with the object it ricocheted off. Characters within the affected area must succeed on an Agility save or take 1d6+3 kinetic damage."
+        }
+      }
+    },
+    "Jäger Kunst II": {
+      "name": "獵人武藝 II",
+      "description": "The rarest of Atlas frames can be printed with the embedded muscle memories of Jäger Kunst masters: old Sparri and others who have dedicated lives to their martial art. SSC does not recommend using these embedded systems without proper bodily tempering and will not release these programs to unqualified pilots.",
+      "actions": {
+        "Fatal Clash": {
+          "name": "致命衝突",
+          "trigger": "You take damage from or deal damage with a melee attack",
+          "detail": "After damage has been resolved, you and your target each roll a contested Hull or Agility check (each party choosing which to roll). The loser is knocked Prone, takes 1d6 kinetic damage, and is knocked back 3 spaces in a direction chosen by the winner. The winner may then move 3 spaces in any direction, ignoring engagement and not provoking reactions. The loser may immediately take 2 AP kinetic damage to force the contest to be rerolled. This damage cannot be prevented or reduced in any way.<br>If the result is a tie, the contest immediately ends. Otherwise, the contest continues until one character loses without forcing a re-roll or would take structure damage, in which case they immediately lose."
+        }
+      }
+    },
+    "Terashima Blade": {
+      "name": "寺島刀",
+      "profiles": {
+        "No Stance": {
+          "name": "無架勢",
+          "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories."
+        },
+        "Troll Stance": {
+          "name": "巨魔架勢",
+          "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories."
+        },
+        "Storm Stance": {
+          "name": "風暴架勢",
+          "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+          "effect": "You gain the Storm Stance Reaction.",
+          "actions": {
+            "Storm Stance Reaction": {
+              "name": "Storm Stance Reaction",
+              "trigger": "After hitting with this weapon while in Storm Stance.",
+              "detail": "You may immediately deal 2 kinetic to all other characters adjacent to you and your target."
+            }
+          }
+        },
+        "Lord's Stance": {
+          "name": "王者架勢",
+          "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+          "effect": "You cannot make ranged or tech attacks, but any ranged attack against you that misses deflects off your sword, dealing 2 damage (same type as the attack) to a character of your choice in range 3 and line of sight from you. Any melee attack that misses you forces the attacker to pass a HULL save or be knocked PRONE."
+        },
+        "Wind Stance": {
+          "name": "疾風架勢",
+          "description": "Forged in the fire of a corralled star in the Constellation, each of these blades bears a unique name and history defined by its users. Terashima blades are perfectly balanced and tempered, scalable from personal use up to Schedule 3. When combined with the weapon and sensor suites of a frame, they have been proven fast and durable enough to deflect weapons fire. Each blade crafted by the Terashima enclave is an heirloom produced once and delivered via conventional travel – their loss is considered an indescribable humiliation for the owner and an incredible triumph by the one who has taken it. The Terashima enclave keeps the casting mold of each blade it produces and displays them in their central hall alongside records of their known histories.",
+          "effect": "After attacking with this weapon, hit or miss, you may move 2 spaces in any direction, ignoring engagement and reactions."
+        }
+      },
+      "actions": {
+        "Change Stance": {
+          "name": "改變架勢",
+          "detail": "改變這件武器的架勢。"
+        },
+        "Drop Stance": {
+          "name": "解除架勢",
+          "detail": "解除這件武器的架勢。"
+        }
       }
     },
 
@@ -2483,6 +2613,32 @@
         "active_effect": "在該場景期間，當你下一次超過自己的熱度上限時，你可以改為清除所有熱度，並從機甲排放出<b> 爆發 3 </b>範圍的灼熱物質。<br><br>直到你的下一回合開始前，在影響範圍內的所有角色對除了你以外的所有人而言都視為處於<b>隱形</b>狀態，且除了你之外的角色會在每輪第一次進入影響範圍內、或在該處開始自己的回合時受到 2 燃燒和 2 熱度。在這個效果結束後，影響範圍內的角色將會受益於<b>軟性掩護</b>（你一樣忽略這個效果），持續直到你的再下一個回合開始為止，隨著熱雲消散一同解除。"
       }
     },
+    "“Worldkiller” Genghis Mk I": {
+      "name": "「滅世者」一代成吉思",
+      "description": "<p>這個變體型號可以透過取代成吉思二級牌照的基本骨架來獲得，或是在《壁花無處容身》戰役中被發掘並修復。</p><p>雖然一代成吉思在遊戲中被視為哈里遜兵工廠的骨架，但原始的成吉思型號設計實際上是基於第二委員會動力裝甲的升級版，因此技術上應屬於 GMS 骨架。如今，由於第二委員會在革命末期所施行的一系列緊急技術隔離措施，這些骨架現在只能與 HA 的成吉思牌照相容。</p><p>這些舊型成吉思機甲如今長埋於海西星各地，狀況多半殘破不堪，是這片土地曾經歷血腥屠殺的沉重提醒。與外型更加精煉細瘦的二代成吉思不同，一代成吉思的設計更加簡單粗暴──它們是大量生產，粗陋而殘暴的戰爭兵器。</p>",
+      "traits": {
+        "Insulated": {
+          "name": "隔熱",
+          "description": "成吉思免疫於<b>燃燒</b>。"
+        },
+        "TBK Munitions": {
+          "name": "TBK 彈藥",
+          "description": "成吉思的攻擊忽略對<b>燃燒和熱度的抗性</b>。"
+        },
+        "Weak Computer": {
+          "name": "脆弱電腦",
+          "description": "成吉思在進行<b>系統判定和豁免</b>時會得到 +1 難度。"
+        }
+      },
+      "core_system": {
+        "name": "巨擘反應爐",
+        "description": "身處其龐然裝甲中，縱火者露出微笑。他是降臨於此世的沙羅曼達，噴吐烈火，燃盡陳舊的歷史，為生者留下新天新地。",
+        "passive_name": "瘋狂怒火",
+        "passive_effect": "當處於<b>超溫危域</b>時，你被足以干擾瞄準的蒸騰熱氣給環繞。你受益於<b>軟性掩護</b>。此外，除了你以外，所有位於<b> 爆發 1 </b>範圍內的角色都無法進行<b>反應</b>。",
+        "active_name": "焚燒之樂",
+        "active_effect": "直到該場景結束，成吉思被閃耀刺眼的高熱給包裹。你的<b>瘋狂怒火</b>範圍提升至<b> 爆發 2</b>，且你的機甲將熔毀道上的阻礙，忽略所有困難地形。<br><br>如果你在這期間發生過熱，則你的機甲會釋放出足以熔毀地表的熱浪。除了你以外，所有位於<b>瘋狂怒火</b>範圍內的角色都會受到 1d6 AP 能量傷害，且必須成功通過<b>機體豁免</b>，否則陷入<b>固定</b>狀況直到其下一回合結束為止。這個範圍區域將變為<b>困難地形</b>，持續直到該場景結束為止。"
+      }
+    },
     "Krakatoa Thermobaric Flamethrower": {
       "name": "喀拉喀托熱壓噴火器",
       "profiles": {
@@ -2538,6 +2694,7 @@
         }
       }
     },
+    
 
     "Iskander": {
       "name": "伊斯坎達爾",
